@@ -5,7 +5,7 @@
     "organization": "Berliner Stadtmission e.V.",
     "address": {
       "street": "Lehrter Straße 68",
-      "district": "Mitte / Moabit",
+      "district": "Mitte",
       "postalCode": "10557",
       "city": "Berlin"
     },
@@ -106,7 +106,7 @@
     "organization": "Berliner Stadtmission e.V.",
     "address": {
       "street": "Kopenhagener Straße 29",
-      "district": "Pankow / Reinickendorf",
+      "district": "Reinickendorf",
       "postalCode": "13407",
       "city": "Berlin"
     },
@@ -809,7 +809,7 @@
     "organization": "DRK-Kreisverband Berlin-Zentrum",
     "address": {
       "street": "Gotzkowskystraße 8",
-      "district": "Mitte / Tiergarten",
+      "district": "Mitte",
       "postalCode": "10555",
       "city": "Berlin"
     },
@@ -831,9 +831,9 @@
     "name": "Caritas Ambulanz für Wohnungslose und Nichtversicherte",
     "organization": "Caritasverband für das Erzbistum Berlin e.V.",
     "address": {
-      "street": "Turmstr. 21",
-      "district": "Mitte / Moabit",
-      "postalCode": "10559",
+      "street": "Jebensstr. 3",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "10623",
       "city": "Berlin"
     },
     "location": "Charlottenburg / Zoo",
@@ -842,12 +842,14 @@
       "healthcare",
       "uninsured",
       "medizinische_hilfe",
-      "drogengebrauchend"
+      "drogengebrauchend",
+      "mental_health",
+      "psychiatrische_versorgung"
     ],
     "contact": {
       "phone": "01523 464 40 36",
       "email": "ambulanz@caritas-berlin.de",
-      "website": "https://www.caritas-berlin.de"
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/wohnungsnot/medizinische-versorgung"
     },
     "openingHours": "Ganzjährig | Mo–Mi 10:00–14:00 Uhr, Fr 10:00–14:00 Uhr",
     "description": "Hausärztliche Versorgung, Medikamentenabgabe, medizinisches Clearing, psychiatrische Sprechstunde, Wundversorgung sowie soziale Arbeit und Sozialberatung.",
@@ -988,7 +990,11 @@
       "medizinische_hilfe",
       "essen_verpflegung",
       "bekleidung",
-      "beratung"
+      "beratung",
+      "mental_health",
+      "psychologische_beratung",
+      "psychiatrische_versorgung",
+      "suchtspezifische_angebote"
     ],
     "contact": {
       "phone": "030 28884598",
@@ -997,6 +1003,34 @@
     },
     "openingHours": "Ganzjährig | Mo, Di, Do 08:00–14:00 Uhr, Mi, Fr 08:00–13:00 Uhr",
     "description": "Erstes Gesundheitszentrum speziell für obdachlose Menschen in Berlin. Bietet kostenlose medizinische, zahnärztliche, psychologische, soziale und rechtliche Hilfe. Außerdem Essensausgabe und Kleiderkammer.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 145,
+    "name": "Jenny De la Torre Stiftung – Psychologische- und Suchtberatung",
+    "organization": "Jenny De la Torre Stiftung",
+    "address": {
+      "street": "Pflugstraße 12",
+      "district": "Mitte",
+      "postalCode": "10115",
+      "city": "Berlin"
+    },
+    "location": "Mitte",
+    "tags": [
+      "beratung",
+      "counseling",
+      "mental_health",
+      "psychologische_beratung",
+      "psychiatrische_versorgung",
+      "suchtspezifische_angebote"
+    ],
+    "contact": {
+      "phone": "030 28884598",
+      "email": "info@delatorre-stiftung.de",
+      "website": "https://www.delatorre-stiftung.de/kontaktformular.html"
+    },
+    "openingHours": "Mo, Mi 10:00–12:00 Uhr",
+    "description": "Psychologische Beratung und Suchtberatung im Gesundheitszentrum für obdachlose Menschen.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -1060,7 +1094,7 @@
     "organization": "Berliner Stadtmission e.V. / Caritas Berlin",
     "address": {
       "street": "Levetzowstraße 12a",
-      "district": "Mitte / Tiergarten",
+      "district": "Mitte",
       "postalCode": "10555",
       "city": "Berlin"
     },
@@ -1586,7 +1620,7 @@
     "organization": "Berliner Obdachlosenhilfe e.V.",
     "address": {
       "street": "Lynarstraße 38",
-      "district": "Mitte / Wedding",
+      "district": "Mitte",
       "postalCode": "13353",
       "city": "Berlin"
     },
@@ -1758,7 +1792,7 @@
     "organization": "Sozialdienst katholischer Frauen e.V. Berlin",
     "address": {
       "street": "Müllerstraße 48",
-      "district": "Mitte / Wedding",
+      "district": "Mitte",
       "postalCode": "13349",
       "city": "Berlin"
     },
@@ -1869,7 +1903,7 @@
     "organization": "SKF Berlin",
     "address": {
       "street": "Müllerstr. 126",
-      "district": "Mitte / Wedding",
+      "district": "Mitte",
       "postalCode": "13349",
       "city": "Berlin"
     },
@@ -2809,7 +2843,7 @@
     "organization": "Heilandskirche",
     "address": {
       "street": "Thusneldaallee 1",
-      "district": "Mitte / Moabit",
+      "district": "Mitte",
       "postalCode": "10551",
       "city": "Berlin"
     },
@@ -2831,7 +2865,7 @@
     "organization": "St. Paulus",
     "address": {
       "street": "Oldenburgerstr. 45",
-      "district": "Mitte / Moabit",
+      "district": "Mitte",
       "postalCode": "10551",
       "city": "Berlin"
     },
@@ -2899,7 +2933,7 @@
     "organization": "Straßenfeger e.V.",
     "address": {
       "street": "Oderbergerstr. 12",
-      "district": "Pankow / Prenzlauer Berg",
+      "district": "Pankow",
       "postalCode": "10435",
       "city": "Berlin"
     },
@@ -2923,7 +2957,7 @@
     "organization": "Herz Jesu",
     "address": {
       "street": "Griebenowstr. 16",
-      "district": "Pankow / Prenzlauer Berg",
+      "district": "Pankow",
       "postalCode": "10435",
       "city": "Berlin"
     },
@@ -3177,7 +3211,7 @@
     "organization": "Vista Berlin",
     "address": {
       "street": "Müllerstraße 120",
-      "district": "Mitte / Wedding",
+      "district": "Mitte",
       "postalCode": "13349",
       "city": "Berlin"
     },
@@ -3208,7 +3242,7 @@
     "organization": "Vista Berlin",
     "address": {
       "street": "Birkenstraße 51",
-      "district": "Mitte / Moabit",
+      "district": "Mitte",
       "postalCode": "10559",
       "city": "Berlin"
     },
@@ -3451,7 +3485,7 @@
     "organization": "Caritas Berlin",
     "address": {
       "street": "Levetzowstr. 12a",
-      "district": "Mitte / Moabit",
+      "district": "Mitte",
       "postalCode": "10555",
       "city": "Berlin"
     },
@@ -3523,7 +3557,7 @@
     "organization": "AWO Mitte",
     "address": {
       "street": "Prinzenallee 25/26",
-      "district": "Mitte / Wedding",
+      "district": "Mitte",
       "postalCode": "13357",
       "city": "Berlin"
     },
@@ -3989,6 +4023,1162 @@
     },
     "openingHours": "24 Stunden täglich telefonisch erreichbar; Beratungsstandorte täglich 16:00–24:00 Uhr",
     "description": "Schnelle und qualifizierte Hilfe bei psychosozialen Krisen bis hin zu akuten psychiatrischen Notsituationen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 146,
+    "name": "Sozialpsychiatrischer Dienst Charlottenburg-Wilmersdorf",
+    "organization": "Bezirksamt Charlottenburg-Wilmersdorf",
+    "address": {
+      "street": "Hohenzollerndamm 174-177",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "10713",
+      "city": "Berlin"
+    },
+    "location": "Charlottenburg-Wilmersdorf",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 9029-16044",
+      "email": "sopsy@charlottenburg-wilmersdorf.de",
+      "website": "https://service.berlin.de/standort/328508/"
+    },
+    "openingHours": "Telefonisch Mo–Fr 08:00–16:00 Uhr; Sprechstunde Di 09:00–12:00 Uhr",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 147,
+    "name": "Sozialpsychiatrischer Dienst Friedrichshain",
+    "organization": "Bezirksamt Friedrichshain-Kreuzberg",
+    "address": {
+      "street": "Koppenstr. 38-40",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10243",
+      "city": "Berlin"
+    },
+    "location": "Friedrichshain",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 90298-2770",
+      "email": "gesundheitshilfe@ba-fk.berlin.de",
+      "website": "https://service.berlin.de/standort/325059/"
+    },
+    "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr; telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Ortsteil Friedrichshain.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 148,
+    "name": "Sozialpsychiatrischer Dienst Kreuzberg",
+    "organization": "Bezirksamt Friedrichshain-Kreuzberg",
+    "address": {
+      "street": "Urbanstr. 24",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10967",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 90298-8400",
+      "email": "gesundheitshilfe@ba-fk.berlin.de",
+      "website": "https://service.berlin.de/standort/325061/"
+    },
+    "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr; telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Ortsteil Kreuzberg.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 149,
+    "name": "Sozialpsychiatrischer Dienst Lichtenberg",
+    "organization": "Bezirksamt Lichtenberg",
+    "address": {
+      "street": "Alfred-Kowalke-Str. 24",
+      "district": "Lichtenberg",
+      "postalCode": "10315",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 90296-7562",
+      "email": "spdi@lichtenberg.berlin.de",
+      "website": "https://service.berlin.de/standort/326393/"
+    },
+    "openingHours": "Di 09:00–12:00 Uhr, Do 15:00–18:00 Uhr; Krisentelefon Mo–Fr 08:00–16:00 Uhr, Do bis 18:00 Uhr",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 150,
+    "name": "Sozialpsychiatrischer Dienst Marzahn-Hellersdorf",
+    "organization": "Bezirksamt Marzahn-Hellersdorf",
+    "address": {
+      "street": "Janusz-Korczak-Str. 32",
+      "district": "Marzahn-Hellersdorf",
+      "postalCode": "12627",
+      "city": "Berlin"
+    },
+    "location": "Marzahn-Hellersdorf",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 90293-3751",
+      "email": "soz.psych.dienst@ba-mh.berlin.de",
+      "website": "https://service.berlin.de/standort/327010/"
+    },
+    "openingHours": "Mo–Mi 08:00–16:00 Uhr; bitte nach Möglichkeit zunächst telefonisch Kontakt aufnehmen",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene mit psychischen Erkrankungen, Suchterkrankungen oder geistiger Behinderung.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 151,
+    "name": "Sozialpsychiatrischer Dienst Mitte / Tiergarten",
+    "organization": "Bezirksamt Mitte",
+    "address": {
+      "street": "Mathilde-Jacob-Platz 1",
+      "district": "Mitte",
+      "postalCode": "10551",
+      "city": "Berlin"
+    },
+    "location": "Mitte / Tiergarten",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 9018-33347",
+      "email": "sozialpsychdienst@ba-mitte.berlin.de",
+      "website": "https://service.berlin.de/standort/325765/"
+    },
+    "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–16:00 Uhr; Erreichbarkeit Mo–Fr 08:00–16:00 Uhr",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Bereich Mitte und Tiergarten.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 152,
+    "name": "Sozialpsychiatrischer Dienst Wedding",
+    "organization": "Bezirksamt Mitte",
+    "address": {
+      "street": "Westhafenstr. 1",
+      "district": "Mitte",
+      "postalCode": "13353",
+      "city": "Berlin"
+    },
+    "location": "Wedding",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 9018-45212",
+      "email": "sozialpsychdienst@ba-mitte.berlin.de",
+      "website": "https://service.berlin.de/standort/325763/"
+    },
+    "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–16:00 Uhr; Erreichbarkeit Mo–Fr 08:00–16:00 Uhr",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Bereich Wedding.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 153,
+    "name": "Sozialpsychiatrischer Dienst Neukölln",
+    "organization": "Bezirksamt Neukölln",
+    "address": {
+      "street": "Gutschmidtstr. 31",
+      "district": "Neukölln",
+      "postalCode": "12359",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 90239-2786",
+      "email": "gesspd@bezirksamt-neukoelln.de",
+      "website": "https://service.berlin.de/standort/327599/"
+    },
+    "openingHours": "Telefonsprechstunde Mo–Fr 08:00–16:00 Uhr; offene Sprechstunde Do 13:00–16:00 Uhr",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 154,
+    "name": "Sozialpsychiatrischer Dienst Pankow",
+    "organization": "Bezirksamt Pankow",
+    "address": {
+      "street": "Grunowstr. 8-11",
+      "district": "Pankow",
+      "postalCode": "13187",
+      "city": "Berlin"
+    },
+    "location": "Pankow",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 90295-2863",
+      "email": "spd.pankow@ba-pankow.berlin.de",
+      "website": "https://service.berlin.de/standort/326467/"
+    },
+    "openingHours": "Krisendienst Mo–Fr 08:00–16:00 Uhr; Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–18:00 Uhr; sonst nach Vereinbarung",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene mit psychischen Erkrankungen, Suchterkrankungen oder geistiger Behinderung.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 155,
+    "name": "Sozialpsychiatrischer Dienst Reinickendorf",
+    "organization": "Bezirksamt Reinickendorf",
+    "address": {
+      "street": "Teichstr. 65",
+      "district": "Reinickendorf",
+      "postalCode": "13407",
+      "city": "Berlin"
+    },
+    "location": "Reinickendorf",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 90294-5010",
+      "email": "sozialpsychiatrischer-dienst@reinickendorf.berlin.de",
+      "website": "https://service.berlin.de/standort/328448/"
+    },
+    "openingHours": "Nach Terminvereinbarung; offene Sprechstunde Do 15:00–18:00 Uhr",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 156,
+    "name": "Sozialpsychiatrischer Dienst Spandau",
+    "organization": "Bezirksamt Spandau",
+    "address": {
+      "street": "Klosterstr. 36 D",
+      "district": "Spandau",
+      "postalCode": "13581",
+      "city": "Berlin"
+    },
+    "location": "Spandau",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 90279-2355",
+      "website": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/gesundheitsamt/artikel.268617.php"
+    },
+    "openingHours": "Termin nach Vereinbarung",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 157,
+    "name": "Sozialpsychiatrischer Dienst Steglitz-Zehlendorf",
+    "organization": "Bezirksamt Steglitz-Zehlendorf",
+    "address": {
+      "street": "Bergstr. 90",
+      "district": "Steglitz-Zehlendorf",
+      "postalCode": "12169",
+      "city": "Berlin"
+    },
+    "location": "Steglitz-Zehlendorf",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 90299-4758",
+      "email": "sozialpsychdienst@ba-sz.berlin.de",
+      "website": "https://service.berlin.de/standort/324243/"
+    },
+    "openingHours": "Sprechzeiten aktuell nur nach Vereinbarung; telefonisch Mo–Fr 08:00–16:00 Uhr",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 158,
+    "name": "Sozialpsychiatrischer Dienst Tempelhof-Schöneberg",
+    "organization": "Bezirksamt Tempelhof-Schöneberg",
+    "address": {
+      "street": "Rathausstr. 27",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "12105",
+      "city": "Berlin"
+    },
+    "location": "Tempelhof-Schöneberg",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health"
+    ],
+    "contact": {
+      "website": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/gesundheitsamt/sozialpsychiatrischer-dienst/"
+    },
+    "openingHours": "Bitte aktuelle Kontaktmöglichkeiten auf der Bezirksseite prüfen",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 159,
+    "name": "Sozialpsychiatrischer Dienst Treptow-Köpenick",
+    "organization": "Bezirksamt Treptow-Köpenick",
+    "address": {
+      "street": "Hans-Schmidt-Str. 16",
+      "district": "Treptow-Köpenick",
+      "postalCode": "12489",
+      "city": "Berlin"
+    },
+    "location": "Treptow-Köpenick",
+    "tags": [
+      "sozialpsychiatrischer_dienst",
+      "psychiatrische_versorgung",
+      "beratung",
+      "mental_health",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 90297-6000",
+      "email": "Soz.Psych.Dienst@ba-tk.berlin.de",
+      "website": "https://service.berlin.de/standort/324426/"
+    },
+    "openingHours": "Termin nach Vereinbarung",
+    "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 160,
+    "name": "Schlosspark-Klinik – Psychiatrische Rettungsstelle",
+    "organization": "Schlosspark-Klinik",
+    "address": {
+      "street": "Heubnerweg 2",
+      "district": "Charlottenburg",
+      "postalCode": "14059",
+      "city": "Berlin"
+    },
+    "location": "Charlottenburg",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 3264-1221"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Charlottenburg laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 161,
+    "name": "Friedrich von Bodelschwingh-Klinik – Psychiatrische Rettungsstelle",
+    "organization": "Friedrich von Bodelschwingh-Klinik",
+    "address": {
+      "street": "Landhausstr. 33-35",
+      "district": "Wilmersdorf",
+      "postalCode": "10717",
+      "city": "Berlin"
+    },
+    "location": "Wilmersdorf",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 5472-7777"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Wilmersdorf und dem südlichen Teil Charlottenburgs laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 162,
+    "name": "Vivantes Klinikum Am Urban – Psychiatrische Rettungsstelle",
+    "organization": "Vivantes Klinikum Am Urban",
+    "address": {
+      "street": "Dieffenbachstr. 1",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10967",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 13022-9530"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Friedrichshain-Kreuzberg laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 163,
+    "name": "Evangelisches Krankenhaus Königin Elisabeth Herzberge – Psychiatrische Rettungsstelle",
+    "organization": "Evangelisches Krankenhaus Königin Elisabeth Herzberge",
+    "address": {
+      "street": "Herzbergstr. 79",
+      "district": "Lichtenberg",
+      "postalCode": "10365",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 5472-3002"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Lichtenberg-Hohenschönhausen laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 164,
+    "name": "Vivantes Klinikum Kaulsdorf – Psychiatrische Rettungsstelle",
+    "organization": "Vivantes Klinikum Kaulsdorf",
+    "address": {
+      "street": "Myslowitzer Str. 45",
+      "district": "Marzahn-Hellersdorf",
+      "postalCode": "12621",
+      "city": "Berlin"
+    },
+    "location": "Marzahn-Hellersdorf",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 130172-112"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Marzahn-Hellersdorf laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 165,
+    "name": "Charité Campus Mitte – Psychiatrische Notfälle und Konsile",
+    "organization": "Charité – Universitätsmedizin Berlin",
+    "address": {
+      "street": "Charitéplatz 1",
+      "district": "Mitte",
+      "postalCode": "10117",
+      "city": "Berlin"
+    },
+    "location": "Mitte",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 450617056"
+    },
+    "description": "Psychiatrische Notfallversorgung für Erwachsene aus Mitte laut Berliner Rundschreiben vom 18.06.2018; tagsüber Psychiatrische Notfälle und Konsile an der Charité.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 166,
+    "name": "St. Hedwig-Krankenhaus – Psychiatrische Rettungsstelle",
+    "organization": "St. Hedwig-Kliniken Berlin",
+    "address": {
+      "street": "Große Hamburger Str. 5-11",
+      "district": "Mitte",
+      "postalCode": "10115",
+      "city": "Berlin"
+    },
+    "location": "Mitte",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 2311-2267"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Tiergarten und Wedding laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 167,
+    "name": "Jüdisches Krankenhaus Berlin – Psychiatrische Rettungsstelle",
+    "organization": "Jüdisches Krankenhaus Berlin",
+    "address": {
+      "street": "Heinz-Galinski-Str. 1",
+      "district": "Mitte",
+      "postalCode": "13347",
+      "city": "Berlin"
+    },
+    "location": "Wedding",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 4994-2217"
+    },
+    "description": "Psychiatrische Rettungsstelle mit Aufnahme nach Maßgabe freier Betten für den gesamten Bezirk Mitte laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 168,
+    "name": "Vivantes Klinikum Neukölln – Psychiatrische Rettungsstelle",
+    "organization": "Vivantes Klinikum Neukölln",
+    "address": {
+      "street": "Rudower Str. 48",
+      "district": "Neukölln",
+      "postalCode": "12351",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 13014-0"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Neukölln laut Berliner Rundschreiben vom 18.06.2018; im Notfall mit dem Arzt vom Dienst verbinden lassen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 169,
+    "name": "Alexianer St. Joseph-Krankenhaus Berlin-Weißensee – Akutaufnahme Psychiatrie",
+    "organization": "Alexianer St. Joseph-Krankenhaus Berlin-Weißensee",
+    "address": {
+      "street": "Gartenstr. 1",
+      "district": "Pankow",
+      "postalCode": "13088",
+      "city": "Berlin"
+    },
+    "location": "Weißensee",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 92790320"
+    },
+    "description": "Psychiatrische Akutaufnahme für Erwachsene aus Pankow laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 170,
+    "name": "Vivantes Humboldt-Klinikum / Am Nordgraben – Psychiatrische Rettungsstelle",
+    "organization": "Vivantes Humboldt-Klinikum",
+    "address": {
+      "street": "Am Nordgraben 2",
+      "district": "Reinickendorf",
+      "postalCode": "13509",
+      "city": "Berlin"
+    },
+    "location": "Reinickendorf",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 13012-1703"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Reinickendorf laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 171,
+    "name": "Vivantes Klinikum Spandau – Psychiatrische Rettungsstelle",
+    "organization": "Vivantes Klinikum Spandau",
+    "address": {
+      "street": "Neue Bergstr. 6",
+      "district": "Spandau",
+      "postalCode": "13585",
+      "city": "Berlin"
+    },
+    "location": "Spandau",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 13013-2070"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Spandau laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 172,
+    "name": "Kliniken im Theodor-Wenzel-Werk – Psychiatrische Rettungsstelle",
+    "organization": "Kliniken im Theodor-Wenzel-Werk",
+    "address": {
+      "street": "Potsdamer Chaussee 69",
+      "district": "Steglitz-Zehlendorf",
+      "postalCode": "14129",
+      "city": "Berlin"
+    },
+    "location": "Steglitz-Zehlendorf",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 8109-0"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Steglitz-Zehlendorf laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 173,
+    "name": "Vivantes Auguste-Viktoria-Klinikum – Psychiatrische Rettungsstelle",
+    "organization": "Vivantes Auguste-Viktoria-Klinikum",
+    "address": {
+      "street": "Rubensstr. 125",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "12157",
+      "city": "Berlin"
+    },
+    "location": "Schöneberg",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 13020-2113"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Schöneberg laut Berliner Rundschreiben vom 18.06.2018.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 174,
+    "name": "Vivantes Wenckebach-Klinikum – Zentrale Psychiatrische Aufnahme",
+    "organization": "Vivantes Wenckebach-Klinikum",
+    "address": {
+      "street": "Wenckebachstr. 23",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "12099",
+      "city": "Berlin"
+    },
+    "location": "Tempelhof",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 13019-3646",
+      "email": "psychiatrie.wbk@vivantes.de",
+      "website": "https://www.vivantes.de/wenckebach-klinikum/fachbereiche/kliniken/psychiatrie-psychotherapie-und-psychosomatik/kontakt/"
+    },
+    "openingHours": "Zentrale Psychiatrische Aufnahme; pflegerisch besetzt 08:00–22:00 Uhr",
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Tempelhof. Die aktuelle Vivantes-Seite nennt die Zentrale Psychiatrische Aufnahme am Standort Wenckebachstraße 23.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 175,
+    "name": "Krankenhaus Hedwigshöhe – Psychiatrische Rettungsstelle",
+    "organization": "St. Hedwig-Kliniken Berlin – Krankenhaus Hedwigshöhe",
+    "address": {
+      "street": "Höhensteig 1",
+      "district": "Treptow-Köpenick",
+      "postalCode": "12526",
+      "city": "Berlin"
+    },
+    "location": "Treptow-Köpenick",
+    "tags": [
+      "psychiatrische_rettungsstelle",
+      "psychiatrische_versorgung",
+      "medizinische_hilfe",
+      "mental_health",
+      "emergency"
+    ],
+    "contact": {
+      "phone": "030 6741-2640"
+    },
+    "description": "Psychiatrische Rettungsstelle für Erwachsene aus Treptow-Köpenick laut Berliner Rundschreiben vom 18.06.2018. Die Zufahrt zur Psychiatrie erfolgt über Höhensteig 2.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 176,
+    "name": "Neue Wege e.V.",
+    "organization": "Neue Wege e.V.",
+    "address": {
+      "street": "Kiehlufer 43",
+      "district": "Neukölln",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "beratung",
+      "housing",
+      "counseling"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx für Menschen in Wohnungsnot.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 177,
+    "name": "Ambulante Wohnungslosenhilfe Lichtenberg (Caritas Berlin)",
+    "organization": "Caritas Berlin",
+    "address": {
+      "street": "Anton-Saefkow-Platz 3",
+      "district": "Lichtenberg",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "beratung",
+      "housing",
+      "counseling"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Ambulante Wohnungslosenhilfe in Lichtenberg, im Register-Unterkuenfte.xlsx als Kontaktstelle aufgeführt.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 178,
+    "name": "Wohnhilfe Pflügerstraße",
+    "organization": "Wohnhilfe Pflügerstraße",
+    "address": {
+      "street": "Pflügerstraße 24",
+      "district": "Neukölln",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "beratung",
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Kontaktstelle beziehungsweise Wohnhilfeangebot aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 179,
+    "name": "Wili 67",
+    "organization": "Wili 67",
+    "address": {
+      "street": "Prinzenallee 40",
+      "district": "Mitte",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Wedding",
+    "tags": [
+      "beratung",
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx für Menschen in Wohnungsnot.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 180,
+    "name": "MyWay Soziale Dienste",
+    "organization": "MyWay Soziale Dienste",
+    "address": {
+      "street": "Frankfurter Allee 76",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Friedrichshain",
+    "tags": [
+      "beratung",
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 181,
+    "name": "Psychologische Beratung für wohnungslose Frauen (GEBEWO pro)",
+    "organization": "GEBEWO pro",
+    "address": {
+      "street": "Gottschedstraße 21",
+      "district": "Pankow",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Prenzlauer Berg",
+    "tags": [
+      "frauen",
+      "beratung",
+      "mental_health",
+      "psychologische_beratung",
+      "psychiatrische_versorgung"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Psychologische Beratung für wohnungslose Frauen, im Register-Unterkuenfte.xlsx als Kontaktstelle aufgeführt.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 182,
+    "name": "KLIK e.V. – Kontakt- und Beratungsstelle für Menschen in Wohnungslosigkeit",
+    "organization": "KLIK e.V.",
+    "address": {
+      "street": "Torstraße 210",
+      "district": "Mitte",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Mitte",
+    "tags": [
+      "beratung",
+      "housing",
+      "counseling"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Kontakt- und Beratungsstelle für Menschen in Wohnungslosigkeit, aus dem Register-Unterkuenfte.xlsx übernommen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 183,
+    "name": "HKS Pankow",
+    "organization": "HKS Wohnheime GmbH",
+    "address": {
+      "street": "Blankenburger Str. 141",
+      "district": "Pankow",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Pankow",
+    "tags": [
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 184,
+    "name": "HKS Neukölln",
+    "organization": "HKS Wohnheime GmbH",
+    "address": {
+      "street": "Tempelhofer Weg 86",
+      "district": "Neukölln",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 185,
+    "name": "ZeitRaum Pankow",
+    "organization": "ZeitRaum",
+    "address": {
+      "street": "Schönstr. 42",
+      "district": "Pankow",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Pankow",
+    "tags": [
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 186,
+    "name": "ZeitRaum Neukölln",
+    "organization": "ZeitRaum",
+    "address": {
+      "street": "Karl-Marx-Str. 58",
+      "district": "Neukölln",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 187,
+    "name": "Carpe Diem Übergangshaus Neukölln",
+    "organization": "Carpe Diem",
+    "address": {
+      "street": "Delbrückstr. 29",
+      "district": "Neukölln",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "housing",
+      "transitional_housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Übergangshaus aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 188,
+    "name": "Carpe Diem Übergangshaus Lichtenberg",
+    "organization": "Carpe Diem",
+    "address": {
+      "street": "Alt-Friedrichsfelde 93",
+      "district": "Lichtenberg",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "housing",
+      "transitional_housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Übergangshaus aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 189,
+    "name": "Frauenwohnen plus",
+    "organization": "Frauenwohnen plus",
+    "address": {
+      "street": "Grabbeallee 63",
+      "district": "Pankow",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Pankow",
+    "tags": [
+      "housing",
+      "frauen"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Wohnangebot für Frauen aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 190,
+    "name": "Frauenbedacht",
+    "organization": "Frauenbedacht",
+    "address": {
+      "street": "Bornemannstraße 12",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Schöneberg",
+    "tags": [
+      "housing",
+      "frauen"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Wohnangebot für Frauen aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 191,
+    "name": "Heim im Kiez (Union Hilfswerk)",
+    "organization": "Union Hilfswerk",
+    "address": {
+      "street": "Dahmestraße 33",
+      "district": "Neukölln",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 192,
+    "name": "ASB Nothilfe Berlin",
+    "organization": "Arbeiter-Samariter-Bund",
+    "address": {
+      "street": "Rudolfstraße 9",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Friedrichshain",
+    "tags": [
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Unterkunft beziehungsweise Nothilfe-Angebot aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 193,
+    "name": "Kältehilfe Notübernachtung der GEBEWO gGmbH",
+    "organization": "GEBEWO gGmbH",
+    "address": {
+      "street": "Storkower Str. 133A",
+      "district": "Pankow",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Pankow",
+    "tags": [
+      "night_shelter",
+      "notuebernachtungen",
+      "schlafplatz",
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Notübernachtung aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Saisonal / bitte direkt erfragen"
+  },
+  {
+    "id": 194,
+    "name": "Nachtcafé Obdach",
+    "organization": "Nachtcafé Obdach",
+    "address": {
+      "street": "Samariterstraße 27",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Friedrichshain",
+    "tags": [
+      "nachtcafes",
+      "tagesaufenthalt",
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Nachtcafé aus dem Register-Unterkuenfte.xlsx.",
+    "seasonalNote": "Saisonal / bitte direkt erfragen"
+  },
+  {
+    "id": 195,
+    "name": "Krisenwohnung / Notunterkunft für Suchterkrankte",
+    "organization": "Krisenwohnung / Notunterkunft für Suchterkrankte",
+    "address": {
+      "street": "Rathenower Straße 16",
+      "district": "Mitte",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Moabit",
+    "tags": [
+      "night_shelter",
+      "notuebernachtungen",
+      "suchtspezifische_angebote",
+      "housing"
+    ],
+    "contact": {},
+    "openingHours": "Bitte direkt erfragen",
+    "description": "Krisenwohnung beziehungsweise Notunterkunft für Suchterkrankte, aus dem Register-Unterkuenfte.xlsx übernommen.",
     "seasonalNote": "Ganzjährig"
   }
 ]

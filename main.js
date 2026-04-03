@@ -68,6 +68,10 @@ const TAG_LABELS = {
     eu_citizens:     'EU-Bürger',
     harm_reduction:  'Safer Use',
     mental_health:   'Psychische Gesundheit',
+    psychiatrische_rettungsstelle: 'Psychiatrische Rettungsstelle',
+    psychiatrische_versorgung: 'Psychiatrische Versorgung',
+    psychologische_beratung: 'Psychologische Beratung',
+    sozialpsychiatrischer_dienst: 'Sozialpsychiatrischer Dienst',
     community:       'Gemeinschaft',
 };
 

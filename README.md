@@ -101,13 +101,14 @@ vendored libraries, and `facilities.json`.
 
 ## To Do
 
-- Add "Psychiatrische Versorgung" (die Caritas an der Turmstraße hat ne Sprechstunde und [...] alle psychiatrischen Rettungsstellen der Bezirke)
-- Add entries from Kältehilfe PDF
-- Add "ASOG Einrichtungen"
-- Add map
-- Add feature to report wrong and outdated information
-- Add form to add new facilities
-- Ensure accessibility
-- Improve language support
-- Support simple language
-- Add form for feature requests, bug reports
+- [x] Add "Psychiatrische Versorgung" (die Caritas an der Turmstraße hat ne Sprechstunde und [...] alle psychiatrischen Rettungsstellen der Bezirke)
+- [x] Add entries from Kältehilfe PDF
+- [x] Add "ASOG Einrichtungen"
+- [] Add map
+- [] Add feature to report wrong and outdated information
+- [] Add form to add new facilities
+- [] Ensure accessibility (Web Content Accessibility Guidelines 2.1 (WCAG 2.1))
+- [] Improve language support
+- [] Support simple language
+- [] Add form for feature requests, bug reports
+- [] Improve icons (https://github.com/google/material-design-icons)
