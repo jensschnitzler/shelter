@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="de">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Hilfe für Obdachlose in Berlin</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <header>
+            <h1>Hilfe für Obdachlose in Berlin</h1>
+            <p>
+                Einrichtungen, Anlaufstellen und Dienste für obdachlose Menschen
+                in Berlin
+            </p>
+        </header>
+
+        <div id="controls">
+            <label class="sr-only" for="search-input">
+                Einrichtungen nach Name, Bezirk oder Angebot durchsuchen
+            </label>
+            <input
+                type="search"
+                id="search-input"
+                placeholder="Einrichtung, Bezirk oder Angebot suchen …"
+                autocomplete="off"
+                aria-describedby="stats"
+            />
+            <div id="sort-controls">
+                <span class="sort-label">Sortieren:</span>
+                <button
+                    type="button"
+                    class="sort-btn active asc"
+                    data-sort="name"
+                    aria-pressed="true"
+                >
+                    Name
+                </button>
+                <button
+                    type="button"
+                    class="sort-btn"
+                    data-sort="location"
+                    aria-pressed="false"
+                >
+                    Bezirk
+                </button>
+            </div>
+        </div>
+
+        <nav id="filters" aria-label="Filter nach Kategorie"></nav>
+
+        <p id="stats" role="status"></p>
+
+        <div id="facilities-list">
+            <ul class="list" aria-live="polite"></ul>
+        </div>
+
+        <script src="cash.min.js"></script>
+        <script src="list.min.js"></script>
+        <script src="main.js"></script>
+    </body>
+</html>
