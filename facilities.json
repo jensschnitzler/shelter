@@ -117,7 +117,6 @@
       "food",
       "hygiene",
       "notuebernachtungen",
-      "notuebernachtungen_maenner",
       "maenner",
       "schlafplatz",
       "essen_verpflegung",
@@ -213,7 +212,6 @@
       "food",
       "hygiene",
       "notuebernachtungen",
-      "notuebernachtungen_maenner",
       "maenner",
       "schlafplatz",
       "essen_verpflegung",
@@ -280,7 +278,6 @@
       "food",
       "counseling",
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
       "frauen",
       "schlafplatz",
       "essen_verpflegung",
@@ -314,7 +311,6 @@
       "food",
       "counseling",
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
       "frauen",
       "schlafplatz",
       "essen_verpflegung",
@@ -348,7 +344,6 @@
       "women_only",
       "counseling",
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
       "frauen",
       "schlafplatz",
       "essen_verpflegung",
@@ -383,7 +378,6 @@
       "hygiene",
       "24h",
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
       "frauen",
       "schlafplatz",
       "essen_verpflegung"
@@ -415,7 +409,6 @@
       "children",
       "counseling",
       "notuebernachtungen",
-      "notuebernachtungen_familien",
       "familien",
       "schlafplatz",
       "essen_verpflegung",
@@ -1157,7 +1150,6 @@
       "food",
       "hygiene",
       "notuebernachtungen",
-      "notuebernachtungen_maenner",
       "maenner",
       "schlafplatz",
       "essen_verpflegung"
@@ -1883,7 +1875,6 @@
     "location": "Kreuzberg",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
       "frauen",
       "schlafplatz",
       "essen_verpflegung"
@@ -1910,7 +1901,6 @@
     "location": "Wedding",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
       "frauen",
       "schlafplatz",
       "hygiene",
@@ -1939,7 +1929,6 @@
     "location": "Mitte",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
       "frauen",
       "schlafplatz",
       "hygiene",
@@ -1970,8 +1959,6 @@
     "location": "Spandau",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
-      "notuebernachtungen_maenner",
       "frauen",
       "maenner",
       "schlafplatz",
@@ -2003,8 +1990,6 @@
     "location": "Steglitz",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_frauen",
-      "notuebernachtungen_maenner",
       "frauen",
       "maenner",
       "schlafplatz",
@@ -2035,7 +2020,6 @@
     "location": "Friedrichshain",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_maenner",
       "maenner",
       "schlafplatz",
       "hygiene",
@@ -2064,7 +2048,6 @@
     "location": "Kreuzberg",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_maenner",
       "maenner",
       "schlafplatz",
       "hygiene",
@@ -2093,7 +2076,6 @@
     "location": "Neukölln",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_maenner",
       "maenner",
       "schlafplatz",
       "hygiene",
@@ -2123,7 +2105,6 @@
     "location": "Lichtenberg",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_maenner",
       "maenner",
       "schlafplatz",
       "hygiene",
@@ -2153,7 +2134,6 @@
     "location": "Reinickendorf",
     "tags": [
       "notuebernachtungen",
-      "notuebernachtungen_familien",
       "familien",
       "schlafplatz",
       "hygiene",

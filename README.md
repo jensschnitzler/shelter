@@ -75,6 +75,27 @@ Each facility entry in `facilities.json` follows this general structure:
 The UI tolerates missing optional values, but keeping records complete improves
 search quality and presentation.
 
+### Tag model
+
+Tags should be assigned as composable building blocks instead of long compound
+labels whenever possible.
+
+The current preferred 3-layer model is:
+
+- Service type: for example `notuebernachtungen`, `nachtcafes`,
+  `tagesangebote`, `beratung`, `medizinische_hilfe`
+- Audience: for example `frauen`, `maenner`, `familien`, `jugendliche`,
+  `alle_geschlechter`
+- Special attributes: for example `barrierearm`, `haustierfreundlich`,
+  `drogengebrauchend`, `suchtspezifische_angebote`
+
+Example:
+
+- Use `notuebernachtungen` + `maenner`
+- Do not introduce a compound tag like `notuebernachtungen_maenner`
+
+This keeps filter combinations flexible without losing information.
+
 ## Editing content
 
 To add or update facilities:
@@ -112,3 +133,4 @@ vendored libraries, and `facilities.json`.
 - [ ] Improve language support
 - [ ] Support simple language
 - [ ] Add form for feature requests, bug reports
+- [ ] Refactor, reorganize tags
