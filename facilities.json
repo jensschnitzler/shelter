@@ -4821,21 +4821,26 @@
   {
     "id": 178,
     "name": "Wohnhilfe Pflügerstraße",
-    "organization": "Wohnhilfe Pflügerstraße",
+    "organization": "Lukas-Gemeinde gGmbH",
     "address": {
       "street": "Pflügerstraße 24",
       "district": "Neukölln",
-      "postalCode": "",
+      "postalCode": "12047",
       "city": "Berlin"
     },
     "location": "Neukölln",
     "tags": [
       "beratung",
-      "housing"
+      "housing",
+      "counseling"
     ],
-    "contact": {},
-    "openingHours": "Bitte direkt erfragen",
-    "description": "Kontaktstelle beziehungsweise Wohnhilfeangebot aus dem Register-Unterkuenfte.xlsx.",
+    "contact": {
+      "phone": "030 6239903",
+      "email": "wohnhilfe@lukas-gemeinde.de",
+      "website": "https://wohnhilfe-berlin-pfluegerstrasse.de/"
+    },
+    "openingHours": "Mo–Fr 10:00–16:00 Uhr",
+    "description": "Wohnhilfe der Lukas-Gemeinde mit Beratung bei drohendem Wohnungsverlust, Räumungsklagen und Wohnungssuche; zusätzlich betreute Wohngemeinschaft.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -4885,7 +4890,7 @@
     "address": {
       "street": "Gottschedstraße 21",
       "district": "Pankow",
-      "postalCode": "",
+      "postalCode": "13357",
       "city": "Berlin"
     },
     "location": "Prenzlauer Berg",
@@ -4896,9 +4901,13 @@
       "psychologische_beratung",
       "psychiatrische_versorgung"
     ],
-    "contact": {},
-    "openingHours": "Bitte direkt erfragen",
-    "description": "Psychologische Beratung für wohnungslose Frauen, im Register-Unterkuenfte.xlsx als Kontaktstelle aufgeführt.",
+    "contact": {
+      "phone": "030 46062990",
+      "email": "psychberatung@gebewo-pro.berlin",
+      "website": "https://gebewo-pro.de/psychologische-beratung-fuer-wohnungslose-frauen"
+    },
+    "openingHours": "Termine nach Bedarf telefonisch vereinbaren",
+    "description": "Kostenlose, auf Wunsch anonyme psychologische Beratung für Frauen in Wohnungsnot oder in Wohnheimen; laut Berlin.de auch aufsuchend in Wohnheimen möglich.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -4915,11 +4924,18 @@
     "tags": [
       "beratung",
       "housing",
-      "counseling"
+      "counseling",
+      "eu_citizens",
+      "multilingual",
+      "barrierearm"
     ],
-    "contact": {},
-    "openingHours": "Bitte direkt erfragen",
-    "description": "Kontakt- und Beratungsstelle für Menschen in Wohnungslosigkeit, aus dem Register-Unterkuenfte.xlsx übernommen.",
+    "contact": {
+      "phone": "030 23597970",
+      "email": "empfang@klik-berlin.de",
+      "website": "https://klik-berlin.de/kontakt/"
+    },
+    "openingHours": "Offene Sprechstunde Mo 10:00–12:00 Uhr; Terminvereinbarung und Postausgabe Mo–Fr 10:00–12:00 Uhr",
+    "description": "Beratungsstelle für Menschen in Wohnungsnot und sozialen Schwierigkeiten mit Fokus auf wohnungslose oder bedrohte Menschen und Familien aus Deutschland und anderen EU-Ländern; Beratung auf Deutsch, Englisch, Polnisch und Bulgarisch.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -5084,17 +5100,21 @@
     "organization": "Union Hilfswerk",
     "address": {
       "street": "Dahmestraße 33",
-      "district": "Neukölln",
-      "postalCode": "",
+      "district": "Treptow-Köpenick",
+      "postalCode": "12526",
       "city": "Berlin"
     },
-    "location": "Neukölln",
+    "location": "Bohnsdorf",
     "tags": [
       "housing"
     ],
-    "contact": {},
-    "openingHours": "Bitte direkt erfragen",
-    "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
+    "contact": {
+      "phone": "030 720216430",
+      "email": "ralf.schoenberner@unionhilfswerk.de",
+      "website": "https://www.unionhilfswerk.de/kontakte/schoenberner-ralf/"
+    },
+    "openingHours": "24 Stunden besetzt",
+    "description": "Wohnheim für wohnungslose Menschen des Unionhilfswerks mit sozialpädagogischer Unterstützung und Rund-um-die-Uhr-Ansprechpersonen.",
     "seasonalNote": "Ganzjährig"
   },
   {

@@ -136,18 +136,18 @@ function renderCard(f) {
         .join('');
 
     const seasonal = f.seasonalNote && f.seasonalNote !== 'Ganzjährig'
-        ? `<span class="seasonal-badge">🗓 ${escapeHtml(f.seasonalNote)}</span>` : '';
+        ? `<span class="seasonal-badge">${renderIcon('calendar_month')}${escapeHtml(f.seasonalNote)}</span>` : '';
 
     const hours = f.openingHours
-        ? `<div class="meta-row"><span class="meta-icon">🕐</span><span>${escapeHtml(f.openingHours)}</span></div>` : '';
+        ? `<div class="meta-row">${renderIcon('schedule')}<span>${escapeHtml(f.openingHours)}</span></div>` : '';
 
     const contacts = [];
     if (f.contact?.phone)
-        contacts.push(`<a class="contact-link" href="tel:${escapeHtml(f.contact.phone.replace(/\s/g, ''))}">📞 ${escapeHtml(f.contact.phone)}</a>`);
+        contacts.push(`<a class="contact-link" href="tel:${escapeHtml(f.contact.phone.replace(/\s/g, ''))}">${renderIcon('call')}${escapeHtml(f.contact.phone)}</a>`);
     if (f.contact?.email)
-        contacts.push(`<a class="contact-link" href="mailto:${escapeHtml(f.contact.email)}">✉ ${escapeHtml(f.contact.email)}</a>`);
+        contacts.push(`<a class="contact-link" href="mailto:${escapeHtml(f.contact.email)}">${renderIcon('mail')}${escapeHtml(f.contact.email)}</a>`);
     if (f.contact?.website)
-        contacts.push(`<a class="contact-link" href="${escapeHtml(f.contact.website)}" target="_blank" rel="noopener">🌐 Website</a>`);
+        contacts.push(`<a class="contact-link" href="${escapeHtml(f.contact.website)}" target="_blank" rel="noopener">${renderIcon('language')}Website</a>`);
 
     return `<article class="card">
     <div class="card-header">
@@ -157,7 +157,7 @@ function renderCard(f) {
     <div class="card-tags">${tags}${seasonal}</div>
     <div class="card-meta">
         <div class="meta-row">
-            <span class="meta-icon">📍</span>
+            ${renderIcon('place')}
             <a href="${mapsUrl}" target="_blank" rel="noopener" class="meta-address">${escapeHtml(addr)}</a>
         </div>
         ${hours}
@@ -165,6 +165,10 @@ function renderCard(f) {
     <div class="card-desc">${escapeHtml(f.description)}</div>
     ${contacts.length ? `<div class="card-contact">${contacts.join('')}</div>` : ''}
 </article>`;
+}
+
+function renderIcon(name) {
+    return `<span class="meta-icon material-symbols-outlined" aria-hidden="true">${name}</span>`;
 }
 
 // Flatten nested facility object into List.js-compatible flat values.
