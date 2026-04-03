@@ -97,3 +97,17 @@ vendored libraries, and `facilities.json`.
 - There is no automated test suite yet
 - Facility data is curated manually
 - The app depends on client-side rendering and does not provide a backend API
+
+
+## To Do
+
+- Add "Psychiatrische Versorgung" (die Caritas an der Turmstraße hat ne Sprechstunde und [...] alle psychiatrischen Rettungsstellen der Bezirke)
+- Add entries from Kältehilfe PDF
+- Add "ASOG Einrichtungen"
+- Add map
+- Add feature to report wrong and outdated information
+- Add form to add new facilities
+- Ensure accessibility
+- Improve language support
+- Support simple language
+- Add form for feature requests, bug reports
