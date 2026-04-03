@@ -11,6 +11,7 @@
         <link rel="stylesheet" href="styles.css" />
     </head>
     <body>
+        <a class="skip-link" href="#facilities-list">Direkt zur Ergebnisliste springen</a>
         <header>
             <h1>Hilfe für Obdachlose in Berlin</h1>
             <p>
@@ -28,8 +29,11 @@
                 id="search-input"
                 placeholder="Einrichtung, Bezirk oder Angebot suchen …"
                 autocomplete="off"
-                aria-describedby="stats"
+                aria-describedby="search-help stats"
             />
+            <p id="search-help" class="control-help">
+                Suche nach Einrichtung, Bezirk, Angebot oder Schlagwort.
+            </p>
             <div id="sort-controls">
                 <span class="sort-label">Sortieren:</span>
                 <button
@@ -53,9 +57,9 @@
 
         <nav id="filters" aria-label="Filter nach Kategorie"></nav>
 
-        <p id="stats" role="status"></p>
+        <p id="stats" role="status" aria-atomic="true"></p>
 
-        <div id="facilities-list">
+        <div id="facilities-list" tabindex="-1">
             <ul class="list" aria-live="polite"></ul>
         </div>
 

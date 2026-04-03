@@ -126,10 +126,12 @@ function normalizeFacility(raw) {
 }
 
 function renderCard(f) {
-    const addrParts = [f.address.street, `${f.address.postalCode} ${f.address.city}`.trim()]
-        .filter(Boolean);
+    const cityLine = `${f.address.postalCode} ${f.address.city}`.trim();
+    const addrParts = [f.address.street, f.address.district, cityLine].filter(Boolean);
     const addr = addrParts.join(', ');
     const mapsUrl = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addr)}`;
+    const facilityName = escapeHtml(f.name);
+    const addressLabel = escapeHtml(`Adresse von ${f.name} in Google Maps öffnen`);
 
     const tags = f.tags
         .map(t => `<span class="${tagCls(t)}">${escapeHtml(tagLabel(t))}</span>`)
@@ -143,26 +145,29 @@ function renderCard(f) {
 
     const contacts = [];
     if (f.contact?.phone)
-        contacts.push(`<a class="contact-link" href="tel:${escapeHtml(f.contact.phone.replace(/\s/g, ''))}">${renderIcon('call')}${escapeHtml(f.contact.phone)}</a>`);
+        contacts.push(`<a class="contact-link" href="tel:${escapeHtml(f.contact.phone.replace(/\s/g, ''))}" aria-label="${escapeHtml(`Telefonnummer von ${f.name}: ${f.contact.phone}`)}">${renderIcon('call')}${escapeHtml(f.contact.phone)}</a>`);
     if (f.contact?.email)
-        contacts.push(`<a class="contact-link" href="mailto:${escapeHtml(f.contact.email)}">${renderIcon('mail')}${escapeHtml(f.contact.email)}</a>`);
+        contacts.push(`<a class="contact-link" href="mailto:${escapeHtml(f.contact.email)}" aria-label="${escapeHtml(`E-Mail an ${f.name}: ${f.contact.email}`)}">${renderIcon('mail')}${escapeHtml(f.contact.email)}</a>`);
     if (f.contact?.website)
-        contacts.push(`<a class="contact-link" href="${escapeHtml(f.contact.website)}" target="_blank" rel="noopener">${renderIcon('language')}Website</a>`);
+        contacts.push(`<a class="contact-link" href="${escapeHtml(f.contact.website)}" target="_blank" rel="noopener" aria-label="${escapeHtml(`Website von ${f.name} öffnen`)}">${renderIcon('language')}Website</a>`);
 
     return `<article class="card">
     <div class="card-header">
-        <div class="card-name">${escapeHtml(f.name)}</div>
-        <div class="card-org">${escapeHtml(f.organization)}</div>
+        <h2 class="card-name">${facilityName}</h2>
+        <p class="card-org">${escapeHtml(f.organization)}</p>
     </div>
     <div class="card-tags">${tags}${seasonal}</div>
     <div class="card-meta">
         <div class="meta-row">
             ${renderIcon('place')}
-            <a href="${mapsUrl}" target="_blank" rel="noopener" class="meta-address">${escapeHtml(addr)}</a>
+            <a href="${mapsUrl}" target="_blank" rel="noopener" class="meta-address" aria-label="${addressLabel}">${escapeHtml(addr)}</a>
         </div>
         ${hours}
     </div>
-    <div class="card-desc">${escapeHtml(f.description)}</div>
+    <details class="card-details">
+        <summary class="card-summary">Info</summary>
+        <div class="card-desc">${escapeHtml(f.description)}</div>
+    </details>
     ${contacts.length ? `<div class="card-contact">${contacts.join('')}</div>` : ''}
 </article>`;
 }
