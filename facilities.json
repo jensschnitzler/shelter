@@ -10,13 +10,27 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["shelter", "night_shelter", "food", "hygiene", "counseling", "clothing"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "notuebernachtungen",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "haustierfreundlich",
+      "medizinische_hilfe",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 69033529",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Täglich 20:00–08:00 Uhr (1. Nov.–15. Apr.)",
-    "description": "Saisonale Notübernachtung mit 125 Betten für obdachlose Menschen. Bietet Mahlzeiten, Duschen und Sozialberatung. Bettenkapazität während der Kälteperiode.",
+    "openingHours": "Nov. bis 15. Apr. | täglich 20:00–08:00 Uhr, letzter Einlass 04:00 Uhr",
+    "description": "Saisonale Notübernachtung der Berliner Stadtmission. Plätze werden täglich neu vergeben; Kälte- bzw. Wärmebus kann bis 04:00 Uhr kommen.",
     "seasonalNote": "November bis April"
   },
   {
@@ -30,13 +44,26 @@
       "city": "Berlin"
     },
     "location": "Friedrichshain",
-    "tags": ["shelter", "night_shelter", "year_round", "medical", "food"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "year_round",
+      "medical",
+      "food",
+      "notuebernachtungen",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "haustierfreundlich",
+      "barrierearm",
+      "medizinische_hilfe"
+    ],
     "contact": {
       "phone": "030 66628770",
       "website": "https://www.berliner-stadtmission.de"
     },
     "openingHours": "Täglich 19:30–07:30 Uhr, ganzjährig",
-    "description": "Ganzjährige Notübernachtung mit 70 Betten für Männer und Frauen. Zweimal wöchentlich medizinische Versorgung vor Ort. Tagestreff für obdachlose Menschen, täglich bis zu 300 Besucher.",
+    "description": "Ganzjährige Notübernachtung am Containerbahnhof mit Sozialberatung, Vermittlung, medizinischer Versorgung und geschütztem Bereich für Frauen.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -50,13 +77,27 @@
       "city": "Berlin"
     },
     "location": "Charlottenburg",
-    "tags": ["shelter", "night_shelter", "year_round", "food", "hygiene", "counseling"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "year_round",
+      "food",
+      "hygiene",
+      "counseling",
+      "notuebernachtungen",
+      "alle_geschlechter",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 3912722",
-      "website": "https://www.berliner-stadtmission.de"
+      "website": "https://www.berliner-stadtmission.de/not-franklinstr",
+      "email": "uebernachtungsheim-franklinstr@berliner-stadtmission.de"
     },
     "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 21:30 Uhr",
-    "description": "Ganzjährige Notübernachtung mit 73 Betten in 3- und 4-Bett-Zimmern. Bietet Duschen, Hygieneartikel, kleine Kleiderkammer und Sozialberatung durch Sozialarbeiter. Anmeldung täglich ab 18 Uhr.",
+    "description": "Ganzjährige Notübernachtung für alle Geschlechter in der Franklinstraße. Keine Drogen, keine Gewalt, keine Tiere.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -70,34 +111,58 @@
       "city": "Berlin"
     },
     "location": "Reinickendorf",
-    "tags": ["shelter", "night_shelter", "food", "hygiene"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "food",
+      "hygiene",
+      "notuebernachtungen",
+      "notuebernachtungen_maenner",
+      "maenner",
+      "schlafplatz",
+      "essen_verpflegung",
+      "haustierfreundlich"
+    ],
     "contact": {
       "phone": "030 32514132",
-      "website": "https://www.berliner-stadtmission.de"
+      "website": "https://www.berliner-stadtmission.de",
+      "email": "notuebernachtung2@berliner-stadtmission.de"
     },
-    "openingHours": "Täglich 20:00–08:00 Uhr (1. Nov.–30. Apr.)",
-    "description": "Saisonale Notübernachtung mit 55 Betten für Männer mit grundlegender Versorgung.",
+    "openingHours": "Nov. bis Apr. | täglich 20:00–08:00 Uhr, Einlass bis 04:00 Uhr",
+    "description": "Saisonale Notübernachtung für Männer in Reinickendorf. Kälte- bzw. Wärmebus kann bis 04:00 Uhr kommen.",
     "seasonalNote": "November bis April"
   },
   {
     "id": 5,
-    "name": "Notübernachtung Storkower Straße (MOB e.V. / strassenfeger)",
+    "name": "Notübernachtung Straßenfeger",
     "organization": "MOB e.V. / strassenfeger",
     "address": {
-      "street": "Storkower Straße 139c",
+      "street": "Storkower Str. 101a",
       "district": "Pankow",
       "postalCode": "10407",
       "city": "Berlin"
     },
     "location": "Prenzlauer Berg",
-    "tags": ["shelter", "night_shelter", "year_round", "food", "counseling"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "year_round",
+      "food",
+      "counseling",
+      "notuebernachtungen",
+      "alle_geschlechter",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "beratung"
+    ],
     "contact": {
-      "phone": "030 31206724",
+      "phone": "030 47 90 58 10",
       "email": "notuebernachtung@strassenfeger.org",
       "website": "https://strassenfeger.org"
     },
     "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 22:30 Uhr",
-    "description": "Ganzjährige Notübernachtung mit täglich bis zu 30 Schlafplätzen. Gesunde Küche mit Mahlzeiten aus Lebensmittelspenden. Sozialberatung vor Ort.",
+    "description": "Ganzjährige Notübernachtung des Straßenfeger e.V. Keine Tiere, keine Gewalt, keine Drogen, kein Alkoholkonsum; nicht barrierefrei.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -105,24 +170,34 @@
     "name": "Notübernachtung Neustart GmbH (Marzahn)",
     "organization": "Neustart GmbH",
     "address": {
-      "street": "Otto-Rosenberg-Straße 10",
+      "street": "Otto-Rosenberg-Str. 3 und 10",
       "district": "Marzahn-Hellersdorf",
       "postalCode": "12681",
       "city": "Berlin"
     },
     "location": "Marzahn",
-    "tags": ["shelter", "night_shelter", "hygiene"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "hygiene",
+      "notuebernachtungen",
+      "schlafplatz",
+      "frauen",
+      "maenner",
+      "divers"
+    ],
     "contact": {
-      "phone": "030 99273376",
-      "website": "https://kaeltehilfe-berlin.de"
+      "phone": "030 99 27 33 76 / 030 93 66 10 87",
+      "website": "https://kaeltehilfe-berlin.de",
+      "email": "c.schirg_neustart_gmbh@web.de"
     },
     "openingHours": "Täglich 20:00–08:00 Uhr, letzter Einlass 22:00 Uhr (Okt.–Apr.)",
-    "description": "Saisonale Kältehilfe-Unterkunft mit 8 Betten (3 für Frauen, 5 für Männer). Duschen und Hygieneartikel vorhanden. Paare müssen getrennt untergebracht werden.",
+    "description": "Saisonale Notübernachtung der Neustart GmbH. Frauen in Haus Nr. 3, Männer in Haus Nr. 10; Unterbringung je nach Auslastung, Paare getrennt.",
     "seasonalNote": "Oktober bis April"
   },
   {
     "id": 7,
-    "name": "Johanniter-Notübernachtung Ohlauer 365",
+    "name": "Notübernachtung der Johanniter Ohlauer Straße",
     "organization": "Johanniter-Unfall-Hilfe e.V.",
     "address": {
       "street": "Ohlauer Straße 22",
@@ -131,13 +206,28 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["shelter", "night_shelter", "year_round", "food", "hygiene"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "year_round",
+      "food",
+      "hygiene",
+      "notuebernachtungen",
+      "notuebernachtungen_maenner",
+      "maenner",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "haustierfreundlich",
+      "medizinische_hilfe"
+    ],
     "contact": {
       "phone": "030 50562540",
-      "website": "https://www.johanniter.de"
+      "website": "https://www.johanniter.de/spenden/projekte-deutschland/soziale-projekte/wohnungslosenhilfe-in-berlin",
+      "email": "wohnungslosenhilfe.berlin@johanniter.de"
     },
-    "openingHours": "Täglich 20:00–08:00 Uhr, ganzjährig",
-    "description": "Seit Juni 2024 ganzjährig geöffnete Notübernachtung mit bis zu 88 Schlafplätzen auf ca. 1500 m². Bietet Mahlzeiten und Waschgelegenheiten. Hunde willkommen (bis zu 10 Tiere). In der Nähe des Görlitzer Parks.",
+    "openingHours": "Ganzjährig | täglich 20:00–07:45 Uhr, letzter Einlass 23:00 Uhr",
+    "description": "Ganzjährige Notübernachtung für Männer in der Ohlauer Straße. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -151,13 +241,25 @@
       "city": "Berlin"
     },
     "location": "Schöneberg",
-    "tags": ["shelter", "night_shelter", "food", "clothing"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "food",
+      "clothing",
+      "notuebernachtungen",
+      "alle_geschlechter",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm"
+    ],
     "contact": {
-      "phone": "0171 5200730",
-      "website": "https://kaeltehilfe-berlin.de"
+      "phone": "0152 22 41 32 628",
+      "website": "https://www.ib-berlin.de/kaeltehilfe",
+      "email": "arian.begovic@ib.de"
     },
     "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr (Okt.–Apr.)",
-    "description": "Saisonale Kältehilfe-Unterkunft mit 30 Schlafplätzen. Bietet Duschen, Essen, Getränke und warme Kleidung.",
+    "description": "Saisonale Notübernachtung in der Kurmärkischen Straße für alle Geschlechter.",
     "seasonalNote": "Oktober bis April"
   },
   {
@@ -171,19 +273,32 @@
       "city": "Berlin"
     },
     "location": "Friedrichshain",
-    "tags": ["shelter", "night_shelter", "women_only", "food", "counseling"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "women_only",
+      "food",
+      "counseling",
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "frauen",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "beratung"
+    ],
     "contact": {
-      "phone": "030 29350557",
+      "phone": "030 29 35 05 57",
       "email": "notuebernachtung@awo-spree-wuhle.de",
-      "website": "https://www.awo-spree-wuhle.de"
+      "website": "https://www.awo-spree-wuhle.de/notuebernachtung"
     },
-    "openingHours": "Einlass ab 19:00 Uhr stündlich bis 22:00 Uhr, Schließung 08:00 Uhr",
-    "description": "Notübernachtung ausschließlich für Frauen mit 9 Betten in 2- und 3-Bett-Zimmern. Nutzung bis zu 14 aufeinanderfolgenden Nächten möglich. Bietet sicheren Schlafplatz, Abendessen und Frühstück sowie Sozialberatung.",
+    "openingHours": "Ganzjährig | täglich 19:00–08:30 Uhr, Mo bis 10:00 Uhr, Mi bis 12:00 Uhr; letzter Einlass 22:00 Uhr",
+    "description": "Ganzjährige, transinklusive Notübernachtung für Frauen in Friedrichshain.",
     "seasonalNote": "Ganzjährig"
   },
   {
     "id": 10,
-    "name": "Notübernachtung für Frauen GEBEWO (Marie)",
+    "name": "Notübernachtung für Frauen der GEBEWO pro gGmbH",
     "organization": "GEBEWO pro gGmbH",
     "address": {
       "street": "Tieckstraße 17",
@@ -192,13 +307,27 @@
       "city": "Berlin"
     },
     "location": "Mitte",
-    "tags": ["shelter", "night_shelter", "women_only", "food", "counseling"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "women_only",
+      "food",
+      "counseling",
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "frauen",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 2832939",
-      "website": "https://gebewo.berlin"
+      "website": "https://www.gebewo-pro.berlin",
+      "email": "notuebernachtung@gebewo-pro.berlin"
     },
-    "openingHours": "Täglich 19:00–08:00 Uhr, ganzjährig",
-    "description": "Ganzjährige Notübernachtung ausschließlich für wohnungslose Frauen mit 9 Betten. Aufenthalt bis zu 14 Tagen. Sozialberatung und Weitervermittlung inklusive. Vorherige telefonische Anfrage empfohlen.",
+    "openingHours": "Ganzjährig | täglich 19:00–08:00 Uhr, Wochenende/Feiertag bis 09:00 Uhr; letzter Einlass 22:00 Uhr",
+    "description": "Ganzjährige Notübernachtung für Frauen in der Tieckstraße. Kein Männerbesuch, keine Tiere, keine Aufnahme von Kindern.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -212,19 +341,31 @@
       "city": "Berlin"
     },
     "location": "Neukölln",
-    "tags": ["shelter", "night_shelter", "year_round", "women_only", "counseling"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "year_round",
+      "women_only",
+      "counseling",
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "frauen",
+      "schlafplatz",
+      "essen_verpflegung",
+      "beratung"
+    ],
     "contact": {
-      "phone": "030 477532670",
+      "phone": "0151 14 64 87 58 / 030 47 75 32 670",
       "email": "evasobdach@skf-berlin.de",
       "website": "https://skf-berlin.de"
     },
     "openingHours": "Täglich 19:00–09:00 Uhr, ganzjährig",
-    "description": "Ganzjährige Notübernachtung für wohnungslose Frauen mit 30 Schlafplätzen. Betrieben vom Sozialdienst Katholischer Frauen. Sozialberatung und Weitervermittlung in betreutes Wohnen möglich.",
+    "description": "Ganzjährige Notübernachtung für Frauen in Neukölln. Spätere Aufnahme nach telefonischer Absprache möglich.",
     "seasonalNote": "Ganzjährig"
   },
   {
     "id": 12,
-    "name": "24/7-Notunterkunft für Frauen – FSD-Stiftung (Hallesches Ufer)",
+    "name": "24/7 Notunterkunft für Frauen Kreuzberg",
     "organization": "Stiftung zur Förderung sozialer Dienste Berlin (FSD-Stiftung)",
     "address": {
       "street": "Hallesches Ufer 30",
@@ -233,14 +374,27 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["shelter", "night_shelter", "year_round", "women_only", "food", "hygiene", "24h"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "year_round",
+      "women_only",
+      "food",
+      "hygiene",
+      "24h",
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "frauen",
+      "schlafplatz",
+      "essen_verpflegung"
+    ],
     "contact": {
-      "phone": "030 33855327",
+      "phone": "030 202 15 98 70",
       "email": "notuebernachtung@fsd-stiftung.de",
       "website": "https://www.fsd-stiftung.de"
     },
     "openingHours": "24 Stunden täglich, 7 Tage die Woche",
-    "description": "Erste 24/7-Notunterkunft für obdachlose Frauen in Berlin mit 65 Betten in Einzelzimmern mit eigenen Badezimmern. Ausschließlich für Frauen (Transfrauen willkommen), ab 18 Jahren. Mahlzeiten inklusive.",
+    "description": "Ganzjährig geöffnete 24/7-Notunterkunft für Frauen in Kreuzberg. Transfrauen willkommen; Platzanfragen telefonisch ab 10:30 Uhr.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -254,14 +408,27 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["shelter", "year_round", "families", "children", "counseling"],
+    "tags": [
+      "shelter",
+      "year_round",
+      "families",
+      "children",
+      "counseling",
+      "notuebernachtungen",
+      "notuebernachtungen_familien",
+      "familien",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 61073256",
       "email": "notunterkunft.familien@diakonie-stadtmitte.de",
       "website": "https://www.diakonie-stadtmitte.de"
     },
     "openingHours": "Täglich 09:00–22:00 Uhr (Aufnahme), ganzjährig",
-    "description": "Notunterkunft für wohnungslose Familien (Väter/Mütter mit mindestens einem minderjährigen Kind sowie schwangere Frauen). 10 Plätze, maximale Aufenthaltsdauer 3 Wochen. Kostenlos. Sozialberatung, Begleitung zu Ämtern, Schriftverkehr.",
+    "description": "Ganzjährig geöffnete Notunterkunft für Familien in Kreuzberg. Aufnahme nur für Eltern mit Kindern; telefonische Freiplatzanfrage empfohlen.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -275,7 +442,18 @@
       "city": "Berlin"
     },
     "location": "Berlinweit / Mobile",
-    "tags": ["outreach", "transport", "food", "clothing", "emergency"],
+    "tags": [
+      "outreach",
+      "transport",
+      "food",
+      "clothing",
+      "emergency",
+      "busse_unterwegs",
+      "mobile_hilfe",
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm"
+    ],
     "contact": {
       "phone": "030 690333690",
       "website": "https://www.berliner-stadtmission.de/kaeltehilfe"
@@ -295,7 +473,17 @@
       "city": "Berlin"
     },
     "location": "Berlinweit / Mobile",
-    "tags": ["outreach", "transport", "food", "clothing", "emergency"],
+    "tags": [
+      "outreach",
+      "transport",
+      "food",
+      "clothing",
+      "emergency",
+      "busse_unterwegs",
+      "mobile_hilfe",
+      "essen_verpflegung",
+      "bekleidung"
+    ],
     "contact": {
       "phone": "030 6003001010",
       "website": "https://www.drk-berlin.de"
@@ -315,7 +503,21 @@
       "city": "Berlin"
     },
     "location": "Charlottenburg",
-    "tags": ["day_center", "food", "hygiene", "counseling", "clothing", "community"],
+    "tags": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "community",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "haustierfreundlich",
+      "beratung",
+      "bekleidung",
+      "barrierearm"
+    ],
     "contact": {
       "phone": "030 8913000",
       "website": "https://www.berliner-stadtmission.de"
@@ -327,7 +529,7 @@
   {
     "id": 17,
     "name": "Seeling Treff (GEBEWO)",
-    "organization": "GEBEWO – Soziale Dienste Berlin gGmbH",
+    "organization": "GEBEWO pro gGmbH",
     "address": {
       "street": "Seelingstraße 9",
       "district": "Charlottenburg-Wilmersdorf",
@@ -335,7 +537,20 @@
       "city": "Berlin"
     },
     "location": "Charlottenburg",
-    "tags": ["day_center", "food", "hygiene", "counseling", "clothing", "social_benefits"],
+    "tags": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "social_benefits",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "bekleidung",
+      "beratung",
+      "medizinische_hilfe"
+    ],
     "contact": {
       "phone": "030 30839440",
       "email": "mail@gebewo.berlin",
@@ -347,7 +562,7 @@
   },
   {
     "id": 18,
-    "name": "Tagesstätte für Wohnungslose 'Wärmestube' (Bürgerhilfe gGmbH)",
+    "name": "Wohnungslosentagesstätte Bürgerhilfe",
     "organization": "Bürgerhilfe und Wärmestube gGmbH",
     "address": {
       "street": "Cuvrystraße 11-12",
@@ -356,7 +571,23 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["day_center", "food", "hygiene", "counseling", "clothing", "medical", "laundry"],
+    "tags": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "medical",
+      "laundry",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm",
+      "haustierfreundlich",
+      "beratung",
+      "medizinische_hilfe"
+    ],
     "contact": {
       "phone": "030 6111464",
       "email": "waermestube@buergerhilfe-ggmbh.de",
@@ -368,7 +599,7 @@
   },
   {
     "id": 19,
-    "name": "Tagesstätte für Wohnungslose 'Am Wassertor' (Diakonie Stadtmitte)",
+    "name": "Tagesstätte Am Wassertor",
     "organization": "Diakonisches Werk Berlin Stadtmitte e.V.",
     "address": {
       "street": "Segitzdamm 46",
@@ -377,7 +608,21 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["day_center", "food", "hygiene", "counseling", "clothing", "medical"],
+    "tags": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "medical",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "bekleidung",
+      "haustierfreundlich",
+      "beratung",
+      "medizinische_hilfe"
+    ],
     "contact": {
       "phone": "030 6156324",
       "email": "tagesstaette@diakonie-stadtmitte.de",
@@ -389,19 +634,31 @@
   },
   {
     "id": 20,
-    "name": "Tagesstätte Sozialprojekt Prenzlauer Berg (Immanuel Diakonie)",
+    "name": "Sozialprojekt Prenzlauer Berg",
     "organization": "Immanuel Albertinen Diakonie / Immanuel Beratung",
     "address": {
-      "street": "Dunckerstraße 32",
+      "street": "Dunckerstr. 32",
       "district": "Pankow",
-      "postalCode": "10437",
+      "postalCode": "10439",
       "city": "Berlin"
     },
     "location": "Prenzlauer Berg",
-    "tags": ["day_center", "food", "hygiene", "counseling", "laundry"],
+    "tags": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "laundry",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "beratung",
+      "barrierearm"
+    ],
     "contact": {
-      "phone": "030 447262210",
-      "website": "https://beratung.immanuel.de"
+      "phone": "030 447 262 211",
+      "website": "https://beratung.immanuel.de",
+      "email": "sozialberatungprenzlauerberg@immanuel.de"
     },
     "openingHours": "Mo–Fr (Zeiten auf Anfrage)",
     "description": "Kontakt- und Beratungszentrum für obdachlose und langzeitarbeitslose Menschen im Bezirk Pankow. Bietet kostenfreies Frühstück und Mittagessen, Duschen, Wäscheservice, Postzustelladresse (für Jobcenter-Anmeldung) und Freizeitangebote gegen soziale Isolation.",
@@ -409,7 +666,7 @@
   },
   {
     "id": 21,
-    "name": "Bahnhofsmission am Zoologischen Garten",
+    "name": "Bahnhofsmission Berlin Zoo",
     "organization": "Berliner Stadtmission e.V.",
     "address": {
       "street": "Jebensstraße 5",
@@ -418,7 +675,20 @@
       "city": "Berlin"
     },
     "location": "Charlottenburg / Zoo",
-    "tags": ["day_center", "food", "hygiene", "counseling", "clothing", "social_support"],
+    "tags": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "social_support",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 3138088",
       "website": "https://www.berliner-stadtmission.de/bahnhofsmission"
@@ -429,7 +699,7 @@
   },
   {
     "id": 22,
-    "name": "Bahnhofsmission am Hauptbahnhof",
+    "name": "Bahnhofsmission Berlin Hauptbahnhof",
     "organization": "Berliner Stadtmission e.V.",
     "address": {
       "street": "Europaplatz 1",
@@ -438,19 +708,31 @@
       "city": "Berlin"
     },
     "location": "Mitte / Hauptbahnhof",
-    "tags": ["day_center", "food", "counseling", "social_support"],
+    "tags": [
+      "day_center",
+      "food",
+      "counseling",
+      "social_support",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "barrierearm",
+      "haustierfreundlich",
+      "jugendliche",
+      "essen_verpflegung",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 22605805",
       "email": "berlin-hauptbahnhof@bahnhofsmission.de",
       "website": "https://www.berliner-stadtmission.de/bahnhofsmission"
     },
-    "openingHours": "Mo–Fr 08:00–17:00 Uhr; Gastbereich Mo–Fr 08:30–12:00 und 13:00–16:30 Uhr",
-    "description": "Bahnhofsmission am Berliner Hauptbahnhof. Niedrigschwellige Anlaufstelle für obdachlose und bedürftige Menschen mit Beratung, Unterstützung und Weitervermittlung.",
+    "openingHours": "Ganzjährig | täglich 08:30–12:00 Uhr und 13:00–16:30 Uhr",
+    "description": "Bahnhofsmission im Hauptbahnhof mit Beratung, WLAN und Computernutzung.",
     "seasonalNote": "Ganzjährig"
   },
   {
     "id": 23,
-    "name": "Hygienezentrum am Zoo (Berliner Stadtmission)",
+    "name": "Hygieneangebot am Bahnhof Zoo",
     "organization": "Berliner Stadtmission e.V.",
     "address": {
       "street": "Jebensstraße 5",
@@ -459,7 +741,12 @@
       "city": "Berlin"
     },
     "location": "Charlottenburg / Zoo",
-    "tags": ["hygiene", "showers", "laundry", "toilets"],
+    "tags": [
+      "hygiene",
+      "showers",
+      "laundry",
+      "toilets"
+    ],
     "contact": {
       "phone": "030 3138088",
       "website": "https://www.berliner-stadtmission.de"
@@ -470,7 +757,7 @@
   },
   {
     "id": 24,
-    "name": "Kleiderkammer (Berliner Stadtmission)",
+    "name": "Kleiderkammer der Berliner Stadtmission",
     "organization": "Berliner Stadtmission e.V.",
     "address": {
       "street": "Lehrter Straße 68",
@@ -479,7 +766,12 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["clothing", "hygiene"],
+    "tags": [
+      "clothing",
+      "hygiene",
+      "kleiderkammern_sachspenden",
+      "bekleidung"
+    ],
     "contact": {
       "phone": "030 69033518",
       "website": "https://www.berliner-stadtmission.de"
@@ -499,7 +791,10 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["hygiene", "laundry"],
+    "tags": [
+      "hygiene",
+      "laundry"
+    ],
     "contact": {
       "phone": "0157 53683825",
       "website": "https://www.berliner-stadtmission.de"
@@ -519,7 +814,10 @@
       "city": "Berlin"
     },
     "location": "Tiergarten",
-    "tags": ["clothing"],
+    "tags": [
+      "clothing",
+      "bekleidung"
+    ],
     "contact": {
       "phone": "030 6003005132",
       "website": "https://www.drk-berlin.de"
@@ -530,23 +828,29 @@
   },
   {
     "id": 27,
-    "name": "Caritas-Ambulanz (medizinische Versorgung für Obdachlose)",
+    "name": "Caritas Ambulanz für Wohnungslose und Nichtversicherte",
     "organization": "Caritasverband für das Erzbistum Berlin e.V.",
     "address": {
-      "street": "Jebensstraße 3",
-      "district": "Charlottenburg-Wilmersdorf",
-      "postalCode": "10623",
+      "street": "Turmstr. 21",
+      "district": "Mitte / Moabit",
+      "postalCode": "10559",
       "city": "Berlin"
     },
     "location": "Charlottenburg / Zoo",
-    "tags": ["medical", "healthcare", "uninsured"],
+    "tags": [
+      "medical",
+      "healthcare",
+      "uninsured",
+      "medizinische_hilfe",
+      "drogengebrauchend"
+    ],
     "contact": {
-      "phone": "030 66633 1642",
+      "phone": "01523 464 40 36",
       "email": "ambulanz@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "Mo–Mi 10:00–14:30 Uhr, Fr 10:00–13:00 Uhr",
-    "description": "Seit 1992 kostenlose, unbürokratische und auf Wunsch anonyme ärztliche und pflegerische Hilfe für obdachlose und nicht-krankenversicherte Menschen. Untersuchungen, Behandlungen, Medikamente, Wundversorgung, Weiterleitung zu sozialen Diensten.",
+    "openingHours": "Ganzjährig | Mo–Mi 10:00–14:00 Uhr, Fr 10:00–14:00 Uhr",
+    "description": "Hausärztliche Versorgung, Medikamentenabgabe, medizinisches Clearing, psychiatrische Sprechstunde, Wundversorgung sowie soziale Arbeit und Sozialberatung.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -560,14 +864,23 @@
       "city": "Berlin"
     },
     "location": "Berlinweit / Mobile",
-    "tags": ["medical", "healthcare", "outreach", "mobile", "uninsured"],
+    "tags": [
+      "medical",
+      "healthcare",
+      "outreach",
+      "mobile",
+      "uninsured",
+      "mobile_hilfe",
+      "medizinische_hilfe",
+      "drogengebrauchend"
+    ],
     "contact": {
-      "phone": "030 666331641",
+      "phone": "0172 30 73 985",
       "email": "arztmobil@caritas-berlin.de",
       "website": "https://www.caritas-arztmobil.de"
     },
-    "openingHours": "Mehrmals wöchentlich an verschiedenen Standorten (Termine auf Website)",
-    "description": "Mobile Arztpraxis, die obdachlose Menschen an Orten aufsucht, an denen sie sich aufhalten. Bietet Untersuchungen, Behandlungen, Wundversorgung und Sozialberatung. Fährt u.a. die Heilig-Kreuz-Kirche (Mo 12–15 Uhr) und weitere Tagesstätten an.",
+    "openingHours": "Ganzjährig | Mo–Do 10:00–15:00 Uhr",
+    "description": "Mobile ärztliche Grundversorgung, Wundversorgung und Beratung. Bitte aktuelle Standorte auf der Website beachten.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -581,7 +894,14 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["medical", "dental", "mobile", "uninsured"],
+    "tags": [
+      "medical",
+      "dental",
+      "mobile",
+      "uninsured",
+      "medizinische_hilfe",
+      "mobile_hilfe"
+    ],
     "contact": {
       "phone": "0152 041 86633",
       "email": "m.karakla@caritas-berlin.de",
@@ -602,7 +922,13 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["medical", "healthcare", "recovery_housing", "nursing"],
+    "tags": [
+      "medical",
+      "healthcare",
+      "recovery_housing",
+      "nursing",
+      "medizinische_hilfe"
+    ],
     "contact": {
       "phone": "0152 53000671",
       "email": "krankenwohnung-pflege@caritas-berlin.de",
@@ -623,13 +949,19 @@
       "city": "Berlin"
     },
     "location": "Wilmersdorf",
-    "tags": ["medical", "healthcare", "uninsured", "anonymous"],
+    "tags": [
+      "medical",
+      "healthcare",
+      "uninsured",
+      "anonymous",
+      "medizinische_hilfe"
+    ],
     "contact": {
-      "phone": "030 82722102",
+      "phone": "030 82 72 2600",
       "email": "mmm.berlin@malteser.org",
-      "website": "https://www.malteser.de/standorte/berlin"
+      "website": "https://www.malteser-berlin.de/mmm"
     },
-    "openingHours": "Nach Anfrage",
+    "openingHours": "Ganzjährig | Di–Fr 09:00–14:00 Uhr",
     "description": "Kostenlose medizinische Erstversorgung und Sozialberatung für Menschen ohne Krankenversicherung oder ungültigen Aufenthaltsstatus – anonym, professionell und mit Mitgefühl.",
     "seasonalNote": "Ganzjährig"
   },
@@ -644,19 +976,32 @@
       "city": "Berlin"
     },
     "location": "Mitte",
-    "tags": ["medical", "healthcare", "dental", "legal_aid", "counseling", "food", "clothing", "uninsured"],
+    "tags": [
+      "medical",
+      "healthcare",
+      "dental",
+      "legal_aid",
+      "counseling",
+      "food",
+      "clothing",
+      "uninsured",
+      "medizinische_hilfe",
+      "essen_verpflegung",
+      "bekleidung",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 28884598",
       "email": "info@delatorre-stiftung.de",
       "website": "https://www.delatorre-stiftung.de"
     },
-    "openingHours": "Arztpraxis: Mo, Di, Do 08:00–15:00 Uhr, Mi, Fr 08:00–13:00 Uhr; Augenarzt: Do 09:00–11:00 Uhr",
+    "openingHours": "Ganzjährig | Mo, Di, Do 08:00–14:00 Uhr, Mi, Fr 08:00–13:00 Uhr",
     "description": "Erstes Gesundheitszentrum speziell für obdachlose Menschen in Berlin. Bietet kostenlose medizinische, zahnärztliche, psychologische, soziale und rechtliche Hilfe. Außerdem Essensausgabe und Kleiderkammer.",
     "seasonalNote": "Ganzjährig"
   },
   {
     "id": 33,
-    "name": "Berliner Stadtmission – Medizinische Ambulanz",
+    "name": "Ambulanz der Berliner Stadtmission",
     "organization": "Berliner Stadtmission e.V.",
     "address": {
       "street": "Lehrter Straße 68",
@@ -665,7 +1010,15 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["medical", "healthcare", "outreach"],
+    "tags": [
+      "medical",
+      "healthcare",
+      "outreach",
+      "medizinische_hilfe",
+      "barrierearm",
+      "haustierfreundlich",
+      "bekleidung"
+    ],
     "contact": {
       "phone": "030 69033572",
       "website": "https://www.berliner-stadtmission.de"
@@ -676,7 +1029,7 @@
   },
   {
     "id": 34,
-    "name": "Clearingstelle – Krankenversicherungsvermittlung (Berliner Stadtmission)",
+    "name": "Clearingstelle für nicht krankenversicherte Menschen",
     "organization": "Berliner Stadtmission e.V.",
     "address": {
       "street": "Zinzendorfstraße 18",
@@ -685,13 +1038,20 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["counseling", "social_benefits", "healthcare"],
+    "tags": [
+      "counseling",
+      "social_benefits",
+      "healthcare",
+      "beratung",
+      "medizinische_hilfe"
+    ],
     "contact": {
-      "phone": "030 690335972",
-      "website": "https://www.berliner-stadtmission.de"
+      "phone": "030 690 33 30",
+      "website": "https://www.berliner-stadtmission.de/clearingstelle",
+      "email": "clearingstelle@berliner-stadtmission.de"
     },
-    "openingHours": "Mo, Mi, Do (telefonische Voranmeldung)",
-    "description": "Clearingstelle zur Hilfe für nicht-krankenversicherte Bewohner beim Zugang zu medizinischer Behandlung. Vermittelt und begleitet den Weg zu einem Krankenversicherungsschutz.",
+    "openingHours": "Ganzjährig | Mo, Do 10:00–12:30 Uhr, Mi 13:00–16:30 Uhr",
+    "description": "Beratung für Menschen in Berlin ohne ausreichende Krankenversicherung, inkl. Prüfung von Kostenübernahme und Vermittlung in Behandlung.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -705,13 +1065,18 @@
       "city": "Berlin"
     },
     "location": "Tiergarten",
-    "tags": ["counseling", "housing", "social_benefits"],
+    "tags": [
+      "counseling",
+      "housing",
+      "social_benefits",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 3904740",
       "email": "info@wohnungslos-berlin.de",
       "website": "https://www.wohnungslos-berlin.de"
     },
-    "openingHours": "Offene Sprechstunde: Mo, Di, Do 09:00–12:00 Uhr; Briefpost: Mo–Fr 09:00–12:00 Uhr, Mo auch 13:00–15:00 Uhr",
+    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 09:00–12:00 Uhr, Anmeldung bis 11:30 Uhr",
     "description": "Seit 1979 zentrale Anlaufstelle für Menschen ohne Wohnung oder mit drohender Wohnungslosigkeit. Beratung auf Deutsch und Englisch. Vermittlung in Notunterkünfte und weiterführende Hilfen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -726,7 +1091,12 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["counseling", "housing", "social_benefits"],
+    "tags": [
+      "counseling",
+      "housing",
+      "social_benefits",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 66633390",
       "email": "awh-am-mehringdamm@caritas-berlin.de",
@@ -738,28 +1108,39 @@
   },
   {
     "id": 37,
-    "name": "Caritas Notübernachtung Residenzstraße (Reinickendorf)",
+    "name": "Caritas Kältehilfe Residenzstraße",
     "organization": "Caritasverband für das Erzbistum Berlin e.V.",
     "address": {
-      "street": "Residenzstraße",
+      "street": "Residenzstr. 90",
       "district": "Reinickendorf",
       "postalCode": "13409",
       "city": "Berlin"
     },
     "location": "Reinickendorf",
-    "tags": ["shelter", "night_shelter", "food", "hygiene"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "food",
+      "hygiene",
+      "notuebernachtungen",
+      "notuebernachtungen_maenner",
+      "maenner",
+      "schlafplatz",
+      "essen_verpflegung"
+    ],
     "contact": {
-      "phone": "030 3904740",
-      "website": "https://www.caritas-berlin.de"
+      "phone": "0172 39 27 384",
+      "website": "https://www.caritas-berlin.de",
+      "email": "kaeltehilfe@caritas-berlin.de"
     },
-    "openingHours": "Kältehilfesaison (Nov.–Apr.)",
-    "description": "Kältehilfe-Notübernachtung für obdachlose Männer in der Residenzstraße in Reinickendorf.",
+    "openingHours": "Nov. bis März | täglich 19:30–07:30 Uhr, letzter Einlass 21:30 Uhr",
+    "description": "Saisonale Caritas-Notübernachtung für Männer in Reinickendorf.",
     "seasonalNote": "Kältehilfesaison"
   },
   {
     "id": 38,
-    "name": "Fixpunkt e.V. – SKA Kontaktstelle mit Drogenkonsumraum",
-    "organization": "Fixpunkt e.V.",
+    "name": "SKA – Kontaktstelle mit integriertem Drogenkonsumraum",
+    "organization": "Fixpunkt gGmbH",
     "address": {
       "street": "Reichenberger Straße 131",
       "district": "Friedrichshain-Kreuzberg",
@@ -767,7 +1148,19 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["drug_counseling", "harm_reduction", "healthcare", "counseling"],
+    "tags": [
+      "drug_counseling",
+      "harm_reduction",
+      "healthcare",
+      "counseling",
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "medizinische_hilfe",
+      "essen_verpflegung",
+      "haustierfreundlich",
+      "barrierearm",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 6146099",
       "email": "verein@fixpunkt.org",
@@ -788,7 +1181,14 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["drug_counseling", "harm_reduction", "healthcare", "counseling"],
+    "tags": [
+      "drug_counseling",
+      "harm_reduction",
+      "healthcare",
+      "counseling",
+      "medizinische_hilfe",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 6167558 87",
       "email": "verein@fixpunkt.org",
@@ -809,7 +1209,12 @@
       "city": "Berlin"
     },
     "location": "Friedrichshain",
-    "tags": ["housing", "counseling", "long_term_support"],
+    "tags": [
+      "housing",
+      "counseling",
+      "long_term_support",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 29360695",
       "website": "https://housingfirst.berlin"
@@ -829,7 +1234,12 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["transitional_housing", "counseling", "long_term_support"],
+    "tags": [
+      "transitional_housing",
+      "counseling",
+      "long_term_support",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 690333131",
       "website": "https://www.berliner-stadtmission.de"
@@ -849,7 +1259,11 @@
       "city": "Berlin"
     },
     "location": "Mitte",
-    "tags": ["legal_aid", "counseling"],
+    "tags": [
+      "legal_aid",
+      "counseling",
+      "beratung"
+    ],
     "contact": {
       "website": "https://www.rechtsambulanz.de"
     },
@@ -868,7 +1282,11 @@
       "city": "Berlin"
     },
     "location": "Mitte",
-    "tags": ["legal_aid", "counseling"],
+    "tags": [
+      "legal_aid",
+      "counseling",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 28884598",
       "email": "info@delatorre-stiftung.de",
@@ -889,7 +1307,13 @@
       "city": "Berlin"
     },
     "location": "Charlottenburg",
-    "tags": ["housing", "counseling", "social_benefits"],
+    "tags": [
+      "housing",
+      "counseling",
+      "social_benefits",
+      "fachstellen_soziale_wohnhilfe",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 902911771",
       "email": "soz-wohnen@charlottenburg-wilmersdorf.de",
@@ -910,7 +1334,13 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["housing", "counseling", "social_benefits"],
+    "tags": [
+      "housing",
+      "counseling",
+      "social_benefits",
+      "fachstellen_soziale_wohnhilfe",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 902981771",
       "email": "soz-wohnen@ba-fk.berlin.de",
@@ -931,7 +1361,15 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["youth_shelter", "counseling", "outreach", "night_shelter"],
+    "tags": [
+      "youth_shelter",
+      "counseling",
+      "outreach",
+      "night_shelter",
+      "jugendliche",
+      "beratung",
+      "schlafplatz"
+    ],
     "contact": {
       "phone": "030 61006800",
       "website": "https://www.kub-berlin.de"
@@ -951,7 +1389,14 @@
       "city": "Berlin"
     },
     "location": "Charlottenburg",
-    "tags": ["youth_shelter", "counseling", "emergency", "24h"],
+    "tags": [
+      "youth_shelter",
+      "counseling",
+      "emergency",
+      "24h",
+      "jugendliche",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 610062",
       "email": "info@jugendnotdienst-berlin.de",
@@ -963,7 +1408,7 @@
   },
   {
     "id": 48,
-    "name": "Heilsarmee – Café Treffpunkt (Wärmestube)",
+    "name": "Café Treffpunkt",
     "organization": "Die Heilsarmee in Deutschland",
     "address": {
       "street": "Kuglerstraße 11",
@@ -972,7 +1417,21 @@
       "city": "Berlin"
     },
     "location": "Prenzlauer Berg",
-    "tags": ["day_center", "food", "hygiene", "counseling", "clothing", "laundry"],
+    "tags": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "laundry",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm",
+      "haustierfreundlich",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 53842392",
       "email": "berlin-prenzlauerberg@heilsarmee.de",
@@ -993,7 +1452,13 @@
       "city": "Berlin"
     },
     "location": "Friedenau",
-    "tags": ["transitional_housing", "counseling", "long_term_support", "mental_health"],
+    "tags": [
+      "transitional_housing",
+      "counseling",
+      "long_term_support",
+      "mental_health",
+      "beratung"
+    ],
     "contact": {
       "website": "https://www.heilsarmee.de/williamboothhaus"
     },
@@ -1003,7 +1468,7 @@
   },
   {
     "id": 50,
-    "name": "Suppenküche Franziskanerkloster Pankow",
+    "name": "Suppenküche der Franziskaner",
     "organization": "Franziskanerkloster Berlin-Pankow",
     "address": {
       "street": "Wollankstraße 19",
@@ -1012,7 +1477,17 @@
       "city": "Berlin"
     },
     "location": "Pankow",
-    "tags": ["food", "soup_kitchen", "clothing", "hygiene", "counseling"],
+    "tags": [
+      "food",
+      "soup_kitchen",
+      "clothing",
+      "hygiene",
+      "counseling",
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 48839660",
       "email": "suppenkueche@franziskaner.de",
@@ -1033,17 +1508,21 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["food", "soup_kitchen"],
+    "tags": [
+      "food",
+      "soup_kitchen",
+      "essen_verpflegung"
+    ],
     "contact": {
       "phone": "030 6126408"
     },
-    "openingHours": "Mo–Di 15:00–16:00 Uhr, Fr–So 15:00–16:30 Uhr, Mi und Do geschlossen",
+    "openingHours": "Ganzjährig | Mo, Fr, Sa 14:00–16:00 Uhr",
     "description": "Seit 1984 betriebene Suppenküche der Schwestern der Mutter Teresa in Kreuzberg. Vier Schwestern versorgen täglich 90–120 bedürftige und obdachlose Menschen mit warmen Mahlzeiten.",
     "seasonalNote": "Ganzjährig"
   },
   {
     "id": 52,
-    "name": "Wärmestube Heilig-Kreuz-Kirche",
+    "name": "Wärmestube der Ev. Kirchengemeinde vor dem Halleschen Tor",
     "organization": "Evangelische Kirchengemeinde Heilig Kreuz-Passion",
     "address": {
       "street": "Zossener Straße 65",
@@ -1052,11 +1531,23 @@
       "city": "Berlin"
     },
     "location": "Kreuzberg",
-    "tags": ["day_center", "food", "clothing", "medical", "community"],
+    "tags": [
+      "day_center",
+      "food",
+      "clothing",
+      "medical",
+      "community",
+      "essen_verpflegung",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "barrierearm",
+      "bekleidung",
+      "medizinische_hilfe"
+    ],
     "contact": {
       "website": "https://www.heiligkreuzpassion.de"
     },
-    "openingHours": "Mi 12:00–15:00 Uhr (Mitte Oktober bis April)",
+    "openingHours": "15. Okt. bis 08. Apr. | Mi 12:00–15:00 Uhr",
     "description": "Wärmestube in der Heilig-Kreuz-Kirche als Treffpunkt für obdachlose und einkommensarme Menschen. Kostenloser Kaffee, Tee, Brote und Suppe. Kleider- und Buchspenden. Ab 13 Uhr Caritas-Arztmobil vor der Kirche.",
     "seasonalNote": "Oktober bis April"
   },
@@ -1071,7 +1562,16 @@
       "city": "Berlin"
     },
     "location": "Prenzlauer Berg",
-    "tags": ["shelter", "night_shelter", "food", "community"],
+    "tags": [
+      "shelter",
+      "night_shelter",
+      "food",
+      "community",
+      "nachtcafes",
+      "schlafplatz",
+      "alle_geschlechter",
+      "essen_verpflegung"
+    ],
     "contact": {
       "email": "nachtcafeherzjesu@gmail.com",
       "website": "https://www.bernhard-lichtenberg.berlin"
@@ -1082,7 +1582,7 @@
   },
   {
     "id": 54,
-    "name": "Berliner Obdachlosenhilfe e.V.",
+    "name": "Hilfstouren der Berliner Obdachlosenhilfe e.V.",
     "organization": "Berliner Obdachlosenhilfe e.V.",
     "address": {
       "street": "Lynarstraße 38",
@@ -1091,14 +1591,22 @@
       "city": "Berlin"
     },
     "location": "Wedding",
-    "tags": ["outreach", "food", "clothing", "hygiene"],
+    "tags": [
+      "outreach",
+      "food",
+      "clothing",
+      "hygiene",
+      "essen_verpflegung",
+      "bekleidung",
+      "mobile_hilfe"
+    ],
     "contact": {
       "phone": "030 23544217",
       "email": "kontakt@berliner-obdachlosenhilfe.de",
       "website": "https://www.berliner-obdachlosenhilfe.de"
     },
-    "openingHours": "4 Tage wöchentlich (Website für aktuelle Touren)",
-    "description": "Gemeinnütziger Verein (seit 2013) mit regelmäßigen Hilfseinsätzen auf den Straßen Berlins (Wedding, Mitte, Kreuzberg, Moabit). Verteilt warmes Essen, Getränke, Kleidung, Schlafsäcke, Hygieneartikel und bietet ein offenes Ohr.",
+    "openingHours": "Ganzjährig | Mi, Sa, So an wechselnden Standorten und Uhrzeiten",
+    "description": "Verteilung von warmem Essen, Getränken und Kleidung direkt auf der Straße; Ausgabe nicht am Vereinssitz.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -1112,7 +1620,12 @@
       "city": "Berlin"
     },
     "location": "Moabit",
-    "tags": ["counseling", "eu_citizens", "multilingual"],
+    "tags": [
+      "counseling",
+      "eu_citizens",
+      "multilingual",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 690335042",
       "website": "https://www.berliner-stadtmission.de"
@@ -1132,7 +1645,15 @@
       "city": "Berlin"
     },
     "location": "Lichtenberg",
-    "tags": ["counseling", "housing", "lgbtiq", "long_term_support"],
+    "tags": [
+      "counseling",
+      "housing",
+      "lgbtiq",
+      "long_term_support",
+      "barrierearm",
+      "haustierfreundlich",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 65867861",
       "website": "https://www.schwulenberatungberlin.de"
@@ -1152,7 +1673,15 @@
       "city": "Berlin"
     },
     "location": "Friedrichshain",
-    "tags": ["shelter", "lgbtiq", "women_specific", "counseling", "crisis_housing"],
+    "tags": [
+      "shelter",
+      "lgbtiq",
+      "women_specific",
+      "counseling",
+      "crisis_housing",
+      "schlafplatz",
+      "beratung"
+    ],
     "contact": {
       "phone": "0176 16048496",
       "email": "lsbti-krisenwohnung@awo-spree-wuhle.de",
@@ -1164,7 +1693,7 @@
   },
   {
     "id": 58,
-    "name": "Stiftung SPI – Treffpunkt Strohhalm",
+    "name": "Treffpunkt Strohhalm",
     "organization": "Stiftung SPI (Sozialpädagogisches Institut Berlin)",
     "address": {
       "street": "Spreestraße 8",
@@ -1172,15 +1701,26 @@
       "postalCode": "12439",
       "city": "Berlin"
     },
-    "location": "Niederschöneweide",
-    "tags": ["counseling", "day_center", "housing", "social_support"],
+    "location": "Treptow-Köpenick / Niederschöneweide",
+    "tags": [
+      "counseling",
+      "day_center",
+      "housing",
+      "social_support",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 53014387",
       "email": "treff-strohhalm@gwb.stiftung-spi.de",
       "website": "https://www.stiftung-spi.de"
     },
-    "openingHours": "Nach Website",
-    "description": "Kontakt- und Beratungsstelle für Menschen mit Wohnungsschwierigkeiten im Bezirk Treptow-Köpenick. Anonyme und kostenfreie Beratung. Stationäre Unterkunft mit niedrigschwelliger sozialtherapeutischer Betreuung (Haus Strohhalm).",
+    "openingHours": "Ganzjährig | Mo–Do 08:00–15:30 Uhr, Fr 08:00–14:00 Uhr",
+    "description": "Treffpunkt mit Frühstück, Mittagessen, Kleiderkammer und Beratung; Angebot nicht kostenfrei.",
     "seasonalNote": "Ganzjährig"
   },
   {
@@ -1194,7 +1734,16 @@
       "city": "Berlin"
     },
     "location": "Berlinweit / Mobile",
-    "tags": ["hygiene", "showers", "women_only", "outreach", "mobile"],
+    "tags": [
+      "hygiene",
+      "showers",
+      "women_only",
+      "outreach",
+      "mobile",
+      "mobile_hilfe",
+      "frauen",
+      "bekleidung"
+    ],
     "contact": {
       "phone": "0151 14648756",
       "website": "https://skf-berlin.de"
@@ -1205,7 +1754,7 @@
   },
   {
     "id": 60,
-    "name": "Evas Haltestelle – Wärmeraum für Frauen (SKF Berlin)",
+    "name": "Tagesstätte Evas Haltestelle",
     "organization": "Sozialdienst katholischer Frauen e.V. Berlin",
     "address": {
       "street": "Müllerstraße 48",
@@ -1214,7 +1763,20 @@
       "city": "Berlin"
     },
     "location": "Wedding",
-    "tags": ["day_center", "women_only", "food", "hygiene", "counseling"],
+    "tags": [
+      "day_center",
+      "women_only",
+      "food",
+      "hygiene",
+      "counseling",
+      "tagesangebote",
+      "tagesaufenthalt",
+      "frauen",
+      "essen_verpflegung",
+      "bekleidung",
+      "beratung",
+      "barrierearm"
+    ],
     "contact": {
       "phone": "030 4623279",
       "website": "https://skf-berlin.de"
@@ -1234,7 +1796,13 @@
       "city": "Berlin"
     },
     "location": "Charlottenburg / Zoo",
-    "tags": ["counseling", "outreach", "community", "social_support"],
+    "tags": [
+      "counseling",
+      "outreach",
+      "community",
+      "social_support",
+      "beratung"
+    ],
     "contact": {
       "phone": "030 315173380",
       "website": "https://www.berliner-stadtmission.de/zentrum-am-zoo"
@@ -1254,12 +1822,2173 @@
       "city": "Berlin"
     },
     "location": "Mitte",
-    "tags": ["medical", "healthcare", "alternative_medicine", "uninsured"],
+    "tags": [
+      "medical",
+      "healthcare",
+      "alternative_medicine",
+      "uninsured",
+      "medizinische_hilfe"
+    ],
     "contact": {
       "phone": "030 23112527"
     },
     "openingHours": "Do 15:00–18:00 Uhr",
     "description": "Kostenlose Akupunktur und Kräutertherapie für einkommensschwache Patienten (einschließlich Obdachlose) durch das TCM-Zentrum des St. Hedwig-Krankenhauses.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 63,
+    "name": "Notübernachtung DRK-Nachtlicht",
+    "organization": "DRK Berlin-Zentrum",
+    "address": {
+      "street": "Wrangelstr. 30",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10997",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "frauen",
+      "schlafplatz",
+      "essen_verpflegung"
+    ],
+    "contact": {
+      "phone": "0162 279 55 39",
+      "email": "nachtlicht@drk-berlin-zentrum.de",
+      "website": "https://www.drk-berlin-zentrum.de"
+    },
+    "openingHours": "Okt. bis Apr. | täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "description": "Notübernachtung für Frauen in Kreuzberg. Kälte- bzw. Wärmebus nach telefonischer Absprache bis 24:00 Uhr.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 64,
+    "name": "Notübernachtung Evas Haltestelle",
+    "organization": "SKF Berlin",
+    "address": {
+      "street": "Müllerstr. 126",
+      "district": "Mitte / Wedding",
+      "postalCode": "13349",
+      "city": "Berlin"
+    },
+    "location": "Wedding",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "frauen",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "030 46 23 279",
+      "email": "evashaltestelle@skf-berlin.de",
+      "website": "https://www.skf-berlin.de"
+    },
+    "openingHours": "Okt. bis Apr. | täglich 18:00–08:00 Uhr, letzter Einlass 20:00 Uhr",
+    "description": "Saisonale Notübernachtung für Frauen in Wedding. Kälte- bzw. Wärmebus kann bis 22:00 Uhr kommen.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 65,
+    "name": "Notübernachtung Marie",
+    "organization": "Köppjohann",
+    "address": {
+      "street": "Tieckstr. 17",
+      "district": "Mitte",
+      "postalCode": "10115",
+      "city": "Berlin"
+    },
+    "location": "Mitte",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "frauen",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 40 00 62 09",
+      "email": "notuebernachtung@koepjohann.de",
+      "website": "https://www.koepjohann.de"
+    },
+    "openingHours": "Ganzjährig | Mo, Fr, Sa 19:00–08:00 Uhr; Di 15:00–08:00 Uhr; So 19:00–12:00 Uhr",
+    "description": "Ganzjährige Notübernachtung für Frauen in Mitte. Kälte- bzw. Wärmebus nach telefonischer Absprache bis 03:00 Uhr.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 66,
+    "name": "Notübernachtung Herberge zur Heimat",
+    "organization": "Herberge zur Heimat e.V.",
+    "address": {
+      "street": "Falkenseer Chaussee 154",
+      "district": "Spandau",
+      "postalCode": "13589",
+      "city": "Berlin"
+    },
+    "location": "Spandau",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "notuebernachtungen_maenner",
+      "frauen",
+      "maenner",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 37 49 90 50",
+      "email": "jeffrey.loehrke@hzh-ev.de",
+      "website": "https://www.hzh-ev.de"
+    },
+    "openingHours": "Okt. bis Apr. | täglich 18:00–08:00 Uhr, letzter Einlass 24:00 Uhr",
+    "description": "Saisonale Notübernachtung in Spandau. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 67,
+    "name": "Notübernachtung am Rathaus Steglitz",
+    "organization": "Neue Chance Berlin",
+    "address": {
+      "street": "Kuhligkshofstr. 5",
+      "district": "Steglitz-Zehlendorf",
+      "postalCode": "12165",
+      "city": "Berlin"
+    },
+    "location": "Steglitz",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_frauen",
+      "notuebernachtungen_maenner",
+      "frauen",
+      "maenner",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "bekleidung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "0178 88 77 729",
+      "email": "kaeltehilfe@neuechance.berlin",
+      "website": "https://www.neuechance.berlin"
+    },
+    "openingHours": "Nov. bis Apr. | täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "description": "Saisonale Notübernachtung am Rathaus Steglitz. Tiere erlaubt, aber nur zwei pro Abend.",
+    "seasonalNote": "November bis April"
+  },
+  {
+    "id": 68,
+    "name": "Notübernachtung St. Pius / St. Nikolaus",
+    "organization": "Brot des Lebens",
+    "address": {
+      "street": "Palisadenstr. 72",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10243",
+      "city": "Berlin"
+    },
+    "location": "Friedrichshain",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_maenner",
+      "maenner",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung"
+    ],
+    "contact": {
+      "phone": "030 53 21 93 33",
+      "email": "notuebernachtung@brotdeslebens.net",
+      "website": "https://www.notuebernachtung.brotdeslebens.net"
+    },
+    "openingHours": "Okt. bis Apr. | täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "description": "Saisonale Notübernachtung für Männer in Friedrichshain. Im Oktober und April nur 15 Plätze.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 69,
+    "name": "Notübernachtung St. Marien – Liebfrauen",
+    "organization": "Bernhard-Lichtenberg-Gemeinde",
+    "address": {
+      "street": "Wrangelstr. 50",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10997",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_maenner",
+      "maenner",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung"
+    ],
+    "contact": {
+      "phone": "030 61 12 93 24",
+      "email": "pfarrbuero@bernhard-lichtenberg.berlin",
+      "website": "https://www.bernhard-lichtenberg.berlin"
+    },
+    "openingHours": "Nov. bis März | täglich 19:30–08:00 Uhr, letzter Einlass 21:30 Uhr",
+    "description": "Saisonale Notübernachtung für Männer in Kreuzberg.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 70,
+    "name": "Kubus Kältehilfe",
+    "organization": "KuB Berlin / Kubus",
+    "address": {
+      "street": "Teupitzer Str. 39",
+      "district": "Neukölln",
+      "postalCode": "12059",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_maenner",
+      "maenner",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 81 03 35 161",
+      "email": "kaeltehilfe@kubus-berlin.de",
+      "website": "https://www.kubus-berlin.de"
+    },
+    "openingHours": "Okt. bis Apr. | täglich 19:00–07:00 Uhr, letzter Einlass 22:00 Uhr",
+    "description": "Saisonale Kältehilfe für Männer in Neukölln mit Wasch- und Duschmöglichkeiten sowie Waschmaschine für private Kleidung.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 71,
+    "name": "Notübernachtung Haus Sophie",
+    "organization": "Merkur Berlin",
+    "address": {
+      "street": "Wollenberger Str. 10",
+      "district": "Lichtenberg",
+      "postalCode": "13053",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_maenner",
+      "maenner",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "030 98 69 47 01",
+      "email": "m.e@merkurberlin.de",
+      "website": "https://www.merkurberlin.de"
+    },
+    "openingHours": "Okt. bis Apr. | täglich 17:00–08:00 Uhr",
+    "description": "Saisonale Notübernachtung für Männer in Lichtenberg.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 72,
+    "name": "Notübernachtung für wohnungslose Familien (EJF)",
+    "organization": "EJF",
+    "address": {
+      "street": "Am Bärensprung 52/56",
+      "district": "Reinickendorf",
+      "postalCode": "13503",
+      "city": "Berlin"
+    },
+    "location": "Reinickendorf",
+    "tags": [
+      "notuebernachtungen",
+      "notuebernachtungen_familien",
+      "familien",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "0175 188 51 03",
+      "email": "notuebernachtung@ejf.de",
+      "website": "https://www.ejf.de"
+    },
+    "openingHours": "Ganzjährig | täglich, ganztägig; letzter Einlass nach Absprache die ganze Nacht",
+    "description": "Notübernachtung für wohnungslose Familien, schwangere Frauen sowie Alleinerziehende mit Kindern in Reinickendorf.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 73,
+    "name": "Nachtcafé Luisen",
+    "organization": "Evangelische Kirche Charlottenburg-Wilmersdorf",
+    "address": {
+      "street": "Gierkeplatz 4",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "10585",
+      "city": "Berlin"
+    },
+    "location": "Charlottenburg",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "alle_geschlechter",
+      "essen_verpflegung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "0177 27 03 869",
+      "email": "m.rosinski@t-online.de"
+    },
+    "openingHours": "3. Nov. bis 30. März | Mo 22:00–07:00 Uhr, letzter Einlass 24:00 Uhr",
+    "description": "Nachtcafé in Charlottenburg; Barrierefreiheit eingeschränkt.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 74,
+    "name": "Notübernachtung und Wärmestube Arche",
+    "organization": "Arche",
+    "address": {
+      "street": "Plesser Str. 3",
+      "district": "Treptow-Köpenick",
+      "postalCode": "12435",
+      "city": "Berlin"
+    },
+    "location": "Treptow",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "030 53 37 104",
+      "email": "arche.waermestube@gmail.com"
+    },
+    "openingHours": "Okt. bis Apr. | Mo–Fr und So 19:00–08:00 Uhr, letzter Einlass 21:30 Uhr",
+    "description": "Kombiniertes Nachtcafé und Wärmestube in Treptow mit zusätzlichen Essensplätzen von 19:00 bis 21:00 Uhr.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 75,
+    "name": "Nachtcafé der Ev. Tabor-Kirchengemeinde",
+    "organization": "Ev. Tabor-Kirchengemeinde",
+    "address": {
+      "street": "Taborstr. 17",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10997",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "haustierfreundlich",
+      "medizinische_hilfe"
+    ],
+    "contact": {
+      "phone": "030 61 28 58 33",
+      "email": "kuesterei@evtaborgemeinde.de",
+      "website": "https://www.evtaborgemeinde.de"
+    },
+    "openingHours": "14. Okt. bis 29. Apr. | Di 21:30–07:00 Uhr, letzter Einlass 23:00 Uhr",
+    "description": "Nachtcafé in Kreuzberg; kein Alkohol, keine Drogen.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 76,
+    "name": "Nachtcafé Zum Guten Hirten",
+    "organization": "Zum Guten Hirten",
+    "address": {
+      "street": "Goßlerstr. 30",
+      "district": "Steglitz-Zehlendorf",
+      "postalCode": "12161",
+      "city": "Berlin"
+    },
+    "location": "Friedenau",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "0152 571 87 272",
+      "email": "nachtcafe@zgh-friedenau.de"
+    },
+    "openingHours": "28. Okt. bis 30. Apr. | Di–Fr 20:30–08:00 Uhr, letzter Einlass 22:30 Uhr",
+    "description": "Nachtcafé in Friedenau. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 77,
+    "name": "Kälteschutz im Mehringhof",
+    "organization": "Kälteschutz im Mehringhof",
+    "address": {
+      "street": "Gneisenaustr. 2a",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10961",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "030 12 05 35 822",
+      "email": "kaelteschutz@riseup.net",
+      "website": "https://www.kaelteschutz-mehringhof.de"
+    },
+    "openingHours": "30. Okt. bis 02. Apr. | Do 20:00–09:00 Uhr",
+    "description": "Kälteschutz im Mehringhof mit Gepäckverwahrung und ggf. separatem FLINTA*-Raum; nicht barrierefrei.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 78,
+    "name": "Unter Druck – Kultur von der Straße e.V.",
+    "organization": "Unter Druck – Kultur von der Straße e.V.",
+    "address": {
+      "street": "Oudenarder Str. 26",
+      "district": "Mitte / Wedding",
+      "postalCode": "13347",
+      "city": "Berlin"
+    },
+    "location": "Wedding",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "bekleidung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "030 24 72 90 40",
+      "email": "unterdruck@t-online.de",
+      "website": "https://www.unter-druck.de"
+    },
+    "openingHours": "6. Nov. bis 26. März | Do 19:00–08:00 Uhr, Einlass bis 07:00 Uhr",
+    "description": "Nachtcafé in Wedding. Hunde willkommen; kein Alkohol, keine Gewalt, keine Drogen.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 79,
+    "name": "Nachtcafé der Martin-Luther-Gemeinde Neukölln",
+    "organization": "Martin-Luther-Gemeinde Neukölln",
+    "address": {
+      "street": "Fuldastr. 50",
+      "district": "Neukölln",
+      "postalCode": "12045",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "essen_verpflegung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "030 60 97 74 928",
+      "email": "info@mlg-neukoelln.de",
+      "website": "https://www.mlg-neukoelln.de"
+    },
+    "openingHours": "7. Nov. bis 27. März | Fr 20:00–08:00 Uhr, letzter Einlass 23:00 Uhr",
+    "description": "Nachtcafé in Neukölln ohne Aufzug; kein Alkohol, keine Drogen, keine Tiere.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 80,
+    "name": "Nachtcafé Fürbitt-Melanchthon",
+    "organization": "Ev. Kirchengemeinde Fürbitt-Melanchthon",
+    "address": {
+      "street": "Kranoldstr. 16",
+      "district": "Neukölln",
+      "postalCode": "12051",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 625 3002",
+      "email": "kurt.niedtner@evangelisch-neukoelln.de"
+    },
+    "openingHours": "1. Nov. bis 14. März | Sa 21:30–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "description": "Samstägliches Nachtcafé mit Rollstuhlzugang in Neukölln.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 81,
+    "name": "Nachtcafé Neu Westend",
+    "organization": "Evangelische Kirche Charlottenburg-Wilmersdorf",
+    "address": {
+      "street": "Eichenallee 47–53",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "14050",
+      "city": "Berlin"
+    },
+    "location": "Westend",
+    "tags": [
+      "nachtcafes",
+      "schlafplatz",
+      "hygiene",
+      "essen_verpflegung",
+      "medizinische_hilfe",
+      "frauen",
+      "maenner"
+    ],
+    "contact": {
+      "phone": "030 30 42 007",
+      "email": "kaeltehilfe@cw-evangelisch.de",
+      "website": "https://www.cw-evangelisch.de"
+    },
+    "openingHours": "Nov. bis März | So 19:30–07:30 Uhr, Einlass die ganze Nacht",
+    "description": "Sonntägliches Nachtcafé in Westend mit Plätzen für Frauen und Männer.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 82,
+    "name": "Caritas-Wärmestube",
+    "organization": "Caritas Berlin",
+    "address": {
+      "street": "Tübinger Str. 5",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "10715",
+      "city": "Berlin"
+    },
+    "location": "Wilmersdorf",
+    "tags": [
+      "tagesangebote",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "haustierfreundlich",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "0173 259 44 14",
+      "email": "waermestube@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de"
+    },
+    "openingHours": "3. Nov. bis 31. März | Mo–Fr 15:00–18:00 Uhr",
+    "description": "Tagesangebot und Wärmestube der Caritas in Wilmersdorf.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 83,
+    "name": "Unterschlupf e.V.",
+    "organization": "Unterschlupf e.V.",
+    "address": {
+      "street": "Wrangelstr. 30",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10997",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "tagesangebote",
+      "tagesaufenthalt",
+      "hygiene",
+      "essen_verpflegung",
+      "bekleidung",
+      "frauen"
+    ],
+    "contact": {
+      "phone": "0151 23 30 61 37",
+      "email": "frauen-projekt.unterschlupf@web.de"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 09:00–17:30 Uhr",
+    "description": "Tagesangebot für Frauen und alle, die sich weiblich definieren, einschließlich Transfrauen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 84,
+    "name": "Straßenkinder e.V.",
+    "organization": "Straßenkinder e.V.",
+    "address": {
+      "street": "Warschauerstr. 17",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10243",
+      "city": "Berlin"
+    },
+    "location": "Friedrichshain",
+    "tags": [
+      "tagesangebote",
+      "tagesaufenthalt",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "haustierfreundlich",
+      "jugendliche"
+    ],
+    "contact": {
+      "phone": "0157 77 37 45 15 / 0157 77 37 45 45 / 030 64 49 82 31",
+      "email": "streetwork@strassenkinder-ev.de",
+      "website": "https://www.strassenkinder-ev.de"
+    },
+    "openingHours": "Ganzjährig | Mo, Mi, Fr 12:00–16:00 Uhr",
+    "description": "Anlaufstelle, Streetwork und Essensausgabe für Menschen bis 27 Jahre.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 85,
+    "name": "AWO Kiez-Café",
+    "organization": "AWO Spree-Wuhle",
+    "address": {
+      "street": "Petersburger Str. 92",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10247",
+      "city": "Berlin"
+    },
+    "location": "Friedrichshain",
+    "tags": [
+      "tagesangebote",
+      "tagesaufenthalt",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "drogengebrauchend",
+      "jugendliche",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "030 29 35 05 56",
+      "email": "kiez-cafe@awo-spree-wuhle.de",
+      "website": "https://www.awo-spree-wuhle.de"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 10:00–16:00 Uhr",
+    "description": "Tagesangebot in Friedrichshain mit Beratung, Essen und ergänzenden Angeboten für Jugendliche.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 86,
+    "name": "Bahnhofsmission in Via – Berlin Ostbahnhof",
+    "organization": "Bahnhofsmission",
+    "address": {
+      "street": "Erich-Steinfurth-Str. 8 / S-Bahnbogen 8",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10243",
+      "city": "Berlin"
+    },
+    "location": "Ostbahnhof",
+    "tags": [
+      "tagesangebote",
+      "hygiene",
+      "essen_verpflegung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 29 72 01 75",
+      "email": "berlin-ostbahnhof@bahnhofsmission.de",
+      "website": "https://www.bahnhofsmission-berlin-ostbahnhof.de"
+    },
+    "openingHours": "Ganzjährig | täglich 08:30–12:00 Uhr und 14:00–16:00 Uhr",
+    "description": "Bahnhofsmission am Ostbahnhof mit Hygiene- und Verpflegungsangeboten.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 87,
+    "name": "Zentrum Gitschiner 15",
+    "organization": "Kirchengemeinde Heilig Kreuz-Passion",
+    "address": {
+      "street": "Gitschiner Str. 15",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10969",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "tagesangebote",
+      "tagesaufenthalt",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "0160 79 83 456",
+      "email": "gitschiner15@kght.de",
+      "website": "https://www.gitschiner15.de"
+    },
+    "openingHours": "Ganzjährig | Mo–Mi 10:00–16:00 Uhr, Do 12:00–16:00 Uhr, Fr 09:00–15:00 Uhr",
+    "description": "Tagesangebot mit kostenlosem Mittagessen an mehreren Tagen sowie ergänzenden medizinischen Angeboten.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 88,
+    "name": "Tagestreff für Wohnungslose und Bedürftige (Weitlingstraße)",
+    "organization": "Humanistischer Verband Berlin-Brandenburg",
+    "address": {
+      "street": "Weitlingstr. 11",
+      "district": "Lichtenberg",
+      "postalCode": "10317",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "tagesangebote",
+      "tagesaufenthalt",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "medizinische_hilfe"
+    ],
+    "contact": {
+      "email": "info.tt@hvd-bb.de",
+      "website": "https://www.humanistisch.de/tagestreff"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 08:00–13:00 Uhr, Sa/So 09:30–15:30 Uhr",
+    "description": "Tagestreff mit Essensangebot, Beratung und medizinischen Sprechstunden in Lichtenberg.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 89,
+    "name": "Frauen*Treffpunkt Sophie",
+    "organization": "Köppjohann",
+    "address": {
+      "street": "Albrechtstr. 15",
+      "district": "Mitte",
+      "postalCode": "10117",
+      "city": "Berlin"
+    },
+    "location": "Mitte / Friedrichstraße",
+    "tags": [
+      "tagesangebote",
+      "tagesaufenthalt",
+      "frauen",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "030 23 59 39 758",
+      "email": "sophie@koepjohann.de",
+      "website": "https://www.koepjohann.de/sophie"
+    },
+    "openingHours": "Ganzjährig | Mo–Do 10:00–14:00 Uhr, So/Feiertage 10:00–15:00 Uhr",
+    "description": "Kostenloses Tagesangebot für wohnungs- und obdachlose Frauen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 90,
+    "name": "Tee- und Wärmestube der Diakonie Neukölln",
+    "organization": "Diakoniewerk Simeon",
+    "address": {
+      "street": "Weisestr. 34",
+      "district": "Neukölln",
+      "postalCode": "12049",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "tagesangebote",
+      "tagesaufenthalt",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 62 22 880",
+      "email": "tuw-nk@diakoniewerk-simeon.de",
+      "website": "https://www.diakoniewerk-simeon.de"
+    },
+    "openingHours": "Ganzjährig | Mo, Mi, So 15:00–19:00 Uhr, Do 09:00–14:00 Uhr",
+    "description": "Tee- und Wärmestube mit Kleiderkammer; dienstags nur für Frauen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 91,
+    "name": "Wohnungslosentagesstätte Schöneberg",
+    "organization": "Unionhilfswerk",
+    "address": {
+      "street": "Gustav-Freytag-Str. 1",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "10827",
+      "city": "Berlin"
+    },
+    "location": "Schöneberg",
+    "tags": [
+      "tagesangebote",
+      "tagesaufenthalt",
+      "hygiene",
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "030 21 17 956",
+      "email": "wota@unionhilfswerk.de",
+      "website": "https://www.unionhilfswerk.de"
+    },
+    "openingHours": "Ganzjährig | Di–So 11:30–17:00 Uhr",
+    "description": "Wohnungslosentagesstätte mit Frühstück und Mittagessen; Wäsche nur mit Termin.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 92,
+    "name": "Suppenküche am Lietzensee",
+    "organization": "Evangelische Kirche Charlottenburg-Wilmersdorf",
+    "address": {
+      "street": "Herbartstr. 4–6",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "14057",
+      "city": "Berlin"
+    },
+    "location": "Charlottenburg",
+    "tags": [
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "030 863 90 99 20",
+      "email": "kaeltehilfe@cw-evangelisch.de",
+      "website": "https://www.cw-evangelisch.de/kaeltehilfe"
+    },
+    "openingHours": "Okt. bis Apr. | Mo–Mi 12:00–13:30 Uhr",
+    "description": "Suppenküche in Charlottenburg.",
+    "seasonalNote": "Oktober bis April"
+  },
+  {
+    "id": 93,
+    "name": "Ei & Chai – An-Nusrat e.V. Berlin (Bahnhof Zoo)",
+    "organization": "An-Nusrat e.V. Berlin",
+    "address": {
+      "street": "Bahnhof Zoo",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Charlottenburg / Zoo",
+    "tags": [
+      "essen_verpflegung",
+      "bekleidung"
+    ],
+    "contact": {
+      "email": "tino.anjum@an-nusrat.de"
+    },
+    "openingHours": "15. Okt. bis 1. März | Fr 19:00–20:30 Uhr",
+    "description": "Mobile Ausgabe von Essen am Bahnhof Zoo.",
+    "seasonalNote": "Oktober bis März"
+  },
+  {
+    "id": 94,
+    "name": "Suppenküche St. Marien",
+    "organization": "St. Marien",
+    "address": {
+      "street": "Bergheimer Str. 1",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "14197",
+      "city": "Berlin"
+    },
+    "location": "Wilmersdorf",
+    "tags": [
+      "essen_verpflegung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 82 79 19 16"
+    },
+    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 12:00–13:30 Uhr",
+    "description": "Suppenküche in Wilmersdorf; Kostenbeitrag 50 Cent.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 95,
+    "name": "Café Krause",
+    "organization": "Johanniter / Café Krause",
+    "address": {
+      "street": "Mariannenplatz 28",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10997",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "essen_verpflegung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "email": "joerge.bellin@johanniter.de"
+    },
+    "openingHours": "4. Nov. bis 27. März | Di–Fr 08:00–10:00 Uhr und 17:00–21:00 Uhr",
+    "description": "Warmer Aufenthalt zum Frühstück und Abendessen mit heißen Getränken.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 96,
+    "name": "Emmaus-Kirche Frühstücksstube",
+    "organization": "Emmaus-Kirche",
+    "address": {
+      "street": "Lausitzer Platz 8a",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10997",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "essen_verpflegung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 61 69 310",
+      "email": "s.wette@evkgk.de",
+      "website": "https://www.evkgk.de"
+    },
+    "openingHours": "Ganzjährig | Mi, Do 10:00–12:00 Uhr",
+    "description": "Frühstücksstube in der Emmaus-Kirche; vom 22.12.2025 bis 12.01.2026 geschlossen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 97,
+    "name": "Dienstagsbistro",
+    "organization": "Bisous NGO",
+    "address": {
+      "street": "Wrangelstr. 50",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10997",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "essen_verpflegung",
+      "bekleidung",
+      "barrierearm",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "email": "info@bisous.ngo"
+    },
+    "openingHours": "Ganzjährig | Di 14:00–15:30 Uhr",
+    "description": "Dienstagsbistro in Kreuzberg.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 98,
+    "name": "Spätcafé Heilandskirche",
+    "organization": "Heilandskirche",
+    "address": {
+      "street": "Thusneldaallee 1",
+      "district": "Mitte / Moabit",
+      "postalCode": "10551",
+      "city": "Berlin"
+    },
+    "location": "Moabit",
+    "tags": [
+      "essen_verpflegung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "email": "i.stramm@ev-gemeinde-tiergarten.de"
+    },
+    "openingHours": "Nov. bis März | Mo, Mi, Do 17:00–20:00 Uhr",
+    "description": "Essensausgabe an der Heilandskirche.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 99,
+    "name": "Wärmestube St. Paulus",
+    "organization": "St. Paulus",
+    "address": {
+      "street": "Oldenburgerstr. 45",
+      "district": "Mitte / Moabit",
+      "postalCode": "10551",
+      "city": "Berlin"
+    },
+    "location": "Moabit",
+    "tags": [
+      "essen_verpflegung"
+    ],
+    "contact": {
+      "email": "waermecafe-paulus@sankt-elisabeth-berlin.de"
+    },
+    "openingHours": "2. Nov. bis 29. März | So 17:00–20:00 Uhr",
+    "description": "Essensausgabe mit warmer Suppe, warmen Getränken und belegten Broten.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 100,
+    "name": "Essen ist fertig – Christophorus",
+    "organization": "Pallotti Mobil",
+    "address": {
+      "street": "Nansenstraße 4–7",
+      "district": "Neukölln",
+      "postalCode": "12047",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "essen_verpflegung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 28 50 29 05",
+      "email": "info@pallotti.mobil.de",
+      "website": "https://www.pallotti-mobil.de/soziales-catering/Essen-ist-fertig"
+    },
+    "openingHours": "9. Sep. bis 30. Juni | Di 13:00–15:30 Uhr, So 13:00–15:30 Uhr",
+    "description": "Essensausgabe in St. Christophorus; dienstags steht dort das Duschmobil für Frauen.",
+    "seasonalNote": "September bis Juni"
+  },
+  {
+    "id": 101,
+    "name": "Wärmestube St. Richard",
+    "organization": "Pallotti Mobil",
+    "address": {
+      "street": "Braunschweiger Str. 18",
+      "district": "Neukölln",
+      "postalCode": "12055",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "essen_verpflegung",
+      "barrierearm"
+    ],
+    "contact": {
+      "email": "Agnes-Maria.Streich@erzbistumberlin.de",
+      "website": "https://www.pallotti-mobil.de/soziales-catering"
+    },
+    "openingHours": "7. Nov. bis 27. März | Fr 16:00–19:30 Uhr",
+    "description": "Wärmestube in Neukölln mit Gesprächsangebot und anschließendem Gebet in der Kirche.",
+    "seasonalNote": "November bis März"
+  },
+  {
+    "id": 102,
+    "name": "Sozial Brunch",
+    "organization": "Straßenfeger e.V.",
+    "address": {
+      "street": "Oderbergerstr. 12",
+      "district": "Pankow / Prenzlauer Berg",
+      "postalCode": "10435",
+      "city": "Berlin"
+    },
+    "location": "Prenzlauer Berg",
+    "tags": [
+      "essen_verpflegung",
+      "beratung",
+      "bekleidung"
+    ],
+    "contact": {
+      "email": "i.remde@strassenfeger.org",
+      "website": "https://www.strassenfeger.org"
+    },
+    "openingHours": "Ganzjährig | Do 12:00–18:00 Uhr",
+    "description": "Sozial Brunch in Prenzlauer Berg.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 103,
+    "name": "Suppenküche Herz Jesu",
+    "organization": "Herz Jesu",
+    "address": {
+      "street": "Griebenowstr. 16",
+      "district": "Pankow / Prenzlauer Berg",
+      "postalCode": "10435",
+      "city": "Berlin"
+    },
+    "location": "Prenzlauer Berg",
+    "tags": [
+      "essen_verpflegung"
+    ],
+    "contact": {},
+    "openingHours": "Nov. bis Apr. | So 12:00–14:00 Uhr",
+    "description": "Sonntägliche Suppenküche am Zionskirchplatz.",
+    "seasonalNote": "November bis April"
+  },
+  {
+    "id": 104,
+    "name": "Suppenküche Aktion Warmes Essen",
+    "organization": "MILAA Berlin",
+    "address": {
+      "street": "Kirchstr. 6",
+      "district": "Steglitz-Zehlendorf",
+      "postalCode": "14163",
+      "city": "Berlin"
+    },
+    "location": "Zehlendorf",
+    "tags": [
+      "essen_verpflegung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "0176 41 80 24 03",
+      "email": "erpel@milaa-berlin.de",
+      "website": "https://www.milaa-berlin.org/unsere-arbeit/aktion-warmes-essen"
+    },
+    "openingHours": "Ganzjährig | Mo, Mi, Fr 12:00–13:30 Uhr",
+    "description": "Suppenküche in Zehlendorf; montags zusätzlich Kleiderkammer.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 105,
+    "name": "Caritas Foodtruck",
+    "organization": "Caritas Berlin",
+    "address": {
+      "street": "Alexanderplatz / Ostbahnhof",
+      "district": "Berlinweit / Mobile",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Berlinweit / Mobile",
+    "tags": [
+      "essen_verpflegung",
+      "mobile_hilfe"
+    ],
+    "contact": {
+      "email": "foodtruck@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de/foodtruck"
+    },
+    "openingHours": "Ganzjährig | Di, Do 14:30–15:45 Uhr",
+    "description": "Mobiler Foodtruck mit warmen Mahlzeiten an wechselnden Standorten.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 106,
+    "name": "Arztpraxis am Stralauer Platz",
+    "organization": "GEBEWO pro gGmbH",
+    "address": {
+      "street": "Stralauer Platz 32",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10243",
+      "city": "Berlin"
+    },
+    "location": "Ostbahnhof",
+    "tags": [
+      "medizinische_hilfe",
+      "beratung",
+      "hygiene"
+    ],
+    "contact": {
+      "phone": "030 29 66 85 36",
+      "email": "praxiskoordination@gebewo-pro.berlin",
+      "website": "https://www.gebewo-pro.de/arztpraxis"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 08:00–14:00 Uhr",
+    "description": "Medizinische Praxis am Stralauer Platz.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 107,
+    "name": "Open.Med Berlin Lichtenberg",
+    "organization": "Ärzte der Welt",
+    "address": {
+      "street": "Irenenstraße 20",
+      "district": "Lichtenberg",
+      "postalCode": "10317",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "medizinische_hilfe",
+      "beratung"
+    ],
+    "contact": {
+      "phone": "030 20 60 69 600",
+      "email": "open.med-berlin@aerztederwelt.org",
+      "website": "https://www.aerztederwelt.org/unsere-projekte/deutschland/berlin"
+    },
+    "openingHours": "Ganzjährig | Mo 11:00–15:00 Uhr, Mi 14:00–18:00 Uhr",
+    "description": "Kostenfreie medizinische Hilfe für Menschen ohne Krankenversicherung.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 108,
+    "name": "Open.Med Ambulanz Berlin Zehlendorf",
+    "organization": "Medizin hilft",
+    "address": {
+      "street": "Teltower Damm 8a",
+      "district": "Steglitz-Zehlendorf",
+      "postalCode": "14169",
+      "city": "Berlin"
+    },
+    "location": "Zehlendorf",
+    "tags": [
+      "medizinische_hilfe",
+      "beratung",
+      "drogengebrauchend",
+      "jugendliche",
+      "haustierfreundlich",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "0176 63 15 20 94",
+      "email": "info@medizin-hilft.org",
+      "website": "https://www.medizin-hilft.org/ambulanz/"
+    },
+    "openingHours": "Ganzjährig | Mo 10:00–16:00 Uhr, Di/Do 10:00–18:00 Uhr, Mi 11:00–15:00 Uhr",
+    "description": "Ambulanz mit mehreren Fachrichtungen und wöchentlichen Kindersprechstunden.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 109,
+    "name": "Kontakt- und Beratungsmobil sowie Drogenkonsummobil (Stuttgarter Platz)",
+    "organization": "Fixpunkt",
+    "address": {
+      "street": "Stuttgarter Platz / Lewishamstraße",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Charlottenburg",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "beratung",
+      "mobile_hilfe",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "0170 79 48 745",
+      "email": "dkr@fixpunkt.org",
+      "website": "https://www.fixpunkt.org/drogenkonsummobile"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 14:00–18:00 Uhr",
+    "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 110,
+    "name": "Kontakt- und Beratungsmobil sowie Drogenkonsummobil (Görlitzer Park)",
+    "organization": "Fixpunkt",
+    "address": {
+      "street": "Görlitzer Park",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "beratung",
+      "mobile_hilfe",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "0170 79 48 743",
+      "email": "dkr@fixpunkt.org",
+      "website": "https://www.fixpunkt.org/drogenkonsummobile"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 13:00–17:00 Uhr",
+    "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung im Görlitzer Park.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 111,
+    "name": "Kontaktstelle Kotti",
+    "organization": "Fixpunkt gGmbH",
+    "address": {
+      "street": "Reichenberger Straße 176",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10999",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "medizinische_hilfe",
+      "beratung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "030 81 00 35 65",
+      "email": "kotti@fixpunktggmbh.org",
+      "website": "https://www.fixpunktggmbh.org"
+    },
+    "openingHours": "Ganzjährig | täglich geöffnet; Mo, Di, Do, Fr, Sa, So 10:15–17:30 Uhr; Mi 13:00–18:00 Uhr",
+    "description": "Kontaktstelle ausschließlich für drogengebrauchende Personen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 112,
+    "name": "Drugstop",
+    "organization": "Karuna e.V.",
+    "address": {
+      "street": "Münsterlandstraße 5",
+      "district": "Lichtenberg",
+      "postalCode": "10317",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "essen_verpflegung",
+      "hygiene",
+      "beratung",
+      "haustierfreundlich",
+      "barrierearm",
+      "jugendliche"
+    ],
+    "contact": {
+      "phone": "030 51 58 98 500",
+      "email": "hilfe@karuna-ev.de",
+      "website": "https://www.komma-vorbei.de"
+    },
+    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 09:00–14:00 Uhr; Mi 09:30–14:00 Uhr",
+    "description": "Beratung und Tageseinrichtung für drogenkonsumierende Jugendliche und junge Erwachsene von 13 bis 27 Jahren.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 113,
+    "name": "Mühlenstube",
+    "organization": "Vista Berlin",
+    "address": {
+      "street": "Müllerstraße 120",
+      "district": "Mitte / Wedding",
+      "postalCode": "13349",
+      "city": "Berlin"
+    },
+    "location": "Wedding",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "medizinische_hilfe",
+      "essen_verpflegung",
+      "hygiene",
+      "bekleidung",
+      "beratung",
+      "haustierfreundlich",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 29 77 35 600",
+      "email": "muehlenstube@vistaberlin.de",
+      "website": "https://www.vistaberlin.de/konsumraeume"
+    },
+    "openingHours": "Ganzjährig | Mo, Di 10:00–17:00 Uhr; Mi 10:00–15:00 Uhr; Do, Fr 12:00–19:00 Uhr; Sa, So 11:30–19:00 Uhr",
+    "description": "Kontakt- und Anlaufstelle mit integriertem Drogenkonsumraum für volljährige Konsument*innen illegalisierter Substanzen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 114,
+    "name": "Birkenstube",
+    "organization": "Vista Berlin",
+    "address": {
+      "street": "Birkenstraße 51",
+      "district": "Mitte / Moabit",
+      "postalCode": "10559",
+      "city": "Berlin"
+    },
+    "location": "Moabit",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "medizinische_hilfe",
+      "essen_verpflegung",
+      "hygiene",
+      "bekleidung",
+      "beratung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "030 447 213 53",
+      "email": "birkenstube@vistaberlin.de",
+      "website": "https://www.vistaberlin.de/konsumraeume"
+    },
+    "openingHours": "Ganzjährig | Mo, Di 12:00–19:00 Uhr; Mi 14:00–19:00 Uhr; Do, Fr 10:00–17:00 Uhr",
+    "description": "Kontakt- und Anlaufstelle mit integriertem Drogenkonsumraum für volljährige Konsument*innen illegalisierter Substanzen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 115,
+    "name": "Fixpunkt Drogenkonsummobil und Beratungscontainer (Leopoldplatz)",
+    "organization": "Fixpunkt",
+    "address": {
+      "street": "Hinter der Alten Nazarethkirche, gegenüber Schulstraße",
+      "district": "Mitte / Wedding",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Wedding / Leopoldplatz",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "beratung",
+      "mobile_hilfe",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "0170 79 48 741",
+      "email": "dkr@fixpunkt.org",
+      "website": "https://www.fixpunkt.org"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 10:00–17:00 Uhr; Sa 12:00–17:00 Uhr",
+    "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung am Leopoldplatz.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 116,
+    "name": "Druckausgleich Kontaktstelle mit Konsumräumen",
+    "organization": "Fixpunkt gGmbH",
+    "address": {
+      "street": "Karl-Marx-Straße 202",
+      "district": "Neukölln",
+      "postalCode": "12055",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "medizinische_hilfe",
+      "essen_verpflegung",
+      "hygiene",
+      "beratung",
+      "bekleidung",
+      "haustierfreundlich",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 69 29 198",
+      "email": "druckausgleich@fixpunktggmbh.org"
+    },
+    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 10:30–18:00 Uhr; Mi, Sa 12:00–18:00 Uhr",
+    "description": "Angebot für Drogengebrauchende in Neukölln.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 117,
+    "name": "SPAX",
+    "organization": "Fixpunkt",
+    "address": {
+      "street": "Schönwalderstr. 27",
+      "district": "Spandau",
+      "postalCode": "13585",
+      "city": "Berlin"
+    },
+    "location": "Spandau",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "hygiene",
+      "beratung",
+      "essen_verpflegung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "030 749 279 51",
+      "email": "spax@fixpunkt.org"
+    },
+    "openingHours": "Ganzjährig | Mo, Mi, Do 10:00–16:00 Uhr",
+    "description": "Suchtbezogenes Angebot in Spandau.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 118,
+    "name": "Frauentreff Olga",
+    "organization": "Drogennotdienst Berlin",
+    "address": {
+      "street": "Kurfürstenstr. 40",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "10785",
+      "city": "Berlin"
+    },
+    "location": "Schöneberg",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "medizinische_hilfe",
+      "essen_verpflegung",
+      "hygiene",
+      "beratung",
+      "bekleidung",
+      "frauen"
+    ],
+    "contact": {
+      "phone": "030 26 28 959",
+      "email": "olga@notdienstberlin.de",
+      "website": "https://www.drogennotdienst.de/nur-fuer-frauen/frauentreff-olga"
+    },
+    "openingHours": "Ganzjährig | Mo–Sa 14:00–20:00 Uhr",
+    "description": "Kontakt- und Beratungsstelle primär für Straßensexarbeiter*innen; nur für FLINTA-Personen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 119,
+    "name": "Drogennotdienst Bülow Eck",
+    "organization": "Drogennotdienst Berlin",
+    "address": {
+      "street": "Bülow Straße 106",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "10783",
+      "city": "Berlin"
+    },
+    "location": "Schöneberg",
+    "tags": [
+      "suchtspezifische_angebote",
+      "drogengebrauchend",
+      "medizinische_hilfe",
+      "essen_verpflegung",
+      "hygiene",
+      "beratung",
+      "bekleidung",
+      "haustierfreundlich",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "0176 151 678 57 / 030 23 32 40 900",
+      "email": "streetwork@notdienstberlin.de",
+      "website": "https://www.drogennotdienst.de"
+    },
+    "openingHours": "Ganzjährig | Mo sowie Mi–Fr 11:00–17:00 Uhr; Di 12:00–17:00 Uhr",
+    "description": "Beratung und parallel Streetwork in Tempelhof-Schöneberg.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 120,
+    "name": "Gangway e.V. – Team Drop Out",
+    "organization": "Gangway e.V.",
+    "address": {
+      "street": "Verschiedene Einsatzorte",
+      "district": "Bezirksübergreifend",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Berlinweit / Mobile",
+    "tags": [
+      "beratung"
+    ],
+    "contact": {
+      "phone": "030 28 30 230 10",
+      "email": "dropout@gangway.de",
+      "website": "https://www.gangway.de/teams/team-drop-out-streetwork-an-brennpunkten"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 10:00–17:00 Uhr",
+    "description": "Aufsuchende Beratung an Berliner Brennpunkten sowie in mehreren Bezirken; mehrsprachig.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 121,
+    "name": "Frostschutzengel – Mehrsprachige Beratung für Wohnungslose Menschen",
+    "organization": "Frostschutzengel",
+    "address": {
+      "street": "Stralauer Platz 32",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10243",
+      "city": "Berlin"
+    },
+    "location": "Ostbahnhof",
+    "tags": [
+      "beratung"
+    ],
+    "contact": {
+      "phone": "030 34 65 55 00",
+      "email": "beratung@frostschutzengel.de",
+      "website": "https://www.frostschutzengel.de"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
+    "description": "Aufsuchende mehrsprachige Beratung in Einrichtungen der niedrigschwelligen Wohnungslosenhilfe.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 122,
+    "name": "МОСТ – Berliner Brücke zur Teilhabe",
+    "organization": "GEBEWO",
+    "address": {
+      "street": "Stralauer Platz 32",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10243",
+      "city": "Berlin"
+    },
+    "location": "Ostbahnhof",
+    "tags": [
+      "beratung"
+    ],
+    "contact": {
+      "phone": "030 34 65 55 00",
+      "email": "moct@gebewo.berlin"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
+    "description": "Aufsuchende mehrsprachige Beratung in mehreren Sprachen für Menschen in Wohnungslosigkeit.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 123,
+    "name": "TRIA – aufsuchende mehrsprachige Beratung der Caritas",
+    "organization": "Caritas Berlin",
+    "address": {
+      "street": "Levetzowstr. 12a",
+      "district": "Mitte / Moabit",
+      "postalCode": "10555",
+      "city": "Berlin"
+    },
+    "location": "Moabit",
+    "tags": [
+      "beratung",
+      "mobile_hilfe",
+      "medizinische_hilfe"
+    ],
+    "contact": {
+      "phone": "0172 96 07 834",
+      "email": "tria@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr",
+    "description": "Aufsuchende Beratung für EU-Bürger*innen; Terminvereinbarung möglich.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 124,
+    "name": "Anlaufstelle Nevo Foro",
+    "organization": "Amaro Foro",
+    "address": {
+      "street": "Kaiser-Friedrich-Str. 19",
+      "district": "Charlottenburg-Wilmersdorf",
+      "postalCode": "10585",
+      "city": "Berlin"
+    },
+    "location": "Charlottenburg",
+    "tags": [
+      "beratung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 61 08 11 020",
+      "email": "anlaufstelle@amaroforo.de",
+      "website": "https://www.amaroforo.de"
+    },
+    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 09:00–16:00 Uhr",
+    "description": "Beratung für EU-Bürger*innen in bulgarischer und rumänischer Sprache; nur mit Termin.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 125,
+    "name": "Beratungsstelle für Wohnungsnotfälle und Existenzsicherung",
+    "organization": "GEBEWO pro gGmbH",
+    "address": {
+      "street": "Taborstr. 17",
+      "district": "Friedrichshain-Kreuzberg",
+      "postalCode": "10997",
+      "city": "Berlin"
+    },
+    "location": "Kreuzberg",
+    "tags": [
+      "beratung"
+    ],
+    "contact": {
+      "phone": "030 53 15 68 50",
+      "email": "beratungsstelle@gebewo-pro.berlin",
+      "website": "https://www.gebewo-pro.de/beratungsstelle"
+    },
+    "openingHours": "Ganzjährig | Mo 09:00–13:00 Uhr, Do 14:00–17:30 Uhr",
+    "description": "Beratung bei Wohnungsnotfällen und Existenzsicherung; weitere Tage nur Termin- und Telefonberatung.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 126,
+    "name": "BEFF – Beratung & Empowerment für Frauen und deren Familien",
+    "organization": "AWO Mitte",
+    "address": {
+      "street": "Prinzenallee 25/26",
+      "district": "Mitte / Wedding",
+      "postalCode": "13357",
+      "city": "Berlin"
+    },
+    "location": "Wedding",
+    "tags": [
+      "beratung"
+    ],
+    "contact": {
+      "phone": "0151 705 74 433",
+      "email": "beff@awo-mitte.de",
+      "website": "https://www.awo-mitte.de/frauen/wohnungslosigkeit"
+    },
+    "openingHours": "Ganzjährig | Mo, Di, Do 09:00–15:00 Uhr; Mi 09:00–16:00 Uhr; Fr 09:00–14:00 Uhr",
+    "description": "Beratung für Frauen und deren Familien zum Thema Wohnungssuche und andere Problemlagen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 127,
+    "name": "BEMA – Berliner Beratungszentrum für Migration und Gute Arbeit",
+    "organization": "Arbeit und Leben Berlin-Brandenburg",
+    "address": {
+      "street": "Lorenzweg 5",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "12099",
+      "city": "Berlin"
+    },
+    "location": "Tempelhof",
+    "tags": [
+      "beratung",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "030 513 019 269",
+      "email": "migration@berlin.arbeitundleben.de",
+      "website": "https://www.bema.berlin"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr",
+    "description": "Arbeits- und sozialrechtliche Beratung für eingewanderte Menschen und mobile Arbeitnehmer*innen.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 128,
+    "name": "Hygienestation im Franziskanerkloster",
+    "organization": "Franziskanerkloster Pankow",
+    "address": {
+      "street": "Wollankstr. 18",
+      "district": "Pankow",
+      "postalCode": "13187",
+      "city": "Berlin"
+    },
+    "location": "Pankow",
+    "tags": [
+      "hygiene",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 48 83 96 60",
+      "email": "suppenkueche@franziskaner.de",
+      "website": "https://www.suppe.franziskaner.net"
+    },
+    "openingHours": "Ganzjährig | Di, Fr 08:30–14:00 Uhr",
+    "description": "Duschen, Waschen persönlicher Wäsche und Ausgabe von Hygieneartikeln nach Spendenlage.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 129,
+    "name": "Duschmobil für Kinder und Jugendliche",
+    "organization": "SKF Berlin / Seifenbüchse",
+    "address": {
+      "street": "Rathausstraße 1",
+      "district": "Mitte / Alexanderplatz",
+      "postalCode": "10178",
+      "city": "Berlin"
+    },
+    "location": "Alexanderplatz / Mobile",
+    "tags": [
+      "hygiene",
+      "bekleidung",
+      "beratung",
+      "essen_verpflegung",
+      "mobile_hilfe",
+      "jugendliche",
+      "haustierfreundlich"
+    ],
+    "contact": {
+      "phone": "0151 150 436 79 / 0151 150 436 49",
+      "email": "seifenbuechse@skf-berlin.de",
+      "website": "https://www.seifenbuechse.berlin/"
+    },
+    "openingHours": "Ganzjährig | Mi und Fr 15:30–18:30 Uhr",
+    "description": "Mobiles Angebot für Kinder und Jugendliche mit Dusche und Toilette.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 130,
+    "name": "Kleiderkammer im Franziskanerkloster",
+    "organization": "Franziskanerkloster Pankow",
+    "address": {
+      "street": "Wollankstr. 18",
+      "district": "Pankow",
+      "postalCode": "13187",
+      "city": "Berlin"
+    },
+    "location": "Pankow",
+    "tags": [
+      "kleiderkammern_sachspenden",
+      "bekleidung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 48 83 96 60",
+      "email": "suppenkueche@franziskaner.de",
+      "website": "https://www.suppe.franziskaner.de"
+    },
+    "openingHours": "Ganzjährig | Di, Do, Fr 12:30–14:00 Uhr",
+    "description": "Kleiderkammer im Franziskanerkloster Pankow.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 131,
+    "name": "Kleiderkammer DRK Spandau",
+    "organization": "DRK Spandau",
+    "address": {
+      "street": "Galenstr. 29",
+      "district": "Spandau",
+      "postalCode": "13597",
+      "city": "Berlin"
+    },
+    "location": "Spandau",
+    "tags": [
+      "kleiderkammern_sachspenden",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "030 353 93 70",
+      "email": "info@drk-spandau.de",
+      "website": "https://www.drk-spandau.de"
+    },
+    "openingHours": "Ganzjährig | Di 09:00–11:00 Uhr",
+    "description": "Kleiderkammer des DRK in Spandau.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 132,
+    "name": "Kleiderkammer des Caritasverbandes Berlin e.V.",
+    "organization": "Caritas Berlin",
+    "address": {
+      "street": "Residenzstr. 90",
+      "district": "Reinickendorf",
+      "postalCode": "13409",
+      "city": "Berlin"
+    },
+    "location": "Reinickendorf",
+    "tags": [
+      "kleiderkammern_sachspenden",
+      "bekleidung",
+      "barrierearm"
+    ],
+    "contact": {
+      "phone": "030 666 331 222",
+      "email": "kleiderkammer@caritas-berlin.de",
+      "website": "https://www.caritas-berlin.de"
+    },
+    "openingHours": "Ganzjährig | Mo–Fr 09:00–13:00 Uhr",
+    "description": "Kleiderkammer des Caritasverbandes in Reinickendorf.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 133,
+    "name": "Obdachbus DRK Südwest",
+    "organization": "DRK Südwest",
+    "address": {
+      "street": "Berliner Südwesten",
+      "district": "Steglitz-Zehlendorf",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Steglitz-Zehlendorf / Mobile",
+    "tags": [
+      "busse_unterwegs",
+      "mobile_hilfe",
+      "beratung",
+      "bekleidung"
+    ],
+    "contact": {
+      "phone": "0157 809 49 52",
+      "email": "obdachbus@drk-berlin.net",
+      "website": "https://www.drk-sz.de"
+    },
+    "openingHours": "Ganzjährig | täglich 11:00–22:00 Uhr",
+    "description": "Aufsuchende mobile Hilfe nur im Berliner Südwesten; Beratung auf Deutsch, Englisch, Französisch, Spanisch und Rumänisch.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 134,
+    "name": "Fachstelle Soziale Wohnhilfe Lichtenberg",
+    "organization": "Bezirksamt Lichtenberg",
+    "address": {
+      "street": "Alt-Friedrichsfelde 60",
+      "district": "Lichtenberg",
+      "postalCode": "10315",
+      "city": "Berlin"
+    },
+    "location": "Lichtenberg",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90296-1771",
+      "email": "soz-wohnen@lichtenberg.berlin"
+    },
+    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Lichtenberg.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 135,
+    "name": "Fachstelle Soziale Wohnhilfe Marzahn-Hellersdorf",
+    "organization": "Bezirksamt Marzahn-Hellersdorf",
+    "address": {
+      "street": "Riesaer Str. 94",
+      "district": "Marzahn-Hellersdorf",
+      "postalCode": "12627",
+      "city": "Berlin"
+    },
+    "location": "Marzahn-Hellersdorf",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "email": "soz-wohnen@ba-mh.berlin.de"
+    },
+    "openingHours": "Sprechstunden: Mo, Di, Do 09:00–12:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Marzahn-Hellersdorf.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 136,
+    "name": "Fachstelle Soziale Wohnhilfe Mitte",
+    "organization": "Bezirksamt Mitte",
+    "address": {
+      "street": "Müllerstr. 146",
+      "district": "Mitte",
+      "postalCode": "13353",
+      "city": "Berlin"
+    },
+    "location": "Mitte",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90184-1771",
+      "email": "soz-wohnen@ba-mitte.berlin.de"
+    },
+    "openingHours": "Sprechstunden: Mo, Di, Do 08:30–12:30 Uhr; Notsprechstunde Fr 09:00–11:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Mitte.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 137,
+    "name": "Fachstelle Soziale Wohnhilfe Neukölln",
+    "organization": "Bezirksamt Neukölln",
+    "address": {
+      "street": "Donaustr. 89",
+      "district": "Neukölln",
+      "postalCode": "12043",
+      "city": "Berlin"
+    },
+    "location": "Neukölln",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90239-1771",
+      "email": "soz-wohnen@bezirksamt-neukoelln.de"
+    },
+    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Neukölln.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 138,
+    "name": "Fachstelle Soziale Wohnhilfe Pankow",
+    "organization": "Bezirksamt Pankow",
+    "address": {
+      "street": "Fröbelstr. 17",
+      "district": "Pankow",
+      "postalCode": "10405",
+      "city": "Berlin"
+    },
+    "location": "Pankow",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90295-1771",
+      "email": "soz-wohnen@ba-pankow.berlin.de"
+    },
+    "openingHours": "Sprechstunden: Mo, Mi 09:00–11:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Pankow.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 139,
+    "name": "Fachstelle Soziale Wohnhilfe Reinickendorf",
+    "organization": "Bezirksamt Reinickendorf",
+    "address": {
+      "street": "Eichborndamm 215",
+      "district": "Reinickendorf",
+      "postalCode": "13437",
+      "city": "Berlin"
+    },
+    "location": "Reinickendorf",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90294-1771",
+      "email": "soz-wohnen@reinickendorf.berlin.de"
+    },
+    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Reinickendorf.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 140,
+    "name": "Fachstelle Soziale Wohnhilfe Spandau",
+    "organization": "Bezirksamt Spandau",
+    "address": {
+      "street": "Galenstr. 14",
+      "district": "Spandau",
+      "postalCode": "13597",
+      "city": "Berlin"
+    },
+    "location": "Spandau",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90279-1771",
+      "email": "soz-wohnen@ba-spandau.berlin.de"
+    },
+    "openingHours": "Sprechstunden: Di 09:00–12:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Spandau.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 141,
+    "name": "Fachstelle Soziale Wohnhilfe Steglitz-Zehlendorf",
+    "organization": "Bezirksamt Steglitz-Zehlendorf",
+    "address": {
+      "street": "Hanna-Renate-Laurien-Platz 1",
+      "district": "Steglitz-Zehlendorf",
+      "postalCode": "12247",
+      "city": "Berlin"
+    },
+    "location": "Steglitz-Zehlendorf",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90299-1771",
+      "email": "soz-wohnen@ba-sz.berlin.de"
+    },
+    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Steglitz-Zehlendorf.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 142,
+    "name": "Fachstelle Soziale Wohnhilfe Tempelhof-Schöneberg",
+    "organization": "Bezirksamt Tempelhof-Schöneberg",
+    "address": {
+      "street": "Tempelhofer Damm 165",
+      "district": "Tempelhof-Schöneberg",
+      "postalCode": "12099",
+      "city": "Berlin"
+    },
+    "location": "Tempelhof-Schöneberg",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90277-1771",
+      "email": "soz-wohnen@ba-ts.berlin.de"
+    },
+    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Tempelhof-Schöneberg.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 143,
+    "name": "Fachstelle Soziale Wohnhilfe Treptow-Köpenick",
+    "organization": "Bezirksamt Treptow-Köpenick",
+    "address": {
+      "street": "Hans-Schmidt-Str. 18",
+      "district": "Treptow-Köpenick",
+      "postalCode": "12489",
+      "city": "Berlin"
+    },
+    "location": "Treptow-Köpenick",
+    "tags": [
+      "fachstellen_soziale_wohnhilfe",
+      "beratung",
+      "housing",
+      "social_benefits"
+    ],
+    "contact": {
+      "phone": "030 90297-1771",
+      "email": "soz-wohnen@ba-tk.berlin.de"
+    },
+    "openingHours": "Sprechstunden: Di, Do 08:30–12:00 Uhr",
+    "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Treptow-Köpenick.",
+    "seasonalNote": "Ganzjährig"
+  },
+  {
+    "id": 144,
+    "name": "Berliner Krisendienst",
+    "organization": "Berliner Krisendienst",
+    "address": {
+      "street": "9 Beratungsstandorte in Berlin",
+      "district": "Berlinweit",
+      "postalCode": "",
+      "city": "Berlin"
+    },
+    "location": "Berlinweit",
+    "tags": [
+      "berliner_krisendienst",
+      "beratung",
+      "emergency",
+      "mental_health"
+    ],
+    "contact": {
+      "phone": "030 39063",
+      "website": "https://www.berliner-krisendienst.de"
+    },
+    "openingHours": "24 Stunden täglich telefonisch erreichbar; Beratungsstandorte täglich 16:00–24:00 Uhr",
+    "description": "Schnelle und qualifizierte Hilfe bei psychosozialen Krisen bis hin zu akuten psychiatrischen Notsituationen.",
     "seasonalNote": "Ganzjährig"
   }
 ]
