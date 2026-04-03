@@ -83,7 +83,7 @@ labels whenever possible.
 The current preferred 3-layer model is:
 
 - Service type: for example `notuebernachtungen`, `nachtcafes`,
-  `tagesangebote`, `beratung`, `medizinische_hilfe`
+  `tagesangebote`, `counseling`, `medizinische_hilfe`
 - Audience: for example `frauen`, `maenner`, `familien`, `jugendliche`,
   `alle_geschlechter`
 - Special attributes: for example `barrierearm`, `haustierfreundlich`,

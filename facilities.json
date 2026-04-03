@@ -22,8 +22,7 @@
       "essen_verpflegung",
       "bekleidung",
       "haustierfreundlich",
-      "medizinische_hilfe",
-      "beratung"
+      "medizinische_hilfe"
     ],
     "contact": {
       "phone": "030 69033529",
@@ -88,8 +87,7 @@
       "alle_geschlechter",
       "schlafplatz",
       "essen_verpflegung",
-      "bekleidung",
-      "beratung"
+      "bekleidung"
     ],
     "contact": {
       "phone": "030 3912722",
@@ -152,8 +150,7 @@
       "alle_geschlechter",
       "schlafplatz",
       "essen_verpflegung",
-      "bekleidung",
-      "beratung"
+      "bekleidung"
     ],
     "contact": {
       "phone": "030 47 90 58 10",
@@ -281,8 +278,7 @@
       "frauen",
       "schlafplatz",
       "essen_verpflegung",
-      "bekleidung",
-      "beratung"
+      "bekleidung"
     ],
     "contact": {
       "phone": "030 29 35 05 57",
@@ -314,8 +310,7 @@
       "frauen",
       "schlafplatz",
       "essen_verpflegung",
-      "bekleidung",
-      "beratung"
+      "bekleidung"
     ],
     "contact": {
       "phone": "030 2832939",
@@ -346,8 +341,7 @@
       "notuebernachtungen",
       "frauen",
       "schlafplatz",
-      "essen_verpflegung",
-      "beratung"
+      "essen_verpflegung"
     ],
     "contact": {
       "phone": "0151 14 64 87 58 / 030 47 75 32 670",
@@ -412,8 +406,7 @@
       "familien",
       "schlafplatz",
       "essen_verpflegung",
-      "bekleidung",
-      "beratung"
+      "bekleidung"
     ],
     "contact": {
       "phone": "030 61073256",
@@ -507,7 +500,6 @@
       "tagesaufenthalt",
       "essen_verpflegung",
       "haustierfreundlich",
-      "beratung",
       "bekleidung",
       "barrierearm"
     ],
@@ -541,7 +533,6 @@
       "tagesaufenthalt",
       "essen_verpflegung",
       "bekleidung",
-      "beratung",
       "medizinische_hilfe"
     ],
     "contact": {
@@ -578,7 +569,6 @@
       "bekleidung",
       "barrierearm",
       "haustierfreundlich",
-      "beratung",
       "medizinische_hilfe"
     ],
     "contact": {
@@ -613,7 +603,6 @@
       "essen_verpflegung",
       "bekleidung",
       "haustierfreundlich",
-      "beratung",
       "medizinische_hilfe"
     ],
     "contact": {
@@ -645,7 +634,6 @@
       "tagesangebote",
       "tagesaufenthalt",
       "essen_verpflegung",
-      "beratung",
       "barrierearm"
     ],
     "contact": {
@@ -679,8 +667,7 @@
       "tagesaufenthalt",
       "essen_verpflegung",
       "bekleidung",
-      "barrierearm",
-      "beratung"
+      "barrierearm"
     ],
     "contact": {
       "phone": "030 3138088",
@@ -711,8 +698,7 @@
       "barrierearm",
       "haustierfreundlich",
       "jugendliche",
-      "essen_verpflegung",
-      "beratung"
+      "essen_verpflegung"
     ],
     "contact": {
       "phone": "030 22605805",
@@ -983,7 +969,6 @@
       "medizinische_hilfe",
       "essen_verpflegung",
       "bekleidung",
-      "beratung",
       "mental_health",
       "psychologische_beratung",
       "psychiatrische_versorgung",
@@ -1010,7 +995,6 @@
     },
     "location": "Mitte",
     "tags": [
-      "beratung",
       "counseling",
       "mental_health",
       "psychologische_beratung",
@@ -1069,7 +1053,6 @@
       "counseling",
       "social_benefits",
       "healthcare",
-      "beratung",
       "medizinische_hilfe"
     ],
     "contact": {
@@ -1095,8 +1078,7 @@
     "tags": [
       "counseling",
       "housing",
-      "social_benefits",
-      "beratung"
+      "social_benefits"
     ],
     "contact": {
       "phone": "030 3904740",
@@ -1121,8 +1103,7 @@
     "tags": [
       "counseling",
       "housing",
-      "social_benefits",
-      "beratung"
+      "social_benefits"
     ],
     "contact": {
       "phone": "030 66633390",
@@ -1184,8 +1165,7 @@
       "medizinische_hilfe",
       "essen_verpflegung",
       "haustierfreundlich",
-      "barrierearm",
-      "beratung"
+      "barrierearm"
     ],
     "contact": {
       "phone": "030 6146099",
@@ -1212,8 +1192,7 @@
       "harm_reduction",
       "healthcare",
       "counseling",
-      "medizinische_hilfe",
-      "beratung"
+      "medizinische_hilfe"
     ],
     "contact": {
       "phone": "030 6167558 87",
@@ -1238,8 +1217,7 @@
     "tags": [
       "housing",
       "counseling",
-      "long_term_support",
-      "beratung"
+      "long_term_support"
     ],
     "contact": {
       "phone": "030 29360695",
@@ -1263,8 +1241,7 @@
     "tags": [
       "transitional_housing",
       "counseling",
-      "long_term_support",
-      "beratung"
+      "long_term_support"
     ],
     "contact": {
       "phone": "030 690333131",
@@ -1287,8 +1264,7 @@
     "location": "Mitte",
     "tags": [
       "legal_aid",
-      "counseling",
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "website": "https://www.rechtsambulanz.de"
@@ -1310,8 +1286,7 @@
     "location": "Mitte",
     "tags": [
       "legal_aid",
-      "counseling",
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "030 28884598",
@@ -1337,8 +1312,7 @@
       "housing",
       "counseling",
       "social_benefits",
-      "fachstellen_soziale_wohnhilfe",
-      "beratung"
+      "fachstellen_soziale_wohnhilfe"
     ],
     "contact": {
       "phone": "030 902911771",
@@ -1364,8 +1338,7 @@
       "housing",
       "counseling",
       "social_benefits",
-      "fachstellen_soziale_wohnhilfe",
-      "beratung"
+      "fachstellen_soziale_wohnhilfe"
     ],
     "contact": {
       "phone": "030 902981771",
@@ -1393,7 +1366,6 @@
       "outreach",
       "night_shelter",
       "jugendliche",
-      "beratung",
       "schlafplatz"
     ],
     "contact": {
@@ -1420,8 +1392,7 @@
       "counseling",
       "emergency",
       "24h",
-      "jugendliche",
-      "beratung"
+      "jugendliche"
     ],
     "contact": {
       "phone": "030 610062",
@@ -1455,8 +1426,7 @@
       "essen_verpflegung",
       "bekleidung",
       "barrierearm",
-      "haustierfreundlich",
-      "beratung"
+      "haustierfreundlich"
     ],
     "contact": {
       "phone": "030 53842392",
@@ -1482,8 +1452,7 @@
       "transitional_housing",
       "counseling",
       "long_term_support",
-      "mental_health",
-      "beratung"
+      "mental_health"
     ],
     "contact": {
       "website": "https://www.heilsarmee.de/williamboothhaus"
@@ -1511,8 +1480,7 @@
       "counseling",
       "essen_verpflegung",
       "bekleidung",
-      "barrierearm",
-      "beratung"
+      "barrierearm"
     ],
     "contact": {
       "phone": "030 48839660",
@@ -1649,8 +1617,7 @@
     "tags": [
       "counseling",
       "eu_citizens",
-      "multilingual",
-      "beratung"
+      "multilingual"
     ],
     "contact": {
       "phone": "030 690335042",
@@ -1677,8 +1644,7 @@
       "lgbtiq",
       "long_term_support",
       "barrierearm",
-      "haustierfreundlich",
-      "beratung"
+      "haustierfreundlich"
     ],
     "contact": {
       "phone": "030 65867861",
@@ -1705,8 +1671,7 @@
       "women_specific",
       "counseling",
       "crisis_housing",
-      "schlafplatz",
-      "beratung"
+      "schlafplatz"
     ],
     "contact": {
       "phone": "0176 16048496",
@@ -1737,8 +1702,7 @@
       "tagesaufenthalt",
       "essen_verpflegung",
       "bekleidung",
-      "barrierearm",
-      "beratung"
+      "barrierearm"
     ],
     "contact": {
       "phone": "030 53014387",
@@ -1800,7 +1764,6 @@
       "frauen",
       "essen_verpflegung",
       "bekleidung",
-      "beratung",
       "barrierearm"
     ],
     "contact": {
@@ -1826,8 +1789,7 @@
       "counseling",
       "outreach",
       "community",
-      "social_support",
-      "beratung"
+      "social_support"
     ],
     "contact": {
       "phone": "030 315173380",
@@ -1933,7 +1895,7 @@
       "schlafplatz",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "barrierearm"
     ],
@@ -1964,7 +1926,7 @@
       "schlafplatz",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "barrierearm"
     ],
@@ -2024,7 +1986,7 @@
       "schlafplatz",
       "hygiene",
       "essen_verpflegung",
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "030 53 21 93 33",
@@ -2052,7 +2014,7 @@
       "schlafplatz",
       "hygiene",
       "essen_verpflegung",
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "030 61 12 93 24",
@@ -2109,7 +2071,7 @@
       "schlafplatz",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung"
     ],
     "contact": {
@@ -2138,7 +2100,7 @@
       "schlafplatz",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung"
     ],
     "contact": {
@@ -2192,7 +2154,7 @@
       "schlafplatz",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "haustierfreundlich"
     ],
@@ -2354,7 +2316,7 @@
       "schlafplatz",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "barrierearm"
     ],
@@ -2409,7 +2371,7 @@
     "tags": [
       "tagesangebote",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "haustierfreundlich",
       "barrierearm"
@@ -2466,7 +2428,7 @@
       "tagesaufenthalt",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "haustierfreundlich",
       "jugendliche"
@@ -2496,7 +2458,7 @@
       "tagesaufenthalt",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "drogengebrauchend",
       "jugendliche",
       "haustierfreundlich"
@@ -2552,7 +2514,7 @@
       "tagesaufenthalt",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "haustierfreundlich"
     ],
@@ -2580,7 +2542,7 @@
       "tagesangebote",
       "tagesaufenthalt",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "medizinische_hilfe"
     ],
@@ -2609,7 +2571,7 @@
       "frauen",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung"
     ],
     "contact": {
@@ -2637,7 +2599,7 @@
       "tagesaufenthalt",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung",
       "barrierearm"
     ],
@@ -2666,7 +2628,7 @@
       "tagesaufenthalt",
       "hygiene",
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung"
     ],
     "contact": {
@@ -2691,7 +2653,7 @@
     "location": "Charlottenburg",
     "tags": [
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung"
     ],
     "contact": {
@@ -2920,7 +2882,7 @@
     "location": "Prenzlauer Berg",
     "tags": [
       "essen_verpflegung",
-      "beratung",
+      "counseling",
       "bekleidung"
     ],
     "contact": {
@@ -3010,7 +2972,7 @@
     "location": "Ostbahnhof",
     "tags": [
       "medizinische_hilfe",
-      "beratung",
+      "counseling",
       "hygiene"
     ],
     "contact": {
@@ -3035,7 +2997,7 @@
     "location": "Lichtenberg",
     "tags": [
       "medizinische_hilfe",
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "030 20 60 69 600",
@@ -3059,7 +3021,7 @@
     "location": "Zehlendorf",
     "tags": [
       "medizinische_hilfe",
-      "beratung",
+      "counseling",
       "drogengebrauchend",
       "jugendliche",
       "haustierfreundlich",
@@ -3088,7 +3050,7 @@
     "tags": [
       "suchtspezifische_angebote",
       "drogengebrauchend",
-      "beratung",
+      "counseling",
       "mobile_hilfe",
       "barrierearm"
     ],
@@ -3115,7 +3077,7 @@
     "tags": [
       "suchtspezifische_angebote",
       "drogengebrauchend",
-      "beratung",
+      "counseling",
       "mobile_hilfe",
       "barrierearm"
     ],
@@ -3143,7 +3105,7 @@
       "suchtspezifische_angebote",
       "drogengebrauchend",
       "medizinische_hilfe",
-      "beratung",
+      "counseling",
       "haustierfreundlich"
     ],
     "contact": {
@@ -3171,7 +3133,7 @@
       "drogengebrauchend",
       "essen_verpflegung",
       "hygiene",
-      "beratung",
+      "counseling",
       "haustierfreundlich",
       "barrierearm",
       "jugendliche"
@@ -3203,7 +3165,7 @@
       "essen_verpflegung",
       "hygiene",
       "bekleidung",
-      "beratung",
+      "counseling",
       "haustierfreundlich",
       "barrierearm"
     ],
@@ -3234,7 +3196,7 @@
       "essen_verpflegung",
       "hygiene",
       "bekleidung",
-      "beratung",
+      "counseling",
       "haustierfreundlich"
     ],
     "contact": {
@@ -3260,7 +3222,7 @@
     "tags": [
       "suchtspezifische_angebote",
       "drogengebrauchend",
-      "beratung",
+      "counseling",
       "mobile_hilfe",
       "barrierearm"
     ],
@@ -3290,7 +3252,7 @@
       "medizinische_hilfe",
       "essen_verpflegung",
       "hygiene",
-      "beratung",
+      "counseling",
       "bekleidung",
       "haustierfreundlich",
       "barrierearm"
@@ -3318,7 +3280,7 @@
       "suchtspezifische_angebote",
       "drogengebrauchend",
       "hygiene",
-      "beratung",
+      "counseling",
       "essen_verpflegung",
       "haustierfreundlich"
     ],
@@ -3347,7 +3309,7 @@
       "medizinische_hilfe",
       "essen_verpflegung",
       "hygiene",
-      "beratung",
+      "counseling",
       "bekleidung",
       "frauen"
     ],
@@ -3377,7 +3339,7 @@
       "medizinische_hilfe",
       "essen_verpflegung",
       "hygiene",
-      "beratung",
+      "counseling",
       "bekleidung",
       "haustierfreundlich",
       "barrierearm"
@@ -3403,7 +3365,7 @@
     },
     "location": "Berlinweit / Mobile",
     "tags": [
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "030 28 30 230 10",
@@ -3426,7 +3388,7 @@
     },
     "location": "Ostbahnhof",
     "tags": [
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "030 34 65 55 00",
@@ -3449,7 +3411,7 @@
     },
     "location": "Ostbahnhof",
     "tags": [
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "030 34 65 55 00",
@@ -3471,7 +3433,7 @@
     },
     "location": "Moabit",
     "tags": [
-      "beratung",
+      "counseling",
       "mobile_hilfe",
       "medizinische_hilfe"
     ],
@@ -3496,7 +3458,7 @@
     },
     "location": "Charlottenburg",
     "tags": [
-      "beratung",
+      "counseling",
       "barrierearm"
     ],
     "contact": {
@@ -3520,7 +3482,7 @@
     },
     "location": "Kreuzberg",
     "tags": [
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "030 53 15 68 50",
@@ -3543,7 +3505,7 @@
     },
     "location": "Wedding",
     "tags": [
-      "beratung"
+      "counseling"
     ],
     "contact": {
       "phone": "0151 705 74 433",
@@ -3566,7 +3528,7 @@
     },
     "location": "Tempelhof",
     "tags": [
-      "beratung",
+      "counseling",
       "haustierfreundlich"
     ],
     "contact": {
@@ -3616,7 +3578,7 @@
     "tags": [
       "hygiene",
       "bekleidung",
-      "beratung",
+      "counseling",
       "essen_verpflegung",
       "mobile_hilfe",
       "jugendliche",
@@ -3719,7 +3681,7 @@
     "tags": [
       "busse_unterwegs",
       "mobile_hilfe",
-      "beratung",
+      "counseling",
       "bekleidung"
     ],
     "contact": {
@@ -3744,7 +3706,7 @@
     "location": "Lichtenberg",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3769,7 +3731,7 @@
     "location": "Marzahn-Hellersdorf",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3793,7 +3755,7 @@
     "location": "Mitte",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3818,7 +3780,7 @@
     "location": "Neukölln",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3843,7 +3805,7 @@
     "location": "Pankow",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3868,7 +3830,7 @@
     "location": "Reinickendorf",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3893,7 +3855,7 @@
     "location": "Spandau",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3918,7 +3880,7 @@
     "location": "Steglitz-Zehlendorf",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3943,7 +3905,7 @@
     "location": "Tempelhof-Schöneberg",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3968,7 +3930,7 @@
     "location": "Treptow-Köpenick",
     "tags": [
       "fachstellen_soziale_wohnhilfe",
-      "beratung",
+      "counseling",
       "housing",
       "social_benefits"
     ],
@@ -3993,7 +3955,7 @@
     "location": "Berlinweit",
     "tags": [
       "berliner_krisendienst",
-      "beratung",
+      "counseling",
       "emergency",
       "mental_health"
     ],
@@ -4019,7 +3981,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4045,7 +4007,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4071,7 +4033,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4097,7 +4059,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4123,7 +4085,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health",
       "barrierearm"
     ],
@@ -4150,7 +4112,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4176,7 +4138,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4202,7 +4164,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4228,7 +4190,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4254,7 +4216,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4280,7 +4242,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4305,7 +4267,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health",
       "barrierearm"
     ],
@@ -4332,7 +4294,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health"
     ],
     "contact": {
@@ -4356,7 +4318,7 @@
     "tags": [
       "sozialpsychiatrischer_dienst",
       "psychiatrische_versorgung",
-      "beratung",
+      "counseling",
       "mental_health",
       "barrierearm"
     ],
@@ -4768,9 +4730,8 @@
     },
     "location": "Neukölln",
     "tags": [
-      "beratung",
-      "housing",
-      "counseling"
+      "counseling",
+      "housing"
     ],
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
@@ -4789,9 +4750,8 @@
     },
     "location": "Lichtenberg",
     "tags": [
-      "beratung",
-      "housing",
-      "counseling"
+      "counseling",
+      "housing"
     ],
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
@@ -4810,9 +4770,8 @@
     },
     "location": "Neukölln",
     "tags": [
-      "beratung",
-      "housing",
-      "counseling"
+      "counseling",
+      "housing"
     ],
     "contact": {
       "phone": "030 6239903",
@@ -4835,7 +4794,7 @@
     },
     "location": "Wedding",
     "tags": [
-      "beratung",
+      "counseling",
       "housing"
     ],
     "contact": {},
@@ -4855,7 +4814,7 @@
     },
     "location": "Friedrichshain",
     "tags": [
-      "beratung",
+      "counseling",
       "housing"
     ],
     "contact": {},
@@ -4876,7 +4835,7 @@
     "location": "Prenzlauer Berg",
     "tags": [
       "frauen",
-      "beratung",
+      "counseling",
       "mental_health",
       "psychologische_beratung",
       "psychiatrische_versorgung"
@@ -4902,9 +4861,8 @@
     },
     "location": "Mitte",
     "tags": [
-      "beratung",
-      "housing",
       "counseling",
+      "housing",
       "eu_citizens",
       "multilingual",
       "barrierearm"
