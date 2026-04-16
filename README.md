@@ -61,6 +61,7 @@ Each facility entry in `facilities.json` follows this general structure:
   },
   "location": "Short location label",
   "tags": ["shelter", "food"],
+  "targetGroup": "all",
   "contact": {
     "phone": "030 123456",
     "email": "info@example.org",
@@ -114,24 +115,30 @@ or instructions to check the provider directly.
 
 ### Tag model
 
-Tags should be assigned as composable building blocks instead of long compound
-labels whenever possible.
+Tags use canonical English keys in `snake_case`. The UI translates those keys
+into human-friendly German labels in `main.js`.
 
-The current preferred 3-layer model is:
+Prefer small, composable tags instead of compound or redundant labels. The
+current model is:
 
-- Service type: for example `notuebernachtungen`, `nachtcafes`,
-  `tagesangebote`, `counseling`, `medizinische_hilfe`
-- Audience: for example `frauen`, `maenner`, `familien`, `jugendliche`,
-  `alle_geschlechter`
-- Special attributes: for example `barrierearm`, `haustierfreundlich`,
-  `drogengebrauchend`, `suchtspezifische_angebote`
+- Service type: for example `overnight_shelter`, `night_cafe`,
+  `day_services`, `counseling`, `medical_care`
+- Special attributes: for example `accessible`, `pet_friendly`,
+  `people_who_use_drugs`, `substance_use_support`
+- Operational or format tags when needed: for example `mobile_support`,
+  `outreach`, `open_24h`
 
-Example:
+Audience should be stored in `targetGroup`, not duplicated in `tags`.
+Use values like `women`, `men`, `families`, `youth`, `lgbtiq`, or `all` there.
+Keep an audience-related tag only if it adds extra nuance beyond `targetGroup`,
+for example `children`, `women_specific`, or `diverse_genders`.
 
-- Use `notuebernachtungen` + `maenner`
-- Do not introduce a compound tag like `notuebernachtungen_maenner`
+Examples:
 
-This keeps filter combinations flexible without losing information.
+- Use `targetGroup: "men"` with `tags: ["overnight_shelter", "bed_space"]`
+- Do not add a redundant `men` tag in that case
+
+This keeps filtering flexible while avoiding duplicates and overlapping labels.
 
 ## Editing content
 
@@ -170,7 +177,7 @@ vendored libraries, and `facilities.json`.
 - [ ] Improve language support
 - [ ] Support simple language
 - [ ] Add form for feature requests, bug reports
-- [ ] Refactor, reorganize tags
+- [x] Refactor, reorganize tags
 - [ ] Add filter "open now"
 - [ ] Add analytics
 - [ ] ~Change wording "Obdachlos" to "Wohnungslos"~
