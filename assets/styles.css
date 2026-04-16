@@ -32,7 +32,7 @@
 
 #app {
     font-family: 'Remus Variable', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-    background: var(--color-black);
+    background: var(--color-greyLight);
     color: var(--text-primary);
     line-height: 1.2;
     min-height: 100vh;
@@ -188,7 +188,7 @@
 }
 
 .sort-label {
-    font-size: .8rem;
+    font-size: var(--fontsize-s);
     color: var(--text-secondary);
     white-space: nowrap;
 }
@@ -275,7 +275,7 @@ a.pill, button.pill {
 #stats {
     padding: .65rem 1.5rem;
     font-size: var(--fontsize-s);
-    color: var(----accent-light);
+    color: var(--color-greyDark);
     text-align: center;
 }
 
@@ -338,9 +338,7 @@ li.item .html {
 /* ── Card ── */
 .card {
     background: var(--color, var(--surface));
-    border: 1px solid var(--border);
     border-radius: var(--radius);
-    box-shadow: var(--shadow);
     padding: 0.9rem 1rem 0.75rem 1rem;
     display: flex;
     flex-direction: column;
@@ -504,18 +502,6 @@ li.item .html {
     transition: background .15s, color .15s;
     position: relative;
 }
-
-/*
-.contact-link + .contact-link:before {
-    content: '';
-    display: block;
-    position: absolute;
-    inset: 0;
-    width: 100%;
-    bottom: auto;
-    border: 1px solid var(--border);
-}
-*/
 
 .contact-link:hover {
     background: #dbeafe;

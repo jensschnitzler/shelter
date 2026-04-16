@@ -6,7 +6,6 @@ ReadMore.js by Jens Schnitzler
 
 /* --- Plugin --- */
 $(function(){
-    console.log('--- ReadMore.js ---');
     $.fn.readMore = function(options) {
 
         //console.log({options});
@@ -21,7 +20,7 @@ $(function(){
         const transition_duration = 200; // ms
         const supportsHover = window.matchMedia('(hover: hover)').matches;
 
-        if (!supportsHover && settings.trigger == 'hover') {
+        if (!supportsHover && settings.trigger === 'hover') {
             settings.trigger = 'click';
         }
 
@@ -96,7 +95,6 @@ $(function(){
             if (!expanded) {
                 content.data('height-min', content_height_before);
             }
-            console.log({content_height_before});
             content.css({
                 'height': content_height_before + 'px',
                 'overflow': 'clip',
@@ -104,13 +102,11 @@ $(function(){
             setTimeout(function(){
                 let content_height_after = 0;
                 if (expanded) { // minimize
-                    console.log('minimize');
                     content_height_after = content.data('height-min');
                     setTimeout(function(){
                         setReadMoreState(elem, expanded); // change state after animation
                     }, transition_duration);
                 } else { // maximize
-                    console.log('maximize');
                     setReadMoreState(elem, expanded); // change state before animation
                     content_height_after = Math.min( window.innerHeight + content_height_before, Math.ceil(content[0].scrollHeight) );
                 }
@@ -123,7 +119,6 @@ $(function(){
                         'overflow': '',
                     });
                 }, transition_duration);
-                console.log({content_height_after});
             }, 10);
         }
 
@@ -152,25 +147,22 @@ $(function(){
                 });
 
                 const toggle = elem.find( settings.toggleClass ).first();
-                if (settings.trigger == 'button' && toggle.length == 0) {
+                if (settings.trigger === 'button' && toggle.length === 0) {
                     settings.trigger = 'click';
                 }
 
-                if (settings.trigger == 'button') {
-                    const toggle = elem.find( settings.toggleClass ).first();
+                if (settings.trigger === 'button') {
                     toggle.on('click',function(){
                         const expanded = toggle.attr('aria-expanded') === 'true';
                         toggleReadMore(elem, expanded);
                     });
-                } else if (settings.trigger == 'hover') {
+                } else if (settings.trigger === 'hover') {
                     elem.on('mouseenter',function(){
-                        console.log('elem mouseenter');
                         toggleReadMore(elem, false);
                     }).on('mouseleave',function(){
-                        console.log('elem mouseleave');
                         toggleReadMore(elem, true);
                     });
-                } else if (settings.trigger == 'click') {
+                } else if (settings.trigger === 'click') {
                     elem.on('click',function(){
                         const expanded = toggle.attr('aria-expanded') === 'true';
                         toggleReadMore(elem, expanded);

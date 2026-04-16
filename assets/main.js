@@ -262,7 +262,7 @@ function normalizeFacility(raw) {
     const seasonal = normalizeSeasonalNote(raw?.seasonalNote, raw?.seasonalNoteText);
 
     return {
-        id: raw?.id ?? '',
+        id: raw?.id ? String(raw.id) : null,
         name: String(raw?.name || 'Unbekannte Einrichtung'),
         organization: String(raw?.organization || 'Keine Organisation angegeben'),
         address: {
@@ -322,7 +322,8 @@ function renderCard(f) {
     if (f.contact?.website)
         contacts.push(`<a class="contact-link" href="${escapeHtml(f.contact.website)}" target="_blank" rel="noopener" aria-label="${escapeHtml(`Website von ${f.name} öffnen`)}">${renderIcon('language')}Website</a>`);
 
-    return `<article class="card" id="facility-${f.id}" style="--color:${f.color};">
+    const safeColor = /^#[0-9a-fA-F]{6}$/.test(f.color) ? f.color : '';
+    return `<article class="card" id="facility-${f.id}"${safeColor ? ` style="--color:${safeColor};"` : ''}>
     <div class="card-header">
         <h2 class="card-name">${facilityName}</h2>
         <p class="card-org">${escapeHtml(f.organization)}</p>
@@ -331,7 +332,7 @@ function renderCard(f) {
     <div class="card-meta">
         <div class="meta-row meta-row--location">
             ${renderIcon('place')}
-            <a href="${mapsUrl}" target="_blank" rel="noopener" class="meta-address" aria-label="${addressLabel}">${escapeHtml(addr)}</a>
+            <a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener" class="meta-address" aria-label="${addressLabel}">${escapeHtml(addr)}</a>
         </div>
         ${seasonal}
         ${hours}
@@ -541,8 +542,9 @@ async function init() {
             if (activeOrganization && values.organization !== activeOrganization) {
                 return false;
             }
-            if (filterOpenNow && !isOpenNow(facilityMap.get(values.facility_id), now)) {
-                return false;
+            if (filterOpenNow) {
+                const facility = facilityMap.get(values.facility_id);
+                if (!facility || !isOpenNow(facility, now)) return false;
             }
             return true;
         });
