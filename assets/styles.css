@@ -230,19 +230,15 @@
 
 /* ── Pill Small ── */
 .pill {
-    padding: .3rem .75rem;
     border-radius: 999px;
     border: 1px solid var(--border);
     background: var(--bg);
     color: var(--text-secondary);
     font-size: var(--fontsize-s);
-
     display: inline-flex;
     align-items: center;
     line-height: 1;
-
-    padding: .28rem .62rem;
-
+    padding: .3rem .62rem .28rem;
 }
 
 a.pill , button.pill {
@@ -291,11 +287,14 @@ a.pill , button.pill {
 .site-footer {
     margin-top: 1rem;
     padding: 1.5rem;
-    border-top: 1px solid var(--color-greyLight);
+    border-top: 1px solid var(--color-greyDark);
     background: var(--color-black);
     color: var(--color-greyDark);
     font-size: var(--fontsize-s);
     text-align: center;
+    a {
+        color: var(--color-blueDark);
+    }
 }
 
 .site-footer p + p {
