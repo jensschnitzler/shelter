@@ -170,13 +170,23 @@ header p {
 .sort-btn.active.asc::after  { content: ' ↑'; }
 .sort-btn.active.desc::after { content: ' ↓'; }
 
+/* ── Target group filters ── */
+#target-group-filters {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: .45rem;
+    padding: .9rem 1.5rem .35rem;
+    background: var(--surface);
+}
+
 /* ── Tag filters ── */
 #filters {
     display: flex;
     flex-wrap: wrap;
     gap: .45rem;
     justify-content: center;
-    padding: .9rem 1.5rem;
+    padding: .35rem 1.5rem .9rem;
     background: var(--surface);
     border-bottom: 1px solid var(--border);
 }

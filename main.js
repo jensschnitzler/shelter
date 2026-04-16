@@ -301,13 +301,14 @@ function normalizeFacility(raw) {
             city: String(address.city || 'Berlin'),
         },
         tags: Array.isArray(raw?.tags) ? raw.tags.filter(Boolean).map(String) : [],
+        targetGroup: typeof raw?.targetGroup === 'string' ? raw.targetGroup : 'all',
         contact: {
             phone: contact.phone ? String(contact.phone) : '',
             email: contact.email ? String(contact.email) : '',
             website: sanitizeExternalUrl(contact.website),
         },
         openingHours: normalizeOpeningHours(raw?.openingHours),
-        openingNote: raw?.openingNote ? String(raw.openingNote) : (typeof raw?.openingHours === 'string' ? String(raw.openingHours) : ''),
+        openingNote: raw?.openingNote ? String(raw.openingNote) : '',
         description: String(raw?.description || 'Keine Beschreibung vorhanden.'),
         seasonalNote: seasonal.periods,
         seasonalNoteText: seasonal.text,
@@ -384,6 +385,8 @@ function flattenFacility(f) {
         // Include both tag keys and German labels so both are searchable
         tags_str:     [...f.tags, ...f.tags.map(tagLabel)].join(' '),
         tags_json:    JSON.stringify(f.tags),
+        // Not in valueNames — accessed only in filter callbacks
+        target_group: f.targetGroup,
         html:         renderCard(f),
     };
 }
@@ -401,6 +404,7 @@ async function loadFacilities() {
 async function init() {
     const $stats = $('#stats');
     const $filters = $('#filters');
+    const $tgFilters = $('#target-group-filters');
     $stats.text('Einrichtungen werden geladen …').removeClass('is-error');
 
     let facilities;
@@ -454,39 +458,7 @@ async function init() {
         updateStats();
     });
 
-    // ── Tag filters ─────────────────────────────────────────────────────────
-    const usedTags = [...new Set(facilities.flatMap(f => f.tags))]
-        .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'));
-
-    function makeFilterBtn(label, onClick) {
-        const $btn = $('<button>')
-            .attr('type', 'button')
-            .attr('aria-pressed', 'false')
-            .addClass('filter-btn')
-            .text(label);
-        $btn.on('click', () => {
-            $('.filter-btn').removeClass('active');
-            $('.filter-btn').attr('aria-pressed', 'false');
-            $btn.addClass('active');
-            $btn.attr('aria-pressed', 'true');
-            onClick();
-            updateStats();
-        });
-        $filters.append($btn);
-        return $btn;
-    }
-
-    makeFilterBtn('Alle', () => listInstance.filter())
-        .addClass('active')
-        .attr('aria-pressed', 'true');
-
-    usedTags.forEach(tag => {
-        makeFilterBtn(tagLabel(tag), () => {
-            listInstance.filter(item => {
-                return JSON.parse(item.values().tags_json || '[]').includes(tag);
-            });
-        });
-    });
+    listInstance.sort(sortState.field, { order: sortState.order });
 
     // ── Stats ───────────────────────────────────────────────────────────────
     function updateStats() {
@@ -495,6 +467,64 @@ async function init() {
         const suffix = visible === 0 ? ' Keine Treffer für die aktuelle Suche oder den Filter.' : '';
         $stats.text(`${visible} von ${total} Einrichtungen${suffix}`);
     }
+
+    // ── Filters ─────────────────────────────────────────────────────────────
+    let activeTag = null;
+    let activeTargetGroup = null;
+
+    function applyFilters() {
+        if (!activeTag && !activeTargetGroup) {
+            listInstance.filter();
+            return;
+        }
+        listInstance.filter(item => {
+            const values = item.values();
+            if (activeTag && !JSON.parse(values.tags_json || '[]').includes(activeTag)) {
+                return false;
+            }
+            if (activeTargetGroup && values.target_group !== activeTargetGroup) {
+                return false;
+            }
+            return true;
+        });
+    }
+
+    function makeFilterBtn($container, label, onClick) {
+        const $btn = $('<button>')
+            .attr('type', 'button')
+            .attr('aria-pressed', 'false')
+            .addClass('filter-btn')
+            .text(label);
+        $btn.on('click', () => {
+            $container.find('.filter-btn').removeClass('active').attr('aria-pressed', 'false');
+            $btn.addClass('active').attr('aria-pressed', 'true');
+            onClick();
+            updateStats();
+        });
+        $container.append($btn);
+        return $btn;
+    }
+
+    // ── Target group filters ─────────────────────────────────────────────────
+    const groupOrder = ['women', 'men', 'families', 'youth', 'lgbtiq'];
+    const usedGroups = new Set(facilities.map(f => f.targetGroup));
+
+    makeFilterBtn($tgFilters, 'Alle Gruppen', () => { activeTargetGroup = null; applyFilters(); })
+        .addClass('active').attr('aria-pressed', 'true');
+    groupOrder.filter(g => usedGroups.has(g)).forEach(g =>
+        makeFilterBtn($tgFilters, TARGET_GROUP_LABELS[g], () => { activeTargetGroup = g; applyFilters(); })
+    );
+
+    // ── Tag filters ─────────────────────────────────────────────────────────
+    const usedTags = [...new Set(facilities.flatMap(f => f.tags))]
+        .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'));
+
+    makeFilterBtn($filters, 'Alle', () => { activeTag = null; applyFilters(); })
+        .addClass('active').attr('aria-pressed', 'true');
+    usedTags.forEach(tag =>
+        makeFilterBtn($filters, tagLabel(tag), () => { activeTag = tag; applyFilters(); })
+    );
+
     updateStats();
 }
 
