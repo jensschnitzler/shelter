@@ -28,7 +28,7 @@
       "phone": "030 69033529",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Nov. bis 15. Apr. | täglich 20:00–08:00 Uhr, letzter Einlass 04:00 Uhr",
+    "openingHours": "täglich 20:00–08:00 Uhr, letzter Einlass 04:00 Uhr",
     "description": "Saisonale Notübernachtung der Berliner Stadtmission. Plätze werden täglich neu vergeben; Kälte- bzw. Wärmebus kann bis 04:00 Uhr kommen.",
     "seasonalNote": "November bis April"
   },
@@ -61,7 +61,7 @@
       "phone": "030 66628770",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Täglich 19:30–07:30 Uhr, ganzjährig",
+    "openingHours": "Täglich 19:30–07:30 Uhr",
     "description": "Ganzjährige Notübernachtung am Containerbahnhof mit Sozialberatung, Vermittlung, medizinischer Versorgung und geschütztem Bereich für Frauen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -125,7 +125,7 @@
       "website": "https://www.berliner-stadtmission.de",
       "email": "notuebernachtung2@berliner-stadtmission.de"
     },
-    "openingHours": "Nov. bis Apr. | täglich 20:00–08:00 Uhr, Einlass bis 04:00 Uhr",
+    "openingHours": "täglich 20:00–08:00 Uhr, Einlass bis 04:00 Uhr",
     "description": "Saisonale Notübernachtung für Männer in Reinickendorf. Kälte- bzw. Wärmebus kann bis 04:00 Uhr kommen.",
     "seasonalNote": "November bis April"
   },
@@ -187,7 +187,7 @@
       "website": "https://kaeltehilfe-berlin.de",
       "email": "c.schirg_neustart_gmbh@web.de"
     },
-    "openingHours": "Täglich 20:00–08:00 Uhr, letzter Einlass 22:00 Uhr (Okt.–Apr.)",
+    "openingHours": "Täglich 20:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Notübernachtung der Neustart GmbH. Frauen in Haus Nr. 3, Männer in Haus Nr. 10; Unterbringung je nach Auslastung, Paare getrennt.",
     "seasonalNote": "Oktober bis April"
   },
@@ -221,7 +221,7 @@
       "website": "https://www.johanniter.de/spenden/projekte-deutschland/soziale-projekte/wohnungslosenhilfe-in-berlin",
       "email": "wohnungslosenhilfe.berlin@johanniter.de"
     },
-    "openingHours": "Ganzjährig | täglich 20:00–07:45 Uhr, letzter Einlass 23:00 Uhr",
+    "openingHours": "täglich 20:00–07:45 Uhr, letzter Einlass 23:00 Uhr",
     "description": "Ganzjährige Notübernachtung für Männer in der Ohlauer Straße. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -253,7 +253,7 @@
       "website": "https://www.ib-berlin.de/kaeltehilfe",
       "email": "arian.begovic@ib.de"
     },
-    "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr (Okt.–Apr.)",
+    "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Notübernachtung in der Kurmärkischen Straße für alle Geschlechter.",
     "seasonalNote": "Oktober bis April"
   },
@@ -285,7 +285,7 @@
       "email": "notuebernachtung@awo-spree-wuhle.de",
       "website": "https://www.awo-spree-wuhle.de/notuebernachtung"
     },
-    "openingHours": "Ganzjährig | täglich 19:00–08:30 Uhr, Mo bis 10:00 Uhr, Mi bis 12:00 Uhr; letzter Einlass 22:00 Uhr",
+    "openingHours": "täglich 19:00–08:30 Uhr, Mo bis 10:00 Uhr, Mi bis 12:00 Uhr; letzter Einlass 22:00 Uhr",
     "description": "Ganzjährige, transinklusive Notübernachtung für Frauen in Friedrichshain.",
     "seasonalNote": "Ganzjährig"
   },
@@ -317,7 +317,7 @@
       "website": "https://www.gebewo-pro.berlin",
       "email": "notuebernachtung@gebewo-pro.berlin"
     },
-    "openingHours": "Ganzjährig | täglich 19:00–08:00 Uhr, Wochenende/Feiertag bis 09:00 Uhr; letzter Einlass 22:00 Uhr",
+    "openingHours": "täglich 19:00–08:00 Uhr, Wochenende/Feiertag bis 09:00 Uhr; letzter Einlass 22:00 Uhr",
     "description": "Ganzjährige Notübernachtung für Frauen in der Tieckstraße. Kein Männerbesuch, keine Tiere, keine Aufnahme von Kindern.",
     "seasonalNote": "Ganzjährig"
   },
@@ -348,7 +348,7 @@
       "email": "evasobdach@skf-berlin.de",
       "website": "https://skf-berlin.de"
     },
-    "openingHours": "Täglich 19:00–09:00 Uhr, ganzjährig",
+    "openingHours": "Täglich 19:00–09:00 Uhr",
     "description": "Ganzjährige Notübernachtung für Frauen in Neukölln. Spätere Aufnahme nach telefonischer Absprache möglich.",
     "seasonalNote": "Ganzjährig"
   },
@@ -413,7 +413,7 @@
       "email": "notunterkunft.familien@diakonie-stadtmitte.de",
       "website": "https://www.diakonie-stadtmitte.de"
     },
-    "openingHours": "Täglich 09:00–22:00 Uhr (Aufnahme), ganzjährig",
+    "openingHours": "Täglich 09:00–22:00 Uhr (Aufnahme)",
     "description": "Ganzjährig geöffnete Notunterkunft für Familien in Kreuzberg. Aufnahme nur für Eltern mit Kindern; telefonische Freiplatzanfrage empfohlen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -444,7 +444,7 @@
       "phone": "030 690333690",
       "website": "https://www.berliner-stadtmission.de/kaeltehilfe"
     },
-    "openingHours": "Täglich 20:00–02:00 Uhr (1. Nov.–31. März)",
+    "openingHours": "Täglich 20:00–02:00 Uhr",
     "description": "Mobiler Kältebus, der obdachlose Menschen auf der Straße aufsucht, zu Notunterkünften bringt und mit heißen Getränken, warmen Schlafsäcken und Kleidung versorgt. Rufnummer für Hinweise auf obdachlose Menschen in Not.",
     "seasonalNote": "November bis März"
   },
@@ -474,7 +474,7 @@
       "phone": "030 6003001010",
       "website": "https://www.drk-berlin.de"
     },
-    "openingHours": "Täglich 18:00–24:00 Uhr (Nov.–März)",
+    "openingHours": "Täglich 18:00–24:00 Uhr",
     "description": "Mobiler Wärmebus des Deutschen Roten Kreuzes. Verteilt Schlafsäcke, Isomatten, Kleidung und warmen Tee. Organisiert Transporte und Schlafplätze in Notunterkünften.",
     "seasonalNote": "November bis März"
   },
@@ -705,7 +705,7 @@
       "email": "berlin-hauptbahnhof@bahnhofsmission.de",
       "website": "https://www.berliner-stadtmission.de/bahnhofsmission"
     },
-    "openingHours": "Ganzjährig | täglich 08:30–12:00 Uhr und 13:00–16:30 Uhr",
+    "openingHours": "täglich 08:30–12:00 Uhr und 13:00–16:30 Uhr",
     "description": "Bahnhofsmission im Hauptbahnhof mit Beratung, WLAN und Computernutzung.",
     "seasonalNote": "Ganzjährig"
   },
@@ -830,7 +830,7 @@
       "email": "ambulanz@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/wohnungsnot/medizinische-versorgung"
     },
-    "openingHours": "Ganzjährig | Mo–Mi 10:00–14:00 Uhr, Fr 10:00–14:00 Uhr",
+    "openingHours": "Mo–Mi 10:00–14:00 Uhr, Fr 10:00–14:00 Uhr",
     "description": "Hausärztliche Versorgung, Medikamentenabgabe, medizinisches Clearing, psychiatrische Sprechstunde, Wundversorgung sowie soziale Arbeit und Sozialberatung.",
     "seasonalNote": "Ganzjährig"
   },
@@ -860,7 +860,7 @@
       "email": "arztmobil@caritas-berlin.de",
       "website": "https://www.caritas-arztmobil.de"
     },
-    "openingHours": "Ganzjährig | Mo–Do 10:00–15:00 Uhr",
+    "openingHours": "Mo–Do 10:00–15:00 Uhr",
     "description": "Mobile ärztliche Grundversorgung, Wundversorgung und Beratung. Bitte aktuelle Standorte auf der Website beachten.",
     "seasonalNote": "Ganzjährig"
   },
@@ -942,7 +942,7 @@
       "email": "mmm.berlin@malteser.org",
       "website": "https://www.malteser-berlin.de/mmm"
     },
-    "openingHours": "Ganzjährig | Di–Fr 09:00–14:00 Uhr",
+    "openingHours": "Di–Fr 09:00–14:00 Uhr",
     "description": "Kostenlose medizinische Erstversorgung und Sozialberatung für Menschen ohne Krankenversicherung oder ungültigen Aufenthaltsstatus – anonym, professionell und mit Mitgefühl.",
     "seasonalNote": "Ganzjährig"
   },
@@ -979,7 +979,7 @@
       "email": "info@delatorre-stiftung.de",
       "website": "https://www.delatorre-stiftung.de"
     },
-    "openingHours": "Ganzjährig | Mo, Di, Do 08:00–14:00 Uhr, Mi, Fr 08:00–13:00 Uhr",
+    "openingHours": "Mo, Di, Do 08:00–14:00 Uhr, Mi, Fr 08:00–13:00 Uhr",
     "description": "Erstes Gesundheitszentrum speziell für obdachlose Menschen in Berlin. Bietet kostenlose medizinische, zahnärztliche, psychologische, soziale und rechtliche Hilfe. Außerdem Essensausgabe und Kleiderkammer.",
     "seasonalNote": "Ganzjährig"
   },
@@ -1060,7 +1060,7 @@
       "website": "https://www.berliner-stadtmission.de/clearingstelle",
       "email": "clearingstelle@berliner-stadtmission.de"
     },
-    "openingHours": "Ganzjährig | Mo, Do 10:00–12:30 Uhr, Mi 13:00–16:30 Uhr",
+    "openingHours": "Mo, Do 10:00–12:30 Uhr, Mi 13:00–16:30 Uhr",
     "description": "Beratung für Menschen in Berlin ohne ausreichende Krankenversicherung, inkl. Prüfung von Kostenübernahme und Vermittlung in Behandlung.",
     "seasonalNote": "Ganzjährig"
   },
@@ -1085,7 +1085,7 @@
       "email": "info@wohnungslos-berlin.de",
       "website": "https://www.wohnungslos-berlin.de"
     },
-    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 09:00–12:00 Uhr, Anmeldung bis 11:30 Uhr",
+    "openingHours": "Mo, Di, Do, Fr 09:00–12:00 Uhr, Anmeldung bis 11:30 Uhr",
     "description": "Seit 1979 zentrale Anlaufstelle für Menschen ohne Wohnung oder mit drohender Wohnungslosigkeit. Beratung auf Deutsch und Englisch. Vermittlung in Notunterkünfte und weiterführende Hilfen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -1140,9 +1140,9 @@
       "website": "https://www.caritas-berlin.de",
       "email": "kaeltehilfe@caritas-berlin.de"
     },
-    "openingHours": "Nov. bis März | täglich 19:30–07:30 Uhr, letzter Einlass 21:30 Uhr",
+    "openingHours": "täglich 19:30–07:30 Uhr, letzter Einlass 21:30 Uhr",
     "description": "Saisonale Caritas-Notübernachtung für Männer in Reinickendorf.",
-    "seasonalNote": "Kältehilfesaison"
+    "seasonalNote": "November bis März"
   },
   {
     "id": 38,
@@ -1510,7 +1510,7 @@
     "contact": {
       "phone": "030 6126408"
     },
-    "openingHours": "Ganzjährig | Mo, Fr, Sa 14:00–16:00 Uhr",
+    "openingHours": "Mo, Fr, Sa 14:00–16:00 Uhr",
     "description": "Seit 1984 betriebene Suppenküche der Schwestern der Mutter Teresa in Kreuzberg. Vier Schwestern versorgen täglich 90–120 bedürftige und obdachlose Menschen mit warmen Mahlzeiten.",
     "seasonalNote": "Ganzjährig"
   },
@@ -1541,7 +1541,7 @@
     "contact": {
       "website": "https://www.heiligkreuzpassion.de"
     },
-    "openingHours": "15. Okt. bis 08. Apr. | Mi 12:00–15:00 Uhr",
+    "openingHours": "Mi 12:00–15:00 Uhr",
     "description": "Wärmestube in der Heilig-Kreuz-Kirche als Treffpunkt für obdachlose und einkommensarme Menschen. Kostenloser Kaffee, Tee, Brote und Suppe. Kleider- und Buchspenden. Ab 13 Uhr Caritas-Arztmobil vor der Kirche.",
     "seasonalNote": "Oktober bis April"
   },
@@ -1570,7 +1570,7 @@
       "email": "nachtcafeherzjesu@gmail.com",
       "website": "https://www.bernhard-lichtenberg.berlin"
     },
-    "openingHours": "Mo 17:00–08:00 Uhr (Anfang Nov.–Ende März), letzter Einlass 19:00 Uhr",
+    "openingHours": "Mo 17:00–08:00 Uhr, letzter Einlass 19:00 Uhr",
     "description": "Wöchentliches Nachtcafé mit 15–17 Schlafplätzen für obdachlose Männer und Frauen. Abendessen ab 18:30 Uhr. Ehrenamtlich betrieben durch die Kirchengemeinde.",
     "seasonalNote": "November bis März"
   },
@@ -1599,7 +1599,7 @@
       "email": "kontakt@berliner-obdachlosenhilfe.de",
       "website": "https://www.berliner-obdachlosenhilfe.de"
     },
-    "openingHours": "Ganzjährig | Mi, Sa, So an wechselnden Standorten und Uhrzeiten",
+    "openingHours": "Mi, Sa, So an wechselnden Standorten und Uhrzeiten",
     "description": "Verteilung von warmem Essen, Getränken und Kleidung direkt auf der Straße; Ausgabe nicht am Vereinssitz.",
     "seasonalNote": "Ganzjährig"
   },
@@ -1709,7 +1709,7 @@
       "email": "treff-strohhalm@gwb.stiftung-spi.de",
       "website": "https://www.stiftung-spi.de"
     },
-    "openingHours": "Ganzjährig | Mo–Do 08:00–15:30 Uhr, Fr 08:00–14:00 Uhr",
+    "openingHours": "Mo–Do 08:00–15:30 Uhr, Fr 08:00–14:00 Uhr",
     "description": "Treffpunkt mit Frühstück, Mittagessen, Kleiderkammer und Beratung; Angebot nicht kostenfrei.",
     "seasonalNote": "Ganzjährig"
   },
@@ -1770,7 +1770,6 @@
       "phone": "030 4623279",
       "website": "https://skf-berlin.de"
     },
-    "openingHours": "Kältehilfesaison (Okt.–Apr.)",
     "description": "Saisonale Wärme- und Anlaufstelle für obdachlose Frauen mit 20 Schlafplätzen. Mahlzeiten und Beratung inklusive.",
     "seasonalNote": "Oktober bis April"
   },
@@ -1846,7 +1845,7 @@
       "email": "nachtlicht@drk-berlin-zentrum.de",
       "website": "https://www.drk-berlin-zentrum.de"
     },
-    "openingHours": "Okt. bis Apr. | täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Notübernachtung für Frauen in Kreuzberg. Kälte- bzw. Wärmebus nach telefonischer Absprache bis 24:00 Uhr.",
     "seasonalNote": "Oktober bis April"
   },
@@ -1874,7 +1873,7 @@
       "email": "evashaltestelle@skf-berlin.de",
       "website": "https://www.skf-berlin.de"
     },
-    "openingHours": "Okt. bis Apr. | täglich 18:00–08:00 Uhr, letzter Einlass 20:00 Uhr",
+    "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 20:00 Uhr",
     "description": "Saisonale Notübernachtung für Frauen in Wedding. Kälte- bzw. Wärmebus kann bis 22:00 Uhr kommen.",
     "seasonalNote": "Oktober bis April"
   },
@@ -1904,7 +1903,7 @@
       "email": "notuebernachtung@koepjohann.de",
       "website": "https://www.koepjohann.de"
     },
-    "openingHours": "Ganzjährig | Mo, Fr, Sa 19:00–08:00 Uhr; Di 15:00–08:00 Uhr; So 19:00–12:00 Uhr",
+    "openingHours": "Mo, Fr, Sa 19:00–08:00 Uhr; Di 15:00–08:00 Uhr; So 19:00–12:00 Uhr",
     "description": "Ganzjährige Notübernachtung für Frauen in Mitte. Kälte- bzw. Wärmebus nach telefonischer Absprache bis 03:00 Uhr.",
     "seasonalNote": "Ganzjährig"
   },
@@ -1935,7 +1934,7 @@
       "email": "jeffrey.loehrke@hzh-ev.de",
       "website": "https://www.hzh-ev.de"
     },
-    "openingHours": "Okt. bis Apr. | täglich 18:00–08:00 Uhr, letzter Einlass 24:00 Uhr",
+    "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 24:00 Uhr",
     "description": "Saisonale Notübernachtung in Spandau. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
     "seasonalNote": "Oktober bis April"
   },
@@ -1965,7 +1964,7 @@
       "email": "kaeltehilfe@neuechance.berlin",
       "website": "https://www.neuechance.berlin"
     },
-    "openingHours": "Nov. bis Apr. | täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": "täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Notübernachtung am Rathaus Steglitz. Tiere erlaubt, aber nur zwei pro Abend.",
     "seasonalNote": "November bis April"
   },
@@ -1993,7 +1992,7 @@
       "email": "notuebernachtung@brotdeslebens.net",
       "website": "https://www.notuebernachtung.brotdeslebens.net"
     },
-    "openingHours": "Okt. bis Apr. | täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": "täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Notübernachtung für Männer in Friedrichshain. Im Oktober und April nur 15 Plätze.",
     "seasonalNote": "Oktober bis April"
   },
@@ -2021,7 +2020,7 @@
       "email": "pfarrbuero@bernhard-lichtenberg.berlin",
       "website": "https://www.bernhard-lichtenberg.berlin"
     },
-    "openingHours": "Nov. bis März | täglich 19:30–08:00 Uhr, letzter Einlass 21:30 Uhr",
+    "openingHours": "täglich 19:30–08:00 Uhr, letzter Einlass 21:30 Uhr",
     "description": "Saisonale Notübernachtung für Männer in Kreuzberg.",
     "seasonalNote": "November bis März"
   },
@@ -2050,7 +2049,7 @@
       "email": "kaeltehilfe@kubus-berlin.de",
       "website": "https://www.kubus-berlin.de"
     },
-    "openingHours": "Okt. bis Apr. | täglich 19:00–07:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": "täglich 19:00–07:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Kältehilfe für Männer in Neukölln mit Wasch- und Duschmöglichkeiten sowie Waschmaschine für private Kleidung.",
     "seasonalNote": "Oktober bis April"
   },
@@ -2079,7 +2078,7 @@
       "email": "m.e@merkurberlin.de",
       "website": "https://www.merkurberlin.de"
     },
-    "openingHours": "Okt. bis Apr. | täglich 17:00–08:00 Uhr",
+    "openingHours": "täglich 17:00–08:00 Uhr",
     "description": "Saisonale Notübernachtung für Männer in Lichtenberg.",
     "seasonalNote": "Oktober bis April"
   },
@@ -2108,7 +2107,7 @@
       "email": "notuebernachtung@ejf.de",
       "website": "https://www.ejf.de"
     },
-    "openingHours": "Ganzjährig | täglich, ganztägig; letzter Einlass nach Absprache die ganze Nacht",
+    "openingHours": "täglich, ganztägig; letzter Einlass nach Absprache die ganze Nacht",
     "description": "Notübernachtung für wohnungslose Familien, schwangere Frauen sowie Alleinerziehende mit Kindern in Reinickendorf.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2134,7 +2133,7 @@
       "phone": "0177 27 03 869",
       "email": "m.rosinski@t-online.de"
     },
-    "openingHours": "3. Nov. bis 30. März | Mo 22:00–07:00 Uhr, letzter Einlass 24:00 Uhr",
+    "openingHours": "Mo 22:00–07:00 Uhr, letzter Einlass 24:00 Uhr",
     "description": "Nachtcafé in Charlottenburg; Barrierefreiheit eingeschränkt.",
     "seasonalNote": "November bis März"
   },
@@ -2162,7 +2161,7 @@
       "phone": "030 53 37 104",
       "email": "arche.waermestube@gmail.com"
     },
-    "openingHours": "Okt. bis Apr. | Mo–Fr und So 19:00–08:00 Uhr, letzter Einlass 21:30 Uhr",
+    "openingHours": "Mo–Fr und So 19:00–08:00 Uhr, letzter Einlass 21:30 Uhr",
     "description": "Kombiniertes Nachtcafé und Wärmestube in Treptow mit zusätzlichen Essensplätzen von 19:00 bis 21:00 Uhr.",
     "seasonalNote": "Oktober bis April"
   },
@@ -2190,7 +2189,7 @@
       "email": "kuesterei@evtaborgemeinde.de",
       "website": "https://www.evtaborgemeinde.de"
     },
-    "openingHours": "14. Okt. bis 29. Apr. | Di 21:30–07:00 Uhr, letzter Einlass 23:00 Uhr",
+    "openingHours": "Di 21:30–07:00 Uhr, letzter Einlass 23:00 Uhr",
     "description": "Nachtcafé in Kreuzberg; kein Alkohol, keine Drogen.",
     "seasonalNote": "Oktober bis April"
   },
@@ -2215,7 +2214,7 @@
       "phone": "0152 571 87 272",
       "email": "nachtcafe@zgh-friedenau.de"
     },
-    "openingHours": "28. Okt. bis 30. Apr. | Di–Fr 20:30–08:00 Uhr, letzter Einlass 22:30 Uhr",
+    "openingHours": "Di–Fr 20:30–08:00 Uhr, letzter Einlass 22:30 Uhr",
     "description": "Nachtcafé in Friedenau. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
     "seasonalNote": "Oktober bis April"
   },
@@ -2242,7 +2241,7 @@
       "email": "kaelteschutz@riseup.net",
       "website": "https://www.kaelteschutz-mehringhof.de"
     },
-    "openingHours": "30. Okt. bis 02. Apr. | Do 20:00–09:00 Uhr",
+    "openingHours": "Do 20:00–09:00 Uhr",
     "description": "Kälteschutz im Mehringhof mit Gepäckverwahrung und ggf. separatem FLINTA*-Raum; nicht barrierefrei.",
     "seasonalNote": "Oktober bis April"
   },
@@ -2270,7 +2269,7 @@
       "email": "unterdruck@t-online.de",
       "website": "https://www.unter-druck.de"
     },
-    "openingHours": "6. Nov. bis 26. März | Do 19:00–08:00 Uhr, Einlass bis 07:00 Uhr",
+    "openingHours": "Do 19:00–08:00 Uhr, Einlass bis 07:00 Uhr",
     "description": "Nachtcafé in Wedding. Hunde willkommen; kein Alkohol, keine Gewalt, keine Drogen.",
     "seasonalNote": "November bis März"
   },
@@ -2296,7 +2295,7 @@
       "email": "info@mlg-neukoelln.de",
       "website": "https://www.mlg-neukoelln.de"
     },
-    "openingHours": "7. Nov. bis 27. März | Fr 20:00–08:00 Uhr, letzter Einlass 23:00 Uhr",
+    "openingHours": "Fr 20:00–08:00 Uhr, letzter Einlass 23:00 Uhr",
     "description": "Nachtcafé in Neukölln ohne Aufzug; kein Alkohol, keine Drogen, keine Tiere.",
     "seasonalNote": "November bis März"
   },
@@ -2324,7 +2323,7 @@
       "phone": "030 625 3002",
       "email": "kurt.niedtner@evangelisch-neukoelln.de"
     },
-    "openingHours": "1. Nov. bis 14. März | Sa 21:30–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": "Sa 21:30–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Samstägliches Nachtcafé mit Rollstuhlzugang in Neukölln.",
     "seasonalNote": "November bis März"
   },
@@ -2353,7 +2352,7 @@
       "email": "kaeltehilfe@cw-evangelisch.de",
       "website": "https://www.cw-evangelisch.de"
     },
-    "openingHours": "Nov. bis März | So 19:30–07:30 Uhr, Einlass die ganze Nacht",
+    "openingHours": "So 19:30–07:30 Uhr, Einlass die ganze Nacht",
     "description": "Sonntägliches Nachtcafé in Westend mit Plätzen für Frauen und Männer.",
     "seasonalNote": "November bis März"
   },
@@ -2381,7 +2380,7 @@
       "email": "waermestube@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "3. Nov. bis 31. März | Mo–Fr 15:00–18:00 Uhr",
+    "openingHours": "Mo–Fr 15:00–18:00 Uhr",
     "description": "Tagesangebot und Wärmestube der Caritas in Wilmersdorf.",
     "seasonalNote": "November bis März"
   },
@@ -2408,7 +2407,7 @@
       "phone": "0151 23 30 61 37",
       "email": "frauen-projekt.unterschlupf@web.de"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 09:00–17:30 Uhr",
+    "openingHours": "Mo–Fr 09:00–17:30 Uhr",
     "description": "Tagesangebot für Frauen und alle, die sich weiblich definieren, einschließlich Transfrauen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2438,7 +2437,7 @@
       "email": "streetwork@strassenkinder-ev.de",
       "website": "https://www.strassenkinder-ev.de"
     },
-    "openingHours": "Ganzjährig | Mo, Mi, Fr 12:00–16:00 Uhr",
+    "openingHours": "Mo, Mi, Fr 12:00–16:00 Uhr",
     "description": "Anlaufstelle, Streetwork und Essensausgabe für Menschen bis 27 Jahre.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2468,7 +2467,7 @@
       "email": "kiez-cafe@awo-spree-wuhle.de",
       "website": "https://www.awo-spree-wuhle.de"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 10:00–16:00 Uhr",
+    "openingHours": "Mo–Fr 10:00–16:00 Uhr",
     "description": "Tagesangebot in Friedrichshain mit Beratung, Essen und ergänzenden Angeboten für Jugendliche.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2494,7 +2493,7 @@
       "email": "berlin-ostbahnhof@bahnhofsmission.de",
       "website": "https://www.bahnhofsmission-berlin-ostbahnhof.de"
     },
-    "openingHours": "Ganzjährig | täglich 08:30–12:00 Uhr und 14:00–16:00 Uhr",
+    "openingHours": "täglich 08:30–12:00 Uhr und 14:00–16:00 Uhr",
     "description": "Bahnhofsmission am Ostbahnhof mit Hygiene- und Verpflegungsangeboten.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2523,7 +2522,7 @@
       "email": "gitschiner15@kght.de",
       "website": "https://www.gitschiner15.de"
     },
-    "openingHours": "Ganzjährig | Mo–Mi 10:00–16:00 Uhr, Do 12:00–16:00 Uhr, Fr 09:00–15:00 Uhr",
+    "openingHours": "Mo–Mi 10:00–16:00 Uhr, Do 12:00–16:00 Uhr, Fr 09:00–15:00 Uhr",
     "description": "Tagesangebot mit kostenlosem Mittagessen an mehreren Tagen sowie ergänzenden medizinischen Angeboten.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2550,7 +2549,7 @@
       "email": "info.tt@hvd-bb.de",
       "website": "https://www.humanistisch.de/tagestreff"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 08:00–13:00 Uhr, Sa/So 09:30–15:30 Uhr",
+    "openingHours": "Mo–Fr 08:00–13:00 Uhr, Sa/So 09:30–15:30 Uhr",
     "description": "Tagestreff mit Essensangebot, Beratung und medizinischen Sprechstunden in Lichtenberg.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2579,7 +2578,7 @@
       "email": "sophie@koepjohann.de",
       "website": "https://www.koepjohann.de/sophie"
     },
-    "openingHours": "Ganzjährig | Mo–Do 10:00–14:00 Uhr, So/Feiertage 10:00–15:00 Uhr",
+    "openingHours": "Mo–Do 10:00–14:00 Uhr, So/Feiertage 10:00–15:00 Uhr",
     "description": "Kostenloses Tagesangebot für wohnungs- und obdachlose Frauen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2608,7 +2607,7 @@
       "email": "tuw-nk@diakoniewerk-simeon.de",
       "website": "https://www.diakoniewerk-simeon.de"
     },
-    "openingHours": "Ganzjährig | Mo, Mi, So 15:00–19:00 Uhr, Do 09:00–14:00 Uhr",
+    "openingHours": "Mo, Mi, So 15:00–19:00 Uhr, Do 09:00–14:00 Uhr",
     "description": "Tee- und Wärmestube mit Kleiderkammer; dienstags nur für Frauen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2636,7 +2635,7 @@
       "email": "wota@unionhilfswerk.de",
       "website": "https://www.unionhilfswerk.de"
     },
-    "openingHours": "Ganzjährig | Di–So 11:30–17:00 Uhr",
+    "openingHours": "Di–So 11:30–17:00 Uhr",
     "description": "Wohnungslosentagesstätte mit Frühstück und Mittagessen; Wäsche nur mit Termin.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2661,7 +2660,7 @@
       "email": "kaeltehilfe@cw-evangelisch.de",
       "website": "https://www.cw-evangelisch.de/kaeltehilfe"
     },
-    "openingHours": "Okt. bis Apr. | Mo–Mi 12:00–13:30 Uhr",
+    "openingHours": "Mo–Mi 12:00–13:30 Uhr",
     "description": "Suppenküche in Charlottenburg.",
     "seasonalNote": "Oktober bis April"
   },
@@ -2683,7 +2682,7 @@
     "contact": {
       "email": "tino.anjum@an-nusrat.de"
     },
-    "openingHours": "15. Okt. bis 1. März | Fr 19:00–20:30 Uhr",
+    "openingHours": "Fr 19:00–20:30 Uhr",
     "description": "Mobile Ausgabe von Essen am Bahnhof Zoo.",
     "seasonalNote": "Oktober bis März"
   },
@@ -2705,7 +2704,7 @@
     "contact": {
       "phone": "030 82 79 19 16"
     },
-    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 12:00–13:30 Uhr",
+    "openingHours": "Mo, Di, Do, Fr 12:00–13:30 Uhr",
     "description": "Suppenküche in Wilmersdorf; Kostenbeitrag 50 Cent.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2727,7 +2726,7 @@
     "contact": {
       "email": "joerge.bellin@johanniter.de"
     },
-    "openingHours": "4. Nov. bis 27. März | Di–Fr 08:00–10:00 Uhr und 17:00–21:00 Uhr",
+    "openingHours": "Di–Fr 08:00–10:00 Uhr und 17:00–21:00 Uhr",
     "description": "Warmer Aufenthalt zum Frühstück und Abendessen mit heißen Getränken.",
     "seasonalNote": "November bis März"
   },
@@ -2751,7 +2750,7 @@
       "email": "s.wette@evkgk.de",
       "website": "https://www.evkgk.de"
     },
-    "openingHours": "Ganzjährig | Mi, Do 10:00–12:00 Uhr",
+    "openingHours": "Mi, Do 10:00–12:00 Uhr",
     "description": "Frühstücksstube in der Emmaus-Kirche; vom 22.12.2025 bis 12.01.2026 geschlossen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2775,7 +2774,7 @@
     "contact": {
       "email": "info@bisous.ngo"
     },
-    "openingHours": "Ganzjährig | Di 14:00–15:30 Uhr",
+    "openingHours": "Di 14:00–15:30 Uhr",
     "description": "Dienstagsbistro in Kreuzberg.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2797,7 +2796,7 @@
     "contact": {
       "email": "i.stramm@ev-gemeinde-tiergarten.de"
     },
-    "openingHours": "Nov. bis März | Mo, Mi, Do 17:00–20:00 Uhr",
+    "openingHours": "Mo, Mi, Do 17:00–20:00 Uhr",
     "description": "Essensausgabe an der Heilandskirche.",
     "seasonalNote": "November bis März"
   },
@@ -2818,7 +2817,7 @@
     "contact": {
       "email": "waermecafe-paulus@sankt-elisabeth-berlin.de"
     },
-    "openingHours": "2. Nov. bis 29. März | So 17:00–20:00 Uhr",
+    "openingHours": "So 17:00–20:00 Uhr",
     "description": "Essensausgabe mit warmer Suppe, warmen Getränken und belegten Broten.",
     "seasonalNote": "November bis März"
   },
@@ -2842,7 +2841,7 @@
       "email": "info@pallotti.mobil.de",
       "website": "https://www.pallotti-mobil.de/soziales-catering/Essen-ist-fertig"
     },
-    "openingHours": "9. Sep. bis 30. Juni | Di 13:00–15:30 Uhr, So 13:00–15:30 Uhr",
+    "openingHours": "Di 13:00–15:30 Uhr, So 13:00–15:30 Uhr",
     "description": "Essensausgabe in St. Christophorus; dienstags steht dort das Duschmobil für Frauen.",
     "seasonalNote": "September bis Juni"
   },
@@ -2865,7 +2864,7 @@
       "email": "Agnes-Maria.Streich@erzbistumberlin.de",
       "website": "https://www.pallotti-mobil.de/soziales-catering"
     },
-    "openingHours": "7. Nov. bis 27. März | Fr 16:00–19:30 Uhr",
+    "openingHours": "Fr 16:00–19:30 Uhr",
     "description": "Wärmestube in Neukölln mit Gesprächsangebot und anschließendem Gebet in der Kirche.",
     "seasonalNote": "November bis März"
   },
@@ -2889,7 +2888,7 @@
       "email": "i.remde@strassenfeger.org",
       "website": "https://www.strassenfeger.org"
     },
-    "openingHours": "Ganzjährig | Do 12:00–18:00 Uhr",
+    "openingHours": "Do 12:00–18:00 Uhr",
     "description": "Sozial Brunch in Prenzlauer Berg.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2908,7 +2907,7 @@
       "essen_verpflegung"
     ],
     "contact": {},
-    "openingHours": "Nov. bis Apr. | So 12:00–14:00 Uhr",
+    "openingHours": "So 12:00–14:00 Uhr",
     "description": "Sonntägliche Suppenküche am Zionskirchplatz.",
     "seasonalNote": "November bis April"
   },
@@ -2932,7 +2931,7 @@
       "email": "erpel@milaa-berlin.de",
       "website": "https://www.milaa-berlin.org/unsere-arbeit/aktion-warmes-essen"
     },
-    "openingHours": "Ganzjährig | Mo, Mi, Fr 12:00–13:30 Uhr",
+    "openingHours": "Mo, Mi, Fr 12:00–13:30 Uhr",
     "description": "Suppenküche in Zehlendorf; montags zusätzlich Kleiderkammer.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2955,7 +2954,7 @@
       "email": "foodtruck@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de/foodtruck"
     },
-    "openingHours": "Ganzjährig | Di, Do 14:30–15:45 Uhr",
+    "openingHours": "Di, Do 14:30–15:45 Uhr",
     "description": "Mobiler Foodtruck mit warmen Mahlzeiten an wechselnden Standorten.",
     "seasonalNote": "Ganzjährig"
   },
@@ -2980,7 +2979,7 @@
       "email": "praxiskoordination@gebewo-pro.berlin",
       "website": "https://www.gebewo-pro.de/arztpraxis"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 08:00–14:00 Uhr",
+    "openingHours": "Mo–Fr 08:00–14:00 Uhr",
     "description": "Medizinische Praxis am Stralauer Platz.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3004,7 +3003,7 @@
       "email": "open.med-berlin@aerztederwelt.org",
       "website": "https://www.aerztederwelt.org/unsere-projekte/deutschland/berlin"
     },
-    "openingHours": "Ganzjährig | Mo 11:00–15:00 Uhr, Mi 14:00–18:00 Uhr",
+    "openingHours": "Mo 11:00–15:00 Uhr, Mi 14:00–18:00 Uhr",
     "description": "Kostenfreie medizinische Hilfe für Menschen ohne Krankenversicherung.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3032,7 +3031,7 @@
       "email": "info@medizin-hilft.org",
       "website": "https://www.medizin-hilft.org/ambulanz/"
     },
-    "openingHours": "Ganzjährig | Mo 10:00–16:00 Uhr, Di/Do 10:00–18:00 Uhr, Mi 11:00–15:00 Uhr",
+    "openingHours": "Mo 10:00–16:00 Uhr, Di/Do 10:00–18:00 Uhr, Mi 11:00–15:00 Uhr",
     "description": "Ambulanz mit mehreren Fachrichtungen und wöchentlichen Kindersprechstunden.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3059,7 +3058,7 @@
       "email": "dkr@fixpunkt.org",
       "website": "https://www.fixpunkt.org/drogenkonsummobile"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 14:00–18:00 Uhr",
+    "openingHours": "Mo–Fr 14:00–18:00 Uhr",
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3086,7 +3085,7 @@
       "email": "dkr@fixpunkt.org",
       "website": "https://www.fixpunkt.org/drogenkonsummobile"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 13:00–17:00 Uhr",
+    "openingHours": "Mo–Fr 13:00–17:00 Uhr",
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung im Görlitzer Park.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3113,7 +3112,7 @@
       "email": "kotti@fixpunktggmbh.org",
       "website": "https://www.fixpunktggmbh.org"
     },
-    "openingHours": "Ganzjährig | täglich geöffnet; Mo, Di, Do, Fr, Sa, So 10:15–17:30 Uhr; Mi 13:00–18:00 Uhr",
+    "openingHours": "täglich geöffnet; Mo, Di, Do, Fr, Sa, So 10:15–17:30 Uhr; Mi 13:00–18:00 Uhr",
     "description": "Kontaktstelle ausschließlich für drogengebrauchende Personen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3143,7 +3142,7 @@
       "email": "hilfe@karuna-ev.de",
       "website": "https://www.komma-vorbei.de"
     },
-    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 09:00–14:00 Uhr; Mi 09:30–14:00 Uhr",
+    "openingHours": "Mo, Di, Do, Fr 09:00–14:00 Uhr; Mi 09:30–14:00 Uhr",
     "description": "Beratung und Tageseinrichtung für drogenkonsumierende Jugendliche und junge Erwachsene von 13 bis 27 Jahren.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3174,7 +3173,7 @@
       "email": "muehlenstube@vistaberlin.de",
       "website": "https://www.vistaberlin.de/konsumraeume"
     },
-    "openingHours": "Ganzjährig | Mo, Di 10:00–17:00 Uhr; Mi 10:00–15:00 Uhr; Do, Fr 12:00–19:00 Uhr; Sa, So 11:30–19:00 Uhr",
+    "openingHours": "Mo, Di 10:00–17:00 Uhr; Mi 10:00–15:00 Uhr; Do, Fr 12:00–19:00 Uhr; Sa, So 11:30–19:00 Uhr",
     "description": "Kontakt- und Anlaufstelle mit integriertem Drogenkonsumraum für volljährige Konsument*innen illegalisierter Substanzen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3204,7 +3203,7 @@
       "email": "birkenstube@vistaberlin.de",
       "website": "https://www.vistaberlin.de/konsumraeume"
     },
-    "openingHours": "Ganzjährig | Mo, Di 12:00–19:00 Uhr; Mi 14:00–19:00 Uhr; Do, Fr 10:00–17:00 Uhr",
+    "openingHours": "Mo, Di 12:00–19:00 Uhr; Mi 14:00–19:00 Uhr; Do, Fr 10:00–17:00 Uhr",
     "description": "Kontakt- und Anlaufstelle mit integriertem Drogenkonsumraum für volljährige Konsument*innen illegalisierter Substanzen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3231,7 +3230,7 @@
       "email": "dkr@fixpunkt.org",
       "website": "https://www.fixpunkt.org"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 10:00–17:00 Uhr; Sa 12:00–17:00 Uhr",
+    "openingHours": "Mo–Fr 10:00–17:00 Uhr; Sa 12:00–17:00 Uhr",
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung am Leopoldplatz.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3261,7 +3260,7 @@
       "phone": "030 69 29 198",
       "email": "druckausgleich@fixpunktggmbh.org"
     },
-    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 10:30–18:00 Uhr; Mi, Sa 12:00–18:00 Uhr",
+    "openingHours": "Mo, Di, Do, Fr 10:30–18:00 Uhr; Mi, Sa 12:00–18:00 Uhr",
     "description": "Angebot für Drogengebrauchende in Neukölln.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3288,7 +3287,7 @@
       "phone": "030 749 279 51",
       "email": "spax@fixpunkt.org"
     },
-    "openingHours": "Ganzjährig | Mo, Mi, Do 10:00–16:00 Uhr",
+    "openingHours": "Mo, Mi, Do 10:00–16:00 Uhr",
     "description": "Suchtbezogenes Angebot in Spandau.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3318,7 +3317,7 @@
       "email": "olga@notdienstberlin.de",
       "website": "https://www.drogennotdienst.de/nur-fuer-frauen/frauentreff-olga"
     },
-    "openingHours": "Ganzjährig | Mo–Sa 14:00–20:00 Uhr",
+    "openingHours": "Mo–Sa 14:00–20:00 Uhr",
     "description": "Kontakt- und Beratungsstelle primär für Straßensexarbeiter*innen; nur für FLINTA-Personen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3349,7 +3348,7 @@
       "email": "streetwork@notdienstberlin.de",
       "website": "https://www.drogennotdienst.de"
     },
-    "openingHours": "Ganzjährig | Mo sowie Mi–Fr 11:00–17:00 Uhr; Di 12:00–17:00 Uhr",
+    "openingHours": "Mo sowie Mi–Fr 11:00–17:00 Uhr; Di 12:00–17:00 Uhr",
     "description": "Beratung und parallel Streetwork in Tempelhof-Schöneberg.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3372,7 +3371,7 @@
       "email": "dropout@gangway.de",
       "website": "https://www.gangway.de/teams/team-drop-out-streetwork-an-brennpunkten"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 10:00–17:00 Uhr",
+    "openingHours": "Mo–Fr 10:00–17:00 Uhr",
     "description": "Aufsuchende Beratung an Berliner Brennpunkten sowie in mehreren Bezirken; mehrsprachig.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3395,7 +3394,7 @@
       "email": "beratung@frostschutzengel.de",
       "website": "https://www.frostschutzengel.de"
     },
-    "openingHours": "Ganzjährig | Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
+    "openingHours": "Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
     "description": "Aufsuchende mehrsprachige Beratung in Einrichtungen der niedrigschwelligen Wohnungslosenhilfe.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3417,7 +3416,7 @@
       "phone": "030 34 65 55 00",
       "email": "moct@gebewo.berlin"
     },
-    "openingHours": "Ganzjährig | Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
+    "openingHours": "Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
     "description": "Aufsuchende mehrsprachige Beratung in mehreren Sprachen für Menschen in Wohnungslosigkeit.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3442,7 +3441,7 @@
       "email": "tria@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "Ganzjährig | Mo–Fr",
+    "openingHours": "Mo–Fr",
     "description": "Aufsuchende Beratung für EU-Bürger*innen; Terminvereinbarung möglich.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3466,7 +3465,7 @@
       "email": "anlaufstelle@amaroforo.de",
       "website": "https://www.amaroforo.de"
     },
-    "openingHours": "Ganzjährig | Mo, Di, Do, Fr 09:00–16:00 Uhr",
+    "openingHours": "Mo, Di, Do, Fr 09:00–16:00 Uhr",
     "description": "Beratung für EU-Bürger*innen in bulgarischer und rumänischer Sprache; nur mit Termin.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3489,7 +3488,7 @@
       "email": "beratungsstelle@gebewo-pro.berlin",
       "website": "https://www.gebewo-pro.de/beratungsstelle"
     },
-    "openingHours": "Ganzjährig | Mo 09:00–13:00 Uhr, Do 14:00–17:30 Uhr",
+    "openingHours": "Mo 09:00–13:00 Uhr, Do 14:00–17:30 Uhr",
     "description": "Beratung bei Wohnungsnotfällen und Existenzsicherung; weitere Tage nur Termin- und Telefonberatung.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3512,7 +3511,7 @@
       "email": "beff@awo-mitte.de",
       "website": "https://www.awo-mitte.de/frauen/wohnungslosigkeit"
     },
-    "openingHours": "Ganzjährig | Mo, Di, Do 09:00–15:00 Uhr; Mi 09:00–16:00 Uhr; Fr 09:00–14:00 Uhr",
+    "openingHours": "Mo, Di, Do 09:00–15:00 Uhr; Mi 09:00–16:00 Uhr; Fr 09:00–14:00 Uhr",
     "description": "Beratung für Frauen und deren Familien zum Thema Wohnungssuche und andere Problemlagen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3536,7 +3535,7 @@
       "email": "migration@berlin.arbeitundleben.de",
       "website": "https://www.bema.berlin"
     },
-    "openingHours": "Ganzjährig | Mo–Fr",
+    "openingHours": "Mo–Fr",
     "description": "Arbeits- und sozialrechtliche Beratung für eingewanderte Menschen und mobile Arbeitnehmer*innen.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3560,7 +3559,7 @@
       "email": "suppenkueche@franziskaner.de",
       "website": "https://www.suppe.franziskaner.net"
     },
-    "openingHours": "Ganzjährig | Di, Fr 08:30–14:00 Uhr",
+    "openingHours": "Di, Fr 08:30–14:00 Uhr",
     "description": "Duschen, Waschen persönlicher Wäsche und Ausgabe von Hygieneartikeln nach Spendenlage.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3589,7 +3588,7 @@
       "email": "seifenbuechse@skf-berlin.de",
       "website": "https://www.seifenbuechse.berlin/"
     },
-    "openingHours": "Ganzjährig | Mi und Fr 15:30–18:30 Uhr",
+    "openingHours": "Mi und Fr 15:30–18:30 Uhr",
     "description": "Mobiles Angebot für Kinder und Jugendliche mit Dusche und Toilette.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3614,7 +3613,7 @@
       "email": "suppenkueche@franziskaner.de",
       "website": "https://www.suppe.franziskaner.de"
     },
-    "openingHours": "Ganzjährig | Di, Do, Fr 12:30–14:00 Uhr",
+    "openingHours": "Di, Do, Fr 12:30–14:00 Uhr",
     "description": "Kleiderkammer im Franziskanerkloster Pankow.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3638,7 +3637,7 @@
       "email": "info@drk-spandau.de",
       "website": "https://www.drk-spandau.de"
     },
-    "openingHours": "Ganzjährig | Di 09:00–11:00 Uhr",
+    "openingHours": "Di 09:00–11:00 Uhr",
     "description": "Kleiderkammer des DRK in Spandau.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3663,7 +3662,7 @@
       "email": "kleiderkammer@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "Ganzjährig | Mo–Fr 09:00–13:00 Uhr",
+    "openingHours": "Mo–Fr 09:00–13:00 Uhr",
     "description": "Kleiderkammer des Caritasverbandes in Reinickendorf.",
     "seasonalNote": "Ganzjährig"
   },
@@ -3689,7 +3688,7 @@
       "email": "obdachbus@drk-berlin.net",
       "website": "https://www.drk-sz.de"
     },
-    "openingHours": "Ganzjährig | täglich 11:00–22:00 Uhr",
+    "openingHours": "täglich 11:00–22:00 Uhr",
     "description": "Aufsuchende mobile Hilfe nur im Berliner Südwesten; Beratung auf Deutsch, Englisch, Französisch, Spanisch und Rumänisch.",
     "seasonalNote": "Ganzjährig"
   },

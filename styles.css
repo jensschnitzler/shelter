@@ -339,7 +339,7 @@ li.item .html {
 }
 
 /* ── Details / Description ── */
-.card-details {
+.card-details, .card-meta, .card-tags {
     margin-top: .1rem;
     border-top: 1px solid var(--border);
     padding-top: .75rem;
