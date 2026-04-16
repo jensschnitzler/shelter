@@ -1,7 +1,7 @@
 const TARGET_GROUP_LABELS = {
     women:    'Frauen',
     men:      'Männer',
-    families: 'Familien',
+    children: 'Kinder',
     youth:    'Jugendliche',
     lgbtiq:   'LGBTIQ+',
 };
@@ -14,7 +14,6 @@ const TAG_LABELS = {
     bed_space:        'Schlafplatz',
     benefits_support: 'Sozialleistungen',
     berlin_crisis_service: 'Berliner Krisendienst',
-    children:         'Kinder',
     clothing:         'Bekleidung',
     clothing_donations: 'Kleiderkammern & Sachspenden',
     community:        'Gemeinschaft',
@@ -23,7 +22,6 @@ const TAG_LABELS = {
     day_center:      'Tagesstätte',
     day_services:    'Tagesangebote',
     dental_care:     'Zahnmedizin',
-    diverse_genders: 'Diverse Geschlechter',
     emergency:       'Notfallhilfe',
     eu_citizens:     'EU-Bürger',
     food:            'Essen/Verpflegung',
@@ -37,7 +35,6 @@ const TAG_LABELS = {
     legal_aid:       'Rechtsberatung',
     long_term_support: 'Langfristige Hilfe',
     medical_care:    'Medizinische Hilfe',
-    men:             'Männer',
     mental_health:   'Psychische Gesundheit',
     mobile_support:  'Mobile Hilfe',
     multilingual:    'Mehrsprachig',
@@ -60,8 +57,6 @@ const TAG_LABELS = {
     transitional_housing: 'Übergangswohnen',
     transport:       'Transport',
     uninsured:       'Ohne Krankenversicherung',
-    women:           'Frauen',
-    women_specific:  'Frauenangebote',
     youth_shelter:   'Jugendnotunterkunft',
 };
 
@@ -337,7 +332,7 @@ function renderCard(f) {
         ${hours}
         ${openingNote}
     </div>
-    <div class="readmore">
+    <div class="card-info readmore">
         <div id="readmore-content-${f.id}" class="readmore__content">${escapeHtml(f.description)}</div>
         <button class="readmore__toggle" aria-expanded="false" aria-controls="readmore-content-${f.id}">
             <span class="readmore__label--more">Mehr anzeigen</span>
@@ -489,7 +484,7 @@ async function init() {
     }
 
     // ── Target group filters ─────────────────────────────────────────────────
-    const groupOrder = ['women', 'men', 'families', 'youth', 'lgbtiq'];
+    const groupOrder = ['women', 'men', 'children', 'youth', 'lgbtiq'];
     const usedGroups = new Set(facilities.map(f => f.targetGroup));
 
     makeFilterBtn($tgFilters, 'Alle Gruppen', () => { activeTargetGroup = null; applyFilters(); })

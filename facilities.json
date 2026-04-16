@@ -267,10 +267,7 @@
             "shelter",
             "overnight_shelter",
             "hygiene",
-            "bed_space",
-            "women",
-            "men",
-            "diverse_genders"
+            "bed_space"
         ],
         "contact": {
             "phone": "030 99 27 33 76 / 030 93 66 10 87",
@@ -615,7 +612,6 @@
         },
         "tags": [
             "shelter",
-            "children",
             "counseling",
             "overnight_shelter",
             "bed_space",
@@ -651,7 +647,7 @@
             }
         ],
         "openingNote": "Aufnahme",
-        "targetGroup": "families"
+        "targetGroup": "children"
     },
     {
         "id": 14,
@@ -2671,7 +2667,6 @@
         },
         "tags": [
             "shelter",
-            "women_specific",
             "counseling",
             "crisis_housing",
             "bed_space"
@@ -3068,8 +3063,6 @@
         },
         "tags": [
             "overnight_shelter",
-            "women",
-            "men",
             "bed_space",
             "hygiene",
             "food",
@@ -3121,8 +3114,6 @@
         },
         "tags": [
             "overnight_shelter",
-            "women",
-            "men",
             "bed_space",
             "hygiene",
             "food",
@@ -3405,7 +3396,7 @@
             }
         ],
         "openingNote": "letzter Einlass nach Absprache die ganze Nacht",
-        "targetGroup": "families"
+        "targetGroup": "children"
     },
     {
         "id": 73,
@@ -3773,9 +3764,7 @@
             "bed_space",
             "hygiene",
             "food",
-            "medical_care",
-            "women",
-            "men"
+            "medical_care"
         ],
         "contact": {
             "phone": "030 30 42 007",
