@@ -25,7 +25,7 @@
     --shadow: 0 1px 3px rgba(0,0,0,.06), 0 2px 12px rgba(0,0,0,.05);
 
     --fontsize-l: 5vw;
-    --fontsize-m: 1.2rem;
+    --fontsize-m: 1.3rem;
     --fontsize-s: 1rem;
 }
 
@@ -128,8 +128,8 @@
 
 /* ── Controls (search + sort) ── */
 #controls-wrapper {
-    margin: 0 auto;
-    padding: 0 1.5rem;
+    margin: 0 1.5rem;
+    padding: 0;
     border-radius: var(--radius);
     overflow: clip;
     background: var(--surface);
@@ -228,6 +228,38 @@
 .sort-btn.active.asc::after  { content: ' ↑'; }
 .sort-btn.active.desc::after { content: ' ↓'; }
 
+/* ── Pill Small ── */
+.pill {
+    padding: .3rem .75rem;
+    border-radius: 999px;
+    border: 1px solid var(--border);
+    background: var(--bg);
+    color: var(--text-secondary);
+    font-size: var(--fontsize-s);
+
+    display: inline-flex;
+    align-items: center;
+    line-height: 1;
+
+    padding: .28rem .62rem;
+
+}
+
+a.pill , button.pill {
+    cursor: pointer;
+    transition: all .15s;
+    &:hover {
+        border-color: var(--accent);
+        color: var(--accent);
+    }
+}
+
+.pill.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: #fff;
+}
+
 /* ── Filters ── */
 .filter-btn {
     padding: .3rem .75rem;
@@ -236,19 +268,6 @@
     background: var(--bg);
     color: var(--text-secondary);
     font-size: var(--fontsize-s);
-    cursor: pointer;
-    transition: all .15s;
-}
-
-.filter-btn:hover {
-    border-color: var(--accent);
-    color: var(--accent);
-}
-
-.filter-btn.active {
-    background: var(--accent);
-    border-color: var(--accent);
-    color: #fff;
 }
 
 /* ── Stats ── */
@@ -341,8 +360,9 @@ li.item .html {
 
 .card-name {
     font-size: var(--fontsize-m);
-    font-weight: 600;
+    font-weight: 650;
     line-height: 1.1;
+    letter-spacing: -0.01em;
 }
 
 .card-org {
@@ -358,16 +378,7 @@ li.item .html {
 }
 
 .tag {
-    display: inline-flex;
-    align-items: center;
-    padding: .28rem .62rem;
-    border-radius: 999px;
-    font-size: var(--fontsize-s);
-    letter-spacing: .01em;
-    line-height: 1;
-    color: var(--text-secondary);
     background: #f8fafc;
-    border: 1px solid var(--border);
 }
 
 .tag--target-group {
