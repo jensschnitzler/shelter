@@ -321,7 +321,7 @@ function renderCard(f) {
     if (f.contact?.website)
         contacts.push(`<a class="contact-link" href="${escapeHtml(f.contact.website)}" target="_blank" rel="noopener" aria-label="${escapeHtml(`Website von ${f.name} öffnen`)}">${renderIcon('language')}Website</a>`);
 
-    return `<article class="card" id="facility-${f.id}">
+    return `<article class="card" id="facility-${f.id}" style="--color:${f.color};">
     <div class="card-header">
         <h2 class="card-name">${facilityName}</h2>
         <p class="card-org">${escapeHtml(f.organization)}</p>

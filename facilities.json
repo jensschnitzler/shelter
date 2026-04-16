@@ -3,6 +3,7 @@
         "id": 1,
         "name": "Notübernachtung Lehrter Straße (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#dcffe5",
         "address": {
             "street": "Lehrter Straße 68",
             "district": "Mitte",
