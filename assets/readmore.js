@@ -184,9 +184,4 @@ $(function(){
 });
 
 
-/* --- Initiation --- */
-$(function(){
-    const elems = $('.readmore').readMore({
-        linesMax: 3,
-    });
-});
+/* --- Initiation is handled by main.js after List.js renders cards --- */

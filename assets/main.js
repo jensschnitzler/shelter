@@ -337,10 +337,13 @@ function renderCard(f) {
         ${hours}
         ${openingNote}
     </div>
-    <details class="card-details">
-        <summary class="card-summary">Info</summary>
-        <div class="card-desc">${escapeHtml(f.description)}</div>
-    </details>
+    <div class="readmore">
+        <div id="readmore-content-${f.id}" class="readmore__content">${escapeHtml(f.description)}</div>
+        <button class="readmore__toggle" aria-expanded="false" aria-controls="readmore-content-${f.id}">
+            <span class="readmore__label--more">Mehr anzeigen</span>
+            <span class="readmore__label--less" hidden>Weniger anzeigen</span>
+        </button>
+    </div>
     ${contacts.length ? `<div class="card-contact">${contacts.join('')}</div>` : ''}
 </article>`;
 }
@@ -409,6 +412,9 @@ async function init() {
             <div class="html"></div>
         </li>`,
     }, facilities.map(flattenFacility));
+
+    // Initialize readmore on all cards (must run after List.js renders the items)
+    $('.readmore').readMore({ linesMax: 3 });
 
     // ── Search ──────────────────────────────────────────────────────────────
     $('#search-input').on('input', function () {

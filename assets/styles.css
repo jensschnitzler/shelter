@@ -353,48 +353,57 @@ li.item .html {
 }
 
 /* ── Details / Description ── */
-.card-details, .card-meta, .card-tags, .card-contact {
+.readmore, .card-meta, .card-tags, .card-contact {
     margin-top: .1rem;
     border-top: 1px solid var(--border);
     padding-top: .75rem;
 }
 
-.card-summary {
-    cursor: pointer;
-    font-size: .88rem;
-    font-weight: 600;
-    color: var(--accent);
-    list-style: none;
-}
-
-.card-summary::-webkit-details-marker {
-    display: none;
-}
-
-.card-summary::before {
-    content: '+';
-    display: inline-block;
-    width: 1rem;
-    margin-right: .25rem;
-    color: var(--text-secondary);
-    font-weight: 700;
-}
-
-.card-details[open] .card-summary::before {
-    content: '−';
-}
-
-.card-details:focus-within .card-summary {
-    outline: 3px solid var(--focus-ring);
-    outline-offset: 2px;
-    border-radius: 4px;
-}
-
-.card-desc {
+/* ── ReadMore component ── */
+.readmore__content {
     font-size: .9rem;
     color: var(--text-secondary);
     line-height: 1.55;
-    padding-top: .65rem;
+}
+
+/* Clamp to --lines_max lines when collapsed (overflow: clip set by plugin during animation) */
+.rm--init .readmore__content {
+    max-height: calc(var(--lines_max, 3) * 1.55em);
+    overflow: hidden;
+}
+
+.rm--init.rm--more .readmore__content {
+    max-height: none;
+    overflow: visible;
+}
+
+/* Toggle button: hidden until overflow is detected */
+.readmore__toggle {
+    display: none;
+    margin-top: .5rem;
+    padding: 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    font-size: .84rem;
+    font-weight: 500;
+    color: var(--accent);
+}
+
+.rm--active .readmore__toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: .2rem;
+}
+
+.readmore__toggle:hover {
+    text-decoration: underline;
+}
+
+.readmore__toggle:focus-visible {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 2px;
+    border-radius: 4px;
 }
 
 /* ── Contact links ── */
