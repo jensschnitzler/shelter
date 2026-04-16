@@ -9,7 +9,7 @@
             rel="stylesheet"
             href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined"
         />
-        <link rel="stylesheet" href="styles.css" />
+        <link rel="stylesheet" href="assets/styles.css" />
     </head>
     <body>
         <a class="skip-link" href="#facilities-list">Direkt zur Ergebnisliste springen</a>
@@ -21,7 +21,7 @@
             </p>
         </header>
 
-        <div id="controls">
+        <div id="controls" class="controls controls--main">
             <label class="sr-only" for="search-input">
                 Einrichtungen nach Name, Bezirk oder Angebot durchsuchen
             </label>
@@ -56,8 +56,10 @@
             </div>
         </div>
 
-        <nav id="target-group-filters" class="filters" aria-label="Filter nach Zielgruppe"></nav>
-        <nav id="filters" class="filters" aria-label="Filter nach Kategorie"></nav>
+        <nav id="target-group-filters" class="controls" aria-label="Filter nach Zielgruppe">
+            <span>Für</span>
+        </nav>
+        <nav id="filters" class="controls" aria-label="Filter nach Kategorie"></nav>
 
         <p id="stats" role="status" aria-atomic="true"></p>
 
@@ -87,8 +89,8 @@
             Informationen ergänzen/korrigieren
         </a>
 
-        <script src="cash.min.js"></script>
-        <script src="list.min.js"></script>
-        <script src="main.js"></script>
+        <script src="assets/cash.min.js"></script>
+        <script src="assets/list.min.js"></script>
+        <script src="assets/main.js"></script>
     </body>
 </html>
