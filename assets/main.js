@@ -178,7 +178,7 @@ function formatSeasonalNote(periods, text) {
     }
 
     if (isFullYearSeason(periods)) {
-        return '';
+        return 'Ganzjährig';
     }
 
     return periods
