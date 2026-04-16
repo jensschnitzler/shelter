@@ -33,7 +33,7 @@
     font-family: 'Remus Variable', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
     background: var(--color-black);
     color: var(--text-primary);
-    line-height: 1.5;
+    line-height: 1.2;
     min-height: 100vh;
     letter-spacing: 0.01em;
     font-stretch: 90%;
@@ -339,7 +339,7 @@ li.item .html {
 .card-name {
     font-size: var(--fontsize-m);
     font-weight: 600;
-    line-height: 1.3;
+    line-height: 1.2;
 }
 
 .card-org {
@@ -361,7 +361,7 @@ li.item .html {
     border-radius: 999px;
     font-size: var(--fontsize-s);
     letter-spacing: .01em;
-    line-height: 1.2;
+    line-height: 1;
     color: var(--text-secondary);
     background: #f8fafc;
     border: 1px solid var(--border);
@@ -424,12 +424,11 @@ li.item .html {
 .readmore__content {
     font-size: var(--fontsize-s);
     color: var(--text-secondary);
-    line-height: 1.55;
 }
 
 /* Clamp to --lines_max lines when collapsed (overflow: clip set by plugin during animation) */
 .rm--init .readmore__content {
-    max-height: calc(var(--lines_max, 3) * 1.55em);
+    max-height: calc(var(--lines_max, 3) * 1.2em);
     overflow: hidden;
 }
 
