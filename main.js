@@ -66,7 +66,7 @@ const TAG_LABELS = {
 };
 
 // Fields used for text search (excludes the raw html field)
-const SEARCH_FIELDS = ['name', 'organization', 'location', 'district', 'description', 'tags_str'];
+const SEARCH_FIELDS = ['name', 'organization', 'subdistrict', 'district', 'description', 'tags_str'];
 
 function tagLabel(tag) {
     return TAG_LABELS[tag] || tag.replace(/_/g, ' ');
@@ -270,12 +270,12 @@ function normalizeFacility(raw) {
         id: raw?.id ?? '',
         name: String(raw?.name || 'Unbekannte Einrichtung'),
         organization: String(raw?.organization || 'Keine Organisation angegeben'),
-        location: String(raw?.location || address.district || 'Unbekannter Ort'),
         address: {
             street: String(address.street || 'Adresse auf Anfrage'),
             district: String(address.district || 'Unbekannter Bezirk'),
             postalCode: String(address.postalCode || ''),
             city: String(address.city || 'Berlin'),
+            subdistrict: String(address.subdistrict || ''),
         },
         tags: Array.isArray(raw?.tags) ? raw.tags.filter(Boolean).map(String) : [],
         targetGroup: typeof raw?.targetGroup === 'string' ? raw.targetGroup : 'all',
@@ -356,7 +356,7 @@ function flattenFacility(f) {
     return {
         name:         f.name,
         organization: f.organization,
-        location:     f.location,
+        subdistrict:  f.address.subdistrict,
         district:     f.address.district,
         description:  f.description,
         // Include both tag keys and German labels so both are searchable
@@ -398,11 +398,11 @@ async function init() {
 
     const listInstance = new List('facilities-list', {
         // List.js sets innerHTML on div.html and textContent on hidden spans
-        valueNames: ['name', 'organization', 'location', 'district', 'tags_str', 'description', 'html'],
+        valueNames: ['name', 'organization', 'subdistrict', 'district', 'tags_str', 'description', 'html'],
         item: `<li class="item">
             <span class="name"         hidden aria-hidden="true"></span>
             <span class="organization" hidden aria-hidden="true"></span>
-            <span class="location"     hidden aria-hidden="true"></span>
+            <span class="subdistrict"  hidden aria-hidden="true"></span>
             <span class="district"     hidden aria-hidden="true"></span>
             <span class="tags_str"     hidden aria-hidden="true"></span>
             <span class="description"  hidden aria-hidden="true"></span>

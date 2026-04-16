@@ -7,9 +7,9 @@
             "street": "Lehrter Straße 68",
             "district": "Mitte",
             "postalCode": "10557",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -59,9 +59,9 @@
             "street": "Am Containerbahnhof 1",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10367",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -109,9 +109,9 @@
             "street": "Franklinstraße 27a",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10587",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -160,9 +160,9 @@
             "street": "Kopenhagener Straße 29",
             "district": "Reinickendorf",
             "postalCode": "13407",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Reinickendorf"
         },
-        "location": "Reinickendorf",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -210,9 +210,9 @@
             "street": "Storkower Str. 101a",
             "district": "Pankow",
             "postalCode": "10407",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Prenzlauer Berg"
         },
-        "location": "Prenzlauer Berg",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -260,9 +260,9 @@
             "street": "Otto-Rosenberg-Str. 3 und 10",
             "district": "Marzahn-Hellersdorf",
             "postalCode": "12681",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Marzahn"
         },
-        "location": "Marzahn",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -311,9 +311,9 @@
             "street": "Ohlauer Straße 22",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10999",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -363,9 +363,9 @@
             "street": "Kurmärkische Straße 1-3",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "10783",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Schöneberg"
         },
-        "location": "Schöneberg",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -413,9 +413,9 @@
             "street": "Petersburger Straße 92",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10247",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -463,9 +463,9 @@
             "street": "Tieckstraße 17",
             "district": "Mitte",
             "postalCode": "10115",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -513,9 +513,9 @@
             "street": "Fuldastraße 9",
             "district": "Neukölln",
             "postalCode": "12043",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -561,9 +561,9 @@
             "street": "Hallesches Ufer 30",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10963",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -610,9 +610,9 @@
             "street": "Wrangelstraße 12",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "shelter",
             "children",
@@ -661,9 +661,9 @@
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
             "postalCode": "10557",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Berlinweit / Mobile"
         },
-        "location": "Berlinweit / Mobile",
         "tags": [
             "outreach",
             "transport",
@@ -711,9 +711,9 @@
             "street": "Berlinweit",
             "district": "Berlinweit",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Berlinweit / Mobile"
         },
-        "location": "Berlinweit / Mobile",
         "tags": [
             "outreach",
             "transport",
@@ -760,9 +760,9 @@
             "street": "Joachim-Friedrich-Straße 46",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10711",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "day_center",
             "food",
@@ -809,9 +809,9 @@
             "street": "Seelingstraße 9",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "14059",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "day_center",
             "food",
@@ -865,9 +865,9 @@
             "street": "Cuvrystraße 11-12",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "day_center",
             "food",
@@ -936,9 +936,9 @@
             "street": "Segitzdamm 46",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10969",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "day_center",
             "food",
@@ -999,9 +999,9 @@
             "street": "Dunckerstr. 32",
             "district": "Pankow",
             "postalCode": "10439",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Prenzlauer Berg"
         },
-        "location": "Prenzlauer Berg",
         "tags": [
             "day_center",
             "food",
@@ -1035,9 +1035,9 @@
             "street": "Jebensstraße 5",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10623",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg / Zoo"
         },
-        "location": "Charlottenburg / Zoo",
         "tags": [
             "day_center",
             "food",
@@ -1086,9 +1086,9 @@
             "street": "Europaplatz 1",
             "district": "Mitte",
             "postalCode": "10557",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte / Hauptbahnhof"
         },
-        "location": "Mitte / Hauptbahnhof",
         "tags": [
             "day_center",
             "food",
@@ -1150,9 +1150,9 @@
             "street": "Jebensstraße 5",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10623",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg / Zoo"
         },
-        "location": "Charlottenburg / Zoo",
         "tags": [
             "hygiene",
             "showers",
@@ -1197,9 +1197,9 @@
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
             "postalCode": "10557",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "clothing",
             "hygiene",
@@ -1240,9 +1240,9 @@
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
             "postalCode": "10557",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "hygiene",
             "laundry"
@@ -1280,9 +1280,9 @@
             "street": "Gotzkowskystraße 8",
             "district": "Mitte",
             "postalCode": "10555",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Tiergarten"
         },
-        "location": "Tiergarten",
         "tags": [
             "clothing"
         ],
@@ -1309,9 +1309,9 @@
             "street": "Jebensstr. 3",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10623",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg / Zoo"
         },
-        "location": "Charlottenburg / Zoo",
         "tags": [
             "medical_care",
             "uninsured",
@@ -1360,9 +1360,9 @@
             "street": "Uhlandstraße 83",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10717",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Berlinweit / Mobile"
         },
-        "location": "Berlinweit / Mobile",
         "tags": [
             "medical_care",
             "outreach",
@@ -1405,9 +1405,9 @@
             "street": "Turmstraße 21",
             "district": "Mitte / Moabit",
             "postalCode": "10559",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "medical_care",
             "dental_care",
@@ -1438,9 +1438,9 @@
             "street": "Turmstraße 21",
             "district": "Mitte / Moabit",
             "postalCode": "10559",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "medical_care",
             "recovery_housing",
@@ -1484,9 +1484,9 @@
             "street": "Aachener Straße 12",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10713",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wilmersdorf"
         },
-        "location": "Wilmersdorf",
         "tags": [
             "medical_care",
             "uninsured",
@@ -1527,9 +1527,9 @@
             "street": "Pflugstraße 12",
             "district": "Mitte",
             "postalCode": "10115",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "medical_care",
             "dental_care",
@@ -1585,9 +1585,9 @@
             "street": "Pflugstraße 12",
             "district": "Mitte",
             "postalCode": "10115",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "counseling",
             "mental_health",
@@ -1627,9 +1627,9 @@
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
             "postalCode": "10557",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "medical_care",
             "outreach",
@@ -1685,9 +1685,9 @@
             "street": "Zinzendorfstraße 18",
             "district": "Mitte",
             "postalCode": "10555",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "counseling",
             "benefits_support",
@@ -1734,9 +1734,9 @@
             "street": "Levetzowstraße 12a",
             "district": "Mitte",
             "postalCode": "10555",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Tiergarten"
         },
-        "location": "Tiergarten",
         "tags": [
             "counseling",
             "housing",
@@ -1778,9 +1778,9 @@
             "street": "Mehringdamm 126",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10965",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "counseling",
             "housing",
@@ -1827,9 +1827,9 @@
             "street": "Residenzstr. 90",
             "district": "Reinickendorf",
             "postalCode": "13409",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Reinickendorf"
         },
-        "location": "Reinickendorf",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -1876,9 +1876,9 @@
             "street": "Reichenberger Straße 131",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10999",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "substance_use_counseling",
             "harm_reduction",
@@ -1914,9 +1914,9 @@
             "street": "Ohlauer Straße 22",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10999",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "substance_use_counseling",
             "harm_reduction",
@@ -1947,9 +1947,9 @@
             "street": "Weichselstraße 8",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10247",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "housing",
             "counseling",
@@ -1978,9 +1978,9 @@
             "street": "Lehrter Straße 69",
             "district": "Mitte / Moabit",
             "postalCode": "10557",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "transitional_housing",
             "counseling",
@@ -2021,9 +2021,9 @@
             "street": "Brunnenstraße 145",
             "district": "Mitte",
             "postalCode": "10115",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "legal_aid",
             "counseling"
@@ -2050,9 +2050,9 @@
             "street": "Pflugstraße 12",
             "district": "Mitte",
             "postalCode": "10115",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "legal_aid",
             "counseling"
@@ -2081,9 +2081,9 @@
             "street": "Otto-Suhr-Allee 100",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10585",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "housing",
             "counseling",
@@ -2123,9 +2123,9 @@
             "street": "Yorckstraße 4-11",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10965",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "housing",
             "counseling",
@@ -2166,9 +2166,9 @@
             "street": "Müllenhoffstraße 17",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10967",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "youth_shelter",
             "counseling",
@@ -2214,9 +2214,9 @@
             "street": "Mindener Straße 14",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10589",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "youth_shelter",
             "counseling",
@@ -2262,9 +2262,9 @@
             "street": "Kuglerstraße 11",
             "district": "Pankow",
             "postalCode": "10439",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Prenzlauer Berg"
         },
-        "location": "Prenzlauer Berg",
         "tags": [
             "day_center",
             "food",
@@ -2319,9 +2319,9 @@
             "street": "Hanauer Straße 63",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "14197",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedenau"
         },
-        "location": "Friedenau",
         "tags": [
             "transitional_housing",
             "counseling",
@@ -2364,9 +2364,9 @@
             "street": "Wollankstraße 19",
             "district": "Pankow",
             "postalCode": "13187",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "food",
             "soup_kitchen",
@@ -2444,9 +2444,9 @@
             "street": "Wrangelstraße 50/51",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "food",
             "soup_kitchen"
@@ -2483,9 +2483,9 @@
             "street": "Zossener Straße 65",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10961",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "day_center",
             "food",
@@ -2525,9 +2525,9 @@
             "street": "Schönhauser Allee 182",
             "district": "Pankow",
             "postalCode": "10119",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Prenzlauer Berg"
         },
-        "location": "Prenzlauer Berg",
         "tags": [
             "shelter",
             "overnight_shelter",
@@ -2568,9 +2568,9 @@
             "street": "Lynarstraße 38",
             "district": "Mitte",
             "postalCode": "13353",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "outreach",
             "food",
@@ -2602,9 +2602,9 @@
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
             "postalCode": "10557",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "counseling",
             "eu_citizens",
@@ -2633,9 +2633,9 @@
             "street": "Geusenstraße 2",
             "district": "Lichtenberg",
             "postalCode": "10317",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "counseling",
             "housing",
@@ -2666,9 +2666,9 @@
             "street": "Rigaer Straße 55b",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10247",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "shelter",
             "women_specific",
@@ -2700,9 +2700,9 @@
             "street": "Spreestraße 8",
             "district": "Treptow-Köpenick",
             "postalCode": "12439",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Treptow-Köpenick / Niederschöneweide"
         },
-        "location": "Treptow-Köpenick / Niederschöneweide",
         "tags": [
             "counseling",
             "day_center",
@@ -2756,9 +2756,9 @@
             "street": "Berlinweit",
             "district": "Berlinweit",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Berlinweit / Mobile"
         },
-        "location": "Berlinweit / Mobile",
         "tags": [
             "hygiene",
             "showers",
@@ -2789,9 +2789,9 @@
             "street": "Müllerstraße 48",
             "district": "Mitte",
             "postalCode": "13349",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "day_center",
             "food",
@@ -2823,9 +2823,9 @@
             "street": "Hardenbergplatz 13",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10623",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg / Zoo"
         },
-        "location": "Charlottenburg / Zoo",
         "tags": [
             "counseling",
             "outreach",
@@ -2867,9 +2867,9 @@
             "street": "Große Hamburger Straße 5-11",
             "district": "Mitte",
             "postalCode": "10115",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "medical_care",
             "alternative_medicine",
@@ -2905,9 +2905,9 @@
             "street": "Wrangelstr. 30",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -2952,9 +2952,9 @@
             "street": "Müllerstr. 126",
             "district": "Mitte",
             "postalCode": "13349",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -3001,9 +3001,9 @@
             "street": "Tieckstr. 17",
             "district": "Mitte",
             "postalCode": "10115",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -3063,9 +3063,9 @@
             "street": "Falkenseer Chaussee 154",
             "district": "Spandau",
             "postalCode": "13589",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Spandau"
         },
-        "location": "Spandau",
         "tags": [
             "overnight_shelter",
             "women",
@@ -3116,9 +3116,9 @@
             "street": "Kuhligkshofstr. 5",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "12165",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Steglitz"
         },
-        "location": "Steglitz",
         "tags": [
             "overnight_shelter",
             "women",
@@ -3168,9 +3168,9 @@
             "street": "Palisadenstr. 72",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10243",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -3217,9 +3217,9 @@
             "street": "Wrangelstr. 50",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -3266,9 +3266,9 @@
             "street": "Teupitzer Str. 39",
             "district": "Neukölln",
             "postalCode": "12059",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -3316,9 +3316,9 @@
             "street": "Wollenberger Str. 10",
             "district": "Lichtenberg",
             "postalCode": "13053",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -3365,9 +3365,9 @@
             "street": "Am Bärensprung 52/56",
             "district": "Reinickendorf",
             "postalCode": "13503",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Reinickendorf"
         },
-        "location": "Reinickendorf",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -3415,9 +3415,9 @@
             "street": "Gierkeplatz 4",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10585",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3456,9 +3456,9 @@
             "street": "Plesser Str. 3",
             "district": "Treptow-Köpenick",
             "postalCode": "12435",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Treptow"
         },
-        "location": "Treptow",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3505,9 +3505,9 @@
             "street": "Taborstr. 17",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3549,9 +3549,9 @@
             "street": "Goßlerstr. 30",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "12161",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedenau"
         },
-        "location": "Friedenau",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3593,9 +3593,9 @@
             "street": "Gneisenaustr. 2a",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10961",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3635,9 +3635,9 @@
             "street": "Oudenarder Str. 26",
             "district": "Mitte / Wedding",
             "postalCode": "13347",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3679,9 +3679,9 @@
             "street": "Fuldastr. 50",
             "district": "Neukölln",
             "postalCode": "12045",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3721,9 +3721,9 @@
             "street": "Kranoldstr. 16",
             "district": "Neukölln",
             "postalCode": "12051",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3765,9 +3765,9 @@
             "street": "Eichenallee 47–53",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "14050",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Westend"
         },
-        "location": "Westend",
         "tags": [
             "night_cafe",
             "bed_space",
@@ -3810,9 +3810,9 @@
             "street": "Tübinger Str. 5",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10715",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wilmersdorf"
         },
-        "location": "Wilmersdorf",
         "tags": [
             "day_services",
             "food",
@@ -3857,9 +3857,9 @@
             "street": "Wrangelstr. 30",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "day_services",
             "hygiene",
@@ -3901,9 +3901,9 @@
             "street": "Warschauerstr. 17",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10243",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "day_services",
             "hygiene",
@@ -3946,9 +3946,9 @@
             "street": "Petersburger Str. 92",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10247",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "day_services",
             "hygiene",
@@ -3993,9 +3993,9 @@
             "street": "Erich-Steinfurth-Str. 8 / S-Bahnbogen 8",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10243",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Ostbahnhof"
         },
-        "location": "Ostbahnhof",
         "tags": [
             "day_services",
             "hygiene",
@@ -4054,9 +4054,9 @@
             "street": "Gitschiner Str. 15",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10969",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "day_services",
             "hygiene",
@@ -4115,9 +4115,9 @@
             "street": "Weitlingstr. 11",
             "district": "Lichtenberg",
             "postalCode": "10317",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "day_services",
             "food",
@@ -4169,9 +4169,9 @@
             "street": "Albrechtstr. 15",
             "district": "Mitte",
             "postalCode": "10117",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte / Friedrichstraße"
         },
-        "location": "Mitte / Friedrichstraße",
         "tags": [
             "day_services",
             "hygiene",
@@ -4223,9 +4223,9 @@
             "street": "Weisestr. 34",
             "district": "Neukölln",
             "postalCode": "12049",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "day_services",
             "hygiene",
@@ -4276,9 +4276,9 @@
             "street": "Gustav-Freytag-Str. 1",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "10827",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Schöneberg"
         },
-        "location": "Schöneberg",
         "tags": [
             "day_services",
             "hygiene",
@@ -4323,9 +4323,9 @@
             "street": "Herbartstr. 4–6",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "14057",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "food",
             "counseling",
@@ -4365,9 +4365,9 @@
             "street": "Bahnhof Zoo",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg / Zoo"
         },
-        "location": "Charlottenburg / Zoo",
         "tags": [
             "food",
             "clothing"
@@ -4402,9 +4402,9 @@
             "street": "Bergheimer Str. 1",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "14197",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wilmersdorf"
         },
-        "location": "Wilmersdorf",
         "tags": [
             "food",
             "accessible"
@@ -4442,9 +4442,9 @@
             "street": "Mariannenplatz 28",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "food",
             "pet_friendly"
@@ -4493,9 +4493,9 @@
             "street": "Lausitzer Platz 8a",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "food",
             "accessible"
@@ -4533,9 +4533,9 @@
             "street": "Wrangelstr. 50",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "food",
             "clothing",
@@ -4572,9 +4572,9 @@
             "street": "Thusneldaallee 1",
             "district": "Mitte",
             "postalCode": "10551",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "food",
             "pet_friendly"
@@ -4611,9 +4611,9 @@
             "street": "Oldenburgerstr. 45",
             "district": "Mitte",
             "postalCode": "10551",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "food"
         ],
@@ -4647,9 +4647,9 @@
             "street": "Nansenstraße 4–7",
             "district": "Neukölln",
             "postalCode": "12047",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "food",
             "accessible"
@@ -4694,9 +4694,9 @@
             "street": "Braunschweiger Str. 18",
             "district": "Neukölln",
             "postalCode": "12055",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "food",
             "accessible"
@@ -4732,9 +4732,9 @@
             "street": "Oderbergerstr. 12",
             "district": "Pankow",
             "postalCode": "10435",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Prenzlauer Berg"
         },
-        "location": "Prenzlauer Berg",
         "tags": [
             "food",
             "counseling",
@@ -4771,9 +4771,9 @@
             "street": "Griebenowstr. 16",
             "district": "Pankow",
             "postalCode": "10435",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Prenzlauer Berg"
         },
-        "location": "Prenzlauer Berg",
         "tags": [
             "food"
         ],
@@ -4805,9 +4805,9 @@
             "street": "Kirchstr. 6",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "14163",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Zehlendorf"
         },
-        "location": "Zehlendorf",
         "tags": [
             "food",
             "accessible"
@@ -4846,9 +4846,9 @@
             "street": "Alexanderplatz / Ostbahnhof",
             "district": "Berlinweit / Mobile",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Berlinweit / Mobile"
         },
-        "location": "Berlinweit / Mobile",
         "tags": [
             "food",
             "mobile_support"
@@ -4885,9 +4885,9 @@
             "street": "Stralauer Platz 32",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10243",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Ostbahnhof"
         },
-        "location": "Ostbahnhof",
         "tags": [
             "medical_care",
             "counseling",
@@ -4929,9 +4929,9 @@
             "street": "Irenenstraße 20",
             "district": "Lichtenberg",
             "postalCode": "10317",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "medical_care",
             "counseling"
@@ -4976,9 +4976,9 @@
             "street": "Teltower Damm 8a",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "14169",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Zehlendorf"
         },
-        "location": "Zehlendorf",
         "tags": [
             "medical_care",
             "counseling",
@@ -5035,9 +5035,9 @@
             "street": "Stuttgarter Platz / Lewishamstraße",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5081,9 +5081,9 @@
             "street": "Görlitzer Park",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5127,9 +5127,9 @@
             "street": "Reichenberger Straße 176",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10999",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5183,9 +5183,9 @@
             "street": "Münsterlandstraße 5",
             "district": "Lichtenberg",
             "postalCode": "10317",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5238,9 +5238,9 @@
             "street": "Müllerstraße 120",
             "district": "Mitte",
             "postalCode": "13349",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5311,9 +5311,9 @@
             "street": "Birkenstraße 51",
             "district": "Mitte",
             "postalCode": "10559",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5374,9 +5374,9 @@
             "street": "Hinter der Alten Nazarethkirche, gegenüber Schulstraße",
             "district": "Mitte / Wedding",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding / Leopoldplatz"
         },
-        "location": "Wedding / Leopoldplatz",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5428,9 +5428,9 @@
             "street": "Karl-Marx-Straße 202",
             "district": "Neukölln",
             "postalCode": "12055",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5485,9 +5485,9 @@
             "street": "Schönwalderstr. 27",
             "district": "Spandau",
             "postalCode": "13585",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Spandau"
         },
-        "location": "Spandau",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5529,9 +5529,9 @@
             "street": "Kurfürstenstr. 40",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "10785",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Schöneberg"
         },
-        "location": "Schöneberg",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5578,9 +5578,9 @@
             "street": "Bülow Straße 106",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "10783",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Schöneberg"
         },
-        "location": "Schöneberg",
         "tags": [
             "substance_use_support",
             "people_who_use_drugs",
@@ -5635,9 +5635,9 @@
             "street": "Verschiedene Einsatzorte",
             "district": "Bezirksübergreifend",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Berlinweit / Mobile"
         },
-        "location": "Berlinweit / Mobile",
         "tags": [
             "counseling"
         ],
@@ -5677,9 +5677,9 @@
             "street": "Stralauer Platz 32",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10243",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Ostbahnhof"
         },
-        "location": "Ostbahnhof",
         "tags": [
             "counseling"
         ],
@@ -5716,9 +5716,9 @@
             "street": "Stralauer Platz 32",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10243",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Ostbahnhof"
         },
-        "location": "Ostbahnhof",
         "tags": [
             "counseling"
         ],
@@ -5754,9 +5754,9 @@
             "street": "Levetzowstr. 12a",
             "district": "Mitte",
             "postalCode": "10555",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "counseling",
             "mobile_support",
@@ -5786,9 +5786,9 @@
             "street": "Kaiser-Friedrich-Str. 19",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10585",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "counseling",
             "accessible"
@@ -5828,9 +5828,9 @@
             "street": "Taborstr. 17",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10997",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "counseling"
         ],
@@ -5874,9 +5874,9 @@
             "street": "Prinzenallee 25/26",
             "district": "Mitte",
             "postalCode": "13357",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "counseling"
         ],
@@ -5930,9 +5930,9 @@
             "street": "Lorenzweg 5",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "12099",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Tempelhof"
         },
-        "location": "Tempelhof",
         "tags": [
             "counseling",
             "pet_friendly"
@@ -5961,9 +5961,9 @@
             "street": "Wollankstr. 18",
             "district": "Pankow",
             "postalCode": "13187",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "hygiene",
             "accessible"
@@ -6001,9 +6001,9 @@
             "street": "Rathausstraße 1",
             "district": "Mitte / Alexanderplatz",
             "postalCode": "10178",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Alexanderplatz / Mobile"
         },
-        "location": "Alexanderplatz / Mobile",
         "tags": [
             "hygiene",
             "clothing",
@@ -6045,9 +6045,9 @@
             "street": "Wollankstr. 18",
             "district": "Pankow",
             "postalCode": "13187",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "clothing_donations",
             "clothing",
@@ -6087,9 +6087,9 @@
             "street": "Galenstr. 29",
             "district": "Spandau",
             "postalCode": "13597",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Spandau"
         },
-        "location": "Spandau",
         "tags": [
             "clothing_donations",
             "clothing"
@@ -6126,9 +6126,9 @@
             "street": "Residenzstr. 90",
             "district": "Reinickendorf",
             "postalCode": "13409",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Reinickendorf"
         },
-        "location": "Reinickendorf",
         "tags": [
             "clothing_donations",
             "clothing",
@@ -6170,9 +6170,9 @@
             "street": "Berliner Südwesten",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Steglitz-Zehlendorf / Mobile"
         },
-        "location": "Steglitz-Zehlendorf / Mobile",
         "tags": [
             "outreach_bus",
             "mobile_support",
@@ -6217,9 +6217,9 @@
             "street": "Alt-Friedrichsfelde 60",
             "district": "Lichtenberg",
             "postalCode": "10315",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6258,9 +6258,9 @@
             "street": "Riesaer Str. 94",
             "district": "Marzahn-Hellersdorf",
             "postalCode": "12627",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Marzahn-Hellersdorf"
         },
-        "location": "Marzahn-Hellersdorf",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6299,9 +6299,9 @@
             "street": "Müllerstr. 146",
             "district": "Mitte",
             "postalCode": "13353",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6349,9 +6349,9 @@
             "street": "Donaustr. 89",
             "district": "Neukölln",
             "postalCode": "12043",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6390,9 +6390,9 @@
             "street": "Fröbelstr. 17",
             "district": "Pankow",
             "postalCode": "10405",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6431,9 +6431,9 @@
             "street": "Eichborndamm 215",
             "district": "Reinickendorf",
             "postalCode": "13437",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Reinickendorf"
         },
-        "location": "Reinickendorf",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6472,9 +6472,9 @@
             "street": "Galenstr. 14",
             "district": "Spandau",
             "postalCode": "13597",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Spandau"
         },
-        "location": "Spandau",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6512,9 +6512,9 @@
             "street": "Hanna-Renate-Laurien-Platz 1",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "12247",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Steglitz-Zehlendorf"
         },
-        "location": "Steglitz-Zehlendorf",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6553,9 +6553,9 @@
             "street": "Tempelhofer Damm 165",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "12099",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Tempelhof-Schöneberg"
         },
-        "location": "Tempelhof-Schöneberg",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6594,9 +6594,9 @@
             "street": "Hans-Schmidt-Str. 18",
             "district": "Treptow-Köpenick",
             "postalCode": "12489",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Treptow-Köpenick"
         },
-        "location": "Treptow-Köpenick",
         "tags": [
             "housing_support_office",
             "counseling",
@@ -6635,9 +6635,9 @@
             "street": "9 Beratungsstandorte in Berlin",
             "district": "Berlinweit",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Berlinweit"
         },
-        "location": "Berlinweit",
         "tags": [
             "berlin_crisis_service",
             "counseling",
@@ -6695,9 +6695,9 @@
             "street": "Hohenzollerndamm 174-177",
             "district": "Charlottenburg-Wilmersdorf",
             "postalCode": "10713",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg-Wilmersdorf"
         },
-        "location": "Charlottenburg-Wilmersdorf",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -6747,9 +6747,9 @@
             "street": "Koppenstr. 38-40",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10243",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -6788,9 +6788,9 @@
             "street": "Urbanstr. 24",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10967",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -6829,9 +6829,9 @@
             "street": "Alfred-Kowalke-Str. 24",
             "district": "Lichtenberg",
             "postalCode": "10315",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -6890,9 +6890,9 @@
             "street": "Janusz-Korczak-Str. 32",
             "district": "Marzahn-Hellersdorf",
             "postalCode": "12627",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Marzahn-Hellersdorf"
         },
-        "location": "Marzahn-Hellersdorf",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -6934,9 +6934,9 @@
             "street": "Mathilde-Jacob-Platz 1",
             "district": "Mitte",
             "postalCode": "10551",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte / Tiergarten"
         },
-        "location": "Mitte / Tiergarten",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -6987,9 +6987,9 @@
             "street": "Westhafenstr. 1",
             "district": "Mitte",
             "postalCode": "13353",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -7040,9 +7040,9 @@
             "street": "Gutschmidtstr. 31",
             "district": "Neukölln",
             "postalCode": "12359",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -7092,9 +7092,9 @@
             "street": "Grunowstr. 8-11",
             "district": "Pankow",
             "postalCode": "13187",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -7145,9 +7145,9 @@
             "street": "Teichstr. 65",
             "district": "Reinickendorf",
             "postalCode": "13407",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Reinickendorf"
         },
-        "location": "Reinickendorf",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -7186,9 +7186,9 @@
             "street": "Klosterstr. 36 D",
             "district": "Spandau",
             "postalCode": "13581",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Spandau"
         },
-        "location": "Spandau",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -7217,9 +7217,9 @@
             "street": "Bergstr. 90",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "12169",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Steglitz-Zehlendorf"
         },
-        "location": "Steglitz-Zehlendorf",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -7263,9 +7263,9 @@
             "street": "Rathausstr. 27",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "12105",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Tempelhof-Schöneberg"
         },
-        "location": "Tempelhof-Schöneberg",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -7293,9 +7293,9 @@
             "street": "Hans-Schmidt-Str. 16",
             "district": "Treptow-Köpenick",
             "postalCode": "12489",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Treptow-Köpenick"
         },
-        "location": "Treptow-Köpenick",
         "tags": [
             "social_psychiatric_service",
             "mental_health",
@@ -7326,9 +7326,9 @@
             "street": "Heubnerweg 2",
             "district": "Charlottenburg",
             "postalCode": "14059",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Charlottenburg"
         },
-        "location": "Charlottenburg",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7356,9 +7356,9 @@
             "street": "Landhausstr. 33-35",
             "district": "Wilmersdorf",
             "postalCode": "10717",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wilmersdorf"
         },
-        "location": "Wilmersdorf",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7386,9 +7386,9 @@
             "street": "Dieffenbachstr. 1",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "10967",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Kreuzberg"
         },
-        "location": "Kreuzberg",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7416,9 +7416,9 @@
             "street": "Herzbergstr. 79",
             "district": "Lichtenberg",
             "postalCode": "10365",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7446,9 +7446,9 @@
             "street": "Myslowitzer Str. 45",
             "district": "Marzahn-Hellersdorf",
             "postalCode": "12621",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Marzahn-Hellersdorf"
         },
-        "location": "Marzahn-Hellersdorf",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7476,9 +7476,9 @@
             "street": "Charitéplatz 1",
             "district": "Mitte",
             "postalCode": "10117",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7506,9 +7506,9 @@
             "street": "Große Hamburger Str. 5-11",
             "district": "Mitte",
             "postalCode": "10115",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7536,9 +7536,9 @@
             "street": "Heinz-Galinski-Str. 1",
             "district": "Mitte",
             "postalCode": "13347",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7566,9 +7566,9 @@
             "street": "Rudower Str. 48",
             "district": "Neukölln",
             "postalCode": "12351",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7596,9 +7596,9 @@
             "street": "Gartenstr. 1",
             "district": "Pankow",
             "postalCode": "13088",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Weißensee"
         },
-        "location": "Weißensee",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7626,9 +7626,9 @@
             "street": "Am Nordgraben 2",
             "district": "Reinickendorf",
             "postalCode": "13509",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Reinickendorf"
         },
-        "location": "Reinickendorf",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7656,9 +7656,9 @@
             "street": "Neue Bergstr. 6",
             "district": "Spandau",
             "postalCode": "13585",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Spandau"
         },
-        "location": "Spandau",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7686,9 +7686,9 @@
             "street": "Potsdamer Chaussee 69",
             "district": "Steglitz-Zehlendorf",
             "postalCode": "14129",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Steglitz-Zehlendorf"
         },
-        "location": "Steglitz-Zehlendorf",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7716,9 +7716,9 @@
             "street": "Rubensstr. 125",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "12157",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Schöneberg"
         },
-        "location": "Schöneberg",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7746,9 +7746,9 @@
             "street": "Wenckebachstr. 23",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "12099",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Tempelhof"
         },
-        "location": "Tempelhof",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7779,9 +7779,9 @@
             "street": "Höhensteig 1",
             "district": "Treptow-Köpenick",
             "postalCode": "12526",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Treptow-Köpenick"
         },
-        "location": "Treptow-Köpenick",
         "tags": [
             "psychiatric_emergency_service",
             "mental_health",
@@ -7809,9 +7809,9 @@
             "street": "Kiehlufer 43",
             "district": "Neukölln",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "counseling",
             "housing"
@@ -7836,9 +7836,9 @@
             "street": "Anton-Saefkow-Platz 3",
             "district": "Lichtenberg",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "counseling",
             "housing"
@@ -7863,9 +7863,9 @@
             "street": "Pflügerstraße 24",
             "district": "Neukölln",
             "postalCode": "12047",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "counseling",
             "housing"
@@ -7906,9 +7906,9 @@
             "street": "Prinzenallee 40",
             "district": "Mitte",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Wedding"
         },
-        "location": "Wedding",
         "tags": [
             "counseling",
             "housing"
@@ -7933,9 +7933,9 @@
             "street": "Frankfurter Allee 76",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "counseling",
             "housing"
@@ -7960,9 +7960,9 @@
             "street": "Gottschedstraße 21",
             "district": "Pankow",
             "postalCode": "13357",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Prenzlauer Berg"
         },
-        "location": "Prenzlauer Berg",
         "tags": [
             "counseling",
             "mental_health",
@@ -7992,9 +7992,9 @@
             "street": "Torstraße 210",
             "district": "Mitte",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Mitte"
         },
-        "location": "Mitte",
         "tags": [
             "counseling",
             "housing",
@@ -8046,9 +8046,9 @@
             "street": "Blankenburger Str. 141",
             "district": "Pankow",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "housing"
         ],
@@ -8072,9 +8072,9 @@
             "street": "Tempelhofer Weg 86",
             "district": "Neukölln",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "housing"
         ],
@@ -8098,9 +8098,9 @@
             "street": "Schönstr. 42",
             "district": "Pankow",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "housing"
         ],
@@ -8124,9 +8124,9 @@
             "street": "Karl-Marx-Str. 58",
             "district": "Neukölln",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "housing"
         ],
@@ -8150,9 +8150,9 @@
             "street": "Delbrückstr. 29",
             "district": "Neukölln",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Neukölln"
         },
-        "location": "Neukölln",
         "tags": [
             "housing",
             "transitional_housing"
@@ -8177,9 +8177,9 @@
             "street": "Alt-Friedrichsfelde 93",
             "district": "Lichtenberg",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Lichtenberg"
         },
-        "location": "Lichtenberg",
         "tags": [
             "housing",
             "transitional_housing"
@@ -8204,9 +8204,9 @@
             "street": "Grabbeallee 63",
             "district": "Pankow",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "housing"
         ],
@@ -8230,9 +8230,9 @@
             "street": "Bornemannstraße 12",
             "district": "Tempelhof-Schöneberg",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Schöneberg"
         },
-        "location": "Schöneberg",
         "tags": [
             "housing"
         ],
@@ -8256,9 +8256,9 @@
             "street": "Dahmestraße 33",
             "district": "Treptow-Köpenick",
             "postalCode": "12526",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Bohnsdorf"
         },
-        "location": "Bohnsdorf",
         "tags": [
             "housing"
         ],
@@ -8301,9 +8301,9 @@
             "street": "Rudolfstraße 9",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "housing"
         ],
@@ -8327,9 +8327,9 @@
             "street": "Storkower Str. 133A",
             "district": "Pankow",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Pankow"
         },
-        "location": "Pankow",
         "tags": [
             "overnight_shelter",
             "bed_space",
@@ -8351,9 +8351,9 @@
             "street": "Samariterstraße 27",
             "district": "Friedrichshain-Kreuzberg",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Friedrichshain"
         },
-        "location": "Friedrichshain",
         "tags": [
             "night_cafe",
             "day_services",
@@ -8375,9 +8375,9 @@
             "street": "Rathenower Straße 16",
             "district": "Mitte",
             "postalCode": "",
-            "city": "Berlin"
+            "city": "Berlin",
+            "subdistrict": "Moabit"
         },
-        "location": "Moabit",
         "tags": [
             "overnight_shelter",
             "substance_use_support",
