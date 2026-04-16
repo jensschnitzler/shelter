@@ -116,9 +116,9 @@
 
 #header h1 {
     font-size: var(--fontsize-l);
-    font-weight: 600;
+    font-weight: 650;
     line-height: 0.9;
-    letter-spacing: -.02em;
+    letter-spacing: -.03em;
 }
 
 #header p {
@@ -254,6 +254,12 @@
     color: #b91c1c;
 }
 
+/* ── Controls Wrapper ── */
+#controls-wrapper {
+    margin: 0 auto;
+    padding: 0 1.5rem;
+}
+
 /* ── List.js container & grid ── */
 #facilities-list {
     margin: 0 auto;
@@ -265,7 +271,7 @@
     padding: 1.5rem;
     border-top: 1px solid var(--color-greyLight);
     background: var(--color-black);
-    color: var(--text-greyDark);
+    color: var(--color-greyDark);
     font-size: var(--fontsize-s);
     text-align: center;
 }
