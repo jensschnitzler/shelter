@@ -364,11 +364,67 @@ function flattenFacility(f) {
         description:  f.description,
         // Include both tag keys and German labels so both are searchable
         tags_str:     [...f.tags, ...f.tags.map(tagLabel)].join(' '),
-        tags_json:    JSON.stringify(f.tags),
         // Not in valueNames — accessed only in filter callbacks
+        tags_json:    JSON.stringify(f.tags),
         target_group: f.targetGroup,
+        facility_id:  f.id,
         html:         renderCard(f),
     };
+}
+
+// ── Open-now helpers ─────────────────────────────────────────────────────────
+
+const WEEKDAY_CODES = ['su', 'mo', 'tu', 'we', 'th', 'fr', 'sa'];
+
+function timeToMinutes(timeStr) {
+    const [h, m] = timeStr.split(':').map(Number);
+    return h * 60 + m;
+}
+
+// Seasonal periods use year 2000/2001 as a placeholder — compare month+day only.
+// A period like Nov 01 – Apr 30 wraps across the year boundary.
+function isInSeasonalPeriod(period, now) {
+    const [, startMonth, startDay] = period.start.split('-').map(Number);
+    const [, endMonth, endDay]     = period.end.split('-').map(Number);
+    const nowMD   = (now.getMonth() + 1) * 100 + now.getDate();
+    const startMD = startMonth * 100 + startDay;
+    const endMD   = endMonth   * 100 + endDay;
+    return startMD <= endMD
+        ? nowMD >= startMD && nowMD <= endMD          // non-wrapping
+        : nowMD >= startMD || nowMD <= endMD;         // wrapping (e.g. Nov–Apr)
+}
+
+function isOpenNow(f, now = new Date()) {
+    // If seasonal data is present, check whether today falls within a season.
+    if (f.seasonalNote.length > 0 && !f.seasonalNote.some(p => isInSeasonalPeriod(p, now))) {
+        return false;
+    }
+
+    // No daily hours → we cannot determine → exclude.
+    if (f.openingHours.length === 0) return false;
+
+    const todayCode     = WEEKDAY_CODES[now.getDay()];
+    const yesterdayCode = WEEKDAY_CODES[(now.getDay() + 6) % 7];
+    const currentMin    = now.getHours() * 60 + now.getMinutes();
+
+    for (const slot of f.openingHours) {
+        const startMin  = timeToMinutes(slot.start);
+        const endMin    = timeToMinutes(slot.end);
+        const overnight = startMin > endMin; // e.g. 20:00 – 08:00
+
+        if (slot.days.includes(todayCode)) {
+            if (overnight ? currentMin >= startMin : currentMin >= startMin && currentMin <= endMin) {
+                return true;
+            }
+        }
+
+        // An overnight slot that started yesterday may still be open now.
+        if (overnight && slot.days.includes(yesterdayCode) && currentMin <= endMin) {
+            return true;
+        }
+    }
+
+    return false;
 }
 
 async function loadFacilities() {
@@ -423,6 +479,14 @@ async function init() {
         updateStats();
     });
 
+    // ── Open now ────────────────────────────────────────────────────────────
+    $('#open-now-btn').on('click', function () {
+        filterOpenNow = !filterOpenNow;
+        $(this).toggleClass('active', filterOpenNow).attr('aria-pressed', String(filterOpenNow));
+        applyFilters();
+        updateStats();
+    });
+
     // ── Sort ────────────────────────────────────────────────────────────────
     let sortState = { field: 'name', order: 'asc' };
 
@@ -456,12 +520,16 @@ async function init() {
     let activeTag = null;
     let activeTargetGroup = null;
     let activeOrganization = null;
+    let filterOpenNow = false;
+
+    const facilityMap = new Map(facilities.map(f => [f.id, f]));
 
     function applyFilters() {
-        if (!activeTag && !activeTargetGroup && !activeOrganization) {
+        if (!activeTag && !activeTargetGroup && !activeOrganization && !filterOpenNow) {
             listInstance.filter();
             return;
         }
+        const now = new Date();
         listInstance.filter(item => {
             const values = item.values();
             if (activeTag && !JSON.parse(values.tags_json || '[]').includes(activeTag)) {
@@ -471,6 +539,9 @@ async function init() {
                 return false;
             }
             if (activeOrganization && values.organization !== activeOrganization) {
+                return false;
+            }
+            if (filterOpenNow && !isOpenNow(facilityMap.get(values.facility_id), now)) {
                 return false;
             }
             return true;
