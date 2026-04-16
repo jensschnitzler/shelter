@@ -171,6 +171,9 @@ vendored libraries, and `facilities.json`.
 - [x] Add "ASOG Einrichtungen"
 - [x] Improve icons (https://github.com/google/material-design-icons)
 - [x] Refactor, reorganize tags
+- [x] Add analytics (from Cloudflare)
+- [x] Remove sorting
+- [ ] ~Change wording "Obdachlos" to "Wohnungslos"~
 - [ ] Add map
 - [ ] Add feature to report wrong and outdated information
 - [ ] Add form to add new anonymously facilities
@@ -179,7 +182,5 @@ vendored libraries, and `facilities.json`.
 - [ ] Support simple language
 - [ ] Add form for feature requests, bug reports
 - [ ] Add filter "open now"
-- [ ] Add analytics (https://www.simpleanalytics.com/)
-- [ ] ~Change wording "Obdachlos" to "Wohnungslos"~
 - [ ] Add german phone prefix
-- [ ] Remove sorting
+- [ ] Add filter for organizations
