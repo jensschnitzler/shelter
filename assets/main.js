@@ -385,6 +385,7 @@ async function init() {
     const $stats = $('#stats');
     const $filters = $('#filters');
     const $tgFilters = $('#target-group-filters');
+    const $orgFilters = $('#org-filters');
     $stats.text('Einrichtungen werden geladen …').removeClass('is-error');
 
     let facilities;
@@ -454,9 +455,10 @@ async function init() {
     // ── Filters ─────────────────────────────────────────────────────────────
     let activeTag = null;
     let activeTargetGroup = null;
+    let activeOrganization = null;
 
     function applyFilters() {
-        if (!activeTag && !activeTargetGroup) {
+        if (!activeTag && !activeTargetGroup && !activeOrganization) {
             listInstance.filter();
             return;
         }
@@ -466,6 +468,9 @@ async function init() {
                 return false;
             }
             if (activeTargetGroup && values.target_group !== activeTargetGroup) {
+                return false;
+            }
+            if (activeOrganization && values.organization !== activeOrganization) {
                 return false;
             }
             return true;
@@ -507,6 +512,16 @@ async function init() {
         .addClass('active').attr('aria-pressed', 'true');
     usedTags.forEach(tag =>
         makeFilterBtn($filters, tag, tagLabel(tag), () => { activeTag = tag; applyFilters(); })
+    );
+
+    // ── Organization filters ─────────────────────────────────────────────────
+    const usedOrgs = [...new Set(facilities.map(f => f.organization))]
+        .sort((a, b) => a.localeCompare(b, 'de'));
+
+    makeFilterBtn($orgFilters, 'all', 'Alle', () => { activeOrganization = null; applyFilters(); })
+        .addClass('active').attr('aria-pressed', 'true');
+    usedOrgs.forEach(org =>
+        makeFilterBtn($orgFilters, org, org, () => { activeOrganization = org; applyFilters(); })
     );
 
     updateStats();
