@@ -28,14 +28,30 @@
       "phone": "030 69033529",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "täglich 20:00–08:00 Uhr, letzter Einlass 04:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "20:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung der Berliner Stadtmission. Plätze werden täglich neu vergeben; Kälte- bzw. Wärmebus kann bis 04:00 Uhr kommen.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 04:00 Uhr"
   },
   {
     "id": 2,
@@ -66,7 +82,22 @@
       "phone": "030 66628770",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Täglich 19:30–07:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:30",
+        "end": "07:30",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährige Notübernachtung am Containerbahnhof mit Sozialberatung, Vermittlung, medizinischer Versorgung und geschütztem Bereich für Frauen.",
     "seasonalNote": [
       {
@@ -104,14 +135,30 @@
       "website": "https://www.berliner-stadtmission.de/not-franklinstr",
       "email": "uebernachtungsheim-franklinstr@berliner-stadtmission.de"
     },
-    "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 21:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "18:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährige Notübernachtung für alle Geschlechter in der Franklinstraße. Keine Drogen, keine Gewalt, keine Tiere.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 21:30 Uhr"
   },
   {
     "id": 4,
@@ -140,14 +187,30 @@
       "website": "https://www.berliner-stadtmission.de",
       "email": "notuebernachtung2@berliner-stadtmission.de"
     },
-    "openingHours": "täglich 20:00–08:00 Uhr, Einlass bis 04:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "20:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung für Männer in Reinickendorf. Kälte- bzw. Wärmebus kann bis 04:00 Uhr kommen.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "Einlass bis 04:00 Uhr"
   },
   {
     "id": 5,
@@ -177,14 +240,30 @@
       "email": "notuebernachtung@strassenfeger.org",
       "website": "https://strassenfeger.org"
     },
-    "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 22:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "18:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährige Notübernachtung des Straßenfeger e.V. Keine Tiere, keine Gewalt, keine Drogen, kein Alkoholkonsum; nicht barrierefrei.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:30 Uhr"
   },
   {
     "id": 6,
@@ -212,14 +291,30 @@
       "website": "https://kaeltehilfe-berlin.de",
       "email": "c.schirg_neustart_gmbh@web.de"
     },
-    "openingHours": "Täglich 20:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "20:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung der Neustart GmbH. Frauen in Haus Nr. 3, Männer in Haus Nr. 10; Unterbringung je nach Auslastung, Paare getrennt.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:00 Uhr"
   },
   {
     "id": 7,
@@ -251,14 +346,30 @@
       "website": "https://www.johanniter.de/spenden/projekte-deutschland/soziale-projekte/wohnungslosenhilfe-in-berlin",
       "email": "wohnungslosenhilfe.berlin@johanniter.de"
     },
-    "openingHours": "täglich 20:00–07:45 Uhr, letzter Einlass 23:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "20:00",
+        "end": "07:45",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährige Notübernachtung für Männer in der Ohlauer Straße. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 23:00 Uhr"
   },
   {
     "id": 8,
@@ -288,14 +399,30 @@
       "website": "https://www.ib-berlin.de/kaeltehilfe",
       "email": "arian.begovic@ib.de"
     },
-    "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "18:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung in der Kurmärkischen Straße für alle Geschlechter.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:00 Uhr"
   },
   {
     "id": 9,
@@ -325,14 +452,30 @@
       "email": "notuebernachtung@awo-spree-wuhle.de",
       "website": "https://www.awo-spree-wuhle.de/notuebernachtung"
     },
-    "openingHours": "täglich 19:00–08:30 Uhr, Mo bis 10:00 Uhr, Mi bis 12:00 Uhr; letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:00",
+        "end": "08:30",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährige, transinklusive Notübernachtung für Frauen in Friedrichshain.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo bis 10:00 Uhr, Mi bis 12:00 Uhr; letzter Einlass 22:00 Uhr"
   },
   {
     "id": 10,
@@ -362,14 +505,30 @@
       "website": "https://www.gebewo-pro.berlin",
       "email": "notuebernachtung@gebewo-pro.berlin"
     },
-    "openingHours": "täglich 19:00–08:00 Uhr, Wochenende/Feiertag bis 09:00 Uhr; letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährige Notübernachtung für Frauen in der Tieckstraße. Kein Männerbesuch, keine Tiere, keine Aufnahme von Kindern.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Wochenende/Feiertag bis 09:00 Uhr; letzter Einlass 22:00 Uhr"
   },
   {
     "id": 11,
@@ -398,7 +557,22 @@
       "email": "evasobdach@skf-berlin.de",
       "website": "https://skf-berlin.de"
     },
-    "openingHours": "Täglich 19:00–09:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:00",
+        "end": "09:00",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährige Notübernachtung für Frauen in Neukölln. Spätere Aufnahme nach telefonischer Absprache möglich.",
     "seasonalNote": [
       {
@@ -436,7 +610,22 @@
       "email": "notuebernachtung@fsd-stiftung.de",
       "website": "https://www.fsd-stiftung.de"
     },
-    "openingHours": "24 Stunden täglich, 7 Tage die Woche",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "00:00",
+        "end": "24:00",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährig geöffnete 24/7-Notunterkunft für Frauen in Kreuzberg. Transfrauen willkommen; Platzanfragen telefonisch ab 10:30 Uhr.",
     "seasonalNote": [
       {
@@ -473,14 +662,30 @@
       "email": "notunterkunft.familien@diakonie-stadtmitte.de",
       "website": "https://www.diakonie-stadtmitte.de"
     },
-    "openingHours": "Täglich 09:00–22:00 Uhr (Aufnahme)",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "09:00",
+        "end": "22:00",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährig geöffnete Notunterkunft für Familien in Kreuzberg. Aufnahme nur für Eltern mit Kindern; telefonische Freiplatzanfrage empfohlen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Aufnahme"
   },
   {
     "id": 14,
@@ -509,7 +714,22 @@
       "phone": "030 690333690",
       "website": "https://www.berliner-stadtmission.de/kaeltehilfe"
     },
-    "openingHours": "Täglich 20:00–02:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "20:00",
+        "end": "02:00",
+        "label": ""
+      }
+    ],
     "description": "Mobiler Kältebus, der obdachlose Menschen auf der Straße aufsucht, zu Notunterkünften bringt und mit heißen Getränken, warmen Schlafsäcken und Kleidung versorgt. Rufnummer für Hinweise auf obdachlose Menschen in Not.",
     "seasonalNote": [
       {
@@ -544,7 +764,22 @@
       "phone": "030 6003001010",
       "website": "https://www.drk-berlin.de"
     },
-    "openingHours": "Täglich 18:00–24:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "18:00",
+        "end": "24:00",
+        "label": ""
+      }
+    ],
     "description": "Mobiler Wärmebus des Deutschen Roten Kreuzes. Verteilt Schlafsäcke, Isomatten, Kleidung und warmen Tee. Organisiert Transporte und Schlafplätze in Notunterkünften.",
     "seasonalNote": [
       {
@@ -582,7 +817,20 @@
       "phone": "030 8913000",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Mo–Fr 14:00–18:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "14:00",
+        "end": "18:30",
+        "label": ""
+      }
+    ],
     "description": "Wohnungslosentagesstätte und Sozialrestaurant mit Mahlzeiten, Duschen, Wäscheservice und geistlichen Angeboten. Gemeinschaftstreff für obdachlose und arme Menschen.",
     "seasonalNote": [
       {
@@ -620,7 +868,27 @@
       "email": "mail@gebewo.berlin",
       "website": "https://gebewo.berlin/seeling-treff"
     },
-    "openingHours": "Mo–Mi, Fr 09:00–14:00 Uhr, Do 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "14:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": ""
+      }
+    ],
     "description": "Tagesstätte für wohnungslose und mittellose Menschen. Bietet tägliches Frühstück, warmes Mittagessen (Di, Mi, Fr), Duschen, Wäsche, Kleiderkammer und Schließfächer. Beratung zu Sozialleistungen, Dokumentenbeschaffung, Wohnungssuche. Montags Frauenfrühstück, donnerstags mehrsprachige Beratung (Polnisch, Bulgarisch, Rumänisch, Russisch).",
     "seasonalNote": [
       {
@@ -661,7 +929,40 @@
       "email": "waermestube@buergerhilfe-ggmbh.de",
       "website": "http://www.buergerhilfe-e-v.de"
     },
-    "openingHours": "Mo 12:00–16:00, Di 16:00–20:00, Do 12:00–16:00, Fr 12:00–16:00",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "12:00",
+        "end": "16:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "16:00",
+        "end": "20:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "12:00",
+        "end": "16:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "12:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Tagesstätte für wohnungslose Menschen mit bis zu 60 Besuchern täglich. Angebote: Mahlzeiten, Hygienemöglichkeiten, Wäsche, Kleidung, Freizeitangebote, Suchtberatung und Sozialberatung. Montags 12–15 Uhr: Caritas-Arztmobil. Monatliches Frauenfrühstück (3. Mittwoch, 11–13 Uhr). Barrierefrei.",
     "seasonalNote": [
       {
@@ -700,14 +1001,41 @@
       "email": "tagesstaette@diakonie-stadtmitte.de",
       "website": "https://www.diakonie-stadtmitte.de"
     },
-    "openingHours": "Mo, Fr 08:30–14:00 Uhr, Di 09:00–16:00 Uhr (nur Beratung), Mi 08:30–16:00 Uhr, letztes Wochenende im Monat Sa & So 08:30–14:00 Uhr, Do geschlossen",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "fr"
+        ],
+        "start": "08:30",
+        "end": "14:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "16:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "08:30",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Tagesstätte der Diakonie Berlin Stadtmitte. Bietet Tagesaufenthalt, Essen, Beratung, medizinische Hilfe, Bekleidung und Hygienemöglichkeiten für wohnungslose Menschen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "nur Beratung; letztes Wochenende im Monat Sa & So 08:30–14:00 Uhr, Do geschlossen"
   },
   {
     "id": 20,
@@ -736,14 +1064,15 @@
       "website": "https://beratung.immanuel.de",
       "email": "sozialberatungprenzlauerberg@immanuel.de"
     },
-    "openingHours": "Mo–Fr (Zeiten auf Anfrage)",
+    "openingHours": [],
     "description": "Kontakt- und Beratungszentrum für obdachlose und langzeitarbeitslose Menschen im Bezirk Pankow. Bietet kostenfreies Frühstück und Mittagessen, Duschen, Wäscheservice, Postzustelladresse (für Jobcenter-Anmeldung) und Freizeitangebote gegen soziale Isolation.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo–Fr (Zeiten auf Anfrage)"
   },
   {
     "id": 21,
@@ -773,14 +1102,30 @@
       "phone": "030 3138088",
       "website": "https://www.berliner-stadtmission.de/bahnhofsmission"
     },
-    "openingHours": "Täglich 08:00–21:00 Uhr; Hygienezentrum täglich 08:30–17:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "08:30",
+        "end": "17:00",
+        "label": "Hygienezentrum"
+      }
+    ],
     "description": "Umfassende niedrigschwellige Hilfe für obdachlose und arme Menschen. Täglich bis zu 600 Personen versorgt. Essens- und Getränkeausgabe, Kleidung, Duschen, Toiletten, Sozialberatung und Weitervermittlung.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Täglich 08:00–21:00 Uhr"
   },
   {
     "id": 22,
@@ -810,7 +1155,36 @@
       "email": "berlin-hauptbahnhof@bahnhofsmission.de",
       "website": "https://www.berliner-stadtmission.de/bahnhofsmission"
     },
-    "openingHours": "täglich 08:30–12:00 Uhr und 13:00–16:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "08:30",
+        "end": "12:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "13:00",
+        "end": "16:30",
+        "label": ""
+      }
+    ],
     "description": "Bahnhofsmission im Hauptbahnhof mit Beratung, WLAN und Computernutzung.",
     "seasonalNote": [
       {
@@ -840,14 +1214,30 @@
       "phone": "030 3138088",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Täglich 08:30–16:45 Uhr (letzter Duscheinlass 15:30 Uhr)",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "08:30",
+        "end": "16:45",
+        "label": ""
+      }
+    ],
     "description": "Hygienezentrum für obdachlose Menschen mit Duschen, Toiletten und Wäscheservice.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Duscheinlass 15:30 Uhr"
   },
   {
     "id": 24,
@@ -870,7 +1260,20 @@
       "phone": "030 69033518",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Mo–Fr 08:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Kleiderkammer mit kostenloser Ausgabe von Kleidung, Schlafsäcken und Matten ohne bürokratische Hürden für obdachlose Menschen.",
     "seasonalNote": [
       {
@@ -898,7 +1301,18 @@
       "phone": "0157 53683825",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Mi–Fr 09:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Günstige Wäscherei für obdachlose Menschen (Waschen und Trocknen für 2 €).",
     "seasonalNote": [
       {
@@ -926,14 +1340,15 @@
       "phone": "030 6003005132",
       "website": "https://www.drk-berlin.de"
     },
-    "openingHours": "Nach Anfrage",
+    "openingHours": [],
     "description": "Kleiderkammer des Deutschen Roten Kreuzes mit kostenloser Kleidungsausgabe für bedürftige und obdachlose Menschen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Nach Anfrage"
   },
   {
     "id": 27,
@@ -960,7 +1375,26 @@
       "email": "ambulanz@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/wohnungsnot/medizinische-versorgung"
     },
-    "openingHours": "Mo–Mi 10:00–14:00 Uhr, Fr 10:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we"
+        ],
+        "start": "10:00",
+        "end": "14:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Hausärztliche Versorgung, Medikamentenabgabe, medizinisches Clearing, psychiatrische Sprechstunde, Wundversorgung sowie soziale Arbeit und Sozialberatung.",
     "seasonalNote": [
       {
@@ -995,7 +1429,19 @@
       "email": "arztmobil@caritas-berlin.de",
       "website": "https://www.caritas-arztmobil.de"
     },
-    "openingHours": "Mo–Do 10:00–15:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th"
+        ],
+        "start": "10:00",
+        "end": "15:00",
+        "label": ""
+      }
+    ],
     "description": "Mobile ärztliche Grundversorgung, Wundversorgung und Beratung. Bitte aktuelle Standorte auf der Website beachten.",
     "seasonalNote": [
       {
@@ -1028,14 +1474,15 @@
       "email": "m.karakla@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "Mobile Termine (Terminvereinbarung)",
+    "openingHours": [],
     "description": "Mobiler zahnärztlicher Dienst für obdachlose und nicht-versicherte Menschen. Bietet Untersuchungen, Akutbehandlungen, Schmerztherapie und Weitervermittlung zu Zahnarztpraxen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mobile Termine (Terminvereinbarung)"
   },
   {
     "id": 30,
@@ -1060,7 +1507,22 @@
       "email": "krankenwohnung-pflege@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "24 Stunden Pflege",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "00:00",
+        "end": "24:00",
+        "label": "Pflege"
+      }
+    ],
     "description": "Kranken- und Pflegewohnung für obdachlose Menschen zur Genesung. 20 Betten (5 für Palliativpflege). 24-Stunden-Pflegebetreuung, mehrsprachiges Personal, Wäscheservice, Kleidungsversorgung.",
     "seasonalNote": [
       {
@@ -1092,7 +1554,19 @@
       "email": "mmm.berlin@malteser.org",
       "website": "https://www.malteser-berlin.de/mmm"
     },
-    "openingHours": "Di–Fr 09:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Kostenlose medizinische Erstversorgung und Sozialberatung für Menschen ohne Krankenversicherung oder ungültigen Aufenthaltsstatus – anonym, professionell und mit Mitgefühl.",
     "seasonalNote": [
       {
@@ -1134,7 +1608,27 @@
       "email": "info@delatorre-stiftung.de",
       "website": "https://www.delatorre-stiftung.de"
     },
-    "openingHours": "Mo, Di, Do 08:00–14:00 Uhr, Mi, Fr 08:00–13:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th"
+        ],
+        "start": "08:00",
+        "end": "14:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "13:00",
+        "label": ""
+      }
+    ],
     "description": "Erstes Gesundheitszentrum speziell für obdachlose Menschen in Berlin. Bietet kostenlose medizinische, zahnärztliche, psychologische, soziale und rechtliche Hilfe. Außerdem Essensausgabe und Kleiderkammer.",
     "seasonalNote": [
       {
@@ -1166,7 +1660,17 @@
       "email": "info@delatorre-stiftung.de",
       "website": "https://www.delatorre-stiftung.de/kontaktformular.html"
     },
-    "openingHours": "Mo, Mi 10:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we"
+        ],
+        "start": "10:00",
+        "end": "12:00",
+        "label": ""
+      }
+    ],
     "description": "Psychologische Beratung und Suchtberatung im Gesundheitszentrum für obdachlose Menschen.",
     "seasonalNote": [
       {
@@ -1199,7 +1703,33 @@
       "phone": "030 69033572",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Di 16:00–20:00 Uhr, Fr 11:00–15:00 Uhr; Straßenambulanz Mo & Do 19:00–23:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "16:00",
+        "end": "20:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "11:00",
+        "end": "15:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "mo",
+          "th"
+        ],
+        "start": "19:00",
+        "end": "23:00",
+        "label": "Straßenambulanz"
+      }
+    ],
     "description": "Medizinische Ambulanz der Berliner Stadtmission für obdachlose Menschen. Bietet kontinuierliche medizinische Versorgung, Hygieneunterstützung und Weitervermittlung. Mobile Straßenambulanz montags und donnerstags.",
     "seasonalNote": [
       {
@@ -1230,7 +1760,25 @@
       "website": "https://www.berliner-stadtmission.de/clearingstelle",
       "email": "clearingstelle@berliner-stadtmission.de"
     },
-    "openingHours": "Mo, Do 10:00–12:30 Uhr, Mi 13:00–16:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "th"
+        ],
+        "start": "10:00",
+        "end": "12:30",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "13:00",
+        "end": "16:30",
+        "label": ""
+      }
+    ],
     "description": "Beratung für Menschen in Berlin ohne ausreichende Krankenversicherung, inkl. Prüfung von Kostenübernahme und Vermittlung in Behandlung.",
     "seasonalNote": [
       {
@@ -1260,14 +1808,27 @@
       "email": "info@wohnungslos-berlin.de",
       "website": "https://www.wohnungslos-berlin.de"
     },
-    "openingHours": "Mo, Di, Do, Fr 09:00–12:00 Uhr, Anmeldung bis 11:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": ""
+      }
+    ],
     "description": "Seit 1979 zentrale Anlaufstelle für Menschen ohne Wohnung oder mit drohender Wohnungslosigkeit. Beratung auf Deutsch und Englisch. Vermittlung in Notunterkünfte und weiterführende Hilfen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Anmeldung bis 11:30 Uhr"
   },
   {
     "id": 36,
@@ -1290,14 +1851,32 @@
       "email": "awh-am-mehringdamm@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "Di 09:00–12:00 Uhr, Do 15:00–18:00 Uhr, weitere Termine nach Vereinbarung",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "15:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Ambulante Wohnungslosenhilfe der Caritas. Beratung bei Wohnungsnot, Unterstützung bei Wohnungssuche, Begleitung zu Ämtern. Mehrsprachige Beratung (Deutsch, Arabisch, Türkisch, Russisch).",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "weitere Termine nach Vereinbarung"
   },
   {
     "id": 37,
@@ -1325,14 +1904,30 @@
       "website": "https://www.caritas-berlin.de",
       "email": "kaeltehilfe@caritas-berlin.de"
     },
-    "openingHours": "täglich 19:30–07:30 Uhr, letzter Einlass 21:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:30",
+        "end": "07:30",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Caritas-Notübernachtung für Männer in Reinickendorf.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-03-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 21:30 Uhr"
   },
   {
     "id": 38,
@@ -1362,14 +1957,15 @@
       "email": "verein@fixpunkt.org",
       "website": "https://www.fixpunkt.org"
     },
-    "openingHours": "Nach Website",
+    "openingHours": [],
     "description": "Niedrigschwellige Kontaktstelle mit Drogenkonsumraum für drogenabhängige Menschen, darunter viele obdachlose Personen. Beratung, Safer-Use-Angebote, Spritzentausch. Szenenah, lebensweltorientiert.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Nach Website"
   },
   {
     "id": 39,
@@ -1394,14 +1990,15 @@
       "email": "verein@fixpunkt.org",
       "website": "https://www.fixpunkt.org/neukoelln"
     },
-    "openingHours": "Nach Website",
+    "openingHours": [],
     "description": "Niedrigschwellige ambulante Grundversorgung im Suchtbereich. Kostenlose und anonyme Beratung. Tagesstruktur, Beschäftigung und Qualifizierung für suchtmittelabhängige Menschen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Nach Website"
   },
   {
     "id": 40,
@@ -1423,14 +2020,15 @@
       "phone": "030 29360695",
       "website": "https://housingfirst.berlin"
     },
-    "openingHours": "Mo–Fr (Bürozeiten)",
+    "openingHours": [],
     "description": "Innovatives Projekt zur dauerhaften Bekämpfung von Obdachlosigkeit. Obdachlose Menschen erhalten sofort eine eigene Wohnung mit eigenem Mietvertrag und professionelle Betreuung. Zweiter Standort: Samoastraße 7, 13353 Berlin, Tel: 030 40916723.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo–Fr (Bürozeiten)"
   },
   {
     "id": 41,
@@ -1452,7 +2050,20 @@
       "phone": "030 690333131",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Mo–Fr 10:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "40 Übergangszimmer mit 24-Stunden-Unterstützung für obdachlose oder gefährdete Menschen. Begleitung auf dem Weg in langfristiges Wohnen.",
     "seasonalNote": [
       {
@@ -1479,14 +2090,15 @@
     "contact": {
       "website": "https://www.rechtsambulanz.de"
     },
-    "openingHours": "Nach Terminvereinbarung",
+    "openingHours": [],
     "description": "Ehrenamtlich tätige Rechtsanwältinnen und Rechtsanwälte bieten kostenlose Beratung in Fragen des Sozialhilferechts für obdachlose und arme Menschen in Berlin Mitte.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Nach Terminvereinbarung"
   },
   {
     "id": 43,
@@ -1508,14 +2120,15 @@
       "email": "info@delatorre-stiftung.de",
       "website": "https://www.delatorre-stiftung.de"
     },
-    "openingHours": "Nach Terminvereinbarung",
+    "openingHours": [],
     "description": "Anwälte verschiedener Fachrichtungen stehen obdachlosen Menschen nach Terminvereinbarung für kostenlose Rechtsberatung zur Verfügung.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Nach Terminvereinbarung"
   },
   {
     "id": 44,
@@ -1539,7 +2152,17 @@
       "email": "soz-wohnen@charlottenburg-wilmersdorf.de",
       "website": "https://www.berlin.de"
     },
-    "openingHours": "Offene Sprechstunde: Di, Do 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Offene Sprechstunde"
+      }
+    ],
     "description": "Bezirkliche Fachstelle Soziale Wohnhilfe. Unterstützt bei Mietschulden, Wohnungssuche, Vermittlung in Notunterkünfte und weiterführende Hilfsangebote.",
     "seasonalNote": [
       {
@@ -1570,7 +2193,18 @@
       "email": "soz-wohnen@ba-fk.berlin.de",
       "website": "https://www.berlin.de"
     },
-    "openingHours": "Offene Sprechstunde: Mo, Di, Do 09:00–11:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "11:30",
+        "label": "Offene Sprechstunde"
+      }
+    ],
     "description": "Bezirkliche Fachstelle Soziale Wohnhilfe. Beratung und Unterstützung bei Wohnungsverlust, Mietschulden und Obdachlosigkeit.",
     "seasonalNote": [
       {
@@ -1602,14 +2236,30 @@
       "phone": "030 61006800",
       "website": "https://www.kub-berlin.de"
     },
-    "openingHours": "SleepIn: Täglich 22:00–10:00 Uhr; Beratung: Mo–Fr (Zeiten auf Website)",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "22:00",
+        "end": "10:00",
+        "label": "SleepIn"
+      }
+    ],
     "description": "Niedrigschwellige Unterstützung und Notübernachtung für Jugendliche und junge Volljährige (13–20 Jahre). SleepIn: 365 Tage jährlich geöffnet, auch für Jugendliche mit Tieren. Beratung, Streetwork und Krisenintervention.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Beratung: Mo–Fr (Zeiten auf Website)"
   },
   {
     "id": 47,
@@ -1634,14 +2284,30 @@
       "email": "info@jugendnotdienst-berlin.de",
       "website": "https://www.berlin.de/notdienst-kinderschutz"
     },
-    "openingHours": "Mo–So 08:00–18:00 Uhr; telefonische 24h-Erreichbarkeit",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "08:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Anlaufstelle außerhalb der Öffnungszeiten der Jugendämter für Kinder, Jugendliche und Familien in Not- und Krisensituationen. Bietet Beratung, Krisenintervention und Notunterbringung rund um die Uhr.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "telefonische 24h-Erreichbarkeit"
   },
   {
     "id": 48,
@@ -1673,7 +2339,27 @@
       "email": "berlin-prenzlauerberg@heilsarmee.de",
       "website": "https://www.heilsarmee.de/prenzlauerberg"
     },
-    "openingHours": "Di–Fr 13:00–18:00 Uhr, Sa 13:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "13:00",
+        "end": "18:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "sa"
+        ],
+        "start": "13:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Wärmestube und Tagestreff der Heilsarmee. Mahlzeiten ab 17 Uhr, Duschen, Wäsche und Kleiderbibliothek. Sozialberatung, Vermittlung in Notunterkünfte und betreutes Wohnen. Zielgruppe: Langzeitarbeitslose, Suchtbetroffene, Obdachlose.",
     "seasonalNote": [
       {
@@ -1702,7 +2388,22 @@
     "contact": {
       "website": "https://www.heilsarmee.de/williamboothhaus"
     },
-    "openingHours": "24 Stunden",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "00:00",
+        "end": "24:00",
+        "label": ""
+      }
+    ],
     "description": "Einrichtung für obdachlose und/oder psychisch erkrankte Menschen. Drei therapeutische Wohngemeinschaften (14 Männer), Übergangshaus mit 26 Einzelzimmern und betreutes Wohnen für 40 Frauen und Männer mit 24-Stunden-Betreuung.",
     "seasonalNote": [
       {
@@ -1737,7 +2438,53 @@
       "email": "suppenkueche@franziskaner.de",
       "website": "https://suppe.franziskaner.de"
     },
-    "openingHours": "Di–So 09:00–11:30 Uhr und 12:45–14:30 Uhr; Kleiderkammer: Di, Do, Fr 12:30–14:00 Uhr; Hygienestation und Beratung: Di, Fr 08:30–14:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "09:00",
+        "end": "11:30",
+        "label": ""
+      },
+      {
+        "days": [
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "12:45",
+        "end": "14:30",
+        "label": ""
+      },
+      {
+        "days": [
+          "tu",
+          "th",
+          "fr"
+        ],
+        "start": "12:30",
+        "end": "14:00",
+        "label": "Kleiderkammer"
+      },
+      {
+        "days": [
+          "tu",
+          "fr"
+        ],
+        "start": "08:30",
+        "end": "14:30",
+        "label": "Hygienestation und Beratung"
+      }
+    ],
     "description": "Etablierte Suppenküche des Franziskanerklosters seit Jahrzehnten. Warme Mahlzeiten sechs Tage wöchentlich. Kleiderkammer, Hygienestation und Sozialberatung vor Ort.",
     "seasonalNote": [
       {
@@ -1765,7 +2512,18 @@
     "contact": {
       "phone": "030 6126408"
     },
-    "openingHours": "Mo, Fr, Sa 14:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "fr",
+          "sa"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Seit 1984 betriebene Suppenküche der Schwestern der Mutter Teresa in Kreuzberg. Vier Schwestern versorgen täglich 90–120 bedürftige und obdachlose Menschen mit warmen Mahlzeiten.",
     "seasonalNote": [
       {
@@ -1801,7 +2559,16 @@
     "contact": {
       "website": "https://www.heiligkreuzpassion.de"
     },
-    "openingHours": "Mi 12:00–15:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "we"
+        ],
+        "start": "12:00",
+        "end": "15:00",
+        "label": ""
+      }
+    ],
     "description": "Wärmestube in der Heilig-Kreuz-Kirche als Treffpunkt für obdachlose und einkommensarme Menschen. Kostenloser Kaffee, Tee, Brote und Suppe. Kleider- und Buchspenden. Ab 13 Uhr Caritas-Arztmobil vor der Kirche.",
     "seasonalNote": [
       {
@@ -1835,14 +2602,24 @@
       "email": "nachtcafeherzjesu@gmail.com",
       "website": "https://www.bernhard-lichtenberg.berlin"
     },
-    "openingHours": "Mo 17:00–08:00 Uhr, letzter Einlass 19:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "17:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Wöchentliches Nachtcafé mit 15–17 Schlafplätzen für obdachlose Männer und Frauen. Abendessen ab 18:30 Uhr. Ehrenamtlich betrieben durch die Kirchengemeinde.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-03-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 19:00 Uhr"
   },
   {
     "id": 54,
@@ -1869,14 +2646,15 @@
       "email": "kontakt@berliner-obdachlosenhilfe.de",
       "website": "https://www.berliner-obdachlosenhilfe.de"
     },
-    "openingHours": "Mi, Sa, So an wechselnden Standorten und Uhrzeiten",
+    "openingHours": [],
     "description": "Verteilung von warmem Essen, Getränken und Kleidung direkt auf der Straße; Ausgabe nicht am Vereinssitz.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mi, Sa, So an wechselnden Standorten und Uhrzeiten"
   },
   {
     "id": 55,
@@ -1898,14 +2676,15 @@
       "phone": "030 690335042",
       "website": "https://www.berliner-stadtmission.de"
     },
-    "openingHours": "Mo–Fr (Zeiten nach Vereinbarung)",
+    "openingHours": [],
     "description": "Mehrsprachige Sozialberatung für EU-Bürger ohne Wohnsitz. Beratung auf Polnisch, Russisch, Rumänisch, Bulgarisch und Deutsch. Hilfe bei Behördengängen, Dokumenten und Weitervermittlung.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo–Fr (Zeiten nach Vereinbarung)"
   },
   {
     "id": 56,
@@ -1930,14 +2709,15 @@
       "phone": "030 65867861",
       "website": "https://www.schwulenberatungberlin.de"
     },
-    "openingHours": "Mo–Fr (Zeiten auf Website)",
+    "openingHours": [],
     "description": "Beratung für LSBTIQ*-Personen in Wohnungsnot. Angebote: Beratung bei Wohnungsnotfällen, Wohnungserhalt, Wohnheimangebote, Wohnungssuche inklusive alternativer Wohnformen und WGs. Seit November 2022.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo–Fr (Zeiten auf Website)"
   },
   {
     "id": 57,
@@ -1963,14 +2743,15 @@
       "email": "lsbti-krisenwohnung@awo-spree-wuhle.de",
       "website": "https://www.awo-spree-wuhle.de"
     },
-    "openingHours": "Telefonisch erreichbar (WhatsApp und Telegram)",
+    "openingHours": [],
     "description": "Vorübergehende Schutzunterkunft für LSBTIQ*-Personen, die von Gewalt aufgrund ihrer Geschlechtsidentität oder sexuellen Orientierung betroffen sind (häusliche Gewalt, Zwangsverheiratung). Krisenintervention und Beratung.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Telefonisch erreichbar (WhatsApp und Telegram)"
   },
   {
     "id": 58,
@@ -1999,7 +2780,27 @@
       "email": "treff-strohhalm@gwb.stiftung-spi.de",
       "website": "https://www.stiftung-spi.de"
     },
-    "openingHours": "Mo–Do 08:00–15:30 Uhr, Fr 08:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th"
+        ],
+        "start": "08:00",
+        "end": "15:30",
+        "label": ""
+      },
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Treffpunkt mit Frühstück, Mittagessen, Kleiderkammer und Beratung; Angebot nicht kostenfrei.",
     "seasonalNote": [
       {
@@ -2033,14 +2834,15 @@
       "phone": "0151 14648756",
       "website": "https://skf-berlin.de"
     },
-    "openingHours": "6 Tage wöchentlich an 10 Standorten",
+    "openingHours": [],
     "description": "Mobiles Duschfahrzeug (Duschmobil) ausschließlich für obdachlose Frauen. Fährt sechs Tage die Woche verschiedene Standorte in Berlin an. Niedrigschwellig und kostenlos.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "6 Tage wöchentlich an 10 Standorten"
   },
   {
     "id": 60,
@@ -2076,7 +2878,8 @@
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 61,
@@ -2099,7 +2902,20 @@
       "phone": "030 315173380",
       "website": "https://www.berliner-stadtmission.de/zentrum-am-zoo"
     },
-    "openingHours": "Mo–Fr 09:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Beratungs- und Begegnungszentrum am Bahnhof Zoo. Sozialberatung, Bildungsworkshops, Gemeinschaftsangebote und Mobile Einzelfallhilfe (Straßensozialarbeit) für obdachlose Menschen in der Umgebung der Bahnhöfe.",
     "seasonalNote": [
       {
@@ -2129,7 +2945,16 @@
     "contact": {
       "phone": "030 23112527"
     },
-    "openingHours": "Do 15:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "th"
+        ],
+        "start": "15:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Kostenlose Akupunktur und Kräutertherapie für einkommensschwache Patienten (einschließlich Obdachlose) durch das TCM-Zentrum des St. Hedwig-Krankenhauses.",
     "seasonalNote": [
       {
@@ -2160,14 +2985,30 @@
       "email": "nachtlicht@drk-berlin-zentrum.de",
       "website": "https://www.drk-berlin-zentrum.de"
     },
-    "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "18:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Notübernachtung für Frauen in Kreuzberg. Kälte- bzw. Wärmebus nach telefonischer Absprache bis 24:00 Uhr.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:00 Uhr"
   },
   {
     "id": 64,
@@ -2193,14 +3034,30 @@
       "email": "evashaltestelle@skf-berlin.de",
       "website": "https://www.skf-berlin.de"
     },
-    "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 20:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "18:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung für Frauen in Wedding. Kälte- bzw. Wärmebus kann bis 22:00 Uhr kommen.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 20:00 Uhr"
   },
   {
     "id": 65,
@@ -2228,7 +3085,34 @@
       "email": "notuebernachtung@koepjohann.de",
       "website": "https://www.koepjohann.de"
     },
-    "openingHours": "Mo, Fr, Sa 19:00–08:00 Uhr; Di 15:00–08:00 Uhr; So 19:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "fr",
+          "sa"
+        ],
+        "start": "19:00",
+        "end": "08:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "15:00",
+        "end": "08:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "su"
+        ],
+        "start": "19:00",
+        "end": "12:00",
+        "label": ""
+      }
+    ],
     "description": "Ganzjährige Notübernachtung für Frauen in Mitte. Kälte- bzw. Wärmebus nach telefonischer Absprache bis 03:00 Uhr.",
     "seasonalNote": [
       {
@@ -2264,14 +3148,30 @@
       "email": "jeffrey.loehrke@hzh-ev.de",
       "website": "https://www.hzh-ev.de"
     },
-    "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 24:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "18:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung in Spandau. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 24:00 Uhr"
   },
   {
     "id": 67,
@@ -2299,14 +3199,30 @@
       "email": "kaeltehilfe@neuechance.berlin",
       "website": "https://www.neuechance.berlin"
     },
-    "openingHours": "täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung am Rathaus Steglitz. Tiere erlaubt, aber nur zwei pro Abend.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:00 Uhr"
   },
   {
     "id": 68,
@@ -2332,14 +3248,30 @@
       "email": "notuebernachtung@brotdeslebens.net",
       "website": "https://www.notuebernachtung.brotdeslebens.net"
     },
-    "openingHours": "täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung für Männer in Friedrichshain. Im Oktober und April nur 15 Plätze.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:00 Uhr"
   },
   {
     "id": 69,
@@ -2365,14 +3297,30 @@
       "email": "pfarrbuero@bernhard-lichtenberg.berlin",
       "website": "https://www.bernhard-lichtenberg.berlin"
     },
-    "openingHours": "täglich 19:30–08:00 Uhr, letzter Einlass 21:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:30",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung für Männer in Kreuzberg.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-03-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 21:30 Uhr"
   },
   {
     "id": 70,
@@ -2399,14 +3347,30 @@
       "email": "kaeltehilfe@kubus-berlin.de",
       "website": "https://www.kubus-berlin.de"
     },
-    "openingHours": "täglich 19:00–07:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:00",
+        "end": "07:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Kältehilfe für Männer in Neukölln mit Wasch- und Duschmöglichkeiten sowie Waschmaschine für private Kleidung.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:00 Uhr"
   },
   {
     "id": 71,
@@ -2433,7 +3397,22 @@
       "email": "m.e@merkurberlin.de",
       "website": "https://www.merkurberlin.de"
     },
-    "openingHours": "täglich 17:00–08:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "17:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Saisonale Notübernachtung für Männer in Lichtenberg.",
     "seasonalNote": [
       {
@@ -2467,14 +3446,30 @@
       "email": "notuebernachtung@ejf.de",
       "website": "https://www.ejf.de"
     },
-    "openingHours": "täglich, ganztägig; letzter Einlass nach Absprache die ganze Nacht",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "00:00",
+        "end": "24:00",
+        "label": ""
+      }
+    ],
     "description": "Notübernachtung für wohnungslose Familien, schwangere Frauen sowie Alleinerziehende mit Kindern in Reinickendorf.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass nach Absprache die ganze Nacht"
   },
   {
     "id": 73,
@@ -2498,14 +3493,24 @@
       "phone": "0177 27 03 869",
       "email": "m.rosinski@t-online.de"
     },
-    "openingHours": "Mo 22:00–07:00 Uhr, letzter Einlass 24:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "22:00",
+        "end": "07:00",
+        "label": ""
+      }
+    ],
     "description": "Nachtcafé in Charlottenburg; Barrierefreiheit eingeschränkt.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-03-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 24:00 Uhr"
   },
   {
     "id": 74,
@@ -2531,14 +3536,29 @@
       "phone": "030 53 37 104",
       "email": "arche.waermestube@gmail.com"
     },
-    "openingHours": "Mo–Fr und So 19:00–08:00 Uhr, letzter Einlass 21:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "su"
+        ],
+        "start": "19:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Kombiniertes Nachtcafé und Wärmestube in Treptow mit zusätzlichen Essensplätzen von 19:00 bis 21:00 Uhr.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 21:30 Uhr"
   },
   {
     "id": 75,
@@ -2564,14 +3584,24 @@
       "email": "kuesterei@evtaborgemeinde.de",
       "website": "https://www.evtaborgemeinde.de"
     },
-    "openingHours": "Di 21:30–07:00 Uhr, letzter Einlass 23:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "21:30",
+        "end": "07:00",
+        "label": ""
+      }
+    ],
     "description": "Nachtcafé in Kreuzberg; kein Alkohol, keine Drogen.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 23:00 Uhr"
   },
   {
     "id": 76,
@@ -2594,14 +3624,27 @@
       "phone": "0152 571 87 272",
       "email": "nachtcafe@zgh-friedenau.de"
     },
-    "openingHours": "Di–Fr 20:30–08:00 Uhr, letzter Einlass 22:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "20:30",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Nachtcafé in Friedenau. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
     "seasonalNote": [
       {
         "start": "2000-10-01",
         "end": "2001-04-30"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:30 Uhr"
   },
   {
     "id": 77,
@@ -2626,7 +3669,16 @@
       "email": "kaelteschutz@riseup.net",
       "website": "https://www.kaelteschutz-mehringhof.de"
     },
-    "openingHours": "Do 20:00–09:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "th"
+        ],
+        "start": "20:00",
+        "end": "09:00",
+        "label": ""
+      }
+    ],
     "description": "Kälteschutz im Mehringhof mit Gepäckverwahrung und ggf. separatem FLINTA*-Raum; nicht barrierefrei.",
     "seasonalNote": [
       {
@@ -2659,14 +3711,24 @@
       "email": "unterdruck@t-online.de",
       "website": "https://www.unter-druck.de"
     },
-    "openingHours": "Do 19:00–08:00 Uhr, Einlass bis 07:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "th"
+        ],
+        "start": "19:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Nachtcafé in Wedding. Hunde willkommen; kein Alkohol, keine Gewalt, keine Drogen.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-03-31"
       }
-    ]
+    ],
+    "openingNote": "Einlass bis 07:00 Uhr"
   },
   {
     "id": 79,
@@ -2690,14 +3752,24 @@
       "email": "info@mlg-neukoelln.de",
       "website": "https://www.mlg-neukoelln.de"
     },
-    "openingHours": "Fr 20:00–08:00 Uhr, letzter Einlass 23:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "20:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Nachtcafé in Neukölln ohne Aufzug; kein Alkohol, keine Drogen, keine Tiere.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-03-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 23:00 Uhr"
   },
   {
     "id": 80,
@@ -2723,14 +3795,24 @@
       "phone": "030 625 3002",
       "email": "kurt.niedtner@evangelisch-neukoelln.de"
     },
-    "openingHours": "Sa 21:30–08:00 Uhr, letzter Einlass 22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "sa"
+        ],
+        "start": "21:30",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
     "description": "Samstägliches Nachtcafé mit Rollstuhlzugang in Neukölln.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-03-31"
       }
-    ]
+    ],
+    "openingNote": "letzter Einlass 22:00 Uhr"
   },
   {
     "id": 81,
@@ -2757,14 +3839,24 @@
       "email": "kaeltehilfe@cw-evangelisch.de",
       "website": "https://www.cw-evangelisch.de"
     },
-    "openingHours": "So 19:30–07:30 Uhr, Einlass die ganze Nacht",
+    "openingHours": [
+      {
+        "days": [
+          "su"
+        ],
+        "start": "19:30",
+        "end": "07:30",
+        "label": ""
+      }
+    ],
     "description": "Sonntägliches Nachtcafé in Westend mit Plätzen für Frauen und Männer.",
     "seasonalNote": [
       {
         "start": "2000-11-01",
         "end": "2001-03-31"
       }
-    ]
+    ],
+    "openingNote": "Einlass die ganze Nacht"
   },
   {
     "id": 82,
@@ -2790,7 +3882,20 @@
       "email": "waermestube@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "Mo–Fr 15:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "15:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Tagesangebot und Wärmestube der Caritas in Wilmersdorf.",
     "seasonalNote": [
       {
@@ -2822,7 +3927,20 @@
       "phone": "0151 23 30 61 37",
       "email": "frauen-projekt.unterschlupf@web.de"
     },
-    "openingHours": "Mo–Fr 09:00–17:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "17:30",
+        "label": ""
+      }
+    ],
     "description": "Tagesangebot für Frauen und alle, die sich weiblich definieren, einschließlich Transfrauen.",
     "seasonalNote": [
       {
@@ -2857,7 +3975,18 @@
       "email": "streetwork@strassenkinder-ev.de",
       "website": "https://www.strassenkinder-ev.de"
     },
-    "openingHours": "Mo, Mi, Fr 12:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we",
+          "fr"
+        ],
+        "start": "12:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Anlaufstelle, Streetwork und Essensausgabe für Menschen bis 27 Jahre.",
     "seasonalNote": [
       {
@@ -2892,7 +4021,20 @@
       "email": "kiez-cafe@awo-spree-wuhle.de",
       "website": "https://www.awo-spree-wuhle.de"
     },
-    "openingHours": "Mo–Fr 10:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Tagesangebot in Friedrichshain mit Beratung, Essen und ergänzenden Angeboten für Jugendliche.",
     "seasonalNote": [
       {
@@ -2923,7 +4065,36 @@
       "email": "berlin-ostbahnhof@bahnhofsmission.de",
       "website": "https://www.bahnhofsmission-berlin-ostbahnhof.de"
     },
-    "openingHours": "täglich 08:30–12:00 Uhr und 14:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "08:30",
+        "end": "12:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Bahnhofsmission am Ostbahnhof mit Hygiene- und Verpflegungsangeboten.",
     "seasonalNote": [
       {
@@ -2957,7 +4128,34 @@
       "email": "gitschiner15@kght.de",
       "website": "https://www.gitschiner15.de"
     },
-    "openingHours": "Mo–Mi 10:00–16:00 Uhr, Do 12:00–16:00 Uhr, Fr 09:00–15:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we"
+        ],
+        "start": "10:00",
+        "end": "16:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "12:00",
+        "end": "16:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "15:00",
+        "label": ""
+      }
+    ],
     "description": "Tagesangebot mit kostenlosem Mittagessen an mehreren Tagen sowie ergänzenden medizinischen Angeboten.",
     "seasonalNote": [
       {
@@ -2989,7 +4187,29 @@
       "email": "info.tt@hvd-bb.de",
       "website": "https://www.humanistisch.de/tagestreff"
     },
-    "openingHours": "Mo–Fr 08:00–13:00 Uhr, Sa/So 09:30–15:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "13:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "sa",
+          "su"
+        ],
+        "start": "09:30",
+        "end": "15:30",
+        "label": ""
+      }
+    ],
     "description": "Tagestreff mit Essensangebot, Beratung und medizinischen Sprechstunden in Lichtenberg.",
     "seasonalNote": [
       {
@@ -3023,7 +4243,28 @@
       "email": "sophie@koepjohann.de",
       "website": "https://www.koepjohann.de/sophie"
     },
-    "openingHours": "Mo–Do 10:00–14:00 Uhr, So/Feiertage 10:00–15:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th"
+        ],
+        "start": "10:00",
+        "end": "14:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "su",
+          "holiday"
+        ],
+        "start": "10:00",
+        "end": "15:00",
+        "label": ""
+      }
+    ],
     "description": "Kostenloses Tagesangebot für wohnungs- und obdachlose Frauen.",
     "seasonalNote": [
       {
@@ -3057,7 +4298,26 @@
       "email": "tuw-nk@diakoniewerk-simeon.de",
       "website": "https://www.diakoniewerk-simeon.de"
     },
-    "openingHours": "Mo, Mi, So 15:00–19:00 Uhr, Do 09:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we",
+          "su"
+        ],
+        "start": "15:00",
+        "end": "19:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "09:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Tee- und Wärmestube mit Kleiderkammer; dienstags nur für Frauen.",
     "seasonalNote": [
       {
@@ -3090,7 +4350,21 @@
       "email": "wota@unionhilfswerk.de",
       "website": "https://www.unionhilfswerk.de"
     },
-    "openingHours": "Di–So 11:30–17:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "11:30",
+        "end": "17:00",
+        "label": ""
+      }
+    ],
     "description": "Wohnungslosentagesstätte mit Frühstück und Mittagessen; Wäsche nur mit Termin.",
     "seasonalNote": [
       {
@@ -3120,7 +4394,18 @@
       "email": "kaeltehilfe@cw-evangelisch.de",
       "website": "https://www.cw-evangelisch.de/kaeltehilfe"
     },
-    "openingHours": "Mo–Mi 12:00–13:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we"
+        ],
+        "start": "12:00",
+        "end": "13:30",
+        "label": ""
+      }
+    ],
     "description": "Suppenküche in Charlottenburg.",
     "seasonalNote": [
       {
@@ -3147,7 +4432,16 @@
     "contact": {
       "email": "tino.anjum@an-nusrat.de"
     },
-    "openingHours": "Fr 19:00–20:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "19:00",
+        "end": "20:30",
+        "label": ""
+      }
+    ],
     "description": "Mobile Ausgabe von Essen am Bahnhof Zoo.",
     "seasonalNote": [
       {
@@ -3174,7 +4468,19 @@
     "contact": {
       "phone": "030 82 79 19 16"
     },
-    "openingHours": "Mo, Di, Do, Fr 12:00–13:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th",
+          "fr"
+        ],
+        "start": "12:00",
+        "end": "13:30",
+        "label": ""
+      }
+    ],
     "description": "Suppenküche in Wilmersdorf; Kostenbeitrag 50 Cent.",
     "seasonalNote": [
       {
@@ -3201,7 +4507,30 @@
     "contact": {
       "email": "joerge.bellin@johanniter.de"
     },
-    "openingHours": "Di–Fr 08:00–10:00 Uhr und 17:00–21:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "10:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "17:00",
+        "end": "21:00",
+        "label": ""
+      }
+    ],
     "description": "Warmer Aufenthalt zum Frühstück und Abendessen mit heißen Getränken.",
     "seasonalNote": [
       {
@@ -3230,7 +4559,17 @@
       "email": "s.wette@evkgk.de",
       "website": "https://www.evkgk.de"
     },
-    "openingHours": "Mi, Do 10:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "we",
+          "th"
+        ],
+        "start": "10:00",
+        "end": "12:00",
+        "label": ""
+      }
+    ],
     "description": "Frühstücksstube in der Emmaus-Kirche; vom 22.12.2025 bis 12.01.2026 geschlossen.",
     "seasonalNote": [
       {
@@ -3259,7 +4598,16 @@
     "contact": {
       "email": "info@bisous.ngo"
     },
-    "openingHours": "Di 14:00–15:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "14:00",
+        "end": "15:30",
+        "label": ""
+      }
+    ],
     "description": "Dienstagsbistro in Kreuzberg.",
     "seasonalNote": [
       {
@@ -3286,7 +4634,18 @@
     "contact": {
       "email": "i.stramm@ev-gemeinde-tiergarten.de"
     },
-    "openingHours": "Mo, Mi, Do 17:00–20:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we",
+          "th"
+        ],
+        "start": "17:00",
+        "end": "20:00",
+        "label": ""
+      }
+    ],
     "description": "Essensausgabe an der Heilandskirche.",
     "seasonalNote": [
       {
@@ -3312,7 +4671,16 @@
     "contact": {
       "email": "waermecafe-paulus@sankt-elisabeth-berlin.de"
     },
-    "openingHours": "So 17:00–20:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "su"
+        ],
+        "start": "17:00",
+        "end": "20:00",
+        "label": ""
+      }
+    ],
     "description": "Essensausgabe mit warmer Suppe, warmen Getränken und belegten Broten.",
     "seasonalNote": [
       {
@@ -3341,7 +4709,24 @@
       "email": "info@pallotti.mobil.de",
       "website": "https://www.pallotti-mobil.de/soziales-catering/Essen-ist-fertig"
     },
-    "openingHours": "Di 13:00–15:30 Uhr, So 13:00–15:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "13:00",
+        "end": "15:30",
+        "label": ""
+      },
+      {
+        "days": [
+          "su"
+        ],
+        "start": "13:00",
+        "end": "15:30",
+        "label": ""
+      }
+    ],
     "description": "Essensausgabe in St. Christophorus; dienstags steht dort das Duschmobil für Frauen.",
     "seasonalNote": [
       {
@@ -3369,7 +4754,16 @@
       "email": "Agnes-Maria.Streich@erzbistumberlin.de",
       "website": "https://www.pallotti-mobil.de/soziales-catering"
     },
-    "openingHours": "Fr 16:00–19:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "16:00",
+        "end": "19:30",
+        "label": ""
+      }
+    ],
     "description": "Wärmestube in Neukölln mit Gesprächsangebot und anschließendem Gebet in der Kirche.",
     "seasonalNote": [
       {
@@ -3398,7 +4792,16 @@
       "email": "i.remde@strassenfeger.org",
       "website": "https://www.strassenfeger.org"
     },
-    "openingHours": "Do 12:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "th"
+        ],
+        "start": "12:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Sozial Brunch in Prenzlauer Berg.",
     "seasonalNote": [
       {
@@ -3422,7 +4825,16 @@
       "essen_verpflegung"
     ],
     "contact": {},
-    "openingHours": "So 12:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "su"
+        ],
+        "start": "12:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Sonntägliche Suppenküche am Zionskirchplatz.",
     "seasonalNote": [
       {
@@ -3451,7 +4863,18 @@
       "email": "erpel@milaa-berlin.de",
       "website": "https://www.milaa-berlin.org/unsere-arbeit/aktion-warmes-essen"
     },
-    "openingHours": "Mo, Mi, Fr 12:00–13:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we",
+          "fr"
+        ],
+        "start": "12:00",
+        "end": "13:30",
+        "label": ""
+      }
+    ],
     "description": "Suppenküche in Zehlendorf; montags zusätzlich Kleiderkammer.",
     "seasonalNote": [
       {
@@ -3479,7 +4902,17 @@
       "email": "foodtruck@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de/foodtruck"
     },
-    "openingHours": "Di, Do 14:30–15:45 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "14:30",
+        "end": "15:45",
+        "label": ""
+      }
+    ],
     "description": "Mobiler Foodtruck mit warmen Mahlzeiten an wechselnden Standorten.",
     "seasonalNote": [
       {
@@ -3509,7 +4942,20 @@
       "email": "praxiskoordination@gebewo-pro.berlin",
       "website": "https://www.gebewo-pro.de/arztpraxis"
     },
-    "openingHours": "Mo–Fr 08:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Medizinische Praxis am Stralauer Platz.",
     "seasonalNote": [
       {
@@ -3538,7 +4984,24 @@
       "email": "open.med-berlin@aerztederwelt.org",
       "website": "https://www.aerztederwelt.org/unsere-projekte/deutschland/berlin"
     },
-    "openingHours": "Mo 11:00–15:00 Uhr, Mi 14:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "11:00",
+        "end": "15:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "14:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Kostenfreie medizinische Hilfe für Menschen ohne Krankenversicherung.",
     "seasonalNote": [
       {
@@ -3571,7 +5034,33 @@
       "email": "info@medizin-hilft.org",
       "website": "https://www.medizin-hilft.org/ambulanz/"
     },
-    "openingHours": "Mo 10:00–16:00 Uhr, Di/Do 10:00–18:00 Uhr, Mi 11:00–15:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "10:00",
+        "end": "16:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "10:00",
+        "end": "18:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "11:00",
+        "end": "15:00",
+        "label": ""
+      }
+    ],
     "description": "Ambulanz mit mehreren Fachrichtungen und wöchentlichen Kindersprechstunden.",
     "seasonalNote": [
       {
@@ -3603,7 +5092,20 @@
       "email": "dkr@fixpunkt.org",
       "website": "https://www.fixpunkt.org/drogenkonsummobile"
     },
-    "openingHours": "Mo–Fr 14:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "14:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung.",
     "seasonalNote": [
       {
@@ -3635,7 +5137,20 @@
       "email": "dkr@fixpunkt.org",
       "website": "https://www.fixpunkt.org/drogenkonsummobile"
     },
-    "openingHours": "Mo–Fr 13:00–17:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "13:00",
+        "end": "17:00",
+        "label": ""
+      }
+    ],
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung im Görlitzer Park.",
     "seasonalNote": [
       {
@@ -3667,14 +5182,37 @@
       "email": "kotti@fixpunktggmbh.org",
       "website": "https://www.fixpunktggmbh.org"
     },
-    "openingHours": "täglich geöffnet; Mo, Di, Do, Fr, Sa, So 10:15–17:30 Uhr; Mi 13:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "10:15",
+        "end": "17:30",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "13:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Kontaktstelle ausschließlich für drogengebrauchende Personen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "täglich geöffnet"
   },
   {
     "id": 112,
@@ -3702,7 +5240,27 @@
       "email": "hilfe@karuna-ev.de",
       "website": "https://www.komma-vorbei.de"
     },
-    "openingHours": "Mo, Di, Do, Fr 09:00–14:00 Uhr; Mi 09:30–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "14:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "09:30",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Beratung und Tageseinrichtung für drogenkonsumierende Jugendliche und junge Erwachsene von 13 bis 27 Jahren.",
     "seasonalNote": [
       {
@@ -3738,7 +5296,43 @@
       "email": "muehlenstube@vistaberlin.de",
       "website": "https://www.vistaberlin.de/konsumraeume"
     },
-    "openingHours": "Mo, Di 10:00–17:00 Uhr; Mi 10:00–15:00 Uhr; Do, Fr 12:00–19:00 Uhr; Sa, So 11:30–19:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu"
+        ],
+        "start": "10:00",
+        "end": "17:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "10:00",
+        "end": "15:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th",
+          "fr"
+        ],
+        "start": "12:00",
+        "end": "19:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "sa",
+          "su"
+        ],
+        "start": "11:30",
+        "end": "19:00",
+        "label": ""
+      }
+    ],
     "description": "Kontakt- und Anlaufstelle mit integriertem Drogenkonsumraum für volljährige Konsument*innen illegalisierter Substanzen.",
     "seasonalNote": [
       {
@@ -3773,7 +5367,34 @@
       "email": "birkenstube@vistaberlin.de",
       "website": "https://www.vistaberlin.de/konsumraeume"
     },
-    "openingHours": "Mo, Di 12:00–19:00 Uhr; Mi 14:00–19:00 Uhr; Do, Fr 10:00–17:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu"
+        ],
+        "start": "12:00",
+        "end": "19:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "14:00",
+        "end": "19:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th",
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "17:00",
+        "label": ""
+      }
+    ],
     "description": "Kontakt- und Anlaufstelle mit integriertem Drogenkonsumraum für volljährige Konsument*innen illegalisierter Substanzen.",
     "seasonalNote": [
       {
@@ -3805,7 +5426,28 @@
       "email": "dkr@fixpunkt.org",
       "website": "https://www.fixpunkt.org"
     },
-    "openingHours": "Mo–Fr 10:00–17:00 Uhr; Sa 12:00–17:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "17:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "sa"
+        ],
+        "start": "12:00",
+        "end": "17:00",
+        "label": ""
+      }
+    ],
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung am Leopoldplatz.",
     "seasonalNote": [
       {
@@ -3840,7 +5482,28 @@
       "phone": "030 69 29 198",
       "email": "druckausgleich@fixpunktggmbh.org"
     },
-    "openingHours": "Mo, Di, Do, Fr 10:30–18:00 Uhr; Mi, Sa 12:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th",
+          "fr"
+        ],
+        "start": "10:30",
+        "end": "18:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we",
+          "sa"
+        ],
+        "start": "12:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "description": "Angebot für Drogengebrauchende in Neukölln.",
     "seasonalNote": [
       {
@@ -3872,7 +5535,18 @@
       "phone": "030 749 279 51",
       "email": "spax@fixpunkt.org"
     },
-    "openingHours": "Mo, Mi, Do 10:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we",
+          "th"
+        ],
+        "start": "10:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Suchtbezogenes Angebot in Spandau.",
     "seasonalNote": [
       {
@@ -3907,7 +5581,21 @@
       "email": "olga@notdienstberlin.de",
       "website": "https://www.drogennotdienst.de/nur-fuer-frauen/frauentreff-olga"
     },
-    "openingHours": "Mo–Sa 14:00–20:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa"
+        ],
+        "start": "14:00",
+        "end": "20:00",
+        "label": ""
+      }
+    ],
     "description": "Kontakt- und Beratungsstelle primär für Straßensexarbeiter*innen; nur für FLINTA-Personen.",
     "seasonalNote": [
       {
@@ -3943,7 +5631,27 @@
       "email": "streetwork@notdienstberlin.de",
       "website": "https://www.drogennotdienst.de"
     },
-    "openingHours": "Mo sowie Mi–Fr 11:00–17:00 Uhr; Di 12:00–17:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "11:00",
+        "end": "17:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "12:00",
+        "end": "17:00",
+        "label": ""
+      }
+    ],
     "description": "Beratung und parallel Streetwork in Tempelhof-Schöneberg.",
     "seasonalNote": [
       {
@@ -3971,7 +5679,20 @@
       "email": "dropout@gangway.de",
       "website": "https://www.gangway.de/teams/team-drop-out-streetwork-an-brennpunkten"
     },
-    "openingHours": "Mo–Fr 10:00–17:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "17:00",
+        "label": ""
+      }
+    ],
     "description": "Aufsuchende Beratung an Berliner Brennpunkten sowie in mehreren Bezirken; mehrsprachig.",
     "seasonalNote": [
       {
@@ -3999,14 +5720,24 @@
       "email": "beratung@frostschutzengel.de",
       "website": "https://www.frostschutzengel.de"
     },
-    "openingHours": "Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "offene Sprechstunde"
+      }
+    ],
     "description": "Aufsuchende mehrsprachige Beratung in Einrichtungen der niedrigschwelligen Wohnungslosenhilfe.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo–Fr"
   },
   {
     "id": 122,
@@ -4026,14 +5757,24 @@
       "phone": "030 34 65 55 00",
       "email": "moct@gebewo.berlin"
     },
-    "openingHours": "Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "offene Sprechstunde"
+      }
+    ],
     "description": "Aufsuchende mehrsprachige Beratung in mehreren Sprachen für Menschen in Wohnungslosigkeit.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo–Fr"
   },
   {
     "id": 123,
@@ -4056,14 +5797,15 @@
       "email": "tria@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "Mo–Fr",
+    "openingHours": [],
     "description": "Aufsuchende Beratung für EU-Bürger*innen; Terminvereinbarung möglich.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo–Fr"
   },
   {
     "id": 124,
@@ -4085,7 +5827,19 @@
       "email": "anlaufstelle@amaroforo.de",
       "website": "https://www.amaroforo.de"
     },
-    "openingHours": "Mo, Di, Do, Fr 09:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Beratung für EU-Bürger*innen in bulgarischer und rumänischer Sprache; nur mit Termin.",
     "seasonalNote": [
       {
@@ -4113,7 +5867,24 @@
       "email": "beratungsstelle@gebewo-pro.berlin",
       "website": "https://www.gebewo-pro.de/beratungsstelle"
     },
-    "openingHours": "Mo 09:00–13:00 Uhr, Do 14:00–17:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "09:00",
+        "end": "13:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "14:00",
+        "end": "17:30",
+        "label": ""
+      }
+    ],
     "description": "Beratung bei Wohnungsnotfällen und Existenzsicherung; weitere Tage nur Termin- und Telefonberatung.",
     "seasonalNote": [
       {
@@ -4141,7 +5912,34 @@
       "email": "beff@awo-mitte.de",
       "website": "https://www.awo-mitte.de/frauen/wohnungslosigkeit"
     },
-    "openingHours": "Mo, Di, Do 09:00–15:00 Uhr; Mi 09:00–16:00 Uhr; Fr 09:00–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "15:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "09:00",
+        "end": "16:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Beratung für Frauen und deren Familien zum Thema Wohnungssuche und andere Problemlagen.",
     "seasonalNote": [
       {
@@ -4170,14 +5968,15 @@
       "email": "migration@berlin.arbeitundleben.de",
       "website": "https://www.bema.berlin"
     },
-    "openingHours": "Mo–Fr",
+    "openingHours": [],
     "description": "Arbeits- und sozialrechtliche Beratung für eingewanderte Menschen und mobile Arbeitnehmer*innen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Mo–Fr"
   },
   {
     "id": 128,
@@ -4199,7 +5998,17 @@
       "email": "suppenkueche@franziskaner.de",
       "website": "https://www.suppe.franziskaner.net"
     },
-    "openingHours": "Di, Fr 08:30–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "fr"
+        ],
+        "start": "08:30",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Duschen, Waschen persönlicher Wäsche und Ausgabe von Hygieneartikeln nach Spendenlage.",
     "seasonalNote": [
       {
@@ -4233,7 +6042,17 @@
       "email": "seifenbuechse@skf-berlin.de",
       "website": "https://www.seifenbuechse.berlin/"
     },
-    "openingHours": "Mi und Fr 15:30–18:30 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "we",
+          "fr"
+        ],
+        "start": "15:30",
+        "end": "18:30",
+        "label": ""
+      }
+    ],
     "description": "Mobiles Angebot für Kinder und Jugendliche mit Dusche und Toilette.",
     "seasonalNote": [
       {
@@ -4263,7 +6082,18 @@
       "email": "suppenkueche@franziskaner.de",
       "website": "https://www.suppe.franziskaner.de"
     },
-    "openingHours": "Di, Do, Fr 12:30–14:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th",
+          "fr"
+        ],
+        "start": "12:30",
+        "end": "14:00",
+        "label": ""
+      }
+    ],
     "description": "Kleiderkammer im Franziskanerkloster Pankow.",
     "seasonalNote": [
       {
@@ -4292,7 +6122,16 @@
       "email": "info@drk-spandau.de",
       "website": "https://www.drk-spandau.de"
     },
-    "openingHours": "Di 09:00–11:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "label": ""
+      }
+    ],
     "description": "Kleiderkammer des DRK in Spandau.",
     "seasonalNote": [
       {
@@ -4322,7 +6161,20 @@
       "email": "kleiderkammer@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
-    "openingHours": "Mo–Fr 09:00–13:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "13:00",
+        "label": ""
+      }
+    ],
     "description": "Kleiderkammer des Caritasverbandes in Reinickendorf.",
     "seasonalNote": [
       {
@@ -4353,7 +6205,22 @@
       "email": "obdachbus@drk-berlin.net",
       "website": "https://www.drk-sz.de"
     },
-    "openingHours": "täglich 11:00–22:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "11:00",
+        "end": "22:00",
+        "label": ""
+      }
+    ],
     "description": "Aufsuchende mobile Hilfe nur im Berliner Südwesten; Beratung auf Deutsch, Englisch, Französisch, Spanisch und Rumänisch.",
     "seasonalNote": [
       {
@@ -4383,7 +6250,17 @@
       "phone": "030 90296-1771",
       "email": "soz-wohnen@lichtenberg.berlin"
     },
-    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Lichtenberg.",
     "seasonalNote": [
       {
@@ -4412,7 +6289,18 @@
     "contact": {
       "email": "soz-wohnen@ba-mh.berlin.de"
     },
-    "openingHours": "Sprechstunden: Mo, Di, Do 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Marzahn-Hellersdorf.",
     "seasonalNote": [
       {
@@ -4442,7 +6330,26 @@
       "phone": "030 90184-1771",
       "email": "soz-wohnen@ba-mitte.berlin.de"
     },
-    "openingHours": "Sprechstunden: Mo, Di, Do 08:30–12:30 Uhr; Notsprechstunde Fr 09:00–11:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "th"
+        ],
+        "start": "08:30",
+        "end": "12:30",
+        "label": "Sprechstunden"
+      },
+      {
+        "days": [
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "label": "Notsprechstunde"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Mitte.",
     "seasonalNote": [
       {
@@ -4472,7 +6379,17 @@
       "phone": "030 90239-1771",
       "email": "soz-wohnen@bezirksamt-neukoelln.de"
     },
-    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Neukölln.",
     "seasonalNote": [
       {
@@ -4502,7 +6419,17 @@
       "phone": "030 90295-1771",
       "email": "soz-wohnen@ba-pankow.berlin.de"
     },
-    "openingHours": "Sprechstunden: Mo, Mi 09:00–11:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we"
+        ],
+        "start": "09:00",
+        "end": "11:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Pankow.",
     "seasonalNote": [
       {
@@ -4532,7 +6459,17 @@
       "phone": "030 90294-1771",
       "email": "soz-wohnen@reinickendorf.berlin.de"
     },
-    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Reinickendorf.",
     "seasonalNote": [
       {
@@ -4562,7 +6499,16 @@
       "phone": "030 90279-1771",
       "email": "soz-wohnen@ba-spandau.berlin.de"
     },
-    "openingHours": "Sprechstunden: Di 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Spandau.",
     "seasonalNote": [
       {
@@ -4592,7 +6538,17 @@
       "phone": "030 90299-1771",
       "email": "soz-wohnen@ba-sz.berlin.de"
     },
-    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Steglitz-Zehlendorf.",
     "seasonalNote": [
       {
@@ -4622,7 +6578,17 @@
       "phone": "030 90277-1771",
       "email": "soz-wohnen@ba-ts.berlin.de"
     },
-    "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Tempelhof-Schöneberg.",
     "seasonalNote": [
       {
@@ -4652,7 +6618,17 @@
       "phone": "030 90297-1771",
       "email": "soz-wohnen@ba-tk.berlin.de"
     },
-    "openingHours": "Sprechstunden: Di, Do 08:30–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu",
+          "th"
+        ],
+        "start": "08:30",
+        "end": "12:00",
+        "label": "Sprechstunden"
+      }
+    ],
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Treptow-Köpenick.",
     "seasonalNote": [
       {
@@ -4682,7 +6658,36 @@
       "phone": "030 39063",
       "website": "https://www.berliner-krisendienst.de"
     },
-    "openingHours": "24 Stunden täglich telefonisch erreichbar; Beratungsstandorte täglich 16:00–24:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "00:00",
+        "end": "24:00",
+        "label": "Telefonisch erreichbar"
+      },
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "16:00",
+        "end": "24:00",
+        "label": "Beratungsstandorte"
+      }
+    ],
     "description": "Schnelle und qualifizierte Hilfe bei psychosozialen Krisen bis hin zu akuten psychiatrischen Notsituationen.",
     "seasonalNote": [
       {
@@ -4713,7 +6718,28 @@
       "email": "sopsy@charlottenburg-wilmersdorf.de",
       "website": "https://service.berlin.de/standort/328508/"
     },
-    "openingHours": "Telefonisch Mo–Fr 08:00–16:00 Uhr; Sprechstunde Di 09:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": "Telefonisch"
+      },
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunde"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
@@ -4744,14 +6770,24 @@
       "email": "gesundheitshilfe@ba-fk.berlin.de",
       "website": "https://service.berlin.de/standort/325059/"
     },
-    "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr; telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Offene Sprechstunde"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Ortsteil Friedrichshain.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung"
   },
   {
     "id": 148,
@@ -4775,14 +6811,24 @@
       "email": "gesundheitshilfe@ba-fk.berlin.de",
       "website": "https://service.berlin.de/standort/325061/"
     },
-    "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr; telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Offene Sprechstunde"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Ortsteil Kreuzberg.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung"
   },
   {
     "id": 149,
@@ -4806,14 +6852,44 @@
       "email": "spdi@lichtenberg.berlin.de",
       "website": "https://service.berlin.de/standort/326393/"
     },
-    "openingHours": "Di 09:00–12:00 Uhr, Do 15:00–18:00 Uhr; Krisentelefon Mo–Fr 08:00–16:00 Uhr, Do bis 18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "15:00",
+        "end": "18:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": "Krisentelefon"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Do bis 18:00 Uhr"
   },
   {
     "id": 150,
@@ -4838,14 +6914,26 @@
       "email": "soz.psych.dienst@ba-mh.berlin.de",
       "website": "https://service.berlin.de/standort/327010/"
     },
-    "openingHours": "Mo–Mi 08:00–16:00 Uhr; bitte nach Möglichkeit zunächst telefonisch Kontakt aufnehmen",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene mit psychischen Erkrankungen, Suchterkrankungen oder geistiger Behinderung.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "bitte nach Möglichkeit zunächst telefonisch Kontakt aufnehmen"
   },
   {
     "id": 151,
@@ -4869,14 +6957,36 @@
       "email": "sozialpsychdienst@ba-mitte.berlin.de",
       "website": "https://service.berlin.de/standort/325765/"
     },
-    "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–16:00 Uhr; Erreichbarkeit Mo–Fr 08:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Offene Sprechstunde"
+      },
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": "Erreichbarkeit"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Bereich Mitte und Tiergarten.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "und Do 14:00–16:00 Uhr"
   },
   {
     "id": 152,
@@ -4900,14 +7010,36 @@
       "email": "sozialpsychdienst@ba-mitte.berlin.de",
       "website": "https://service.berlin.de/standort/325763/"
     },
-    "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–16:00 Uhr; Erreichbarkeit Mo–Fr 08:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Offene Sprechstunde"
+      },
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": "Erreichbarkeit"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Bereich Wedding.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "und Do 14:00–16:00 Uhr"
   },
   {
     "id": 153,
@@ -4931,7 +7063,28 @@
       "email": "gesspd@bezirksamt-neukoelln.de",
       "website": "https://service.berlin.de/standort/327599/"
     },
-    "openingHours": "Telefonsprechstunde Mo–Fr 08:00–16:00 Uhr; offene Sprechstunde Do 13:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": "Telefonsprechstunde"
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "13:00",
+        "end": "16:00",
+        "label": "offene Sprechstunde"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
@@ -4962,14 +7115,36 @@
       "email": "spd.pankow@ba-pankow.berlin.de",
       "website": "https://service.berlin.de/standort/326467/"
     },
-    "openingHours": "Krisendienst Mo–Fr 08:00–16:00 Uhr; Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–18:00 Uhr; sonst nach Vereinbarung",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": "Krisendienst"
+      },
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Sprechstunde"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene mit psychischen Erkrankungen, Suchterkrankungen oder geistiger Behinderung.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "und Do 14:00–18:00 Uhr; sonst nach Vereinbarung"
   },
   {
     "id": 155,
@@ -4993,14 +7168,24 @@
       "email": "sozialpsychiatrischer-dienst@reinickendorf.berlin.de",
       "website": "https://service.berlin.de/standort/328448/"
     },
-    "openingHours": "Nach Terminvereinbarung; offene Sprechstunde Do 15:00–18:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "th"
+        ],
+        "start": "15:00",
+        "end": "18:00",
+        "label": "offene Sprechstunde"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Nach Terminvereinbarung"
   },
   {
     "id": 156,
@@ -5023,14 +7208,15 @@
       "phone": "030 90279-2355",
       "website": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/gesundheitsamt/artikel.268617.php"
     },
-    "openingHours": "Termin nach Vereinbarung",
+    "openingHours": [],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Termin nach Vereinbarung"
   },
   {
     "id": 157,
@@ -5055,14 +7241,28 @@
       "email": "sozialpsychdienst@ba-sz.berlin.de",
       "website": "https://service.berlin.de/standort/324243/"
     },
-    "openingHours": "Sprechzeiten aktuell nur nach Vereinbarung; telefonisch Mo–Fr 08:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": "telefonisch"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Sprechzeiten aktuell nur nach Vereinbarung"
   },
   {
     "id": 158,
@@ -5084,14 +7284,15 @@
     "contact": {
       "website": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/gesundheitsamt/sozialpsychiatrischer-dienst/"
     },
-    "openingHours": "Bitte aktuelle Kontaktmöglichkeiten auf der Bezirksseite prüfen",
+    "openingHours": [],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte aktuelle Kontaktmöglichkeiten auf der Bezirksseite prüfen"
   },
   {
     "id": 159,
@@ -5116,14 +7317,15 @@
       "email": "Soz.Psych.Dienst@ba-tk.berlin.de",
       "website": "https://service.berlin.de/standort/324426/"
     },
-    "openingHours": "Termin nach Vereinbarung",
+    "openingHours": [],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Termin nach Vereinbarung"
   },
   {
     "id": 160,
@@ -5152,7 +7354,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 161,
@@ -5181,7 +7384,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 162,
@@ -5210,7 +7414,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 163,
@@ -5239,7 +7444,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 164,
@@ -5268,7 +7474,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 165,
@@ -5297,7 +7504,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 166,
@@ -5326,7 +7534,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 167,
@@ -5355,7 +7564,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 168,
@@ -5384,7 +7594,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 169,
@@ -5413,7 +7624,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 170,
@@ -5442,7 +7654,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 171,
@@ -5471,7 +7684,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 172,
@@ -5500,7 +7714,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 173,
@@ -5529,7 +7744,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 174,
@@ -5554,14 +7770,15 @@
       "email": "psychiatrie.wbk@vivantes.de",
       "website": "https://www.vivantes.de/wenckebach-klinikum/fachbereiche/kliniken/psychiatrie-psychotherapie-und-psychosomatik/kontakt/"
     },
-    "openingHours": "Zentrale Psychiatrische Aufnahme; pflegerisch besetzt 08:00–22:00 Uhr",
+    "openingHours": [],
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Tempelhof. Die aktuelle Vivantes-Seite nennt die Zentrale Psychiatrische Aufnahme am Standort Wenckebachstraße 23.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Zentrale Psychiatrische Aufnahme; pflegerisch besetzt 08:00–22:00 Uhr"
   },
   {
     "id": 175,
@@ -5590,7 +7807,8 @@
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingHours": []
   },
   {
     "id": 176,
@@ -5608,14 +7826,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx für Menschen in Wohnungsnot.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 177,
@@ -5633,14 +7852,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Ambulante Wohnungslosenhilfe in Lichtenberg, im Register-Unterkuenfte.xlsx als Kontaktstelle aufgeführt.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 178,
@@ -5662,7 +7882,20 @@
       "email": "wohnhilfe@lukas-gemeinde.de",
       "website": "https://wohnhilfe-berlin-pfluegerstrasse.de/"
     },
-    "openingHours": "Mo–Fr 10:00–16:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
     "description": "Wohnhilfe der Lukas-Gemeinde mit Beratung bei drohendem Wohnungsverlust, Räumungsklagen und Wohnungssuche; zusätzlich betreute Wohngemeinschaft.",
     "seasonalNote": [
       {
@@ -5687,14 +7920,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx für Menschen in Wohnungsnot.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 180,
@@ -5712,14 +7946,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 181,
@@ -5744,14 +7979,15 @@
       "email": "psychberatung@gebewo-pro.berlin",
       "website": "https://gebewo-pro.de/psychologische-beratung-fuer-wohnungslose-frauen"
     },
-    "openingHours": "Termine nach Bedarf telefonisch vereinbaren",
+    "openingHours": [],
     "description": "Kostenlose, auf Wunsch anonyme psychologische Beratung für Frauen in Wohnungsnot oder in Wohnheimen; laut Berlin.de auch aufsuchend in Wohnheimen möglich.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Termine nach Bedarf telefonisch vereinbaren"
   },
   {
     "id": 182,
@@ -5776,7 +8012,28 @@
       "email": "empfang@klik-berlin.de",
       "website": "https://klik-berlin.de/kontakt/"
     },
-    "openingHours": "Offene Sprechstunde Mo 10:00–12:00 Uhr; Terminvereinbarung und Postausgabe Mo–Fr 10:00–12:00 Uhr",
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "10:00",
+        "end": "12:00",
+        "label": "Offene Sprechstunde"
+      },
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "12:00",
+        "label": "Terminvereinbarung und Postausgabe"
+      }
+    ],
     "description": "Beratungsstelle für Menschen in Wohnungsnot und sozialen Schwierigkeiten mit Fokus auf wohnungslose oder bedrohte Menschen und Familien aus Deutschland und anderen EU-Ländern; Beratung auf Deutsch, Englisch, Polnisch und Bulgarisch.",
     "seasonalNote": [
       {
@@ -5800,14 +8057,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 184,
@@ -5824,14 +8082,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 185,
@@ -5848,14 +8107,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 186,
@@ -5872,14 +8132,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 187,
@@ -5897,14 +8158,15 @@
       "transitional_housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Übergangshaus aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 188,
@@ -5922,14 +8184,15 @@
       "transitional_housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Übergangshaus aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 189,
@@ -5947,14 +8210,15 @@
       "frauen"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Wohnangebot für Frauen aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 190,
@@ -5972,14 +8236,15 @@
       "frauen"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Wohnangebot für Frauen aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 191,
@@ -6000,14 +8265,30 @@
       "email": "ralf.schoenberner@unionhilfswerk.de",
       "website": "https://www.unionhilfswerk.de/kontakte/schoenberner-ralf/"
     },
-    "openingHours": "24 Stunden besetzt",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "00:00",
+        "end": "24:00",
+        "label": ""
+      }
+    ],
     "description": "Wohnheim für wohnungslose Menschen des Unionhilfswerks mit sozialpädagogischer Unterstützung und Rund-um-die-Uhr-Ansprechpersonen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "besetzt"
   },
   {
     "id": 192,
@@ -6024,14 +8305,15 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Unterkunft beziehungsweise Nothilfe-Angebot aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 193,
@@ -6051,10 +8333,11 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Notübernachtung aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [],
-    "seasonalNoteText": "Saisonal / bitte direkt erfragen"
+    "seasonalNoteText": "Saisonal / bitte direkt erfragen",
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 194,
@@ -6073,10 +8356,11 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Nachtcafé aus dem Register-Unterkuenfte.xlsx.",
     "seasonalNote": [],
-    "seasonalNoteText": "Saisonal / bitte direkt erfragen"
+    "seasonalNoteText": "Saisonal / bitte direkt erfragen",
+    "openingNote": "Bitte direkt erfragen"
   },
   {
     "id": 195,
@@ -6096,13 +8380,14 @@
       "housing"
     ],
     "contact": {},
-    "openingHours": "Bitte direkt erfragen",
+    "openingHours": [],
     "description": "Krisenwohnung beziehungsweise Notunterkunft für Suchterkrankte, aus dem Register-Unterkuenfte.xlsx übernommen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
-    ]
+    ],
+    "openingNote": "Bitte direkt erfragen"
   }
 ]

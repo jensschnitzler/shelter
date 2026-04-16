@@ -276,7 +276,6 @@ li.item .html {
     flex-direction: column;
     gap: .75rem;
     transition: box-shadow .15s, transform .15s;
-    height: 100%;
 }
 
 .card:hover {
@@ -361,7 +360,7 @@ li.item .html {
 }
 
 /* ── Details / Description ── */
-.card-details, .card-meta, .card-tags {
+.card-details, .card-meta, .card-tags, .card-contact {
     margin-top: .1rem;
     border-top: 1px solid var(--border);
     padding-top: .75rem;
@@ -408,9 +407,8 @@ li.item .html {
 /* ── Contact links ── */
 .card-contact {
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: column nowrap;
     gap: .5rem;
-    margin-top: auto;
 }
 
 .contact-link {

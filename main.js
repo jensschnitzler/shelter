@@ -123,6 +123,18 @@ const SEASONAL_MONTHS = [
     'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember',
 ];
 
+const WEEKDAY_ORDER = ['mo', 'tu', 'we', 'th', 'fr', 'sa', 'su', 'holiday'];
+const WEEKDAY_LABELS = {
+    mo: 'Mo',
+    tu: 'Di',
+    we: 'Mi',
+    th: 'Do',
+    fr: 'Fr',
+    sa: 'Sa',
+    su: 'So',
+    holiday: 'Feiertag',
+};
+
 function normalizeSeasonalPeriods(raw) {
     if (!Array.isArray(raw)) {
         return [];
@@ -211,6 +223,75 @@ function formatSeasonalNote(periods, text) {
         .join(' / ');
 }
 
+function normalizeOpeningHours(raw) {
+    if (!Array.isArray(raw)) {
+        return [];
+    }
+
+    return raw
+        .map(entry => {
+            const days = Array.isArray(entry?.days)
+                ? entry.days.filter(day => typeof day === 'string' && WEEKDAY_ORDER.includes(day))
+                : [];
+            const start = typeof entry?.start === 'string' ? entry.start : '';
+            const end = typeof entry?.end === 'string' ? entry.end : '';
+            const label = typeof entry?.label === 'string' ? entry.label : '';
+
+            return days.length && start && end
+                ? { days, start, end, label }
+                : null;
+        })
+        .filter(Boolean);
+}
+
+function sortDays(days) {
+    return [...days].sort((a, b) => WEEKDAY_ORDER.indexOf(a) - WEEKDAY_ORDER.indexOf(b));
+}
+
+function formatDaySequence(days) {
+    const sorted = sortDays(days);
+    if (sorted.length === 7 && !sorted.includes('holiday')) {
+        return 'täglich';
+    }
+
+    const regular = sorted.filter(day => day !== 'holiday');
+    const labels = [];
+
+    for (let index = 0; index < regular.length; index += 1) {
+        const start = regular[index];
+        let endIndex = index;
+
+        while (
+            endIndex + 1 < regular.length
+            && WEEKDAY_ORDER.indexOf(regular[endIndex + 1]) === WEEKDAY_ORDER.indexOf(regular[endIndex]) + 1
+        ) {
+            endIndex += 1;
+        }
+
+        if (endIndex > index + 1) {
+            labels.push(`${WEEKDAY_LABELS[start]}-${WEEKDAY_LABELS[regular[endIndex]]}`);
+            index = endIndex;
+        } else {
+            labels.push(WEEKDAY_LABELS[start]);
+        }
+    }
+
+    if (sorted.includes('holiday')) {
+        labels.push(WEEKDAY_LABELS.holiday);
+    }
+
+    return labels.join(', ');
+}
+
+function formatOpeningEntry(entry) {
+    const label = entry.label ? `${entry.label}: ` : '';
+    return `${label}${formatDaySequence(entry.days)} ${entry.start}–${entry.end} Uhr`;
+}
+
+function formatOpeningHours(entries) {
+    return entries.map(formatOpeningEntry).join('; ');
+}
+
 function normalizeFacility(raw) {
     const address = raw?.address || {};
     const contact = raw?.contact || {};
@@ -233,7 +314,8 @@ function normalizeFacility(raw) {
             email: contact.email ? String(contact.email) : '',
             website: sanitizeExternalUrl(contact.website),
         },
-        openingHours: raw?.openingHours ? String(raw.openingHours) : '',
+        openingHours: normalizeOpeningHours(raw?.openingHours),
+        openingNote: raw?.openingNote ? String(raw.openingNote) : (typeof raw?.openingHours === 'string' ? String(raw.openingHours) : ''),
         description: String(raw?.description || 'Keine Beschreibung vorhanden.'),
         seasonalNote: seasonal.periods,
         seasonalNoteText: seasonal.text,
@@ -256,8 +338,11 @@ function renderCard(f) {
     const seasonal = seasonalLabel
         ? `<div class="meta-row meta-row--seasonal">${renderIcon('calendar_month')}<span>${escapeHtml(seasonalLabel)}</span></div>` : '';
 
-    const hours = f.openingHours
-        ? `<div class="meta-row meta-row--hours">${renderIcon('schedule')}<span>${escapeHtml(f.openingHours)}</span></div>` : '';
+    const openingHoursLabel = formatOpeningHours(f.openingHours);
+    const hours = openingHoursLabel
+        ? `<div class="meta-row meta-row--hours">${renderIcon('schedule')}<span>${escapeHtml(openingHoursLabel)}</span></div>` : '';
+    const openingNote = f.openingNote
+        ? `<div class="meta-row meta-row--opening-note">${renderIcon('info')}<span>${escapeHtml(f.openingNote)}</span></div>` : '';
 
     const contacts = [];
     if (f.contact?.phone)
@@ -280,6 +365,7 @@ function renderCard(f) {
         </div>
         ${seasonal}
         ${hours}
+        ${openingNote}
     </div>
     <details class="card-details">
         <summary class="card-summary">Info</summary>

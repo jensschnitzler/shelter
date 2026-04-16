@@ -66,7 +66,15 @@ Each facility entry in `facilities.json` follows this general structure:
     "email": "info@example.org",
     "website": "https://example.org"
   },
-  "openingHours": "Daily 09:00-17:00",
+  "openingHours": [
+    {
+      "days": ["mo", "tu", "we", "th", "fr"],
+      "start": "09:00",
+      "end": "17:00",
+      "label": ""
+    }
+  ],
+  "openingNote": "Letzter Einlass 16:30 Uhr",
   "description": "Short human-readable summary",
   "seasonalNote": [
     {
@@ -95,6 +103,14 @@ and `2001` for the end. A year-round service uses one full-year period:
 
 If a service is seasonal but no concrete date range is known yet, keep
 `seasonalNote` empty and use optional `seasonalNoteText` instead.
+
+`openingHours` is stored as an array of machine-readable day/time entries. The
+supported weekday codes are `mo`, `tu`, `we`, `th`, `fr`, `sa`, `su`, and
+optional `holiday`.
+
+Use `openingNote` for additional information that cannot be expressed cleanly as
+weekday/time ranges, for example last admission times, appointment-only notes,
+or instructions to check the provider directly.
 
 ### Tag model
 
