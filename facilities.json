@@ -647,7 +647,7 @@
             }
         ],
         "openingNote": "Aufnahme",
-        "targetGroup": "children"
+        "targetGroup": "families"
     },
     {
         "id": 14,
@@ -3396,7 +3396,7 @@
             }
         ],
         "openingNote": "letzter Einlass nach Absprache die ganze Nacht",
-        "targetGroup": "children"
+        "targetGroup": "families"
     },
     {
         "id": 73,

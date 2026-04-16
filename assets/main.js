@@ -1,7 +1,7 @@
 const TARGET_GROUP_LABELS = {
     women:    'Frauen',
     men:      'Männer',
-    children: 'Kinder',
+    families: 'Familien',
     youth:    'Jugendliche',
     lgbtiq:   'LGBTIQ+',
 };
@@ -484,7 +484,7 @@ async function init() {
     }
 
     // ── Target group filters ─────────────────────────────────────────────────
-    const groupOrder = ['women', 'men', 'children', 'youth', 'lgbtiq'];
+    const groupOrder = ['women', 'men', 'families', 'youth', 'lgbtiq'];
     const usedGroups = new Set(facilities.map(f => f.targetGroup));
 
     makeFilterBtn($tgFilters, 'Alle Gruppen', () => { activeTargetGroup = null; applyFilters(); })
