@@ -68,7 +68,7 @@ function tagLabel(tag) {
 }
 
 function tagCls(tag) {
-    return Object.hasOwn(TAG_LABELS, tag) ? `tag tag-${tag}` : 'tag tag-default';
+    return Object.hasOwn(TAG_LABELS, tag) ? `tag pill tag-${tag}` : 'tag pill tag-default';
 }
 
 function escapeHtml(value) {
@@ -297,7 +297,7 @@ function renderCard(f) {
     const addressLabel = escapeHtml(`Adresse von ${f.name} in Google Maps öffnen`);
 
     const targetGroupTag = f.targetGroup !== 'all' && TARGET_GROUP_LABELS[f.targetGroup]
-        ? `<span class="tag tag--target-group">${escapeHtml(TARGET_GROUP_LABELS[f.targetGroup])}</span>`
+        ? `<span class="tag pill tag--target-group">${escapeHtml(TARGET_GROUP_LABELS[f.targetGroup])}</span>`
         : '';
 
     const tags = f.tags
@@ -477,7 +477,7 @@ async function init() {
             .attr('type', 'button')
             .attr('data-id', id)
             .attr('aria-pressed', 'false')
-            .addClass('filter-btn')
+            .addClass('filter-btn pill')
             .text(label);
         $btn.on('click', () => {
             $container.find('.filter-btn').removeClass('active').attr('aria-pressed', 'false');
