@@ -11,6 +11,7 @@
     --color-greyDark:  #5a6070;
     --color-blueLight: #2563eb;
     --color-blueDark:  #0f52ba;
+    --color-orange:    #b9691c;
 
     --bg:              var(--color-greyLight);
     --surface:         var(--color-white);
@@ -275,7 +276,7 @@ a.pill , button.pill {
 }
 
 #stats.is-error {
-    color: #b91c1c;
+    color: var(--color-orange);
 }
 
 /* ── List.js container & grid ── */
@@ -335,11 +336,12 @@ li.item .html {
     border: 1px solid var(--border);
     border-radius: var(--radius);
     box-shadow: var(--shadow);
-    padding: 1.25rem;
+    padding: 0.9rem 1rem 0.75rem 1rem;
     display: flex;
     flex-direction: column;
     gap: .75rem;
     transition: box-shadow .15s, transform .15s;
+    color: var(--color-greyDark);
 }
 
 .card > * {
