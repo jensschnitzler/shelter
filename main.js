@@ -3,6 +3,7 @@ const TAG_LABELS = {
     alternative_medicine: 'Alternative Medizin',
     anonymous:        'Anonym',
     alle_geschlechter: 'Alle Geschlechter',
+    barrierearm:      'Barrierearm',
     berliner_krisendienst: 'Berliner Krisendienst',
     bekleidung:       'Bekleidung',
     busse_unterwegs:  'Busse unterwegs',
@@ -95,6 +96,19 @@ function escapeHtml(value) {
     });
 }
 
+function sanitizeExternalUrl(value) {
+    if (!value) {
+        return '';
+    }
+
+    try {
+        const url = new URL(String(value));
+        return url.protocol === 'http:' || url.protocol === 'https:' ? url.toString() : '';
+    } catch {
+        return '';
+    }
+}
+
 function normalizeFacility(raw) {
     const address = raw?.address || {};
     const contact = raw?.contact || {};
@@ -114,7 +128,7 @@ function normalizeFacility(raw) {
         contact: {
             phone: contact.phone ? String(contact.phone) : '',
             email: contact.email ? String(contact.email) : '',
-            website: contact.website ? String(contact.website) : '',
+            website: sanitizeExternalUrl(contact.website),
         },
         openingHours: raw?.openingHours ? String(raw.openingHours) : '',
         description: String(raw?.description || 'Keine Beschreibung vorhanden.'),
@@ -135,10 +149,10 @@ function renderCard(f) {
         .join('');
 
     const seasonal = f.seasonalNote && f.seasonalNote !== 'Ganzjährig'
-        ? `<span class="seasonal-badge">${renderIcon('calendar_month')}${escapeHtml(f.seasonalNote)}</span>` : '';
+        ? `<div class="meta-row meta-row--seasonal">${renderIcon('calendar_month')}${escapeHtml(f.seasonalNote)}</span>` : '';
 
     const hours = f.openingHours
-        ? `<div class="meta-row">${renderIcon('schedule')}<span>${escapeHtml(f.openingHours)}</span></div>` : '';
+        ? `<div class="meta-row meta-row--hours">${renderIcon('schedule')}<span>${escapeHtml(f.openingHours)}</span></div>` : '';
 
     const contacts = [];
     if (f.contact?.phone)
@@ -153,12 +167,13 @@ function renderCard(f) {
         <h2 class="card-name">${facilityName}</h2>
         <p class="card-org">${escapeHtml(f.organization)}</p>
     </div>
-    <div class="card-tags">${tags}${seasonal}</div>
+    <div class="card-tags">${tags}</div>
     <div class="card-meta">
-        <div class="meta-row">
+        <div class="meta-row meta-row--location">
             ${renderIcon('place')}
             <a href="${mapsUrl}" target="_blank" rel="noopener" class="meta-address" aria-label="${addressLabel}">${escapeHtml(addr)}</a>
         </div>
+        ${seasonal}
         ${hours}
     </div>
     <details class="card-details">

@@ -134,3 +134,6 @@ vendored libraries, and `facilities.json`.
 - [ ] Support simple language
 - [ ] Add form for feature requests, bug reports
 - [ ] Refactor, reorganize tags
+- [ ] Add filter "open now"
+- [ ] Add analytics
+- [ ] ~Change wording "Obdachlos" to "Wohnungslos"~
