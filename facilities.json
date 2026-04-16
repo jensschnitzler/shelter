@@ -3,7 +3,7 @@
         "id": 1,
         "name": "Notübernachtung Lehrter Straße (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
-        "color": "#dcffe5",
+        "color": "#cacee6",
         "address": {
             "street": "Lehrter Straße 68",
             "district": "Mitte",
@@ -56,6 +56,7 @@
         "id": 2,
         "name": "Notübernachtung Am Containerbahnhof (Berliner Stadtmission / GEBEWO)",
         "organization": "Berliner Stadtmission / GEBEWO pro gGmbH",
+        "color": "#e7f2d2",
         "address": {
             "street": "Am Containerbahnhof 1",
             "district": "Friedrichshain-Kreuzberg",
@@ -106,6 +107,7 @@
         "id": 3,
         "name": "Notübernachtung Franklinstraße (Berliner Stadtmission & Caritas)",
         "organization": "Berliner Stadtmission e.V. / Caritas Berlin",
+        "color": "#e9cedf",
         "address": {
             "street": "Franklinstraße 27a",
             "district": "Charlottenburg-Wilmersdorf",
@@ -157,6 +159,7 @@
         "id": 4,
         "name": "Notübernachtung Kopenhagener Straße (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#ebd5d0",
         "address": {
             "street": "Kopenhagener Straße 29",
             "district": "Reinickendorf",
@@ -207,6 +210,7 @@
         "id": 5,
         "name": "Notübernachtung Straßenfeger",
         "organization": "MOB e.V. / strassenfeger",
+        "color": "#edd9d5",
         "address": {
             "street": "Storkower Str. 101a",
             "district": "Pankow",
@@ -257,6 +261,7 @@
         "id": 6,
         "name": "Notübernachtung Neustart GmbH (Marzahn)",
         "organization": "Neustart GmbH",
+        "color": "#d3e6ec",
         "address": {
             "street": "Otto-Rosenberg-Str. 3 und 10",
             "district": "Marzahn-Hellersdorf",
@@ -305,6 +310,7 @@
         "id": 7,
         "name": "Notübernachtung der Johanniter Ohlauer Straße",
         "organization": "Johanniter-Unfall-Hilfe e.V.",
+        "color": "#ecdcee",
         "address": {
             "street": "Ohlauer Straße 22",
             "district": "Friedrichshain-Kreuzberg",
@@ -357,6 +363,7 @@
         "id": 8,
         "name": "Notübernachtung Schöneberg (Kältehilfe)",
         "organization": "Kältehilfe Berlin (kirchliche Träger)",
+        "color": "#c9c2e8",
         "address": {
             "street": "Kurmärkische Straße 1-3",
             "district": "Tempelhof-Schöneberg",
@@ -407,6 +414,7 @@
         "id": 9,
         "name": "Notübernachtung für Frauen 'Mitten im Kiez' (AWO)",
         "organization": "AWO Kreisverband Berlin Spree-Wuhle e.V.",
+        "color": "#e7bfc9",
         "address": {
             "street": "Petersburger Straße 92",
             "district": "Friedrichshain-Kreuzberg",
@@ -457,6 +465,7 @@
         "id": 10,
         "name": "Notübernachtung für Frauen der GEBEWO pro gGmbH",
         "organization": "GEBEWO pro gGmbH",
+        "color": "#f2e3ce",
         "address": {
             "street": "Tieckstraße 17",
             "district": "Mitte",
@@ -507,6 +516,7 @@
         "id": 11,
         "name": "Evas Obdach – Notübernachtung für Frauen (SKF)",
         "organization": "Sozialdienst katholischer Frauen e.V. Berlin",
+        "color": "#ebccf1",
         "address": {
             "street": "Fuldastraße 9",
             "district": "Neukölln",
@@ -555,6 +565,7 @@
         "id": 12,
         "name": "24/7 Notunterkunft für Frauen Kreuzberg",
         "organization": "Stiftung zur Förderung sozialer Dienste Berlin (FSD-Stiftung)",
+        "color": "#edd0d5",
         "address": {
             "street": "Hallesches Ufer 30",
             "district": "Friedrichshain-Kreuzberg",
@@ -604,6 +615,7 @@
         "id": 13,
         "name": "Notunterkunft für wohnungslose Familien (Diakonie Stadtmitte)",
         "organization": "Diakonisches Werk Berlin Stadtmitte e.V.",
+        "color": "#f3daf3",
         "address": {
             "street": "Wrangelstraße 12",
             "district": "Friedrichshain-Kreuzberg",
@@ -654,6 +666,7 @@
         "id": 14,
         "name": "Kältebus (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#b9d4eb",
         "address": {
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
@@ -704,6 +717,7 @@
         "id": 15,
         "name": "Wärmebus (DRK Berlin)",
         "organization": "DRK-Landesverband Berlin",
+        "color": "#d8e6bf",
         "address": {
             "street": "Berlinweit",
             "district": "Berlinweit",
@@ -753,6 +767,7 @@
         "id": 16,
         "name": "City-Station (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#dbe6c9",
         "address": {
             "street": "Joachim-Friedrich-Straße 46",
             "district": "Charlottenburg-Wilmersdorf",
@@ -802,6 +817,7 @@
         "id": 17,
         "name": "Seeling Treff (GEBEWO)",
         "organization": "GEBEWO pro gGmbH",
+        "color": "#c9d0eb",
         "address": {
             "street": "Seelingstraße 9",
             "district": "Charlottenburg-Wilmersdorf",
@@ -858,6 +874,7 @@
         "id": 18,
         "name": "Wohnungslosentagesstätte Bürgerhilfe",
         "organization": "Bürgerhilfe und Wärmestube gGmbH",
+        "color": "#edf2df",
         "address": {
             "street": "Cuvrystraße 11-12",
             "district": "Friedrichshain-Kreuzberg",
@@ -929,6 +946,7 @@
         "id": 19,
         "name": "Tagesstätte Am Wassertor",
         "organization": "Diakonisches Werk Berlin Stadtmitte e.V.",
+        "color": "#bfc4eb",
         "address": {
             "street": "Segitzdamm 46",
             "district": "Friedrichshain-Kreuzberg",
@@ -992,6 +1010,7 @@
         "id": 20,
         "name": "Sozialprojekt Prenzlauer Berg",
         "organization": "Immanuel Albertinen Diakonie / Immanuel Beratung",
+        "color": "#d7cce9",
         "address": {
             "street": "Dunckerstr. 32",
             "district": "Pankow",
@@ -1028,6 +1047,7 @@
         "id": 21,
         "name": "Bahnhofsmission Berlin Zoo",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#f0ced0",
         "address": {
             "street": "Jebensstraße 5",
             "district": "Charlottenburg-Wilmersdorf",
@@ -1079,6 +1099,7 @@
         "id": 22,
         "name": "Bahnhofsmission Berlin Hauptbahnhof",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#d8d5f4",
         "address": {
             "street": "Europaplatz 1",
             "district": "Mitte",
@@ -1143,6 +1164,7 @@
         "id": 23,
         "name": "Hygieneangebot am Bahnhof Zoo",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#dce6cb",
         "address": {
             "street": "Jebensstraße 5",
             "district": "Charlottenburg-Wilmersdorf",
@@ -1190,6 +1212,7 @@
         "id": 24,
         "name": "Kleiderkammer der Berliner Stadtmission",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#e7f2e0",
         "address": {
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
@@ -1233,6 +1256,7 @@
         "id": 25,
         "name": "Wäscherei für obdachlose Menschen (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#eed4e8",
         "address": {
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
@@ -1273,6 +1297,7 @@
         "id": 26,
         "name": "DRK Kleiderkammer Tiergarten",
         "organization": "DRK-Kreisverband Berlin-Zentrum",
+        "color": "#c7f2d7",
         "address": {
             "street": "Gotzkowskystraße 8",
             "district": "Mitte",
@@ -1302,6 +1327,7 @@
         "id": 27,
         "name": "Caritas Ambulanz für Wohnungslose und Nichtversicherte",
         "organization": "Caritasverband für das Erzbistum Berlin e.V.",
+        "color": "#ddecd2",
         "address": {
             "street": "Jebensstr. 3",
             "district": "Charlottenburg-Wilmersdorf",
@@ -1353,6 +1379,7 @@
         "id": 28,
         "name": "Caritas-Arztmobil",
         "organization": "Caritasverband für das Erzbistum Berlin e.V.",
+        "color": "#e6f4db",
         "address": {
             "street": "Uhlandstraße 83",
             "district": "Charlottenburg-Wilmersdorf",
@@ -1398,6 +1425,7 @@
         "id": 29,
         "name": "Caritas-Zahnmobil",
         "organization": "Caritasverband für das Erzbistum Berlin e.V.",
+        "color": "#e2f3e8",
         "address": {
             "street": "Turmstraße 21",
             "district": "Mitte / Moabit",
@@ -1431,6 +1459,7 @@
         "id": 30,
         "name": "Caritas-Krankenwohnung",
         "organization": "Caritasverband für das Erzbistum Berlin e.V.",
+        "color": "#c1e1e3",
         "address": {
             "street": "Turmstraße 21",
             "district": "Mitte / Moabit",
@@ -1477,6 +1506,7 @@
         "id": 31,
         "name": "Malteser Medizin für Menschen ohne Krankenversicherung (MMM)",
         "organization": "Malteser Hilfsdienst e.V.",
+        "color": "#f3e9d7",
         "address": {
             "street": "Aachener Straße 12",
             "district": "Charlottenburg-Wilmersdorf",
@@ -1520,6 +1550,7 @@
         "id": 32,
         "name": "Jenny De la Torre Stiftung – Gesundheitszentrum für Obdachlose",
         "organization": "Jenny De la Torre Stiftung",
+        "color": "#cde8db",
         "address": {
             "street": "Pflugstraße 12",
             "district": "Mitte",
@@ -1578,6 +1609,7 @@
         "id": 145,
         "name": "Jenny De la Torre Stiftung – Psychologische- und Suchtberatung",
         "organization": "Jenny De la Torre Stiftung",
+        "color": "#f4dfdf",
         "address": {
             "street": "Pflugstraße 12",
             "district": "Mitte",
@@ -1620,6 +1652,7 @@
         "id": 33,
         "name": "Ambulanz der Berliner Stadtmission",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#edd9ea",
         "address": {
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
@@ -1678,6 +1711,7 @@
         "id": 34,
         "name": "Clearingstelle für nicht krankenversicherte Menschen",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#c7c3eb",
         "address": {
             "street": "Zinzendorfstraße 18",
             "district": "Mitte",
@@ -1727,6 +1761,7 @@
         "id": 35,
         "name": "Zentrale Beratungsstelle für Menschen in Wohnungsnot",
         "organization": "Berliner Stadtmission e.V. / Caritas Berlin",
+        "color": "#ced2e9",
         "address": {
             "street": "Levetzowstraße 12a",
             "district": "Mitte",
@@ -1771,6 +1806,7 @@
         "id": 36,
         "name": "Caritas Ambulante Wohnungslosenhilfe Mehringdamm",
         "organization": "Caritasverband für das Erzbistum Berlin e.V.",
+        "color": "#d8f6ee",
         "address": {
             "street": "Mehringdamm 126",
             "district": "Friedrichshain-Kreuzberg",
@@ -1820,6 +1856,7 @@
         "id": 37,
         "name": "Caritas Kältehilfe Residenzstraße",
         "organization": "Caritasverband für das Erzbistum Berlin e.V.",
+        "color": "#d2eac0",
         "address": {
             "street": "Residenzstr. 90",
             "district": "Reinickendorf",
@@ -1869,6 +1906,7 @@
         "id": 38,
         "name": "SKA – Kontaktstelle mit integriertem Drogenkonsumraum",
         "organization": "Fixpunkt gGmbH",
+        "color": "#f0c1d9",
         "address": {
             "street": "Reichenberger Straße 131",
             "district": "Friedrichshain-Kreuzberg",
@@ -1907,6 +1945,7 @@
         "id": 39,
         "name": "Fixpunkt e.V. – Kontaktstelle Neukölln",
         "organization": "Fixpunkt e.V.",
+        "color": "#bec6eb",
         "address": {
             "street": "Ohlauer Straße 22",
             "district": "Friedrichshain-Kreuzberg",
@@ -1940,6 +1979,7 @@
         "id": 40,
         "name": "Housing First Berlin",
         "organization": "Berliner Stadtmission e.V. / Neue Chance gGmbH",
+        "color": "#e6d7f2",
         "address": {
             "street": "Weichselstraße 8",
             "district": "Friedrichshain-Kreuzberg",
@@ -1971,6 +2011,7 @@
         "id": 41,
         "name": "Übergangshaus (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#cce1e6",
         "address": {
             "street": "Lehrter Straße 69",
             "district": "Mitte / Moabit",
@@ -2014,6 +2055,7 @@
         "id": 42,
         "name": "Rechtsambulanz Sozialhilfe e.V.",
         "organization": "Rechtsambulanz Sozialhilfe e.V.",
+        "color": "#f6dcd8",
         "address": {
             "street": "Brunnenstraße 145",
             "district": "Mitte",
@@ -2043,6 +2085,7 @@
         "id": 43,
         "name": "Jenny De la Torre Stiftung – Rechtsberatung",
         "organization": "Jenny De la Torre Stiftung",
+        "color": "#e5bee6",
         "address": {
             "street": "Pflugstraße 12",
             "district": "Mitte",
@@ -2074,6 +2117,7 @@
         "id": 44,
         "name": "Fachstelle Soziale Wohnhilfe Charlottenburg-Wilmersdorf",
         "organization": "Bezirksamt Charlottenburg-Wilmersdorf",
+        "color": "#efb7e0",
         "address": {
             "street": "Otto-Suhr-Allee 100",
             "district": "Charlottenburg-Wilmersdorf",
@@ -2116,6 +2160,7 @@
         "id": 45,
         "name": "Fachstelle Soziale Wohnhilfe Friedrichshain-Kreuzberg",
         "organization": "Bezirksamt Friedrichshain-Kreuzberg",
+        "color": "#daeeec",
         "address": {
             "street": "Yorckstraße 4-11",
             "district": "Friedrichshain-Kreuzberg",
@@ -2159,6 +2204,7 @@
         "id": 46,
         "name": "KuB Berlin – Kontakt- und Beratungsstelle / SleepIn",
         "organization": "Berliner Notdienst Kinderschutz",
+        "color": "#dfd0ea",
         "address": {
             "street": "Müllenhoffstraße 17",
             "district": "Friedrichshain-Kreuzberg",
@@ -2207,6 +2253,7 @@
         "id": 47,
         "name": "Jugendnotdienst Berlin",
         "organization": "Bezirksamt / Berliner Senat",
+        "color": "#ddebf1",
         "address": {
             "street": "Mindener Straße 14",
             "district": "Charlottenburg-Wilmersdorf",
@@ -2255,6 +2302,7 @@
         "id": 48,
         "name": "Café Treffpunkt",
         "organization": "Die Heilsarmee in Deutschland",
+        "color": "#d1ecdf",
         "address": {
             "street": "Kuglerstraße 11",
             "district": "Pankow",
@@ -2312,6 +2360,7 @@
         "id": 49,
         "name": "Heilsarmee William-Booth-Haus",
         "organization": "Die Heilsarmee in Deutschland",
+        "color": "#d5c9e8",
         "address": {
             "street": "Hanauer Straße 63",
             "district": "Steglitz-Zehlendorf",
@@ -2357,6 +2406,7 @@
         "id": 50,
         "name": "Suppenküche der Franziskaner",
         "organization": "Franziskanerkloster Berlin-Pankow",
+        "color": "#efc9ca",
         "address": {
             "street": "Wollankstraße 19",
             "district": "Pankow",
@@ -2437,6 +2487,7 @@
         "id": 51,
         "name": "Suppenküche der Missionaries of Charity (Mutter-Teresa-Schwestern)",
         "organization": "Missionaries of Charity / St. Marien Liebfrauen",
+        "color": "#c7e3e6",
         "address": {
             "street": "Wrangelstraße 50/51",
             "district": "Friedrichshain-Kreuzberg",
@@ -2476,6 +2527,7 @@
         "id": 52,
         "name": "Wärmestube der Ev. Kirchengemeinde vor dem Halleschen Tor",
         "organization": "Evangelische Kirchengemeinde Heilig Kreuz-Passion",
+        "color": "#c1ecc3",
         "address": {
             "street": "Zossener Straße 65",
             "district": "Friedrichshain-Kreuzberg",
@@ -2518,6 +2570,7 @@
         "id": 53,
         "name": "Nachtcafé Herz Jesu (Kältehilfe)",
         "organization": "Kath. Kirchengemeinde Pfarrei Bernhard Lichtenberg Berlin-Mitte",
+        "color": "#e5ecd6",
         "address": {
             "street": "Schönhauser Allee 182",
             "district": "Pankow",
@@ -2561,6 +2614,7 @@
         "id": 54,
         "name": "Hilfstouren der Berliner Obdachlosenhilfe e.V.",
         "organization": "Berliner Obdachlosenhilfe e.V.",
+        "color": "#eaf5d8",
         "address": {
             "street": "Lynarstraße 38",
             "district": "Mitte",
@@ -2595,6 +2649,7 @@
         "id": 55,
         "name": "BeWiM – Beratung für EU-Bürger ohne Wohnsitz (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#eee0d6",
         "address": {
             "street": "Lehrter Straße 68",
             "district": "Mitte / Moabit",
@@ -2626,6 +2681,7 @@
         "id": 56,
         "name": "QUEERHOME* – Beratung für LSBTIQ* in Wohnungsnot",
         "organization": "Schwulenberatung Berlin gGmbH / QUEERHOME*",
+        "color": "#ecf1e0",
         "address": {
             "street": "Geusenstraße 2",
             "district": "Lichtenberg",
@@ -2659,6 +2715,7 @@
         "id": 57,
         "name": "LSBTIQ*-Schutzwohnung (AWO)",
         "organization": "AWO Kreisverband Berlin Spree-Wuhle e.V.",
+        "color": "#d8e6f1",
         "address": {
             "street": "Rigaer Straße 55b",
             "district": "Friedrichshain-Kreuzberg",
@@ -2692,6 +2749,7 @@
         "id": 58,
         "name": "Treffpunkt Strohhalm",
         "organization": "Stiftung SPI (Sozialpädagogisches Institut Berlin)",
+        "color": "#dfc1e5",
         "address": {
             "street": "Spreestraße 8",
             "district": "Treptow-Köpenick",
@@ -2748,6 +2806,7 @@
         "id": 59,
         "name": "Duschmobil für Frauen (SKF Berlin)",
         "organization": "Sozialdienst katholischer Frauen e.V. Berlin",
+        "color": "#cceddf",
         "address": {
             "street": "Berlinweit",
             "district": "Berlinweit",
@@ -2781,6 +2840,7 @@
         "id": 60,
         "name": "Tagesstätte Evas Haltestelle",
         "organization": "Sozialdienst katholischer Frauen e.V. Berlin",
+        "color": "#e7def5",
         "address": {
             "street": "Müllerstraße 48",
             "district": "Mitte",
@@ -2815,6 +2875,7 @@
         "id": 61,
         "name": "Zentrum am Zoo (Berliner Stadtmission)",
         "organization": "Berliner Stadtmission e.V.",
+        "color": "#ebdcc8",
         "address": {
             "street": "Hardenbergplatz 13",
             "district": "Charlottenburg-Wilmersdorf",
@@ -2859,6 +2920,7 @@
         "id": 62,
         "name": "Traditionelle Chinesische Medizin für Bedürftige (St. Hedwig-Krankenhaus)",
         "organization": "St. Hedwig-Krankenhaus / TCM-Zentrum",
+        "color": "#e7c4e1",
         "address": {
             "street": "Große Hamburger Straße 5-11",
             "district": "Mitte",
@@ -2897,6 +2959,7 @@
         "id": 63,
         "name": "Notübernachtung DRK-Nachtlicht",
         "organization": "DRK Berlin-Zentrum",
+        "color": "#c5eadf",
         "address": {
             "street": "Wrangelstr. 30",
             "district": "Friedrichshain-Kreuzberg",
@@ -2944,6 +3007,7 @@
         "id": 64,
         "name": "Notübernachtung Evas Haltestelle",
         "organization": "SKF Berlin",
+        "color": "#dcf2c6",
         "address": {
             "street": "Müllerstr. 126",
             "district": "Mitte",
@@ -2993,6 +3057,7 @@
         "id": 65,
         "name": "Notübernachtung Marie",
         "organization": "Köppjohann",
+        "color": "#e9bbe1",
         "address": {
             "street": "Tieckstr. 17",
             "district": "Mitte",
@@ -3055,6 +3120,7 @@
         "id": 66,
         "name": "Notübernachtung Herberge zur Heimat",
         "organization": "Herberge zur Heimat e.V.",
+        "color": "#f6dddd",
         "address": {
             "street": "Falkenseer Chaussee 154",
             "district": "Spandau",
@@ -3106,6 +3172,7 @@
         "id": 67,
         "name": "Notübernachtung am Rathaus Steglitz",
         "organization": "Neue Chance Berlin",
+        "color": "#eebcd2",
         "address": {
             "street": "Kuhligkshofstr. 5",
             "district": "Steglitz-Zehlendorf",
@@ -3156,6 +3223,7 @@
         "id": 68,
         "name": "Notübernachtung St. Pius / St. Nikolaus",
         "organization": "Brot des Lebens",
+        "color": "#cceae7",
         "address": {
             "street": "Palisadenstr. 72",
             "district": "Friedrichshain-Kreuzberg",
@@ -3205,6 +3273,7 @@
         "id": 69,
         "name": "Notübernachtung St. Marien – Liebfrauen",
         "organization": "Bernhard-Lichtenberg-Gemeinde",
+        "color": "#f3e7e0",
         "address": {
             "street": "Wrangelstr. 50",
             "district": "Friedrichshain-Kreuzberg",
@@ -3254,6 +3323,7 @@
         "id": 70,
         "name": "Kubus Kältehilfe",
         "organization": "KuB Berlin / Kubus",
+        "color": "#d9f0c8",
         "address": {
             "street": "Teupitzer Str. 39",
             "district": "Neukölln",
@@ -3304,6 +3374,7 @@
         "id": 71,
         "name": "Notübernachtung Haus Sophie",
         "organization": "Merkur Berlin",
+        "color": "#ddf7eb",
         "address": {
             "street": "Wollenberger Str. 10",
             "district": "Lichtenberg",
@@ -3353,6 +3424,7 @@
         "id": 72,
         "name": "Notübernachtung für wohnungslose Familien (EJF)",
         "organization": "EJF",
+        "color": "#bddcec",
         "address": {
             "street": "Am Bärensprung 52/56",
             "district": "Reinickendorf",
@@ -3403,6 +3475,7 @@
         "id": 73,
         "name": "Nachtcafé Luisen",
         "organization": "Evangelische Kirche Charlottenburg-Wilmersdorf",
+        "color": "#d4f3cb",
         "address": {
             "street": "Gierkeplatz 4",
             "district": "Charlottenburg-Wilmersdorf",
@@ -3444,6 +3517,7 @@
         "id": 74,
         "name": "Notübernachtung und Wärmestube Arche",
         "organization": "Arche",
+        "color": "#b9dfec",
         "address": {
             "street": "Plesser Str. 3",
             "district": "Treptow-Köpenick",
@@ -3493,6 +3567,7 @@
         "id": 75,
         "name": "Nachtcafé der Ev. Tabor-Kirchengemeinde",
         "organization": "Ev. Tabor-Kirchengemeinde",
+        "color": "#dae6f2",
         "address": {
             "street": "Taborstr. 17",
             "district": "Friedrichshain-Kreuzberg",
@@ -3537,6 +3612,7 @@
         "id": 76,
         "name": "Nachtcafé Zum Guten Hirten",
         "organization": "Zum Guten Hirten",
+        "color": "#efecb7",
         "address": {
             "street": "Goßlerstr. 30",
             "district": "Steglitz-Zehlendorf",
@@ -3581,6 +3657,7 @@
         "id": 77,
         "name": "Kälteschutz im Mehringhof",
         "organization": "Kälteschutz im Mehringhof",
+        "color": "#edf1d3",
         "address": {
             "street": "Gneisenaustr. 2a",
             "district": "Friedrichshain-Kreuzberg",
@@ -3623,6 +3700,7 @@
         "id": 78,
         "name": "Unter Druck – Kultur von der Straße e.V.",
         "organization": "Unter Druck – Kultur von der Straße e.V.",
+        "color": "#e9f0de",
         "address": {
             "street": "Oudenarder Str. 26",
             "district": "Mitte / Wedding",
@@ -3667,6 +3745,7 @@
         "id": 79,
         "name": "Nachtcafé der Martin-Luther-Gemeinde Neukölln",
         "organization": "Martin-Luther-Gemeinde Neukölln",
+        "color": "#e1f0d0",
         "address": {
             "street": "Fuldastr. 50",
             "district": "Neukölln",
@@ -3709,6 +3788,7 @@
         "id": 80,
         "name": "Nachtcafé Fürbitt-Melanchthon",
         "organization": "Ev. Kirchengemeinde Fürbitt-Melanchthon",
+        "color": "#cdefde",
         "address": {
             "street": "Kranoldstr. 16",
             "district": "Neukölln",
@@ -3753,6 +3833,7 @@
         "id": 81,
         "name": "Nachtcafé Neu Westend",
         "organization": "Evangelische Kirche Charlottenburg-Wilmersdorf",
+        "color": "#eed7e0",
         "address": {
             "street": "Eichenallee 47–53",
             "district": "Charlottenburg-Wilmersdorf",
@@ -3796,6 +3877,7 @@
         "id": 82,
         "name": "Caritas-Wärmestube",
         "organization": "Caritas Berlin",
+        "color": "#e4efd4",
         "address": {
             "street": "Tübinger Str. 5",
             "district": "Charlottenburg-Wilmersdorf",
@@ -3843,6 +3925,7 @@
         "id": 83,
         "name": "Unterschlupf e.V.",
         "organization": "Unterschlupf e.V.",
+        "color": "#ddf0d8",
         "address": {
             "street": "Wrangelstr. 30",
             "district": "Friedrichshain-Kreuzberg",
@@ -3887,6 +3970,7 @@
         "id": 84,
         "name": "Straßenkinder e.V.",
         "organization": "Straßenkinder e.V.",
+        "color": "#f4e9e0",
         "address": {
             "street": "Warschauerstr. 17",
             "district": "Friedrichshain-Kreuzberg",
@@ -3932,6 +4016,7 @@
         "id": 85,
         "name": "AWO Kiez-Café",
         "organization": "AWO Spree-Wuhle",
+        "color": "#e5c7c8",
         "address": {
             "street": "Petersburger Str. 92",
             "district": "Friedrichshain-Kreuzberg",
@@ -3979,6 +4064,7 @@
         "id": 86,
         "name": "Bahnhofsmission in Via – Berlin Ostbahnhof",
         "organization": "Bahnhofsmission",
+        "color": "#e4f6d8",
         "address": {
             "street": "Erich-Steinfurth-Str. 8 / S-Bahnbogen 8",
             "district": "Friedrichshain-Kreuzberg",
@@ -4040,6 +4126,7 @@
         "id": 87,
         "name": "Zentrum Gitschiner 15",
         "organization": "Kirchengemeinde Heilig Kreuz-Passion",
+        "color": "#e8c1dd",
         "address": {
             "street": "Gitschiner Str. 15",
             "district": "Friedrichshain-Kreuzberg",
@@ -4101,6 +4188,7 @@
         "id": 88,
         "name": "Tagestreff für Wohnungslose und Bedürftige (Weitlingstraße)",
         "organization": "Humanistischer Verband Berlin-Brandenburg",
+        "color": "#f1cff1",
         "address": {
             "street": "Weitlingstr. 11",
             "district": "Lichtenberg",
@@ -4155,6 +4243,7 @@
         "id": 89,
         "name": "Frauen*Treffpunkt Sophie",
         "organization": "Köppjohann",
+        "color": "#eab8bc",
         "address": {
             "street": "Albrechtstr. 15",
             "district": "Mitte",
@@ -4209,6 +4298,7 @@
         "id": 90,
         "name": "Tee- und Wärmestube der Diakonie Neukölln",
         "organization": "Diakoniewerk Simeon",
+        "color": "#ecd5ee",
         "address": {
             "street": "Weisestr. 34",
             "district": "Neukölln",
@@ -4262,6 +4352,7 @@
         "id": 91,
         "name": "Wohnungslosentagesstätte Schöneberg",
         "organization": "Unionhilfswerk",
+        "color": "#e4c3cf",
         "address": {
             "street": "Gustav-Freytag-Str. 1",
             "district": "Tempelhof-Schöneberg",
@@ -4309,6 +4400,7 @@
         "id": 92,
         "name": "Suppenküche am Lietzensee",
         "organization": "Evangelische Kirche Charlottenburg-Wilmersdorf",
+        "color": "#ecddc3",
         "address": {
             "street": "Herbartstr. 4–6",
             "district": "Charlottenburg-Wilmersdorf",
@@ -4351,6 +4443,7 @@
         "id": 93,
         "name": "Ei & Chai – An-Nusrat e.V. Berlin (Bahnhof Zoo)",
         "organization": "An-Nusrat e.V. Berlin",
+        "color": "#bfd0ed",
         "address": {
             "street": "Bahnhof Zoo",
             "district": "Charlottenburg-Wilmersdorf",
@@ -4388,6 +4481,7 @@
         "id": 94,
         "name": "Suppenküche St. Marien",
         "organization": "St. Marien",
+        "color": "#cfd4eb",
         "address": {
             "street": "Bergheimer Str. 1",
             "district": "Charlottenburg-Wilmersdorf",
@@ -4428,6 +4522,7 @@
         "id": 95,
         "name": "Café Krause",
         "organization": "Johanniter / Café Krause",
+        "color": "#edb9d7",
         "address": {
             "street": "Mariannenplatz 28",
             "district": "Friedrichshain-Kreuzberg",
@@ -4479,6 +4574,7 @@
         "id": 96,
         "name": "Emmaus-Kirche Frühstücksstube",
         "organization": "Emmaus-Kirche",
+        "color": "#bde5d2",
         "address": {
             "street": "Lausitzer Platz 8a",
             "district": "Friedrichshain-Kreuzberg",
@@ -4519,6 +4615,7 @@
         "id": 97,
         "name": "Dienstagsbistro",
         "organization": "Bisous NGO",
+        "color": "#ddc2ed",
         "address": {
             "street": "Wrangelstr. 50",
             "district": "Friedrichshain-Kreuzberg",
@@ -4558,6 +4655,7 @@
         "id": 98,
         "name": "Spätcafé Heilandskirche",
         "organization": "Heilandskirche",
+        "color": "#dac9ee",
         "address": {
             "street": "Thusneldaallee 1",
             "district": "Mitte",
@@ -4597,6 +4695,7 @@
         "id": 99,
         "name": "Wärmestube St. Paulus",
         "organization": "St. Paulus",
+        "color": "#f0dfde",
         "address": {
             "street": "Oldenburgerstr. 45",
             "district": "Mitte",
@@ -4633,6 +4732,7 @@
         "id": 100,
         "name": "Essen ist fertig – Christophorus",
         "organization": "Pallotti Mobil",
+        "color": "#f3d9e8",
         "address": {
             "street": "Nansenstraße 4–7",
             "district": "Neukölln",
@@ -4680,6 +4780,7 @@
         "id": 101,
         "name": "Wärmestube St. Richard",
         "organization": "Pallotti Mobil",
+        "color": "#c3d4e5",
         "address": {
             "street": "Braunschweiger Str. 18",
             "district": "Neukölln",
@@ -4718,6 +4819,7 @@
         "id": 102,
         "name": "Sozial Brunch",
         "organization": "Straßenfeger e.V.",
+        "color": "#daf5d5",
         "address": {
             "street": "Oderbergerstr. 12",
             "district": "Pankow",
@@ -4757,6 +4859,7 @@
         "id": 103,
         "name": "Suppenküche Herz Jesu",
         "organization": "Herz Jesu",
+        "color": "#efbde7",
         "address": {
             "street": "Griebenowstr. 16",
             "district": "Pankow",
@@ -4791,6 +4894,7 @@
         "id": 104,
         "name": "Suppenküche Aktion Warmes Essen",
         "organization": "MILAA Berlin",
+        "color": "#e5eedb",
         "address": {
             "street": "Kirchstr. 6",
             "district": "Steglitz-Zehlendorf",
@@ -4832,6 +4936,7 @@
         "id": 105,
         "name": "Caritas Foodtruck",
         "organization": "Caritas Berlin",
+        "color": "#efd2e6",
         "address": {
             "street": "Alexanderplatz / Ostbahnhof",
             "district": "Berlinweit / Mobile",
@@ -4871,6 +4976,7 @@
         "id": 106,
         "name": "Arztpraxis am Stralauer Platz",
         "organization": "GEBEWO pro gGmbH",
+        "color": "#f6f3d8",
         "address": {
             "street": "Stralauer Platz 32",
             "district": "Friedrichshain-Kreuzberg",
@@ -4915,6 +5021,7 @@
         "id": 107,
         "name": "Open.Med Berlin Lichtenberg",
         "organization": "Ärzte der Welt",
+        "color": "#f5d9dd",
         "address": {
             "street": "Irenenstraße 20",
             "district": "Lichtenberg",
@@ -4962,6 +5069,7 @@
         "id": 108,
         "name": "Open.Med Ambulanz Berlin Zehlendorf",
         "organization": "Medizin hilft",
+        "color": "#eecac4",
         "address": {
             "street": "Teltower Damm 8a",
             "district": "Steglitz-Zehlendorf",
@@ -5021,6 +5129,7 @@
         "id": 109,
         "name": "Kontakt- und Beratungsmobil sowie Drogenkonsummobil (Stuttgarter Platz)",
         "organization": "Fixpunkt",
+        "color": "#f5d9e4",
         "address": {
             "street": "Stuttgarter Platz / Lewishamstraße",
             "district": "Charlottenburg-Wilmersdorf",
@@ -5067,6 +5176,7 @@
         "id": 110,
         "name": "Kontakt- und Beratungsmobil sowie Drogenkonsummobil (Görlitzer Park)",
         "organization": "Fixpunkt",
+        "color": "#eddaf0",
         "address": {
             "street": "Görlitzer Park",
             "district": "Friedrichshain-Kreuzberg",
@@ -5113,6 +5223,7 @@
         "id": 111,
         "name": "Kontaktstelle Kotti",
         "organization": "Fixpunkt gGmbH",
+        "color": "#f5ebd8",
         "address": {
             "street": "Reichenberger Straße 176",
             "district": "Friedrichshain-Kreuzberg",
@@ -5169,6 +5280,7 @@
         "id": 112,
         "name": "Drugstop",
         "organization": "Karuna e.V.",
+        "color": "#e3f1c8",
         "address": {
             "street": "Münsterlandstraße 5",
             "district": "Lichtenberg",
@@ -5224,6 +5336,7 @@
         "id": 113,
         "name": "Mühlenstube",
         "organization": "Vista Berlin",
+        "color": "#c7eebf",
         "address": {
             "street": "Müllerstraße 120",
             "district": "Mitte",
@@ -5297,6 +5410,7 @@
         "id": 114,
         "name": "Birkenstube",
         "organization": "Vista Berlin",
+        "color": "#e8ceca",
         "address": {
             "street": "Birkenstraße 51",
             "district": "Mitte",
@@ -5360,6 +5474,7 @@
         "id": 115,
         "name": "Fixpunkt Drogenkonsummobil und Beratungscontainer (Leopoldplatz)",
         "organization": "Fixpunkt",
+        "color": "#f1bfe7",
         "address": {
             "street": "Hinter der Alten Nazarethkirche, gegenüber Schulstraße",
             "district": "Mitte / Wedding",
@@ -5414,6 +5529,7 @@
         "id": 116,
         "name": "Druckausgleich Kontaktstelle mit Konsumräumen",
         "organization": "Fixpunkt gGmbH",
+        "color": "#e0e3f3",
         "address": {
             "street": "Karl-Marx-Straße 202",
             "district": "Neukölln",
@@ -5471,6 +5587,7 @@
         "id": 117,
         "name": "SPAX",
         "organization": "Fixpunkt",
+        "color": "#b8e3ef",
         "address": {
             "street": "Schönwalderstr. 27",
             "district": "Spandau",
@@ -5515,6 +5632,7 @@
         "id": 118,
         "name": "Frauentreff Olga",
         "organization": "Drogennotdienst Berlin",
+        "color": "#f2e1e4",
         "address": {
             "street": "Kurfürstenstr. 40",
             "district": "Tempelhof-Schöneberg",
@@ -5564,6 +5682,7 @@
         "id": 119,
         "name": "Drogennotdienst Bülow Eck",
         "organization": "Drogennotdienst Berlin",
+        "color": "#d9e9ce",
         "address": {
             "street": "Bülow Straße 106",
             "district": "Tempelhof-Schöneberg",
@@ -5621,6 +5740,7 @@
         "id": 120,
         "name": "Gangway e.V. – Team Drop Out",
         "organization": "Gangway e.V.",
+        "color": "#ddd3ee",
         "address": {
             "street": "Verschiedene Einsatzorte",
             "district": "Bezirksübergreifend",
@@ -5663,6 +5783,7 @@
         "id": 121,
         "name": "Frostschutzengel – Mehrsprachige Beratung für Wohnungslose Menschen",
         "organization": "Frostschutzengel",
+        "color": "#d1ecee",
         "address": {
             "street": "Stralauer Platz 32",
             "district": "Friedrichshain-Kreuzberg",
@@ -5702,6 +5823,7 @@
         "id": 122,
         "name": "МОСТ – Berliner Brücke zur Teilhabe",
         "organization": "GEBEWO",
+        "color": "#cfeab7",
         "address": {
             "street": "Stralauer Platz 32",
             "district": "Friedrichshain-Kreuzberg",
@@ -5740,6 +5862,7 @@
         "id": 123,
         "name": "TRIA – aufsuchende mehrsprachige Beratung der Caritas",
         "organization": "Caritas Berlin",
+        "color": "#f1d5e1",
         "address": {
             "street": "Levetzowstr. 12a",
             "district": "Mitte",
@@ -5772,6 +5895,7 @@
         "id": 124,
         "name": "Anlaufstelle Nevo Foro",
         "organization": "Amaro Foro",
+        "color": "#d8c6ee",
         "address": {
             "street": "Kaiser-Friedrich-Str. 19",
             "district": "Charlottenburg-Wilmersdorf",
@@ -5814,6 +5938,7 @@
         "id": 125,
         "name": "Beratungsstelle für Wohnungsnotfälle und Existenzsicherung",
         "organization": "GEBEWO pro gGmbH",
+        "color": "#eed6c4",
         "address": {
             "street": "Taborstr. 17",
             "district": "Friedrichshain-Kreuzberg",
@@ -5860,6 +5985,7 @@
         "id": 126,
         "name": "BEFF – Beratung & Empowerment für Frauen und deren Familien",
         "organization": "AWO Mitte",
+        "color": "#d6f4d2",
         "address": {
             "street": "Prinzenallee 25/26",
             "district": "Mitte",
@@ -5916,6 +6042,7 @@
         "id": 127,
         "name": "BEMA – Berliner Beratungszentrum für Migration und Gute Arbeit",
         "organization": "Arbeit und Leben Berlin-Brandenburg",
+        "color": "#d2ebcb",
         "address": {
             "street": "Lorenzweg 5",
             "district": "Tempelhof-Schöneberg",
@@ -5947,6 +6074,7 @@
         "id": 128,
         "name": "Hygienestation im Franziskanerkloster",
         "organization": "Franziskanerkloster Pankow",
+        "color": "#c1e7d1",
         "address": {
             "street": "Wollankstr. 18",
             "district": "Pankow",
@@ -5987,6 +6115,7 @@
         "id": 129,
         "name": "Duschmobil für Kinder und Jugendliche",
         "organization": "SKF Berlin / Seifenbüchse",
+        "color": "#d0f4e3",
         "address": {
             "street": "Rathausstraße 1",
             "district": "Mitte / Alexanderplatz",
@@ -6031,6 +6160,7 @@
         "id": 130,
         "name": "Kleiderkammer im Franziskanerkloster",
         "organization": "Franziskanerkloster Pankow",
+        "color": "#edc4dc",
         "address": {
             "street": "Wollankstr. 18",
             "district": "Pankow",
@@ -6073,6 +6203,7 @@
         "id": 131,
         "name": "Kleiderkammer DRK Spandau",
         "organization": "DRK Spandau",
+        "color": "#cadee5",
         "address": {
             "street": "Galenstr. 29",
             "district": "Spandau",
@@ -6112,6 +6243,7 @@
         "id": 132,
         "name": "Kleiderkammer des Caritasverbandes Berlin e.V.",
         "organization": "Caritas Berlin",
+        "color": "#d2f1e4",
         "address": {
             "street": "Residenzstr. 90",
             "district": "Reinickendorf",
@@ -6156,6 +6288,7 @@
         "id": 133,
         "name": "Obdachbus DRK Südwest",
         "organization": "DRK Südwest",
+        "color": "#c3eae1",
         "address": {
             "street": "Berliner Südwesten",
             "district": "Steglitz-Zehlendorf",
@@ -6203,6 +6336,7 @@
         "id": 134,
         "name": "Fachstelle Soziale Wohnhilfe Lichtenberg",
         "organization": "Bezirksamt Lichtenberg",
+        "color": "#d5f5f0",
         "address": {
             "street": "Alt-Friedrichsfelde 60",
             "district": "Lichtenberg",
@@ -6244,6 +6378,7 @@
         "id": 135,
         "name": "Fachstelle Soziale Wohnhilfe Marzahn-Hellersdorf",
         "organization": "Bezirksamt Marzahn-Hellersdorf",
+        "color": "#eaead1",
         "address": {
             "street": "Riesaer Str. 94",
             "district": "Marzahn-Hellersdorf",
@@ -6285,6 +6420,7 @@
         "id": 136,
         "name": "Fachstelle Soziale Wohnhilfe Mitte",
         "organization": "Bezirksamt Mitte",
+        "color": "#dadff1",
         "address": {
             "street": "Müllerstr. 146",
             "district": "Mitte",
@@ -6335,6 +6471,7 @@
         "id": 137,
         "name": "Fachstelle Soziale Wohnhilfe Neukölln",
         "organization": "Bezirksamt Neukölln",
+        "color": "#d7c0ec",
         "address": {
             "street": "Donaustr. 89",
             "district": "Neukölln",
@@ -6376,6 +6513,7 @@
         "id": 138,
         "name": "Fachstelle Soziale Wohnhilfe Pankow",
         "organization": "Bezirksamt Pankow",
+        "color": "#dfe5c9",
         "address": {
             "street": "Fröbelstr. 17",
             "district": "Pankow",
@@ -6417,6 +6555,7 @@
         "id": 139,
         "name": "Fachstelle Soziale Wohnhilfe Reinickendorf",
         "organization": "Bezirksamt Reinickendorf",
+        "color": "#b8ede5",
         "address": {
             "street": "Eichborndamm 215",
             "district": "Reinickendorf",
@@ -6458,6 +6597,7 @@
         "id": 140,
         "name": "Fachstelle Soziale Wohnhilfe Spandau",
         "organization": "Bezirksamt Spandau",
+        "color": "#bfecd5",
         "address": {
             "street": "Galenstr. 14",
             "district": "Spandau",
@@ -6498,6 +6638,7 @@
         "id": 141,
         "name": "Fachstelle Soziale Wohnhilfe Steglitz-Zehlendorf",
         "organization": "Bezirksamt Steglitz-Zehlendorf",
+        "color": "#cac3eb",
         "address": {
             "street": "Hanna-Renate-Laurien-Platz 1",
             "district": "Steglitz-Zehlendorf",
@@ -6539,6 +6680,7 @@
         "id": 142,
         "name": "Fachstelle Soziale Wohnhilfe Tempelhof-Schöneberg",
         "organization": "Bezirksamt Tempelhof-Schöneberg",
+        "color": "#dadced",
         "address": {
             "street": "Tempelhofer Damm 165",
             "district": "Tempelhof-Schöneberg",
@@ -6580,6 +6722,7 @@
         "id": 143,
         "name": "Fachstelle Soziale Wohnhilfe Treptow-Köpenick",
         "organization": "Bezirksamt Treptow-Köpenick",
+        "color": "#dfcee9",
         "address": {
             "street": "Hans-Schmidt-Str. 18",
             "district": "Treptow-Köpenick",
@@ -6621,6 +6764,7 @@
         "id": 144,
         "name": "Berliner Krisendienst",
         "organization": "Berliner Krisendienst",
+        "color": "#f0f3c9",
         "address": {
             "street": "9 Beratungsstandorte in Berlin",
             "district": "Berlinweit",
@@ -6681,6 +6825,7 @@
         "id": 146,
         "name": "Sozialpsychiatrischer Dienst Charlottenburg-Wilmersdorf",
         "organization": "Bezirksamt Charlottenburg-Wilmersdorf",
+        "color": "#f1e2dc",
         "address": {
             "street": "Hohenzollerndamm 174-177",
             "district": "Charlottenburg-Wilmersdorf",
@@ -6733,6 +6878,7 @@
         "id": 147,
         "name": "Sozialpsychiatrischer Dienst Friedrichshain",
         "organization": "Bezirksamt Friedrichshain-Kreuzberg",
+        "color": "#d1f3ea",
         "address": {
             "street": "Koppenstr. 38-40",
             "district": "Friedrichshain-Kreuzberg",
@@ -6774,6 +6920,7 @@
         "id": 148,
         "name": "Sozialpsychiatrischer Dienst Kreuzberg",
         "organization": "Bezirksamt Friedrichshain-Kreuzberg",
+        "color": "#f4dddf",
         "address": {
             "street": "Urbanstr. 24",
             "district": "Friedrichshain-Kreuzberg",
@@ -6815,6 +6962,7 @@
         "id": 149,
         "name": "Sozialpsychiatrischer Dienst Lichtenberg",
         "organization": "Bezirksamt Lichtenberg",
+        "color": "#f2d4e7",
         "address": {
             "street": "Alfred-Kowalke-Str. 24",
             "district": "Lichtenberg",
@@ -6876,6 +7024,7 @@
         "id": 150,
         "name": "Sozialpsychiatrischer Dienst Marzahn-Hellersdorf",
         "organization": "Bezirksamt Marzahn-Hellersdorf",
+        "color": "#cbf1f2",
         "address": {
             "street": "Janusz-Korczak-Str. 32",
             "district": "Marzahn-Hellersdorf",
@@ -6920,6 +7069,7 @@
         "id": 151,
         "name": "Sozialpsychiatrischer Dienst Mitte / Tiergarten",
         "organization": "Bezirksamt Mitte",
+        "color": "#f0c9e1",
         "address": {
             "street": "Mathilde-Jacob-Platz 1",
             "district": "Mitte",
@@ -6973,6 +7123,7 @@
         "id": 152,
         "name": "Sozialpsychiatrischer Dienst Wedding",
         "organization": "Bezirksamt Mitte",
+        "color": "#dfedd4",
         "address": {
             "street": "Westhafenstr. 1",
             "district": "Mitte",
@@ -7026,6 +7177,7 @@
         "id": 153,
         "name": "Sozialpsychiatrischer Dienst Neukölln",
         "organization": "Bezirksamt Neukölln",
+        "color": "#e3d1f0",
         "address": {
             "street": "Gutschmidtstr. 31",
             "district": "Neukölln",
@@ -7078,6 +7230,7 @@
         "id": 154,
         "name": "Sozialpsychiatrischer Dienst Pankow",
         "organization": "Bezirksamt Pankow",
+        "color": "#d4e6c9",
         "address": {
             "street": "Grunowstr. 8-11",
             "district": "Pankow",
@@ -7131,6 +7284,7 @@
         "id": 155,
         "name": "Sozialpsychiatrischer Dienst Reinickendorf",
         "organization": "Bezirksamt Reinickendorf",
+        "color": "#dbedd0",
         "address": {
             "street": "Teichstr. 65",
             "district": "Reinickendorf",
@@ -7172,6 +7326,7 @@
         "id": 156,
         "name": "Sozialpsychiatrischer Dienst Spandau",
         "organization": "Bezirksamt Spandau",
+        "color": "#eeead6",
         "address": {
             "street": "Klosterstr. 36 D",
             "district": "Spandau",
@@ -7203,6 +7358,7 @@
         "id": 157,
         "name": "Sozialpsychiatrischer Dienst Steglitz-Zehlendorf",
         "organization": "Bezirksamt Steglitz-Zehlendorf",
+        "color": "#d4cee8",
         "address": {
             "street": "Bergstr. 90",
             "district": "Steglitz-Zehlendorf",
@@ -7249,6 +7405,7 @@
         "id": 158,
         "name": "Sozialpsychiatrischer Dienst Tempelhof-Schöneberg",
         "organization": "Bezirksamt Tempelhof-Schöneberg",
+        "color": "#c3dfe9",
         "address": {
             "street": "Rathausstr. 27",
             "district": "Tempelhof-Schöneberg",
@@ -7279,6 +7436,7 @@
         "id": 159,
         "name": "Sozialpsychiatrischer Dienst Treptow-Köpenick",
         "organization": "Bezirksamt Treptow-Köpenick",
+        "color": "#ccf3e0",
         "address": {
             "street": "Hans-Schmidt-Str. 16",
             "district": "Treptow-Köpenick",
@@ -7312,6 +7470,7 @@
         "id": 160,
         "name": "Schlosspark-Klinik – Psychiatrische Rettungsstelle",
         "organization": "Schlosspark-Klinik",
+        "color": "#dad4f4",
         "address": {
             "street": "Heubnerweg 2",
             "district": "Charlottenburg",
@@ -7342,6 +7501,7 @@
         "id": 161,
         "name": "Friedrich von Bodelschwingh-Klinik – Psychiatrische Rettungsstelle",
         "organization": "Friedrich von Bodelschwingh-Klinik",
+        "color": "#cde7d4",
         "address": {
             "street": "Landhausstr. 33-35",
             "district": "Wilmersdorf",
@@ -7372,6 +7532,7 @@
         "id": 162,
         "name": "Vivantes Klinikum Am Urban – Psychiatrische Rettungsstelle",
         "organization": "Vivantes Klinikum Am Urban",
+        "color": "#e9dcf6",
         "address": {
             "street": "Dieffenbachstr. 1",
             "district": "Friedrichshain-Kreuzberg",
@@ -7402,6 +7563,7 @@
         "id": 163,
         "name": "Evangelisches Krankenhaus Königin Elisabeth Herzberge – Psychiatrische Rettungsstelle",
         "organization": "Evangelisches Krankenhaus Königin Elisabeth Herzberge",
+        "color": "#ccf1df",
         "address": {
             "street": "Herzbergstr. 79",
             "district": "Lichtenberg",
@@ -7432,6 +7594,7 @@
         "id": 164,
         "name": "Vivantes Klinikum Kaulsdorf – Psychiatrische Rettungsstelle",
         "organization": "Vivantes Klinikum Kaulsdorf",
+        "color": "#c5d2e7",
         "address": {
             "street": "Myslowitzer Str. 45",
             "district": "Marzahn-Hellersdorf",
@@ -7462,6 +7625,7 @@
         "id": 165,
         "name": "Charité Campus Mitte – Psychiatrische Notfälle und Konsile",
         "organization": "Charité – Universitätsmedizin Berlin",
+        "color": "#cce7dc",
         "address": {
             "street": "Charitéplatz 1",
             "district": "Mitte",
@@ -7492,6 +7656,7 @@
         "id": 166,
         "name": "St. Hedwig-Krankenhaus – Psychiatrische Rettungsstelle",
         "organization": "St. Hedwig-Kliniken Berlin",
+        "color": "#c4c1e8",
         "address": {
             "street": "Große Hamburger Str. 5-11",
             "district": "Mitte",
@@ -7522,6 +7687,7 @@
         "id": 167,
         "name": "Jüdisches Krankenhaus Berlin – Psychiatrische Rettungsstelle",
         "organization": "Jüdisches Krankenhaus Berlin",
+        "color": "#d5ece8",
         "address": {
             "street": "Heinz-Galinski-Str. 1",
             "district": "Mitte",
@@ -7552,6 +7718,7 @@
         "id": 168,
         "name": "Vivantes Klinikum Neukölln – Psychiatrische Rettungsstelle",
         "organization": "Vivantes Klinikum Neukölln",
+        "color": "#eed5d0",
         "address": {
             "street": "Rudower Str. 48",
             "district": "Neukölln",
@@ -7582,6 +7749,7 @@
         "id": 169,
         "name": "Alexianer St. Joseph-Krankenhaus Berlin-Weißensee – Akutaufnahme Psychiatrie",
         "organization": "Alexianer St. Joseph-Krankenhaus Berlin-Weißensee",
+        "color": "#ebc5bd",
         "address": {
             "street": "Gartenstr. 1",
             "district": "Pankow",
@@ -7612,6 +7780,7 @@
         "id": 170,
         "name": "Vivantes Humboldt-Klinikum / Am Nordgraben – Psychiatrische Rettungsstelle",
         "organization": "Vivantes Humboldt-Klinikum",
+        "color": "#cde7e1",
         "address": {
             "street": "Am Nordgraben 2",
             "district": "Reinickendorf",
@@ -7642,6 +7811,7 @@
         "id": 171,
         "name": "Vivantes Klinikum Spandau – Psychiatrische Rettungsstelle",
         "organization": "Vivantes Klinikum Spandau",
+        "color": "#e9f0d8",
         "address": {
             "street": "Neue Bergstr. 6",
             "district": "Spandau",
@@ -7672,6 +7842,7 @@
         "id": 172,
         "name": "Kliniken im Theodor-Wenzel-Werk – Psychiatrische Rettungsstelle",
         "organization": "Kliniken im Theodor-Wenzel-Werk",
+        "color": "#d8f4df",
         "address": {
             "street": "Potsdamer Chaussee 69",
             "district": "Steglitz-Zehlendorf",
@@ -7702,6 +7873,7 @@
         "id": 173,
         "name": "Vivantes Auguste-Viktoria-Klinikum – Psychiatrische Rettungsstelle",
         "organization": "Vivantes Auguste-Viktoria-Klinikum",
+        "color": "#d1e2c0",
         "address": {
             "street": "Rubensstr. 125",
             "district": "Tempelhof-Schöneberg",
@@ -7732,6 +7904,7 @@
         "id": 174,
         "name": "Vivantes Wenckebach-Klinikum – Zentrale Psychiatrische Aufnahme",
         "organization": "Vivantes Wenckebach-Klinikum",
+        "color": "#c1e6f2",
         "address": {
             "street": "Wenckebachstr. 23",
             "district": "Tempelhof-Schöneberg",
@@ -7765,6 +7938,7 @@
         "id": 175,
         "name": "Krankenhaus Hedwigshöhe – Psychiatrische Rettungsstelle",
         "organization": "St. Hedwig-Kliniken Berlin – Krankenhaus Hedwigshöhe",
+        "color": "#d0d4f2",
         "address": {
             "street": "Höhensteig 1",
             "district": "Treptow-Köpenick",
@@ -7795,6 +7969,7 @@
         "id": 176,
         "name": "Neue Wege e.V.",
         "organization": "Neue Wege e.V.",
+        "color": "#d7bcf0",
         "address": {
             "street": "Kiehlufer 43",
             "district": "Neukölln",
@@ -7822,6 +7997,7 @@
         "id": 177,
         "name": "Ambulante Wohnungslosenhilfe Lichtenberg (Caritas Berlin)",
         "organization": "Caritas Berlin",
+        "color": "#e5c7c3",
         "address": {
             "street": "Anton-Saefkow-Platz 3",
             "district": "Lichtenberg",
@@ -7849,6 +8025,7 @@
         "id": 178,
         "name": "Wohnhilfe Pflügerstraße",
         "organization": "Lukas-Gemeinde gGmbH",
+        "color": "#c2c1eb",
         "address": {
             "street": "Pflügerstraße 24",
             "district": "Neukölln",
@@ -7892,6 +8069,7 @@
         "id": 179,
         "name": "Wili 67",
         "organization": "Wili 67",
+        "color": "#c6bded",
         "address": {
             "street": "Prinzenallee 40",
             "district": "Mitte",
@@ -7919,6 +8097,7 @@
         "id": 180,
         "name": "MyWay Soziale Dienste",
         "organization": "MyWay Soziale Dienste",
+        "color": "#bbccec",
         "address": {
             "street": "Frankfurter Allee 76",
             "district": "Friedrichshain-Kreuzberg",
@@ -7946,6 +8125,7 @@
         "id": 181,
         "name": "Psychologische Beratung für wohnungslose Frauen (GEBEWO pro)",
         "organization": "GEBEWO pro",
+        "color": "#eab8ef",
         "address": {
             "street": "Gottschedstraße 21",
             "district": "Pankow",
@@ -7978,6 +8158,7 @@
         "id": 182,
         "name": "KLIK e.V. – Kontakt- und Beratungsstelle für Menschen in Wohnungslosigkeit",
         "organization": "KLIK e.V.",
+        "color": "#efd9d5",
         "address": {
             "street": "Torstraße 210",
             "district": "Mitte",
@@ -8032,6 +8213,7 @@
         "id": 183,
         "name": "HKS Pankow",
         "organization": "HKS Wohnheime GmbH",
+        "color": "#f0d6dc",
         "address": {
             "street": "Blankenburger Str. 141",
             "district": "Pankow",
@@ -8058,6 +8240,7 @@
         "id": 184,
         "name": "HKS Neukölln",
         "organization": "HKS Wohnheime GmbH",
+        "color": "#f1dfd0",
         "address": {
             "street": "Tempelhofer Weg 86",
             "district": "Neukölln",
@@ -8084,6 +8267,7 @@
         "id": 185,
         "name": "ZeitRaum Pankow",
         "organization": "ZeitRaum",
+        "color": "#f4e9d8",
         "address": {
             "street": "Schönstr. 42",
             "district": "Pankow",
@@ -8110,6 +8294,7 @@
         "id": 186,
         "name": "ZeitRaum Neukölln",
         "organization": "ZeitRaum",
+        "color": "#e2e8f2",
         "address": {
             "street": "Karl-Marx-Str. 58",
             "district": "Neukölln",
@@ -8136,6 +8321,7 @@
         "id": 187,
         "name": "Carpe Diem Übergangshaus Neukölln",
         "organization": "Carpe Diem",
+        "color": "#e2cceb",
         "address": {
             "street": "Delbrückstr. 29",
             "district": "Neukölln",
@@ -8163,6 +8349,7 @@
         "id": 188,
         "name": "Carpe Diem Übergangshaus Lichtenberg",
         "organization": "Carpe Diem",
+        "color": "#c7eccf",
         "address": {
             "street": "Alt-Friedrichsfelde 93",
             "district": "Lichtenberg",
@@ -8190,6 +8377,7 @@
         "id": 189,
         "name": "Frauenwohnen plus",
         "organization": "Frauenwohnen plus",
+        "color": "#edbae8",
         "address": {
             "street": "Grabbeallee 63",
             "district": "Pankow",
@@ -8216,6 +8404,7 @@
         "id": 190,
         "name": "Frauenbedacht",
         "organization": "Frauenbedacht",
+        "color": "#f3d8df",
         "address": {
             "street": "Bornemannstraße 12",
             "district": "Tempelhof-Schöneberg",
@@ -8242,6 +8431,7 @@
         "id": 191,
         "name": "Heim im Kiez (Union Hilfswerk)",
         "organization": "Union Hilfswerk",
+        "color": "#ddd6f0",
         "address": {
             "street": "Dahmestraße 33",
             "district": "Treptow-Köpenick",
@@ -8287,6 +8477,7 @@
         "id": 192,
         "name": "ASB Nothilfe Berlin",
         "organization": "Arbeiter-Samariter-Bund",
+        "color": "#f0dadf",
         "address": {
             "street": "Rudolfstraße 9",
             "district": "Friedrichshain-Kreuzberg",
@@ -8313,6 +8504,7 @@
         "id": 193,
         "name": "Kältehilfe Notübernachtung der GEBEWO gGmbH",
         "organization": "GEBEWO gGmbH",
+        "color": "#cae5ed",
         "address": {
             "street": "Storkower Str. 133A",
             "district": "Pankow",
@@ -8337,6 +8529,7 @@
         "id": 194,
         "name": "Nachtcafé Obdach",
         "organization": "Nachtcafé Obdach",
+        "color": "#e4dcf1",
         "address": {
             "street": "Samariterstraße 27",
             "district": "Friedrichshain-Kreuzberg",
@@ -8361,6 +8554,7 @@
         "id": 195,
         "name": "Krisenwohnung / Notunterkunft für Suchterkrankte",
         "organization": "Krisenwohnung / Notunterkunft für Suchterkrankte",
+        "color": "#f0def0",
         "address": {
             "street": "Rathenower Straße 16",
             "district": "Mitte",
