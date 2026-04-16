@@ -284,6 +284,7 @@ function normalizeFacility(raw) {
         description: String(raw?.description || 'Keine Beschreibung vorhanden.'),
         seasonalNote: seasonal.periods,
         seasonalNoteText: seasonal.text,
+        color: raw?.color ? String(raw.color) : '',
     };
 }
 
