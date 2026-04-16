@@ -30,7 +30,12 @@
     },
     "openingHours": "täglich 20:00–08:00 Uhr, letzter Einlass 04:00 Uhr",
     "description": "Saisonale Notübernachtung der Berliner Stadtmission. Plätze werden täglich neu vergeben; Kälte- bzw. Wärmebus kann bis 04:00 Uhr kommen.",
-    "seasonalNote": "November bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 2,
@@ -63,7 +68,12 @@
     },
     "openingHours": "Täglich 19:30–07:30 Uhr",
     "description": "Ganzjährige Notübernachtung am Containerbahnhof mit Sozialberatung, Vermittlung, medizinischer Versorgung und geschütztem Bereich für Frauen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 3,
@@ -96,7 +106,12 @@
     },
     "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 21:30 Uhr",
     "description": "Ganzjährige Notübernachtung für alle Geschlechter in der Franklinstraße. Keine Drogen, keine Gewalt, keine Tiere.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 4,
@@ -127,7 +142,12 @@
     },
     "openingHours": "täglich 20:00–08:00 Uhr, Einlass bis 04:00 Uhr",
     "description": "Saisonale Notübernachtung für Männer in Reinickendorf. Kälte- bzw. Wärmebus kann bis 04:00 Uhr kommen.",
-    "seasonalNote": "November bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 5,
@@ -159,7 +179,12 @@
     },
     "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 22:30 Uhr",
     "description": "Ganzjährige Notübernachtung des Straßenfeger e.V. Keine Tiere, keine Gewalt, keine Drogen, kein Alkoholkonsum; nicht barrierefrei.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 6,
@@ -189,7 +214,12 @@
     },
     "openingHours": "Täglich 20:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Notübernachtung der Neustart GmbH. Frauen in Haus Nr. 3, Männer in Haus Nr. 10; Unterbringung je nach Auslastung, Paare getrennt.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 7,
@@ -223,7 +253,12 @@
     },
     "openingHours": "täglich 20:00–07:45 Uhr, letzter Einlass 23:00 Uhr",
     "description": "Ganzjährige Notübernachtung für Männer in der Ohlauer Straße. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 8,
@@ -255,7 +290,12 @@
     },
     "openingHours": "Täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Notübernachtung in der Kurmärkischen Straße für alle Geschlechter.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 9,
@@ -287,7 +327,12 @@
     },
     "openingHours": "täglich 19:00–08:30 Uhr, Mo bis 10:00 Uhr, Mi bis 12:00 Uhr; letzter Einlass 22:00 Uhr",
     "description": "Ganzjährige, transinklusive Notübernachtung für Frauen in Friedrichshain.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 10,
@@ -319,7 +364,12 @@
     },
     "openingHours": "täglich 19:00–08:00 Uhr, Wochenende/Feiertag bis 09:00 Uhr; letzter Einlass 22:00 Uhr",
     "description": "Ganzjährige Notübernachtung für Frauen in der Tieckstraße. Kein Männerbesuch, keine Tiere, keine Aufnahme von Kindern.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 11,
@@ -350,7 +400,12 @@
     },
     "openingHours": "Täglich 19:00–09:00 Uhr",
     "description": "Ganzjährige Notübernachtung für Frauen in Neukölln. Spätere Aufnahme nach telefonischer Absprache möglich.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 12,
@@ -383,7 +438,12 @@
     },
     "openingHours": "24 Stunden täglich, 7 Tage die Woche",
     "description": "Ganzjährig geöffnete 24/7-Notunterkunft für Frauen in Kreuzberg. Transfrauen willkommen; Platzanfragen telefonisch ab 10:30 Uhr.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 13,
@@ -415,7 +475,12 @@
     },
     "openingHours": "Täglich 09:00–22:00 Uhr (Aufnahme)",
     "description": "Ganzjährig geöffnete Notunterkunft für Familien in Kreuzberg. Aufnahme nur für Eltern mit Kindern; telefonische Freiplatzanfrage empfohlen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 14,
@@ -446,7 +511,12 @@
     },
     "openingHours": "Täglich 20:00–02:00 Uhr",
     "description": "Mobiler Kältebus, der obdachlose Menschen auf der Straße aufsucht, zu Notunterkünften bringt und mit heißen Getränken, warmen Schlafsäcken und Kleidung versorgt. Rufnummer für Hinweise auf obdachlose Menschen in Not.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 15,
@@ -476,7 +546,12 @@
     },
     "openingHours": "Täglich 18:00–24:00 Uhr",
     "description": "Mobiler Wärmebus des Deutschen Roten Kreuzes. Verteilt Schlafsäcke, Isomatten, Kleidung und warmen Tee. Organisiert Transporte und Schlafplätze in Notunterkünften.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 16,
@@ -509,7 +584,12 @@
     },
     "openingHours": "Mo–Fr 14:00–18:30 Uhr",
     "description": "Wohnungslosentagesstätte und Sozialrestaurant mit Mahlzeiten, Duschen, Wäscheservice und geistlichen Angeboten. Gemeinschaftstreff für obdachlose und arme Menschen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 17,
@@ -542,7 +622,12 @@
     },
     "openingHours": "Mo–Mi, Fr 09:00–14:00 Uhr, Do 09:00–12:00 Uhr",
     "description": "Tagesstätte für wohnungslose und mittellose Menschen. Bietet tägliches Frühstück, warmes Mittagessen (Di, Mi, Fr), Duschen, Wäsche, Kleiderkammer und Schließfächer. Beratung zu Sozialleistungen, Dokumentenbeschaffung, Wohnungssuche. Montags Frauenfrühstück, donnerstags mehrsprachige Beratung (Polnisch, Bulgarisch, Rumänisch, Russisch).",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 18,
@@ -578,7 +663,12 @@
     },
     "openingHours": "Mo 12:00–16:00, Di 16:00–20:00, Do 12:00–16:00, Fr 12:00–16:00",
     "description": "Tagesstätte für wohnungslose Menschen mit bis zu 60 Besuchern täglich. Angebote: Mahlzeiten, Hygienemöglichkeiten, Wäsche, Kleidung, Freizeitangebote, Suchtberatung und Sozialberatung. Montags 12–15 Uhr: Caritas-Arztmobil. Monatliches Frauenfrühstück (3. Mittwoch, 11–13 Uhr). Barrierefrei.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 19,
@@ -612,7 +702,12 @@
     },
     "openingHours": "Mo, Fr 08:30–14:00 Uhr, Di 09:00–16:00 Uhr (nur Beratung), Mi 08:30–16:00 Uhr, letztes Wochenende im Monat Sa & So 08:30–14:00 Uhr, Do geschlossen",
     "description": "Tagesstätte der Diakonie Berlin Stadtmitte. Bietet Tagesaufenthalt, Essen, Beratung, medizinische Hilfe, Bekleidung und Hygienemöglichkeiten für wohnungslose Menschen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 20,
@@ -643,7 +738,12 @@
     },
     "openingHours": "Mo–Fr (Zeiten auf Anfrage)",
     "description": "Kontakt- und Beratungszentrum für obdachlose und langzeitarbeitslose Menschen im Bezirk Pankow. Bietet kostenfreies Frühstück und Mittagessen, Duschen, Wäscheservice, Postzustelladresse (für Jobcenter-Anmeldung) und Freizeitangebote gegen soziale Isolation.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 21,
@@ -675,7 +775,12 @@
     },
     "openingHours": "Täglich 08:00–21:00 Uhr; Hygienezentrum täglich 08:30–17:00 Uhr",
     "description": "Umfassende niedrigschwellige Hilfe für obdachlose und arme Menschen. Täglich bis zu 600 Personen versorgt. Essens- und Getränkeausgabe, Kleidung, Duschen, Toiletten, Sozialberatung und Weitervermittlung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 22,
@@ -707,7 +812,12 @@
     },
     "openingHours": "täglich 08:30–12:00 Uhr und 13:00–16:30 Uhr",
     "description": "Bahnhofsmission im Hauptbahnhof mit Beratung, WLAN und Computernutzung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 23,
@@ -732,7 +842,12 @@
     },
     "openingHours": "Täglich 08:30–16:45 Uhr (letzter Duscheinlass 15:30 Uhr)",
     "description": "Hygienezentrum für obdachlose Menschen mit Duschen, Toiletten und Wäscheservice.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 24,
@@ -757,7 +872,12 @@
     },
     "openingHours": "Mo–Fr 08:00–14:00 Uhr",
     "description": "Kleiderkammer mit kostenloser Ausgabe von Kleidung, Schlafsäcken und Matten ohne bürokratische Hürden für obdachlose Menschen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 25,
@@ -780,7 +900,12 @@
     },
     "openingHours": "Mi–Fr 09:00–14:00 Uhr",
     "description": "Günstige Wäscherei für obdachlose Menschen (Waschen und Trocknen für 2 €).",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 26,
@@ -803,7 +928,12 @@
     },
     "openingHours": "Nach Anfrage",
     "description": "Kleiderkammer des Deutschen Roten Kreuzes mit kostenloser Kleidungsausgabe für bedürftige und obdachlose Menschen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 27,
@@ -832,7 +962,12 @@
     },
     "openingHours": "Mo–Mi 10:00–14:00 Uhr, Fr 10:00–14:00 Uhr",
     "description": "Hausärztliche Versorgung, Medikamentenabgabe, medizinisches Clearing, psychiatrische Sprechstunde, Wundversorgung sowie soziale Arbeit und Sozialberatung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 28,
@@ -862,7 +997,12 @@
     },
     "openingHours": "Mo–Do 10:00–15:00 Uhr",
     "description": "Mobile ärztliche Grundversorgung, Wundversorgung und Beratung. Bitte aktuelle Standorte auf der Website beachten.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 29,
@@ -890,7 +1030,12 @@
     },
     "openingHours": "Mobile Termine (Terminvereinbarung)",
     "description": "Mobiler zahnärztlicher Dienst für obdachlose und nicht-versicherte Menschen. Bietet Untersuchungen, Akutbehandlungen, Schmerztherapie und Weitervermittlung zu Zahnarztpraxen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 30,
@@ -917,7 +1062,12 @@
     },
     "openingHours": "24 Stunden Pflege",
     "description": "Kranken- und Pflegewohnung für obdachlose Menschen zur Genesung. 20 Betten (5 für Palliativpflege). 24-Stunden-Pflegebetreuung, mehrsprachiges Personal, Wäscheservice, Kleidungsversorgung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 31,
@@ -944,7 +1094,12 @@
     },
     "openingHours": "Di–Fr 09:00–14:00 Uhr",
     "description": "Kostenlose medizinische Erstversorgung und Sozialberatung für Menschen ohne Krankenversicherung oder ungültigen Aufenthaltsstatus – anonym, professionell und mit Mitgefühl.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 32,
@@ -981,7 +1136,12 @@
     },
     "openingHours": "Mo, Di, Do 08:00–14:00 Uhr, Mi, Fr 08:00–13:00 Uhr",
     "description": "Erstes Gesundheitszentrum speziell für obdachlose Menschen in Berlin. Bietet kostenlose medizinische, zahnärztliche, psychologische, soziale und rechtliche Hilfe. Außerdem Essensausgabe und Kleiderkammer.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 145,
@@ -1008,7 +1168,12 @@
     },
     "openingHours": "Mo, Mi 10:00–12:00 Uhr",
     "description": "Psychologische Beratung und Suchtberatung im Gesundheitszentrum für obdachlose Menschen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 33,
@@ -1036,7 +1201,12 @@
     },
     "openingHours": "Di 16:00–20:00 Uhr, Fr 11:00–15:00 Uhr; Straßenambulanz Mo & Do 19:00–23:00 Uhr",
     "description": "Medizinische Ambulanz der Berliner Stadtmission für obdachlose Menschen. Bietet kontinuierliche medizinische Versorgung, Hygieneunterstützung und Weitervermittlung. Mobile Straßenambulanz montags und donnerstags.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 34,
@@ -1062,7 +1232,12 @@
     },
     "openingHours": "Mo, Do 10:00–12:30 Uhr, Mi 13:00–16:30 Uhr",
     "description": "Beratung für Menschen in Berlin ohne ausreichende Krankenversicherung, inkl. Prüfung von Kostenübernahme und Vermittlung in Behandlung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 35,
@@ -1087,7 +1262,12 @@
     },
     "openingHours": "Mo, Di, Do, Fr 09:00–12:00 Uhr, Anmeldung bis 11:30 Uhr",
     "description": "Seit 1979 zentrale Anlaufstelle für Menschen ohne Wohnung oder mit drohender Wohnungslosigkeit. Beratung auf Deutsch und Englisch. Vermittlung in Notunterkünfte und weiterführende Hilfen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 36,
@@ -1112,7 +1292,12 @@
     },
     "openingHours": "Di 09:00–12:00 Uhr, Do 15:00–18:00 Uhr, weitere Termine nach Vereinbarung",
     "description": "Ambulante Wohnungslosenhilfe der Caritas. Beratung bei Wohnungsnot, Unterstützung bei Wohnungssuche, Begleitung zu Ämtern. Mehrsprachige Beratung (Deutsch, Arabisch, Türkisch, Russisch).",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 37,
@@ -1142,7 +1327,12 @@
     },
     "openingHours": "täglich 19:30–07:30 Uhr, letzter Einlass 21:30 Uhr",
     "description": "Saisonale Caritas-Notübernachtung für Männer in Reinickendorf.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 38,
@@ -1174,7 +1364,12 @@
     },
     "openingHours": "Nach Website",
     "description": "Niedrigschwellige Kontaktstelle mit Drogenkonsumraum für drogenabhängige Menschen, darunter viele obdachlose Personen. Beratung, Safer-Use-Angebote, Spritzentausch. Szenenah, lebensweltorientiert.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 39,
@@ -1201,7 +1396,12 @@
     },
     "openingHours": "Nach Website",
     "description": "Niedrigschwellige ambulante Grundversorgung im Suchtbereich. Kostenlose und anonyme Beratung. Tagesstruktur, Beschäftigung und Qualifizierung für suchtmittelabhängige Menschen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 40,
@@ -1225,7 +1425,12 @@
     },
     "openingHours": "Mo–Fr (Bürozeiten)",
     "description": "Innovatives Projekt zur dauerhaften Bekämpfung von Obdachlosigkeit. Obdachlose Menschen erhalten sofort eine eigene Wohnung mit eigenem Mietvertrag und professionelle Betreuung. Zweiter Standort: Samoastraße 7, 13353 Berlin, Tel: 030 40916723.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 41,
@@ -1249,7 +1454,12 @@
     },
     "openingHours": "Mo–Fr 10:00–18:00 Uhr",
     "description": "40 Übergangszimmer mit 24-Stunden-Unterstützung für obdachlose oder gefährdete Menschen. Begleitung auf dem Weg in langfristiges Wohnen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 42,
@@ -1271,7 +1481,12 @@
     },
     "openingHours": "Nach Terminvereinbarung",
     "description": "Ehrenamtlich tätige Rechtsanwältinnen und Rechtsanwälte bieten kostenlose Beratung in Fragen des Sozialhilferechts für obdachlose und arme Menschen in Berlin Mitte.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 43,
@@ -1295,7 +1510,12 @@
     },
     "openingHours": "Nach Terminvereinbarung",
     "description": "Anwälte verschiedener Fachrichtungen stehen obdachlosen Menschen nach Terminvereinbarung für kostenlose Rechtsberatung zur Verfügung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 44,
@@ -1321,7 +1541,12 @@
     },
     "openingHours": "Offene Sprechstunde: Di, Do 09:00–12:00 Uhr",
     "description": "Bezirkliche Fachstelle Soziale Wohnhilfe. Unterstützt bei Mietschulden, Wohnungssuche, Vermittlung in Notunterkünfte und weiterführende Hilfsangebote.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 45,
@@ -1347,7 +1572,12 @@
     },
     "openingHours": "Offene Sprechstunde: Mo, Di, Do 09:00–11:30 Uhr",
     "description": "Bezirkliche Fachstelle Soziale Wohnhilfe. Beratung und Unterstützung bei Wohnungsverlust, Mietschulden und Obdachlosigkeit.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 46,
@@ -1374,7 +1604,12 @@
     },
     "openingHours": "SleepIn: Täglich 22:00–10:00 Uhr; Beratung: Mo–Fr (Zeiten auf Website)",
     "description": "Niedrigschwellige Unterstützung und Notübernachtung für Jugendliche und junge Volljährige (13–20 Jahre). SleepIn: 365 Tage jährlich geöffnet, auch für Jugendliche mit Tieren. Beratung, Streetwork und Krisenintervention.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 47,
@@ -1401,7 +1636,12 @@
     },
     "openingHours": "Mo–So 08:00–18:00 Uhr; telefonische 24h-Erreichbarkeit",
     "description": "Anlaufstelle außerhalb der Öffnungszeiten der Jugendämter für Kinder, Jugendliche und Familien in Not- und Krisensituationen. Bietet Beratung, Krisenintervention und Notunterbringung rund um die Uhr.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 48,
@@ -1435,7 +1675,12 @@
     },
     "openingHours": "Di–Fr 13:00–18:00 Uhr, Sa 13:00–16:00 Uhr",
     "description": "Wärmestube und Tagestreff der Heilsarmee. Mahlzeiten ab 17 Uhr, Duschen, Wäsche und Kleiderbibliothek. Sozialberatung, Vermittlung in Notunterkünfte und betreutes Wohnen. Zielgruppe: Langzeitarbeitslose, Suchtbetroffene, Obdachlose.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 49,
@@ -1459,7 +1704,12 @@
     },
     "openingHours": "24 Stunden",
     "description": "Einrichtung für obdachlose und/oder psychisch erkrankte Menschen. Drei therapeutische Wohngemeinschaften (14 Männer), Übergangshaus mit 26 Einzelzimmern und betreutes Wohnen für 40 Frauen und Männer mit 24-Stunden-Betreuung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 50,
@@ -1489,7 +1739,12 @@
     },
     "openingHours": "Di–So 09:00–11:30 Uhr und 12:45–14:30 Uhr; Kleiderkammer: Di, Do, Fr 12:30–14:00 Uhr; Hygienestation und Beratung: Di, Fr 08:30–14:30 Uhr",
     "description": "Etablierte Suppenküche des Franziskanerklosters seit Jahrzehnten. Warme Mahlzeiten sechs Tage wöchentlich. Kleiderkammer, Hygienestation und Sozialberatung vor Ort.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 51,
@@ -1512,7 +1767,12 @@
     },
     "openingHours": "Mo, Fr, Sa 14:00–16:00 Uhr",
     "description": "Seit 1984 betriebene Suppenküche der Schwestern der Mutter Teresa in Kreuzberg. Vier Schwestern versorgen täglich 90–120 bedürftige und obdachlose Menschen mit warmen Mahlzeiten.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 52,
@@ -1543,7 +1803,12 @@
     },
     "openingHours": "Mi 12:00–15:00 Uhr",
     "description": "Wärmestube in der Heilig-Kreuz-Kirche als Treffpunkt für obdachlose und einkommensarme Menschen. Kostenloser Kaffee, Tee, Brote und Suppe. Kleider- und Buchspenden. Ab 13 Uhr Caritas-Arztmobil vor der Kirche.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 53,
@@ -1572,7 +1837,12 @@
     },
     "openingHours": "Mo 17:00–08:00 Uhr, letzter Einlass 19:00 Uhr",
     "description": "Wöchentliches Nachtcafé mit 15–17 Schlafplätzen für obdachlose Männer und Frauen. Abendessen ab 18:30 Uhr. Ehrenamtlich betrieben durch die Kirchengemeinde.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 54,
@@ -1601,7 +1871,12 @@
     },
     "openingHours": "Mi, Sa, So an wechselnden Standorten und Uhrzeiten",
     "description": "Verteilung von warmem Essen, Getränken und Kleidung direkt auf der Straße; Ausgabe nicht am Vereinssitz.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 55,
@@ -1625,7 +1900,12 @@
     },
     "openingHours": "Mo–Fr (Zeiten nach Vereinbarung)",
     "description": "Mehrsprachige Sozialberatung für EU-Bürger ohne Wohnsitz. Beratung auf Polnisch, Russisch, Rumänisch, Bulgarisch und Deutsch. Hilfe bei Behördengängen, Dokumenten und Weitervermittlung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 56,
@@ -1652,7 +1932,12 @@
     },
     "openingHours": "Mo–Fr (Zeiten auf Website)",
     "description": "Beratung für LSBTIQ*-Personen in Wohnungsnot. Angebote: Beratung bei Wohnungsnotfällen, Wohnungserhalt, Wohnheimangebote, Wohnungssuche inklusive alternativer Wohnformen und WGs. Seit November 2022.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 57,
@@ -1680,7 +1965,12 @@
     },
     "openingHours": "Telefonisch erreichbar (WhatsApp und Telegram)",
     "description": "Vorübergehende Schutzunterkunft für LSBTIQ*-Personen, die von Gewalt aufgrund ihrer Geschlechtsidentität oder sexuellen Orientierung betroffen sind (häusliche Gewalt, Zwangsverheiratung). Krisenintervention und Beratung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 58,
@@ -1711,7 +2001,12 @@
     },
     "openingHours": "Mo–Do 08:00–15:30 Uhr, Fr 08:00–14:00 Uhr",
     "description": "Treffpunkt mit Frühstück, Mittagessen, Kleiderkammer und Beratung; Angebot nicht kostenfrei.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 59,
@@ -1740,7 +2035,12 @@
     },
     "openingHours": "6 Tage wöchentlich an 10 Standorten",
     "description": "Mobiles Duschfahrzeug (Duschmobil) ausschließlich für obdachlose Frauen. Fährt sechs Tage die Woche verschiedene Standorte in Berlin an. Niedrigschwellig und kostenlos.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 60,
@@ -1771,7 +2071,12 @@
       "website": "https://skf-berlin.de"
     },
     "description": "Saisonale Wärme- und Anlaufstelle für obdachlose Frauen mit 20 Schlafplätzen. Mahlzeiten und Beratung inklusive.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 61,
@@ -1796,7 +2101,12 @@
     },
     "openingHours": "Mo–Fr 09:00–18:00 Uhr",
     "description": "Beratungs- und Begegnungszentrum am Bahnhof Zoo. Sozialberatung, Bildungsworkshops, Gemeinschaftsangebote und Mobile Einzelfallhilfe (Straßensozialarbeit) für obdachlose Menschen in der Umgebung der Bahnhöfe.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 62,
@@ -1821,7 +2131,12 @@
     },
     "openingHours": "Do 15:00–18:00 Uhr",
     "description": "Kostenlose Akupunktur und Kräutertherapie für einkommensschwache Patienten (einschließlich Obdachlose) durch das TCM-Zentrum des St. Hedwig-Krankenhauses.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 63,
@@ -1847,7 +2162,12 @@
     },
     "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Notübernachtung für Frauen in Kreuzberg. Kälte- bzw. Wärmebus nach telefonischer Absprache bis 24:00 Uhr.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 64,
@@ -1875,7 +2195,12 @@
     },
     "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 20:00 Uhr",
     "description": "Saisonale Notübernachtung für Frauen in Wedding. Kälte- bzw. Wärmebus kann bis 22:00 Uhr kommen.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 65,
@@ -1905,7 +2230,12 @@
     },
     "openingHours": "Mo, Fr, Sa 19:00–08:00 Uhr; Di 15:00–08:00 Uhr; So 19:00–12:00 Uhr",
     "description": "Ganzjährige Notübernachtung für Frauen in Mitte. Kälte- bzw. Wärmebus nach telefonischer Absprache bis 03:00 Uhr.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 66,
@@ -1936,7 +2266,12 @@
     },
     "openingHours": "täglich 18:00–08:00 Uhr, letzter Einlass 24:00 Uhr",
     "description": "Saisonale Notübernachtung in Spandau. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 67,
@@ -1966,7 +2301,12 @@
     },
     "openingHours": "täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Notübernachtung am Rathaus Steglitz. Tiere erlaubt, aber nur zwei pro Abend.",
-    "seasonalNote": "November bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 68,
@@ -1994,7 +2334,12 @@
     },
     "openingHours": "täglich 19:00–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Notübernachtung für Männer in Friedrichshain. Im Oktober und April nur 15 Plätze.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 69,
@@ -2022,7 +2367,12 @@
     },
     "openingHours": "täglich 19:30–08:00 Uhr, letzter Einlass 21:30 Uhr",
     "description": "Saisonale Notübernachtung für Männer in Kreuzberg.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 70,
@@ -2051,7 +2401,12 @@
     },
     "openingHours": "täglich 19:00–07:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Saisonale Kältehilfe für Männer in Neukölln mit Wasch- und Duschmöglichkeiten sowie Waschmaschine für private Kleidung.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 71,
@@ -2080,7 +2435,12 @@
     },
     "openingHours": "täglich 17:00–08:00 Uhr",
     "description": "Saisonale Notübernachtung für Männer in Lichtenberg.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 72,
@@ -2109,7 +2469,12 @@
     },
     "openingHours": "täglich, ganztägig; letzter Einlass nach Absprache die ganze Nacht",
     "description": "Notübernachtung für wohnungslose Familien, schwangere Frauen sowie Alleinerziehende mit Kindern in Reinickendorf.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 73,
@@ -2135,7 +2500,12 @@
     },
     "openingHours": "Mo 22:00–07:00 Uhr, letzter Einlass 24:00 Uhr",
     "description": "Nachtcafé in Charlottenburg; Barrierefreiheit eingeschränkt.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 74,
@@ -2163,7 +2533,12 @@
     },
     "openingHours": "Mo–Fr und So 19:00–08:00 Uhr, letzter Einlass 21:30 Uhr",
     "description": "Kombiniertes Nachtcafé und Wärmestube in Treptow mit zusätzlichen Essensplätzen von 19:00 bis 21:00 Uhr.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 75,
@@ -2191,7 +2566,12 @@
     },
     "openingHours": "Di 21:30–07:00 Uhr, letzter Einlass 23:00 Uhr",
     "description": "Nachtcafé in Kreuzberg; kein Alkohol, keine Drogen.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 76,
@@ -2216,7 +2596,12 @@
     },
     "openingHours": "Di–Fr 20:30–08:00 Uhr, letzter Einlass 22:30 Uhr",
     "description": "Nachtcafé in Friedenau. Kälte- bzw. Wärmebus kann bis 24:00 Uhr kommen.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 77,
@@ -2243,7 +2628,12 @@
     },
     "openingHours": "Do 20:00–09:00 Uhr",
     "description": "Kälteschutz im Mehringhof mit Gepäckverwahrung und ggf. separatem FLINTA*-Raum; nicht barrierefrei.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 78,
@@ -2271,7 +2661,12 @@
     },
     "openingHours": "Do 19:00–08:00 Uhr, Einlass bis 07:00 Uhr",
     "description": "Nachtcafé in Wedding. Hunde willkommen; kein Alkohol, keine Gewalt, keine Drogen.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 79,
@@ -2297,7 +2692,12 @@
     },
     "openingHours": "Fr 20:00–08:00 Uhr, letzter Einlass 23:00 Uhr",
     "description": "Nachtcafé in Neukölln ohne Aufzug; kein Alkohol, keine Drogen, keine Tiere.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 80,
@@ -2325,7 +2725,12 @@
     },
     "openingHours": "Sa 21:30–08:00 Uhr, letzter Einlass 22:00 Uhr",
     "description": "Samstägliches Nachtcafé mit Rollstuhlzugang in Neukölln.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 81,
@@ -2354,7 +2759,12 @@
     },
     "openingHours": "So 19:30–07:30 Uhr, Einlass die ganze Nacht",
     "description": "Sonntägliches Nachtcafé in Westend mit Plätzen für Frauen und Männer.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 82,
@@ -2382,7 +2792,12 @@
     },
     "openingHours": "Mo–Fr 15:00–18:00 Uhr",
     "description": "Tagesangebot und Wärmestube der Caritas in Wilmersdorf.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 83,
@@ -2409,7 +2824,12 @@
     },
     "openingHours": "Mo–Fr 09:00–17:30 Uhr",
     "description": "Tagesangebot für Frauen und alle, die sich weiblich definieren, einschließlich Transfrauen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 84,
@@ -2439,7 +2859,12 @@
     },
     "openingHours": "Mo, Mi, Fr 12:00–16:00 Uhr",
     "description": "Anlaufstelle, Streetwork und Essensausgabe für Menschen bis 27 Jahre.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 85,
@@ -2469,7 +2894,12 @@
     },
     "openingHours": "Mo–Fr 10:00–16:00 Uhr",
     "description": "Tagesangebot in Friedrichshain mit Beratung, Essen und ergänzenden Angeboten für Jugendliche.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 86,
@@ -2495,7 +2925,12 @@
     },
     "openingHours": "täglich 08:30–12:00 Uhr und 14:00–16:00 Uhr",
     "description": "Bahnhofsmission am Ostbahnhof mit Hygiene- und Verpflegungsangeboten.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 87,
@@ -2524,7 +2959,12 @@
     },
     "openingHours": "Mo–Mi 10:00–16:00 Uhr, Do 12:00–16:00 Uhr, Fr 09:00–15:00 Uhr",
     "description": "Tagesangebot mit kostenlosem Mittagessen an mehreren Tagen sowie ergänzenden medizinischen Angeboten.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 88,
@@ -2551,7 +2991,12 @@
     },
     "openingHours": "Mo–Fr 08:00–13:00 Uhr, Sa/So 09:30–15:30 Uhr",
     "description": "Tagestreff mit Essensangebot, Beratung und medizinischen Sprechstunden in Lichtenberg.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 89,
@@ -2580,7 +3025,12 @@
     },
     "openingHours": "Mo–Do 10:00–14:00 Uhr, So/Feiertage 10:00–15:00 Uhr",
     "description": "Kostenloses Tagesangebot für wohnungs- und obdachlose Frauen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 90,
@@ -2609,7 +3059,12 @@
     },
     "openingHours": "Mo, Mi, So 15:00–19:00 Uhr, Do 09:00–14:00 Uhr",
     "description": "Tee- und Wärmestube mit Kleiderkammer; dienstags nur für Frauen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 91,
@@ -2637,7 +3092,12 @@
     },
     "openingHours": "Di–So 11:30–17:00 Uhr",
     "description": "Wohnungslosentagesstätte mit Frühstück und Mittagessen; Wäsche nur mit Termin.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 92,
@@ -2662,7 +3122,12 @@
     },
     "openingHours": "Mo–Mi 12:00–13:30 Uhr",
     "description": "Suppenküche in Charlottenburg.",
-    "seasonalNote": "Oktober bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 93,
@@ -2684,7 +3149,12 @@
     },
     "openingHours": "Fr 19:00–20:30 Uhr",
     "description": "Mobile Ausgabe von Essen am Bahnhof Zoo.",
-    "seasonalNote": "Oktober bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-10-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 94,
@@ -2706,7 +3176,12 @@
     },
     "openingHours": "Mo, Di, Do, Fr 12:00–13:30 Uhr",
     "description": "Suppenküche in Wilmersdorf; Kostenbeitrag 50 Cent.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 95,
@@ -2728,7 +3203,12 @@
     },
     "openingHours": "Di–Fr 08:00–10:00 Uhr und 17:00–21:00 Uhr",
     "description": "Warmer Aufenthalt zum Frühstück und Abendessen mit heißen Getränken.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 96,
@@ -2752,7 +3232,12 @@
     },
     "openingHours": "Mi, Do 10:00–12:00 Uhr",
     "description": "Frühstücksstube in der Emmaus-Kirche; vom 22.12.2025 bis 12.01.2026 geschlossen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 97,
@@ -2776,7 +3261,12 @@
     },
     "openingHours": "Di 14:00–15:30 Uhr",
     "description": "Dienstagsbistro in Kreuzberg.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 98,
@@ -2798,7 +3288,12 @@
     },
     "openingHours": "Mo, Mi, Do 17:00–20:00 Uhr",
     "description": "Essensausgabe an der Heilandskirche.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 99,
@@ -2819,7 +3314,12 @@
     },
     "openingHours": "So 17:00–20:00 Uhr",
     "description": "Essensausgabe mit warmer Suppe, warmen Getränken und belegten Broten.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 100,
@@ -2843,7 +3343,12 @@
     },
     "openingHours": "Di 13:00–15:30 Uhr, So 13:00–15:30 Uhr",
     "description": "Essensausgabe in St. Christophorus; dienstags steht dort das Duschmobil für Frauen.",
-    "seasonalNote": "September bis Juni"
+    "seasonalNote": [
+      {
+        "start": "2000-09-01",
+        "end": "2001-06-30"
+      }
+    ]
   },
   {
     "id": 101,
@@ -2866,7 +3371,12 @@
     },
     "openingHours": "Fr 16:00–19:30 Uhr",
     "description": "Wärmestube in Neukölln mit Gesprächsangebot und anschließendem Gebet in der Kirche.",
-    "seasonalNote": "November bis März"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-03-31"
+      }
+    ]
   },
   {
     "id": 102,
@@ -2890,7 +3400,12 @@
     },
     "openingHours": "Do 12:00–18:00 Uhr",
     "description": "Sozial Brunch in Prenzlauer Berg.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 103,
@@ -2909,7 +3424,12 @@
     "contact": {},
     "openingHours": "So 12:00–14:00 Uhr",
     "description": "Sonntägliche Suppenküche am Zionskirchplatz.",
-    "seasonalNote": "November bis April"
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-04-30"
+      }
+    ]
   },
   {
     "id": 104,
@@ -2933,7 +3453,12 @@
     },
     "openingHours": "Mo, Mi, Fr 12:00–13:30 Uhr",
     "description": "Suppenküche in Zehlendorf; montags zusätzlich Kleiderkammer.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 105,
@@ -2956,7 +3481,12 @@
     },
     "openingHours": "Di, Do 14:30–15:45 Uhr",
     "description": "Mobiler Foodtruck mit warmen Mahlzeiten an wechselnden Standorten.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 106,
@@ -2981,7 +3511,12 @@
     },
     "openingHours": "Mo–Fr 08:00–14:00 Uhr",
     "description": "Medizinische Praxis am Stralauer Platz.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 107,
@@ -3005,7 +3540,12 @@
     },
     "openingHours": "Mo 11:00–15:00 Uhr, Mi 14:00–18:00 Uhr",
     "description": "Kostenfreie medizinische Hilfe für Menschen ohne Krankenversicherung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 108,
@@ -3033,7 +3573,12 @@
     },
     "openingHours": "Mo 10:00–16:00 Uhr, Di/Do 10:00–18:00 Uhr, Mi 11:00–15:00 Uhr",
     "description": "Ambulanz mit mehreren Fachrichtungen und wöchentlichen Kindersprechstunden.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 109,
@@ -3060,7 +3605,12 @@
     },
     "openingHours": "Mo–Fr 14:00–18:00 Uhr",
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 110,
@@ -3087,7 +3637,12 @@
     },
     "openingHours": "Mo–Fr 13:00–17:00 Uhr",
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung im Görlitzer Park.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 111,
@@ -3114,7 +3669,12 @@
     },
     "openingHours": "täglich geöffnet; Mo, Di, Do, Fr, Sa, So 10:15–17:30 Uhr; Mi 13:00–18:00 Uhr",
     "description": "Kontaktstelle ausschließlich für drogengebrauchende Personen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 112,
@@ -3144,7 +3704,12 @@
     },
     "openingHours": "Mo, Di, Do, Fr 09:00–14:00 Uhr; Mi 09:30–14:00 Uhr",
     "description": "Beratung und Tageseinrichtung für drogenkonsumierende Jugendliche und junge Erwachsene von 13 bis 27 Jahren.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 113,
@@ -3175,7 +3740,12 @@
     },
     "openingHours": "Mo, Di 10:00–17:00 Uhr; Mi 10:00–15:00 Uhr; Do, Fr 12:00–19:00 Uhr; Sa, So 11:30–19:00 Uhr",
     "description": "Kontakt- und Anlaufstelle mit integriertem Drogenkonsumraum für volljährige Konsument*innen illegalisierter Substanzen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 114,
@@ -3205,7 +3775,12 @@
     },
     "openingHours": "Mo, Di 12:00–19:00 Uhr; Mi 14:00–19:00 Uhr; Do, Fr 10:00–17:00 Uhr",
     "description": "Kontakt- und Anlaufstelle mit integriertem Drogenkonsumraum für volljährige Konsument*innen illegalisierter Substanzen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 115,
@@ -3232,7 +3807,12 @@
     },
     "openingHours": "Mo–Fr 10:00–17:00 Uhr; Sa 12:00–17:00 Uhr",
     "description": "Beratung, Konsumutensilien und Drogenkonsum unter medizinischer Betreuung am Leopoldplatz.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 116,
@@ -3262,7 +3842,12 @@
     },
     "openingHours": "Mo, Di, Do, Fr 10:30–18:00 Uhr; Mi, Sa 12:00–18:00 Uhr",
     "description": "Angebot für Drogengebrauchende in Neukölln.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 117,
@@ -3289,7 +3874,12 @@
     },
     "openingHours": "Mo, Mi, Do 10:00–16:00 Uhr",
     "description": "Suchtbezogenes Angebot in Spandau.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 118,
@@ -3319,7 +3909,12 @@
     },
     "openingHours": "Mo–Sa 14:00–20:00 Uhr",
     "description": "Kontakt- und Beratungsstelle primär für Straßensexarbeiter*innen; nur für FLINTA-Personen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 119,
@@ -3350,7 +3945,12 @@
     },
     "openingHours": "Mo sowie Mi–Fr 11:00–17:00 Uhr; Di 12:00–17:00 Uhr",
     "description": "Beratung und parallel Streetwork in Tempelhof-Schöneberg.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 120,
@@ -3373,7 +3973,12 @@
     },
     "openingHours": "Mo–Fr 10:00–17:00 Uhr",
     "description": "Aufsuchende Beratung an Berliner Brennpunkten sowie in mehreren Bezirken; mehrsprachig.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 121,
@@ -3396,7 +4001,12 @@
     },
     "openingHours": "Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
     "description": "Aufsuchende mehrsprachige Beratung in Einrichtungen der niedrigschwelligen Wohnungslosenhilfe.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 122,
@@ -3418,7 +4028,12 @@
     },
     "openingHours": "Mo–Fr; offene Sprechstunde Mo 09:00–12:00 Uhr",
     "description": "Aufsuchende mehrsprachige Beratung in mehreren Sprachen für Menschen in Wohnungslosigkeit.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 123,
@@ -3443,7 +4058,12 @@
     },
     "openingHours": "Mo–Fr",
     "description": "Aufsuchende Beratung für EU-Bürger*innen; Terminvereinbarung möglich.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 124,
@@ -3467,7 +4087,12 @@
     },
     "openingHours": "Mo, Di, Do, Fr 09:00–16:00 Uhr",
     "description": "Beratung für EU-Bürger*innen in bulgarischer und rumänischer Sprache; nur mit Termin.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 125,
@@ -3490,7 +4115,12 @@
     },
     "openingHours": "Mo 09:00–13:00 Uhr, Do 14:00–17:30 Uhr",
     "description": "Beratung bei Wohnungsnotfällen und Existenzsicherung; weitere Tage nur Termin- und Telefonberatung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 126,
@@ -3513,7 +4143,12 @@
     },
     "openingHours": "Mo, Di, Do 09:00–15:00 Uhr; Mi 09:00–16:00 Uhr; Fr 09:00–14:00 Uhr",
     "description": "Beratung für Frauen und deren Familien zum Thema Wohnungssuche und andere Problemlagen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 127,
@@ -3537,7 +4172,12 @@
     },
     "openingHours": "Mo–Fr",
     "description": "Arbeits- und sozialrechtliche Beratung für eingewanderte Menschen und mobile Arbeitnehmer*innen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 128,
@@ -3561,7 +4201,12 @@
     },
     "openingHours": "Di, Fr 08:30–14:00 Uhr",
     "description": "Duschen, Waschen persönlicher Wäsche und Ausgabe von Hygieneartikeln nach Spendenlage.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 129,
@@ -3590,7 +4235,12 @@
     },
     "openingHours": "Mi und Fr 15:30–18:30 Uhr",
     "description": "Mobiles Angebot für Kinder und Jugendliche mit Dusche und Toilette.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 130,
@@ -3615,7 +4265,12 @@
     },
     "openingHours": "Di, Do, Fr 12:30–14:00 Uhr",
     "description": "Kleiderkammer im Franziskanerkloster Pankow.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 131,
@@ -3639,7 +4294,12 @@
     },
     "openingHours": "Di 09:00–11:00 Uhr",
     "description": "Kleiderkammer des DRK in Spandau.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 132,
@@ -3664,7 +4324,12 @@
     },
     "openingHours": "Mo–Fr 09:00–13:00 Uhr",
     "description": "Kleiderkammer des Caritasverbandes in Reinickendorf.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 133,
@@ -3690,7 +4355,12 @@
     },
     "openingHours": "täglich 11:00–22:00 Uhr",
     "description": "Aufsuchende mobile Hilfe nur im Berliner Südwesten; Beratung auf Deutsch, Englisch, Französisch, Spanisch und Rumänisch.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 134,
@@ -3715,7 +4385,12 @@
     },
     "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Lichtenberg.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 135,
@@ -3739,7 +4414,12 @@
     },
     "openingHours": "Sprechstunden: Mo, Di, Do 09:00–12:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Marzahn-Hellersdorf.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 136,
@@ -3764,7 +4444,12 @@
     },
     "openingHours": "Sprechstunden: Mo, Di, Do 08:30–12:30 Uhr; Notsprechstunde Fr 09:00–11:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Mitte.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 137,
@@ -3789,7 +4474,12 @@
     },
     "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Neukölln.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 138,
@@ -3814,7 +4504,12 @@
     },
     "openingHours": "Sprechstunden: Mo, Mi 09:00–11:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Pankow.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 139,
@@ -3839,7 +4534,12 @@
     },
     "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Reinickendorf.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 140,
@@ -3864,7 +4564,12 @@
     },
     "openingHours": "Sprechstunden: Di 09:00–12:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Spandau.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 141,
@@ -3889,7 +4594,12 @@
     },
     "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Steglitz-Zehlendorf.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 142,
@@ -3914,7 +4624,12 @@
     },
     "openingHours": "Sprechstunden: Di, Do 09:00–12:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Tempelhof-Schöneberg.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 143,
@@ -3939,7 +4654,12 @@
     },
     "openingHours": "Sprechstunden: Di, Do 08:30–12:00 Uhr",
     "description": "Fachstelle Soziale Wohnhilfe des Bezirksamts Treptow-Köpenick.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 144,
@@ -3964,7 +4684,12 @@
     },
     "openingHours": "24 Stunden täglich telefonisch erreichbar; Beratungsstandorte täglich 16:00–24:00 Uhr",
     "description": "Schnelle und qualifizierte Hilfe bei psychosozialen Krisen bis hin zu akuten psychiatrischen Notsituationen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 146,
@@ -3990,7 +4715,12 @@
     },
     "openingHours": "Telefonisch Mo–Fr 08:00–16:00 Uhr; Sprechstunde Di 09:00–12:00 Uhr",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 147,
@@ -4016,7 +4746,12 @@
     },
     "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr; telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Ortsteil Friedrichshain.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 148,
@@ -4042,7 +4777,12 @@
     },
     "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr; telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Ortsteil Kreuzberg.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 149,
@@ -4068,7 +4808,12 @@
     },
     "openingHours": "Di 09:00–12:00 Uhr, Do 15:00–18:00 Uhr; Krisentelefon Mo–Fr 08:00–16:00 Uhr, Do bis 18:00 Uhr",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 150,
@@ -4095,7 +4840,12 @@
     },
     "openingHours": "Mo–Mi 08:00–16:00 Uhr; bitte nach Möglichkeit zunächst telefonisch Kontakt aufnehmen",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene mit psychischen Erkrankungen, Suchterkrankungen oder geistiger Behinderung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 151,
@@ -4121,7 +4871,12 @@
     },
     "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–16:00 Uhr; Erreichbarkeit Mo–Fr 08:00–16:00 Uhr",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Bereich Mitte und Tiergarten.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 152,
@@ -4147,7 +4902,12 @@
     },
     "openingHours": "Offene Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–16:00 Uhr; Erreichbarkeit Mo–Fr 08:00–16:00 Uhr",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Bereich Wedding.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 153,
@@ -4173,7 +4933,12 @@
     },
     "openingHours": "Telefonsprechstunde Mo–Fr 08:00–16:00 Uhr; offene Sprechstunde Do 13:00–16:00 Uhr",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 154,
@@ -4199,7 +4964,12 @@
     },
     "openingHours": "Krisendienst Mo–Fr 08:00–16:00 Uhr; Sprechstunde Di 09:00–12:00 Uhr und Do 14:00–18:00 Uhr; sonst nach Vereinbarung",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene mit psychischen Erkrankungen, Suchterkrankungen oder geistiger Behinderung.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 155,
@@ -4225,7 +4995,12 @@
     },
     "openingHours": "Nach Terminvereinbarung; offene Sprechstunde Do 15:00–18:00 Uhr",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 156,
@@ -4250,7 +5025,12 @@
     },
     "openingHours": "Termin nach Vereinbarung",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 157,
@@ -4277,7 +5057,12 @@
     },
     "openingHours": "Sprechzeiten aktuell nur nach Vereinbarung; telefonisch Mo–Fr 08:00–16:00 Uhr",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 158,
@@ -4301,7 +5086,12 @@
     },
     "openingHours": "Bitte aktuelle Kontaktmöglichkeiten auf der Bezirksseite prüfen",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 159,
@@ -4328,7 +5118,12 @@
     },
     "openingHours": "Termin nach Vereinbarung",
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 160,
@@ -4352,7 +5147,12 @@
       "phone": "030 3264-1221"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Charlottenburg laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 161,
@@ -4376,7 +5176,12 @@
       "phone": "030 5472-7777"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Wilmersdorf und dem südlichen Teil Charlottenburgs laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 162,
@@ -4400,7 +5205,12 @@
       "phone": "030 13022-9530"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Friedrichshain-Kreuzberg laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 163,
@@ -4424,7 +5234,12 @@
       "phone": "030 5472-3002"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Lichtenberg-Hohenschönhausen laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 164,
@@ -4448,7 +5263,12 @@
       "phone": "030 130172-112"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Marzahn-Hellersdorf laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 165,
@@ -4472,7 +5292,12 @@
       "phone": "030 450617056"
     },
     "description": "Psychiatrische Notfallversorgung für Erwachsene aus Mitte laut Berliner Rundschreiben vom 18.06.2018; tagsüber Psychiatrische Notfälle und Konsile an der Charité.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 166,
@@ -4496,7 +5321,12 @@
       "phone": "030 2311-2267"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Tiergarten und Wedding laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 167,
@@ -4520,7 +5350,12 @@
       "phone": "030 4994-2217"
     },
     "description": "Psychiatrische Rettungsstelle mit Aufnahme nach Maßgabe freier Betten für den gesamten Bezirk Mitte laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 168,
@@ -4544,7 +5379,12 @@
       "phone": "030 13014-0"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Neukölln laut Berliner Rundschreiben vom 18.06.2018; im Notfall mit dem Arzt vom Dienst verbinden lassen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 169,
@@ -4568,7 +5408,12 @@
       "phone": "030 92790320"
     },
     "description": "Psychiatrische Akutaufnahme für Erwachsene aus Pankow laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 170,
@@ -4592,7 +5437,12 @@
       "phone": "030 13012-1703"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Reinickendorf laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 171,
@@ -4616,7 +5466,12 @@
       "phone": "030 13013-2070"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Spandau laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 172,
@@ -4640,7 +5495,12 @@
       "phone": "030 8109-0"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Steglitz-Zehlendorf laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 173,
@@ -4664,7 +5524,12 @@
       "phone": "030 13020-2113"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Schöneberg laut Berliner Rundschreiben vom 18.06.2018.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 174,
@@ -4691,7 +5556,12 @@
     },
     "openingHours": "Zentrale Psychiatrische Aufnahme; pflegerisch besetzt 08:00–22:00 Uhr",
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Tempelhof. Die aktuelle Vivantes-Seite nennt die Zentrale Psychiatrische Aufnahme am Standort Wenckebachstraße 23.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 175,
@@ -4715,7 +5585,12 @@
       "phone": "030 6741-2640"
     },
     "description": "Psychiatrische Rettungsstelle für Erwachsene aus Treptow-Köpenick laut Berliner Rundschreiben vom 18.06.2018. Die Zufahrt zur Psychiatrie erfolgt über Höhensteig 2.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 176,
@@ -4735,7 +5610,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx für Menschen in Wohnungsnot.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 177,
@@ -4755,7 +5635,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Ambulante Wohnungslosenhilfe in Lichtenberg, im Register-Unterkuenfte.xlsx als Kontaktstelle aufgeführt.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 178,
@@ -4779,7 +5664,12 @@
     },
     "openingHours": "Mo–Fr 10:00–16:00 Uhr",
     "description": "Wohnhilfe der Lukas-Gemeinde mit Beratung bei drohendem Wohnungsverlust, Räumungsklagen und Wohnungssuche; zusätzlich betreute Wohngemeinschaft.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 179,
@@ -4799,7 +5689,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx für Menschen in Wohnungsnot.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 180,
@@ -4819,7 +5714,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Kontaktstelle aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 181,
@@ -4846,7 +5746,12 @@
     },
     "openingHours": "Termine nach Bedarf telefonisch vereinbaren",
     "description": "Kostenlose, auf Wunsch anonyme psychologische Beratung für Frauen in Wohnungsnot oder in Wohnheimen; laut Berlin.de auch aufsuchend in Wohnheimen möglich.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 182,
@@ -4873,7 +5778,12 @@
     },
     "openingHours": "Offene Sprechstunde Mo 10:00–12:00 Uhr; Terminvereinbarung und Postausgabe Mo–Fr 10:00–12:00 Uhr",
     "description": "Beratungsstelle für Menschen in Wohnungsnot und sozialen Schwierigkeiten mit Fokus auf wohnungslose oder bedrohte Menschen und Familien aus Deutschland und anderen EU-Ländern; Beratung auf Deutsch, Englisch, Polnisch und Bulgarisch.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 183,
@@ -4892,7 +5802,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 184,
@@ -4911,7 +5826,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 185,
@@ -4930,7 +5850,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 186,
@@ -4949,7 +5874,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Unterkunft aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 187,
@@ -4969,7 +5899,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Übergangshaus aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 188,
@@ -4989,7 +5924,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Übergangshaus aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 189,
@@ -5009,7 +5949,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Wohnangebot für Frauen aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 190,
@@ -5029,7 +5974,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Wohnangebot für Frauen aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 191,
@@ -5052,7 +6002,12 @@
     },
     "openingHours": "24 Stunden besetzt",
     "description": "Wohnheim für wohnungslose Menschen des Unionhilfswerks mit sozialpädagogischer Unterstützung und Rund-um-die-Uhr-Ansprechpersonen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 192,
@@ -5071,7 +6026,12 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Unterkunft beziehungsweise Nothilfe-Angebot aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   },
   {
     "id": 193,
@@ -5093,7 +6053,8 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Notübernachtung aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Saisonal / bitte direkt erfragen"
+    "seasonalNote": [],
+    "seasonalNoteText": "Saisonal / bitte direkt erfragen"
   },
   {
     "id": 194,
@@ -5114,7 +6075,8 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Nachtcafé aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": "Saisonal / bitte direkt erfragen"
+    "seasonalNote": [],
+    "seasonalNoteText": "Saisonal / bitte direkt erfragen"
   },
   {
     "id": 195,
@@ -5136,6 +6098,11 @@
     "contact": {},
     "openingHours": "Bitte direkt erfragen",
     "description": "Krisenwohnung beziehungsweise Notunterkunft für Suchterkrankte, aus dem Register-Unterkuenfte.xlsx übernommen.",
-    "seasonalNote": "Ganzjährig"
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ]
   }
 ]

@@ -68,12 +68,33 @@ Each facility entry in `facilities.json` follows this general structure:
   },
   "openingHours": "Daily 09:00-17:00",
   "description": "Short human-readable summary",
-  "seasonalNote": "Ganzjährig"
+  "seasonalNote": [
+    {
+      "start": "2000-11-01",
+      "end": "2001-04-30"
+    }
+  ]
 }
 ```
 
 The UI tolerates missing optional values, but keeping records complete improves
 search quality and presentation.
+
+`seasonalNote` is stored as an array of recurring time periods with anchored ISO
+dates. Periods that cross the end of the calendar year use `2000` for the start
+and `2001` for the end. A year-round service uses one full-year period:
+
+```json
+[
+  {
+    "start": "2000-01-01",
+    "end": "2000-12-31"
+  }
+]
+```
+
+If a service is seasonal but no concrete date range is known yet, keep
+`seasonalNote` empty and use optional `seasonalNoteText` instead.
 
 ### Tag model
 

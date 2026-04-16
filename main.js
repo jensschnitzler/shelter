@@ -109,9 +109,112 @@ function sanitizeExternalUrl(value) {
     }
 }
 
+const LEGACY_SEASONAL_PERIODS = {
+    'Ganzjährig': [{ start: '2000-01-01', end: '2000-12-31' }],
+    'November bis April': [{ start: '2000-11-01', end: '2001-04-30' }],
+    'November bis März': [{ start: '2000-11-01', end: '2001-03-31' }],
+    'Oktober bis April': [{ start: '2000-10-01', end: '2001-04-30' }],
+    'Oktober bis März': [{ start: '2000-10-01', end: '2001-03-31' }],
+    'September bis Juni': [{ start: '2000-09-01', end: '2001-06-30' }],
+};
+
+const SEASONAL_MONTHS = [
+    '', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
+    'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember',
+];
+
+function normalizeSeasonalPeriods(raw) {
+    if (!Array.isArray(raw)) {
+        return [];
+    }
+
+    return raw
+        .map(period => {
+            const start = typeof period?.start === 'string' ? period.start : '';
+            const end = typeof period?.end === 'string' ? period.end : '';
+            return start && end ? { start, end } : null;
+        })
+        .filter(Boolean);
+}
+
+function normalizeSeasonalNote(rawPeriods, rawText) {
+    if (Array.isArray(rawPeriods)) {
+        return {
+            periods: normalizeSeasonalPeriods(rawPeriods),
+            text: rawText ? String(rawText) : '',
+        };
+    }
+
+    if (typeof rawPeriods === 'string') {
+        return {
+            periods: LEGACY_SEASONAL_PERIODS[rawPeriods] || [],
+            text: rawPeriods === 'Saisonal / bitte direkt erfragen' ? rawPeriods : '',
+        };
+    }
+
+    return {
+        periods: [],
+        text: rawText ? String(rawText) : '',
+    };
+}
+
+function isFullYearSeason(periods) {
+    return periods.length === 1
+        && periods[0].start === '2000-01-01'
+        && periods[0].end === '2000-12-31';
+}
+
+function parseIsoDateParts(value) {
+    const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value);
+    if (!match) {
+        return null;
+    }
+
+    return {
+        year: Number(match[1]),
+        month: Number(match[2]),
+        day: Number(match[3]),
+    };
+}
+
+function formatSeasonalBoundary(parts, includeDay) {
+    const monthLabel = SEASONAL_MONTHS[parts.month] || '';
+    return includeDay ? `${parts.day}. ${monthLabel}` : monthLabel;
+}
+
+function formatSeasonalPeriod(period) {
+    const start = parseIsoDateParts(period.start);
+    const end = parseIsoDateParts(period.end);
+    if (!start || !end) {
+        return '';
+    }
+
+    const startMonthDays = new Date(start.year, start.month, 0).getDate();
+    const endMonthDays = new Date(end.year, end.month, 0).getDate();
+    const includeDay = start.day !== 1 || end.day !== endMonthDays;
+
+    return `${formatSeasonalBoundary(start, includeDay)} bis ${formatSeasonalBoundary(end, includeDay)}`;
+}
+
+function formatSeasonalNote(periods, text) {
+    if (!periods.length) {
+        return text || '';
+    }
+
+    if (isFullYearSeason(periods)) {
+        return '';
+    }
+
+    return periods
+        .map(formatSeasonalPeriod)
+        .filter(Boolean)
+        .join(' / ');
+}
+
 function normalizeFacility(raw) {
     const address = raw?.address || {};
     const contact = raw?.contact || {};
+    const seasonal = normalizeSeasonalNote(raw?.seasonalNote, raw?.seasonalNoteText);
 
     return {
         id: raw?.id ?? '',
@@ -132,7 +235,8 @@ function normalizeFacility(raw) {
         },
         openingHours: raw?.openingHours ? String(raw.openingHours) : '',
         description: String(raw?.description || 'Keine Beschreibung vorhanden.'),
-        seasonalNote: raw?.seasonalNote ? String(raw.seasonalNote) : '',
+        seasonalNote: seasonal.periods,
+        seasonalNoteText: seasonal.text,
     };
 }
 
@@ -148,8 +252,9 @@ function renderCard(f) {
         .map(t => `<span class="${tagCls(t)}">${escapeHtml(tagLabel(t))}</span>`)
         .join('');
 
-    const seasonal = f.seasonalNote && f.seasonalNote !== 'Ganzjährig'
-        ? `<div class="meta-row meta-row--seasonal">${renderIcon('calendar_month')}${escapeHtml(f.seasonalNote)}</span>` : '';
+    const seasonalLabel = formatSeasonalNote(f.seasonalNote, f.seasonalNoteText);
+    const seasonal = seasonalLabel
+        ? `<div class="meta-row meta-row--seasonal">${renderIcon('calendar_month')}<span>${escapeHtml(seasonalLabel)}</span></div>` : '';
 
     const hours = f.openingHours
         ? `<div class="meta-row meta-row--hours">${renderIcon('schedule')}<span>${escapeHtml(f.openingHours)}</span></div>` : '';
