@@ -242,7 +242,7 @@
     padding: .3rem .62rem .28rem;
 }
 
-a.pill , button.pill {
+a.pill, button.pill {
     cursor: pointer;
     transition: all .15s;
     &:hover {
@@ -251,10 +251,14 @@ a.pill , button.pill {
     }
 }
 
-.pill.active {
+.pill.active, a.pill.active, button.pill.active {
     background: var(--accent);
     border-color: var(--accent);
-    color: #fff;
+    color: var(--color-white);
+    &:hover {
+        border-color: var(--accent);
+        color: var(--color-white);
+    }
 }
 
 /* ── Filters ── */
@@ -277,6 +281,7 @@ a.pill , button.pill {
 
 #stats.is-error {
     color: var(--color-orange);
+    margin-top: 4.5rem;
 }
 
 /* ── List.js container & grid ── */
