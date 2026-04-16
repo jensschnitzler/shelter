@@ -223,6 +223,29 @@ header p {
     padding: 0 1.5rem 3rem;
 }
 
+.site-footer {
+    margin-top: 1rem;
+    padding: 1.5rem;
+    border-top: 1px solid var(--border);
+    background: var(--surface);
+    color: var(--text-secondary);
+    font-size: .88rem;
+    text-align: center;
+}
+
+.site-footer p + p {
+    margin-top: .45rem;
+}
+
+.site-footer a {
+    color: var(--accent);
+    text-decoration: none;
+}
+
+.site-footer a:hover {
+    text-decoration: underline;
+}
+
 ul.list {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
