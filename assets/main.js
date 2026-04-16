@@ -472,9 +472,10 @@ async function init() {
         });
     }
 
-    function makeFilterBtn($container, label, onClick) {
+    function makeFilterBtn($container, id, label, onClick) {
         const $btn = $('<button>')
             .attr('type', 'button')
+            .attr('data-id', id)
             .attr('aria-pressed', 'false')
             .addClass('filter-btn')
             .text(label);
@@ -492,20 +493,20 @@ async function init() {
     const groupOrder = ['women', 'men', 'families', 'youth', 'lgbtiq'];
     const usedGroups = new Set(facilities.map(f => f.targetGroup));
 
-    makeFilterBtn($tgFilters, 'Alle Gruppen', () => { activeTargetGroup = null; applyFilters(); })
+    makeFilterBtn($tgFilters, 'all', 'Alle Gruppen', () => { activeTargetGroup = null; applyFilters(); })
         .addClass('active').attr('aria-pressed', 'true');
     groupOrder.filter(g => usedGroups.has(g)).forEach(g =>
-        makeFilterBtn($tgFilters, TARGET_GROUP_LABELS[g], () => { activeTargetGroup = g; applyFilters(); })
+        makeFilterBtn($tgFilters, g, TARGET_GROUP_LABELS[g], () => { activeTargetGroup = g; applyFilters(); })
     );
 
     // ── Tag filters ─────────────────────────────────────────────────────────
     const usedTags = [...new Set(facilities.flatMap(f => f.tags))]
         .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'));
 
-    makeFilterBtn($filters, 'Alle', () => { activeTag = null; applyFilters(); })
+    makeFilterBtn($filters, 'all', 'Alle', () => { activeTag = null; applyFilters(); })
         .addClass('active').attr('aria-pressed', 'true');
     usedTags.forEach(tag =>
-        makeFilterBtn($filters, tagLabel(tag), () => { activeTag = tag; applyFilters(); })
+        makeFilterBtn($filters, tag, tagLabel(tag), () => { activeTag = tag; applyFilters(); })
     );
 
     updateStats();
