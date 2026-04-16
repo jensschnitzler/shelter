@@ -295,6 +295,10 @@ function renderCard(f) {
     const facilityName = escapeHtml(f.name);
     const addressLabel = escapeHtml(`Adresse von ${f.name} in Google Maps öffnen`);
 
+    const targetGroupTag = f.targetGroup !== 'all' && TARGET_GROUP_LABELS[f.targetGroup]
+        ? `<span class="tag tag--target-group">${escapeHtml(TARGET_GROUP_LABELS[f.targetGroup])}</span>`
+        : '';
+
     const tags = f.tags
         .map(t => `<span class="${tagCls(t)}">${escapeHtml(tagLabel(t))}</span>`)
         .join('');
@@ -322,7 +326,7 @@ function renderCard(f) {
         <h2 class="card-name">${facilityName}</h2>
         <p class="card-org">${escapeHtml(f.organization)}</p>
     </div>
-    <div class="card-tags">${tags}</div>
+    <div class="card-tags">${targetGroupTag}${tags}</div>
     <div class="card-meta">
         <div class="meta-row meta-row--location">
             ${renderIcon('place')}

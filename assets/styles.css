@@ -313,6 +313,13 @@ li.item .html {
     border: 1px solid var(--border);
 }
 
+.tag--target-group {
+    background: var(--accent-light);
+    border-color: var(--accent);
+    color: var(--accent);
+    font-weight: 500;
+}
+
 /* ── Meta rows ── */
 .card-meta {
     display: flex;
