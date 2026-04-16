@@ -11,50 +11,55 @@
         <a class="skip-link" href="#facilities-list">Direkt zur Ergebnisliste springen</a>
 
         <header id="header">
-            <h1>Hilfe für Obdachlose in Berlin: Einrichtungen, Dienste und Anlaufstellen</h1>
+            <h1>Hilfe für Obdachlose in Berlin: <br>Einrichtungen, Dienste und Anlaufstellen</h1>
         </header>
 
-        <div id="controls" class="controls controls--main">
-            <label class="sr-only" for="search-input">
-                Einrichtungen nach Name, Bezirk oder Angebot durchsuchen
-            </label>
-            <input
-                type="search"
-                id="search-input"
-                placeholder="Einrichtung, Bezirk oder Angebot suchen …"
-                autocomplete="off"
-                aria-describedby="search-help stats"
-            />
-            <p id="search-help" class="control-help">
-                Suche nach Einrichtung, Bezirk, Angebot oder Schlagwort.
-            </p>
-            <div id="sort-controls">
-                <span class="sort-label">Sortieren:</span>
-                <button
-                    type="button"
-                    class="sort-btn active asc"
-                    data-sort="name"
-                    aria-pressed="true"
-                >
-                    Name
-                </button>
-                <button
-                    type="button"
-                    class="sort-btn"
-                    data-sort="district"
-                    aria-pressed="false"
-                >
-                    Bezirk
-                </button>
-            </div>
-        </div>
+        <div id="controls-wrapper" class="controls-wrapper">
 
-        <nav id="target-group-filters" class="controls" aria-label="Filter nach Zielgruppe">
-            <span>Für</span>
-        </nav>
-        <nav id="filters" class="controls" aria-label="Filter nach Kategorie">
-            <span>Filter</span>
-        </nav>
+            <div id="controls" class="controls controls--main">
+                <label class="sr-only" for="search-input">
+                    Einrichtungen nach Name, Bezirk oder Angebot durchsuchen
+                </label>
+                <input
+                    type="search"
+                    id="search-input"
+                    placeholder="Einrichtung, Bezirk oder Angebot suchen …"
+                    autocomplete="off"
+                    aria-describedby="search-help stats"
+                />
+                <p id="search-help" class="control-help">
+                    Suche nach Einrichtung, Bezirk, Angebot oder Schlagwort.
+                </p>
+                <div id="sort-controls">
+                    <span class="sort-label">Sortieren:</span>
+                    <button
+                        type="button"
+                        class="sort-btn active asc"
+                        data-sort="name"
+                        aria-pressed="true"
+                    >
+                        Name
+                    </button>
+                    <button
+                        type="button"
+                        class="sort-btn"
+                        data-sort="district"
+                        aria-pressed="false"
+                    >
+                        Bezirk
+                    </button>
+                </div>
+            </div>
+
+            <nav id="target-group-filters" class="controls" aria-label="Filter nach Zielgruppe">
+                <span>Für</span>
+            </nav>
+
+            <nav id="filters" class="controls" aria-label="Filter nach Kategorie">
+                <span>Filter</span>
+            </nav>
+
+        </div>
 
         <p id="stats" role="status" aria-atomic="true"></p>
 
