@@ -37,7 +37,25 @@
     min-height: 100vh;
 }
 
+@font-face {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: 100 700;
+    src: url('fonts/Google-Material-Symbols-Outlined.woff2') format('woff2');
+}
+
 .material-symbols-outlined {
+    font-family: 'Material Symbols Outlined';
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1em;
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
     font-variation-settings:
         "FILL" 0,
         "wght" 400,
