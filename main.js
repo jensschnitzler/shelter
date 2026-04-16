@@ -101,15 +101,6 @@ function sanitizeExternalUrl(value) {
     }
 }
 
-const LEGACY_SEASONAL_PERIODS = {
-    'Ganzjährig': [{ start: '2000-01-01', end: '2000-12-31' }],
-    'November bis April': [{ start: '2000-11-01', end: '2001-04-30' }],
-    'November bis März': [{ start: '2000-11-01', end: '2001-03-31' }],
-    'Oktober bis April': [{ start: '2000-10-01', end: '2001-04-30' }],
-    'Oktober bis März': [{ start: '2000-10-01', end: '2001-03-31' }],
-    'September bis Juni': [{ start: '2000-09-01', end: '2001-06-30' }],
-};
-
 const SEASONAL_MONTHS = [
     '', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
     'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember',
@@ -142,22 +133,8 @@ function normalizeSeasonalPeriods(raw) {
 }
 
 function normalizeSeasonalNote(rawPeriods, rawText) {
-    if (Array.isArray(rawPeriods)) {
-        return {
-            periods: normalizeSeasonalPeriods(rawPeriods),
-            text: rawText ? String(rawText) : '',
-        };
-    }
-
-    if (typeof rawPeriods === 'string') {
-        return {
-            periods: LEGACY_SEASONAL_PERIODS[rawPeriods] || [],
-            text: rawPeriods === 'Saisonal / bitte direkt erfragen' ? rawPeriods : '',
-        };
-    }
-
     return {
-        periods: [],
+        periods: Array.isArray(rawPeriods) ? normalizeSeasonalPeriods(rawPeriods) : [],
         text: rawText ? String(rawText) : '',
     };
 }
