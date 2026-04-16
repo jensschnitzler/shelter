@@ -94,7 +94,7 @@
     left: .75rem;
     z-index: 1000;
     padding: .6rem .85rem;
-    border-radius: 8px;
+    border-radius: var(--radius);
     background: var(--text-primary);
     color: #fff;
     text-decoration: none;
@@ -108,7 +108,6 @@
 
 /* ── Header ── */
 #header {
-    border-bottom: 1px solid var(--border);
     padding: 1.7rem 1rem 4rem;
     text-align: left;
     color: var(--color-blueLight);
@@ -128,15 +127,27 @@
 }
 
 /* ── Controls (search + sort) ── */
+#controls-wrapper {
+    margin: 0 auto;
+    padding: 0 1.5rem;
+    border-radius: var(--radius);
+    overflow: clip;
+    background: var(--surface);
+    display: flex;
+    flex-flow: column nowrap;
+}
+
 .controls {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     gap: .45rem;
     padding: 1rem 1.5rem;
-    background: var(--surface);
-    border-bottom: 1px solid var(--border);
     font-size: var(--fontsize-s);
+}
+
+.controls:not(:last-child) {
+    border-bottom: 1px solid var(--border);
 }
 
 .controls--main {
@@ -153,7 +164,7 @@
     min-width: 200px;
     padding: .55rem .9rem;
     border: 1px solid var(--border);
-    border-radius: 8px;
+    border-radius: var(--radius);
     font-size: var(--fontsize-s);
     color: var(--text-primary);
     background: var(--bg);
@@ -183,12 +194,11 @@
 
 .sort-btn {
     padding: .4rem .85rem;
-    border-radius: 7px;
+    border-radius: var(--radius);
     border: 1px solid var(--border);
     background: var(--bg);
     color: var(--text-secondary);
     font-size: var(--fontsize-s);
-    font-weight: 500;
     cursor: pointer;
     transition: all .15s;
     position: relative;
@@ -226,7 +236,6 @@
     background: var(--bg);
     color: var(--text-secondary);
     font-size: var(--fontsize-s);
-    font-weight: 500;
     cursor: pointer;
     transition: all .15s;
 }
@@ -252,12 +261,6 @@
 
 #stats.is-error {
     color: #b91c1c;
-}
-
-/* ── Controls Wrapper ── */
-#controls-wrapper {
-    margin: 0 auto;
-    padding: 0 1.5rem;
 }
 
 /* ── List.js container & grid ── */
@@ -333,13 +336,13 @@ li.item .html {
 .card-header {
     display: flex;
     flex-direction: column;
-    gap: .2rem;
+    gap: .3rem;
 }
 
 .card-name {
     font-size: var(--fontsize-m);
     font-weight: 600;
-    line-height: 1.2;
+    line-height: 1.1;
 }
 
 .card-org {
@@ -371,7 +374,6 @@ li.item .html {
     background: var(--accent-light);
     border-color: var(--accent);
     color: var(--accent);
-    font-weight: 500;
 }
 
 /* ── Meta rows ── */
@@ -446,7 +448,6 @@ li.item .html {
     background: none;
     cursor: pointer;
     font-size: var(--fontsize-s);
-    font-weight: 500;
     color: var(--accent);
 }
 
@@ -463,7 +464,7 @@ li.item .html {
 .readmore__toggle:focus-visible {
     outline: 3px solid var(--focus-ring);
     outline-offset: 2px;
-    border-radius: 4px;
+    border-radius: var(--radius);
 }
 
 /* ── Contact links ── */
@@ -478,12 +479,11 @@ li.item .html {
     align-items: center;
     gap: .3rem;
     font-size: var(--fontsize-s);
-    font-weight: 500;
     color: var(--accent);
     text-decoration: none;
     padding: .45rem .7rem;
     margin-inline: -0.7rem;
-    border-radius: 6px;
+    border-radius: var(--radius);
     transition: background .15s, color .15s;
     position: relative;
 }
@@ -522,7 +522,6 @@ li.item .html {
     background: var(--accent);
     color: #fff;
     font-size: var(--fontsize-s);
-    font-weight: 500;
     text-decoration: none;
     box-shadow: 0 2px 8px rgba(37,99,235,.3), 0 1px 3px rgba(0,0,0,.1);
     transition: background .15s, box-shadow .15s, transform .15s;
