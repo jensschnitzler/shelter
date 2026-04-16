@@ -170,6 +170,7 @@ vendored libraries, and `facilities.json`.
 - [x] Add entries from Kältehilfe PDF
 - [x] Add "ASOG Einrichtungen"
 - [x] Improve icons (https://github.com/google/material-design-icons)
+- [x] Refactor, reorganize tags
 - [ ] Add map
 - [ ] Add feature to report wrong and outdated information
 - [ ] Add form to add new anonymously facilities
@@ -177,7 +178,8 @@ vendored libraries, and `facilities.json`.
 - [ ] Improve language support
 - [ ] Support simple language
 - [ ] Add form for feature requests, bug reports
-- [x] Refactor, reorganize tags
 - [ ] Add filter "open now"
-- [ ] Add analytics
+- [ ] Add analytics (https://www.simpleanalytics.com/)
 - [ ] ~Change wording "Obdachlos" to "Wohnungslos"~
+- [ ] Add german phone prefix
+- [ ] Remove sorting
