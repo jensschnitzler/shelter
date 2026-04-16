@@ -30,11 +30,22 @@
 }
 
 #app {
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: 'Remus Variable', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-stretch: condensed;
     background: var(--color-black);
     color: var(--text-primary);
     line-height: 1.5;
     min-height: 100vh;
+}
+
+@font-face {
+    font-family: 'Remus Variable';
+    font-style: normal;
+    font-weight: 100 900;
+    font-stretch: 50% 200%;
+    src: url('fonts/RemusVariableVF.woff2') format('woff2'),
+         url('fonts/RemusVariableVF.woff') format('woff'),
+         url('fonts/RemusVariableVF.ttf') format('truetype');
 }
 
 @font-face {
