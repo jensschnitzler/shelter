@@ -7223,14 +7223,6 @@
     "openingHours": [
       {
         "days": [
-          "tu"
-        ],
-        "start": "09:00",
-        "end": "12:00",
-        "label": "Offene Sprechstunde"
-      },
-      {
-        "days": [
           "mo",
           "tu",
           "we",
@@ -7240,6 +7232,30 @@
         "start": "08:00",
         "end": "16:00",
         "label": "Erreichbarkeit"
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "08:00",
+        "end": "18:00",
+        "label": "Erreichbarkeit (verlängert)"
+      },
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Offene Sprechstunde"
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "label": "Offene Sprechstunde"
       }
     ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene im Bereich Mitte und Tiergarten.",
@@ -7249,7 +7265,6 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "und Do 14:00–16:00 Uhr",
     "targetGroup": "all"
   },
   {
@@ -7552,9 +7567,47 @@
       "counseling"
     ],
     "contact": {
-      "website": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/gesundheitsamt/sozialpsychiatrischer-dienst/"
+      "website": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/gesundheitsamt/sozialpsychiatrischer-dienst/",
+      "phone": "030 90277-7575",
+      "email": "sozpsychdienst@ba-ts.berlin.de"
     },
-    "openingHours": [],
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "fr"
+        ],
+        "start": "08:00",
+        "end": "16:00",
+        "label": "Erreichbarkeit"
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "08:00",
+        "end": "18:00",
+        "label": "Erreichbarkeit"
+      },
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Offene Sprechstunde"
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "16:00",
+        "end": "18:00",
+        "label": "Offene Sprechstunde"
+      }
+    ],
     "description": "Bezirklicher Sozialpsychiatrischer Dienst für Erwachsene in psychischen Krisen oder mit psychischen Erkrankungen.",
     "seasonalNote": [
       {
@@ -7562,7 +7615,6 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte aktuelle Kontaktmöglichkeiten auf der Bezirksseite prüfen",
     "targetGroup": "all"
   },
   {
