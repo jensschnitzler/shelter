@@ -2805,9 +2805,27 @@
     ],
     "contact": {
       "phone": "030 65867861",
-      "website": "https://www.schwulenberatungberlin.de"
+      "website": "https://www.schwulenberatungberlin.de",
+      "email": "queerhome@sonntags-club.de"
     },
-    "openingHours": [],
+    "openingHours": [
+      {
+        "days": [
+          "mo"
+        ],
+        "start": "10:00",
+        "end": "12:00",
+        "label": "Telefonberatung"
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "14:00",
+        "end": "16:00",
+        "label": "Telefonberatung"
+      }
+    ],
     "description": "Beratung für LSBTIQ*-Personen in Wohnungsnot. Angebote: Beratung bei Wohnungsnotfällen, Wohnungserhalt, Wohnheimangebote, Wohnungssuche inklusive alternativer Wohnformen und WGs. Seit November 2022.",
     "seasonalNote": [
       {
@@ -2815,7 +2833,7 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Mo–Fr (Zeiten auf Website)",
+    "openingNote": "Mo–Fr Termine nach Vereinbarung",
     "targetGroup": "lgbtiq"
   },
   {
@@ -2884,10 +2902,17 @@
         "days": [
           "mo",
           "tu",
-          "we",
           "th"
         ],
         "start": "08:00",
+        "end": "15:30",
+        "label": ""
+      },
+      {
+        "days": [
+          "we"
+        ],
+        "start": "11:00",
         "end": "15:30",
         "label": ""
       },
@@ -2949,7 +2974,7 @@
     "organization": "Sozialdienst katholischer Frauen e.V. Berlin",
     "color": "#e7def5",
     "address": {
-      "street": "Müllerstraße 48",
+      "street": "Müllerstraße 126",
       "district": "Mitte",
       "postalCode": "13349",
       "city": "Berlin",
@@ -2966,16 +2991,30 @@
     ],
     "contact": {
       "phone": "030 4623279",
-      "website": "https://skf-berlin.de"
+      "website": "https://skf-berlin.de",
+      "email": "evashaltestelle@skf-berlin.de"
     },
     "description": "Saisonale Wärme- und Anlaufstelle für obdachlose Frauen mit 20 Schlafplätzen. Mahlzeiten und Beratung inklusive.",
     "seasonalNote": [
       {
-        "start": "2000-10-01",
-        "end": "2001-04-30"
+        "start": "2000-01-01",
+        "end": "2000-12-31"
       }
     ],
-    "openingHours": [],
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "10:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
     "targetGroup": "women"
   },
   {
@@ -2998,7 +3037,8 @@
     ],
     "contact": {
       "phone": "030 315173380",
-      "website": "https://www.berliner-stadtmission.de/zentrum-am-zoo"
+      "website": "https://www.berliner-stadtmission.de/zentrum-am-zoo",
+      "email": "zaz@berliner-stadtmission.de"
     },
     "openingHours": [
       {
@@ -3049,7 +3089,7 @@
           "th"
         ],
         "start": "15:00",
-        "end": "18:00",
+        "end": "18:30",
         "label": ""
       }
     ],
@@ -3163,7 +3203,7 @@
   {
     "id": 65,
     "name": "Notübernachtung Marie",
-    "organization": "Köppjohann",
+    "organization": "Köpjohann'sche Stiftung",
     "color": "#e9bbe1",
     "address": {
       "street": "Tieckstr. 17",
@@ -3190,27 +3230,15 @@
       {
         "days": [
           "mo",
+          "tu",
+          "we",
+          "th",
           "fr",
-          "sa"
-        ],
-        "start": "19:00",
-        "end": "08:00",
-        "label": ""
-      },
-      {
-        "days": [
-          "tu"
-        ],
-        "start": "15:00",
-        "end": "08:00",
-        "label": ""
-      },
-      {
-        "days": [
+          "sa",
           "su"
         ],
         "start": "19:00",
-        "end": "12:00",
+        "end": "08:00",
         "label": ""
       }
     ],
