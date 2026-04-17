@@ -1409,7 +1409,7 @@
           "we"
         ],
         "start": "10:00",
-        "end": "14:00",
+        "end": "14:30",
         "label": ""
       },
       {
@@ -1417,7 +1417,7 @@
           "fr"
         ],
         "start": "10:00",
-        "end": "14:00",
+        "end": "13:00",
         "label": ""
       }
     ],
@@ -1452,7 +1452,7 @@
     "contact": {
       "phone": "0172 30 73 985",
       "email": "arztmobil@caritas-berlin.de",
-      "website": "https://www.caritas-arztmobil.de"
+      "website": "https://www.caritas-berlin.de/beratungundhilfe/berlin/wohnungsnot/medizinische-versorgung"
     },
     "openingHours": [
       {
@@ -1496,7 +1496,7 @@
     ],
     "contact": {
       "phone": "0152 041 86633",
-      "email": "m.karakla@caritas-berlin.de",
+      "email": "zahnmobil@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de"
     },
     "openingHours": [],
@@ -1507,7 +1507,7 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Mobile Termine (Terminvereinbarung)",
+    "openingNote": "Mobile Termine: Di vor der Franziskanerkirche (Pankow), Do vor der Caritas-Krankenwohnung (Turmstr.)",
     "targetGroup": "all"
   },
   {
@@ -1777,10 +1777,11 @@
     "tags": [
       "counseling",
       "benefits_support",
-      "medical_care"
+      "medical_care",
+      "uninsured"
     ],
     "contact": {
-      "phone": "030 690 33 30",
+      "phone": "030 690 33 5972",
       "website": "https://www.berliner-stadtmission.de/clearingstelle",
       "email": "clearingstelle@berliner-stadtmission.de"
     },
@@ -1839,8 +1840,7 @@
         "days": [
           "mo",
           "tu",
-          "th",
-          "fr"
+          "th"
         ],
         "start": "09:00",
         "end": "12:00",
@@ -1954,7 +1954,7 @@
         "end": "2001-03-31"
       }
     ],
-    "openingNote": "letzter Einlass 21:30 Uhr",
+    "openingNote": "letzter Einlass 22:30 Uhr",
     "targetGroup": "men"
   },
   {
@@ -1982,10 +1982,35 @@
     ],
     "contact": {
       "phone": "030 6146099",
-      "email": "verein@fixpunkt.org",
-      "website": "https://www.fixpunkt.org"
+      "email": "ska@fixpunktggmbh.org",
+      "website": "https://www.fixpunktggmbh.org/fuer-besucherinnen/kreuzberg-kontaktstelle-mit-drogenkonsumraum/"
     },
-    "openingHours": [],
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "11:00",
+        "end": "17:30",
+        "label": ""
+      },
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "18:00",
+        "end": "22:00",
+        "label": "Abendöffnung"
+      }
+    ],
     "description": "Niedrigschwellige Kontaktstelle mit Drogenkonsumraum für drogenabhängige Menschen, darunter viele obdachlose Personen. Beratung, Safer-Use-Angebote, Spritzentausch. Szenenah, lebensweltorientiert.",
     "seasonalNote": [
       {
@@ -1993,7 +2018,6 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Nach Website",
     "targetGroup": "all"
   },
   {
@@ -2002,11 +2026,11 @@
     "organization": "Fixpunkt e.V.",
     "color": "#bec6eb",
     "address": {
-      "street": "Ohlauer Straße 22",
-      "district": "Friedrichshain-Kreuzberg",
-      "postalCode": "10999",
+      "street": "Hermannstraße (Anita-Berber-Park)",
+      "district": "Neukölln",
+      "postalCode": "12049",
       "city": "Berlin",
-      "subdistrict": "Kreuzberg"
+      "subdistrict": "Neukölln"
     },
     "tags": [
       "substance_use_counseling",
@@ -2019,7 +2043,20 @@
       "email": "verein@fixpunkt.org",
       "website": "https://www.fixpunkt.org/neukoelln"
     },
-    "openingHours": [],
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "10:30",
+        "end": "17:00",
+        "label": ""
+      }
+    ],
     "description": "Niedrigschwellige ambulante Grundversorgung im Suchtbereich. Kostenlose und anonyme Beratung. Tagesstruktur, Beschäftigung und Qualifizierung für suchtmittelabhängige Menschen.",
     "seasonalNote": [
       {
@@ -2027,7 +2064,6 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Nach Website",
     "targetGroup": "all"
   },
   {
@@ -2045,11 +2081,13 @@
     "tags": [
       "housing",
       "counseling",
-      "long_term_support"
+      "long_term_support",
+      "outreach"
     ],
     "contact": {
       "phone": "030 29360695",
-      "website": "https://housingfirst.berlin"
+      "website": "https://housingfirst.berlin",
+      "email": "info@housingfirst.berlin"
     },
     "openingHours": [],
     "description": "Innovatives Projekt zur dauerhaften Bekämpfung von Obdachlosigkeit. Obdachlose Menschen erhalten sofort eine eigene Wohnung mit eigenem Mietvertrag und professionelle Betreuung. Zweiter Standort: Samoastraße 7, 13353 Berlin, Tel: 030 40916723.",
