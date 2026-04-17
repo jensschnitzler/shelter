@@ -5221,7 +5221,8 @@
       "counseling",
       "people_who_use_drugs",
       "pet_friendly",
-      "accessible"
+      "accessible",
+      "uninsured"
     ],
     "contact": {
       "phone": "0176 63 15 20 94",
@@ -5231,18 +5232,11 @@
     "openingHours": [
       {
         "days": [
-          "mo"
-        ],
-        "start": "10:00",
-        "end": "16:00",
-        "label": ""
-      },
-      {
-        "days": [
+          "mo",
           "tu",
           "th"
         ],
-        "start": "10:00",
+        "start": "11:00",
         "end": "18:00",
         "label": ""
       },
@@ -5251,8 +5245,8 @@
           "we"
         ],
         "start": "11:00",
-        "end": "15:00",
-        "label": ""
+        "end": "17:00",
+        "label": "Psychiatrie"
       }
     ],
     "description": "Ambulanz mit mehreren Fachrichtungen und wöchentlichen Kindersprechstunden.",
@@ -5262,7 +5256,7 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "youth"
+    "targetGroup": "all"
   },
   {
     "id": 109,
