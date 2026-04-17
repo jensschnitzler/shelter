@@ -7667,7 +7667,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 3264-1221"
@@ -7680,7 +7681,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 161,
@@ -7698,7 +7700,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 5472-7777"
@@ -7711,7 +7714,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 162,
@@ -7729,7 +7733,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 13022-9530"
@@ -7742,7 +7747,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 163,
@@ -7760,7 +7766,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 5472-3002"
@@ -7773,7 +7780,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 164,
@@ -7791,7 +7799,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 130172-112"
@@ -7804,7 +7813,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 165,
@@ -7822,7 +7832,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 450617056"
@@ -7835,7 +7846,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 166,
@@ -7853,7 +7865,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 2311-2267"
@@ -7866,7 +7879,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 167,
@@ -7884,7 +7898,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 4994-2217"
@@ -7897,7 +7912,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 168,
@@ -7915,7 +7931,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 13014-0"
@@ -7928,7 +7945,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 169,
@@ -7946,7 +7964,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 92790320"
@@ -7959,7 +7978,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 170,
@@ -7977,7 +7997,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 13012-1703"
@@ -7990,7 +8011,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 171,
@@ -8008,7 +8030,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 13013-2070"
@@ -8021,7 +8044,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 172,
@@ -8039,7 +8063,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 8109-0"
@@ -8052,7 +8077,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 173,
@@ -8070,7 +8096,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 13020-2113"
@@ -8083,7 +8110,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 174,
@@ -8101,7 +8129,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 13019-3646",
@@ -8135,7 +8164,8 @@
       "psychiatric_emergency_service",
       "mental_health",
       "medical_care",
-      "emergency"
+      "emergency",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 6741-2640"
@@ -8148,7 +8178,8 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Notaufnahme"
   },
   {
     "id": 176,
@@ -8158,15 +8189,22 @@
     "address": {
       "street": "Kiehlufer 43",
       "district": "Neukölln",
-      "postalCode": "",
+      "postalCode": "12059",
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
     "tags": [
       "counseling",
-      "housing"
+      "housing",
+      "long_term_support",
+      "substance_use_support",
+      "transitional_housing"
     ],
-    "contact": {},
+    "contact": {
+      "phone": "030 217 56225",
+      "email": "team@neue-wege-e-v.de",
+      "website": "https://www.neue-wege-e-v.de"
+    },
     "openingHours": [],
     "description": "Kontaktstelle für Menschen in Wohnungsnot.",
     "seasonalNote": [
@@ -8176,7 +8214,7 @@
       }
     ],
     "openingNote": "Bitte direkt erfragen",
-    "targetGroup": "all"
+    "targetGroup": "men"
   },
   {
     "id": 177,
