@@ -4072,7 +4072,9 @@
       "day_services",
       "hygiene",
       "food",
-      "clothing"
+      "clothing",
+      "counseling",
+      "laundry"
     ],
     "contact": {
       "phone": "0151 23 30 61 37",
@@ -4278,7 +4280,7 @@
       "pet_friendly"
     ],
     "contact": {
-      "phone": "0160 79 83 456",
+      "phone": "030 695 36614",
       "email": "gitschiner15@kght.de",
       "website": "https://www.gitschiner15.de"
     },
@@ -4336,11 +4338,13 @@
       "food",
       "counseling",
       "clothing",
-      "medical_care"
+      "medical_care",
+      "dental_care"
     ],
     "contact": {
       "email": "info.tt@hvd-bb.de",
-      "website": "https://www.humanistisch.de/tagestreff"
+      "website": "https://www.humanistisch.de/tagestreff",
+      "phone": "030 52695638"
     },
     "openingHours": [
       {
@@ -4361,7 +4365,7 @@
           "su"
         ],
         "start": "09:30",
-        "end": "15:30",
+        "end": "14:00",
         "label": ""
       }
     ],
@@ -4377,7 +4381,7 @@
   {
     "id": 89,
     "name": "Frauen*Treffpunkt Sophie",
-    "organization": "Köppjohann",
+    "organization": "Köpjohann'sche Stiftung",
     "color": "#eab8bc",
     "address": {
       "street": "Albrechtstr. 15",
