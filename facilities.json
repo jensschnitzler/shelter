@@ -5949,7 +5949,7 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Mo–Fr",
+    "openingNote": "Offene Sprechstunde Mo 09–12 Uhr; Di–Fr aufsuchend an verschiedenen Standorten",
     "targetGroup": "all"
   },
   {
@@ -6122,7 +6122,7 @@
     "address": {
       "street": "Prinzenallee 25/26",
       "district": "Mitte",
-      "postalCode": "13357",
+      "postalCode": "13359",
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
@@ -6169,7 +6169,7 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": "women"
   },
   {
     "id": 127,
