@@ -2130,8 +2130,8 @@
           "th",
           "fr"
         ],
-        "start": "10:00",
-        "end": "18:00",
+        "start": "09:00",
+        "end": "19:00",
         "label": ""
       }
     ],
@@ -2142,7 +2142,8 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": "all",
+    "openingNote": "24/7 Wohnheim; Sozialberatung Mo–Fr 09–19 Uhr"
   },
   {
     "id": 42,
@@ -2161,9 +2162,20 @@
       "counseling"
     ],
     "contact": {
-      "website": "https://www.rechtsambulanz.de"
+      "website": "https://www.rechtsambulanz.de",
+      "phone": "030 46067534"
     },
-    "openingHours": [],
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "we"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": "Beratung nach Terminvereinbarung"
+      }
+    ],
     "description": "Ehrenamtlich tätige Rechtsanwältinnen und Rechtsanwälte bieten kostenlose Beratung in Fragen des Sozialhilferechts für obdachlose und arme Menschen in Berlin Mitte.",
     "seasonalNote": [
       {
@@ -2171,7 +2183,7 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Nach Terminvereinbarung",
+    "openingNote": "Nur nach Terminvereinbarung",
     "targetGroup": "all"
   },
   {
@@ -2376,8 +2388,8 @@
           "sa",
           "su"
         ],
-        "start": "08:00",
-        "end": "18:00",
+        "start": "00:00",
+        "end": "24:00",
         "label": ""
       }
     ],
@@ -2388,7 +2400,7 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "telefonische 24h-Erreichbarkeit",
+    "openingNote": "24/7 persönlich und telefonisch (030 610062)",
     "targetGroup": "youth"
   },
   {
@@ -2468,7 +2480,8 @@
       "mental_health"
     ],
     "contact": {
-      "website": "https://www.heilsarmee.de/williamboothhaus"
+      "website": "https://www.heilsarmee.de/williamboothhaus",
+      "phone": "030 82008-40"
     },
     "openingHours": [
       {
@@ -2493,7 +2506,7 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": "men"
   },
   {
     "id": 50,
@@ -2638,7 +2651,8 @@
       "accessible"
     ],
     "contact": {
-      "website": "https://www.heiligkreuzpassion.de"
+      "website": "https://www.heiligkreuzpassion.de",
+      "phone": "030 6912007"
     },
     "openingHours": [
       {
