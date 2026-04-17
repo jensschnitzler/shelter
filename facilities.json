@@ -3471,8 +3471,7 @@
       "bed_space",
       "hygiene",
       "food",
-      "clothing",
-      "accessible"
+      "clothing"
     ],
     "contact": {
       "phone": "030 81 03 35 161",
@@ -3527,7 +3526,7 @@
     ],
     "contact": {
       "phone": "030 98 69 47 01",
-      "email": "m.e@merkurberlin.de",
+      "email": "info@merkurberlin.de",
       "website": "https://www.merkurberlin.de"
     },
     "openingHours": [
@@ -3553,7 +3552,8 @@
         "end": "2001-04-30"
       }
     ],
-    "targetGroup": "men"
+    "targetGroup": "men",
+    "openingNote": "letzter Einlass 22:00 Uhr"
   },
   {
     "id": 72,
@@ -3654,7 +3654,7 @@
     "organization": "Arche",
     "color": "#b9dfec",
     "address": {
-      "street": "Plesser Str. 3",
+      "street": "Plesser Str. 4",
       "district": "Treptow-Köpenick",
       "postalCode": "12435",
       "city": "Berlin",
