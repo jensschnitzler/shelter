@@ -334,8 +334,9 @@ function renderCard(f) {
 }
 
 // Flatten nested facility object into List.js-compatible flat values.
-// `tags_json` is intentionally NOT in valueNames so List.js won't touch it,
-// but it remains accessible via item.values().tags_json for filter callbacks.
+// tags_offer_json / tags_feature_json / target_group_json are intentionally NOT
+// in valueNames so List.js won't touch them, but they remain accessible via
+// item.values() for filter callbacks.
 function flattenFacility(f) {
     return {
         name:         f.name,
@@ -346,7 +347,8 @@ function flattenFacility(f) {
         // Include both tag keys and German labels so both are searchable
         tags_str:          [...f.tagsOffer, ...f.tagsFeature, ...f.tagsOffer.map(tagLabel), ...f.tagsFeature.map(tagLabel)].join(' '),
         // Not in valueNames — accessed only in filter callbacks
-        tags_json:         JSON.stringify([...f.tagsOffer, ...f.tagsFeature]),
+        tags_offer_json:   JSON.stringify(f.tagsOffer),
+        tags_feature_json: JSON.stringify(f.tagsFeature),
         target_group_json: JSON.stringify(f.targetGroup),
         facility_id:       f.id,
         html:         renderCard(f),
@@ -416,10 +418,11 @@ async function loadFacilities() {
 }
 
 async function init() {
-    const $stats     = $('#stats');
-    const $filters   = $('#filters');
-    const $tgFilters = $('#target-group-filters');
-    const $orgFilters = $('#org-filters');
+    const $stats          = $('#stats');
+    const $tgFilters      = $('#target-group-filters');
+    const $offerFilters   = $('#offer-filters');
+    const $featureFilters = $('#feature-filters');
+    const $orgFilters     = $('#org-filters');
     $stats.text('Einrichtungen werden geladen …').removeClass('is-error');
 
     let facilities;
@@ -452,7 +455,8 @@ async function init() {
     $('.readmore').readMore({ linesMax: 3 });
 
     // ── Mutable filter/sort state ─────────────────────────────────────────────
-    let activeTag          = null;
+    let activeOfferTag     = null;
+    let activeFeatureTag   = null;
     let activeTargetGroup  = null;
     let activeOrganization = null;
     let filterOpenNow      = false;
@@ -468,14 +472,15 @@ async function init() {
 
     // ── Filtering ─────────────────────────────────────────────────────────────
     function applyFilters() {
-        if (!activeTag && !activeTargetGroup && !activeOrganization && !filterOpenNow) {
+        if (!activeOfferTag && !activeFeatureTag && !activeTargetGroup && !activeOrganization && !filterOpenNow) {
             listInstance.filter();
             return;
         }
         const now = new Date();
         listInstance.filter(item => {
             const values = item.values();
-            if (activeTag && !JSON.parse(values.tags_json || '[]').includes(activeTag)) return false;
+            if (activeOfferTag   && !JSON.parse(values.tags_offer_json   || '[]').includes(activeOfferTag))   return false;
+            if (activeFeatureTag && !JSON.parse(values.tags_feature_json || '[]').includes(activeFeatureTag)) return false;
             if (activeTargetGroup) {
                 const groups = JSON.parse(values.target_group_json || '["all"]');
                 if (!groups.includes(activeTargetGroup) && !groups.includes('all')) return false;
@@ -554,13 +559,22 @@ async function init() {
         value => { activeTargetGroup = value; applyFilters(); }
     );
 
-    // ── Tag filters ───────────────────────────────────────────────────────────
-    const usedTags = [...new Set(facilities.flatMap(f => [...f.tagsOffer, ...f.tagsFeature]))]
+    // ── Offer tag filters ─────────────────────────────────────────────────────
+    const usedOfferTags = [...new Set(facilities.flatMap(f => f.tagsOffer))]
         .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'));
     buildFilterGroup(
-        $filters, 'Alle',
-        usedTags.map(tag => ({ id: tag, label: tagLabel(tag) })),
-        value => { activeTag = value; applyFilters(); }
+        $offerFilters, 'Alle',
+        usedOfferTags.map(tag => ({ id: tag, label: tagLabel(tag) })),
+        value => { activeOfferTag = value; applyFilters(); }
+    );
+
+    // ── Feature tag filters ───────────────────────────────────────────────────
+    const usedFeatureTags = [...new Set(facilities.flatMap(f => f.tagsFeature))]
+        .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'));
+    buildFilterGroup(
+        $featureFilters, 'Alle',
+        usedFeatureTags.map(tag => ({ id: tag, label: tagLabel(tag) })),
+        value => { activeFeatureTag = value; applyFilters(); }
     );
 
     // ── Organization filters ──────────────────────────────────────────────────
