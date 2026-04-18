@@ -124,7 +124,7 @@ function normalizeSeasonalPeriods(raw) {
 
 function normalizeSeasonalNote(rawPeriods, rawText) {
     return {
-        periods: Array.isArray(rawPeriods) ? normalizeSeasonalPeriods(rawPeriods) : [],
+        periods: normalizeSeasonalPeriods(rawPeriods), // handles non-arrays internally
         text: rawText ? String(rawText) : '',
     };
 }
@@ -333,6 +333,12 @@ function renderCard(f) {
 </article>`;
 }
 
+// Builds the searchable tag string: raw keys + translated labels for both tag groups.
+function buildTagSearchStr(tagsOffer, tagsFeature) {
+    const all = [...tagsOffer, ...tagsFeature];
+    return [...all, ...all.map(tagLabel)].join(' ');
+}
+
 // Flatten nested facility object into List.js-compatible flat values.
 // tags_offer_json / tags_feature_json / target_group_json are intentionally NOT
 // in valueNames so List.js won't touch them, but they remain accessible via
@@ -344,8 +350,7 @@ function flattenFacility(f) {
         subdistrict:  f.address.subdistrict,
         district:     f.address.district,
         description:  f.description,
-        // Include both tag keys and German labels so both are searchable
-        tags_str:          [...f.tagsOffer, ...f.tagsFeature, ...f.tagsOffer.map(tagLabel), ...f.tagsFeature.map(tagLabel)].join(' '),
+        tags_str:          buildTagSearchStr(f.tagsOffer, f.tagsFeature),
         // Not in valueNames — accessed only in filter callbacks
         tags_offer_json:   JSON.stringify(f.tagsOffer),
         tags_feature_json: JSON.stringify(f.tagsFeature),
@@ -596,12 +601,21 @@ function initCollapsibleControls() {
     $('.controls--collapsible').each(function () {
         const $nav = $(this);
 
-        // Move all filter buttons into a pills wrapper
+        // Move all filter buttons into a dedicated pills row
         const $pills = $('<div class="controls__pills"></div>');
         $nav.children('.filter-btn').appendTo($pills);
         $nav.append($pills);
 
-        // Insert toggle button between the label and the pills wrapper
+        // Measure overflow before collapsing — offsetHeight reflects full content at this point
+        const pillsEl   = $pills[0];
+        const firstPill = $pills.children('.filter-btn')[0];
+        const rowPx     = firstPill ? firstPill.offsetHeight : 0;
+
+        if (rowPx === 0 || pillsEl.offsetHeight <= rowPx + 4) {
+            return; // Single row — nothing to collapse, skip toggle entirely
+        }
+
+        // Inject toggle button into the label row (between label and pills)
         const $toggle = $(
             '<button class="controls__toggle" aria-expanded="false">' +
             '<span class="controls__toggle-label">Mehr</span>' +
@@ -610,27 +624,15 @@ function initCollapsibleControls() {
         );
         $nav.children('span').first().after($toggle);
 
-        // Detect whether pills wrap to more than one row (measured before collapsing)
-        const pillsEl     = $pills[0];
-        const firstPillEl = $pills.children('.filter-btn')[0];
-        const singleRowPx = firstPillEl ? firstPillEl.offsetHeight : 0;
-        const isMultiRow  = singleRowPx > 0 && pillsEl.offsetHeight > singleRowPx + 4;
-
-        if (!isMultiRow) {
-            $toggle.hide();
-            return;
-        }
-
-        // Collapse to one row
-        const collapsedPx = singleRowPx;
-        $pills.css('max-height', collapsedPx + 'px');
+        // Start collapsed
+        $pills.css('max-height', rowPx + 'px');
         $nav.addClass('is-collapsed');
 
         $toggle.on('click', function () {
             const isCollapsed = $nav.hasClass('is-collapsed');
 
             if (isCollapsed) {
-                // Expand: animate max-height to full scroll height
+                // Expand: animate max-height to full scroll height, then clear for free reflow
                 $nav.removeClass('is-collapsed');
                 $pills.css('max-height', pillsEl.scrollHeight + 'px');
                 $pills.one('transitionend', () => {
@@ -639,12 +641,12 @@ function initCollapsibleControls() {
                 $toggle.attr('aria-expanded', 'true');
                 $toggle.find('.controls__toggle-label').text('Weniger');
             } else {
-                // Collapse: set explicit height first (needed when max-height is 'none'),
-                // then animate down after two animation frames
+                // Collapse: set explicit start value first — max-height: none cannot be transitioned.
+                // Double rAF ensures the browser commits the new value before the transition begins.
                 $pills.css('max-height', pillsEl.scrollHeight + 'px');
                 requestAnimationFrame(() => requestAnimationFrame(() => {
                     $nav.addClass('is-collapsed');
-                    $pills.css('max-height', collapsedPx + 'px');
+                    $pills.css('max-height', rowPx + 'px');
                 }));
                 $toggle.attr('aria-expanded', 'false');
                 $toggle.find('.controls__toggle-label').text('Mehr');

@@ -318,7 +318,9 @@ button.pill.active {
     color: var(--text-secondary);
     font-size: var(--fontsize-s);
     cursor: pointer;
-    transition: all 0.15s;
+    transition:
+        border-color 0.15s,
+        color 0.15s;
 }
 
 .controls__toggle:hover {
@@ -367,9 +369,6 @@ button.pill.active {
     color: var(--color-greyDark);
     font-size: var(--fontsize-s);
     text-align: center;
-    a {
-        color: var(--color-blueDark);
-    }
 }
 
 .site-footer p + p {
@@ -419,6 +418,7 @@ li.item .html {
     box-shadow: var(--shadow);
 }
 
+/* Multiply blend lets text and icons render correctly on colored card backgrounds */
 .card > * {
     mix-blend-mode: multiply;
 }
@@ -580,7 +580,6 @@ a.meta-row:hover {
     transition:
         background 0.15s,
         color 0.15s;
-    position: relative;
 }
 
 .contact-link:hover {
