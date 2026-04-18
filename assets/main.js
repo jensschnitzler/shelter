@@ -586,7 +586,71 @@ async function init() {
         value => { activeOrganization = value; applyFilters(); }
     );
 
+    initCollapsibleControls();
     updateStats();
+}
+
+// Wraps filter buttons in collapsible pill containers for each .controls--collapsible nav.
+// Only collapses a nav when its pills actually wrap to more than one row.
+function initCollapsibleControls() {
+    $('.controls--collapsible').each(function () {
+        const $nav = $(this);
+
+        // Move all filter buttons into a pills wrapper
+        const $pills = $('<div class="controls__pills"></div>');
+        $nav.children('.filter-btn').appendTo($pills);
+        $nav.append($pills);
+
+        // Insert toggle button between the label and the pills wrapper
+        const $toggle = $(
+            '<button class="controls__toggle" aria-expanded="false">' +
+            '<span class="controls__toggle-label">Mehr</span>' +
+            '<span class="material-symbols-outlined" aria-hidden="true">expand_more</span>' +
+            '</button>'
+        );
+        $nav.children('span').first().after($toggle);
+
+        // Detect whether pills wrap to more than one row (measured before collapsing)
+        const pillsEl     = $pills[0];
+        const firstPillEl = $pills.children('.filter-btn')[0];
+        const singleRowPx = firstPillEl ? firstPillEl.offsetHeight : 0;
+        const isMultiRow  = singleRowPx > 0 && pillsEl.offsetHeight > singleRowPx + 4;
+
+        if (!isMultiRow) {
+            $toggle.hide();
+            return;
+        }
+
+        // Collapse to one row
+        const collapsedPx = singleRowPx;
+        $pills.css('max-height', collapsedPx + 'px');
+        $nav.addClass('is-collapsed');
+
+        $toggle.on('click', function () {
+            const isCollapsed = $nav.hasClass('is-collapsed');
+
+            if (isCollapsed) {
+                // Expand: animate max-height to full scroll height
+                $nav.removeClass('is-collapsed');
+                $pills.css('max-height', pillsEl.scrollHeight + 'px');
+                $pills.one('transitionend', () => {
+                    if (!$nav.hasClass('is-collapsed')) $pills.css('max-height', 'none');
+                });
+                $toggle.attr('aria-expanded', 'true');
+                $toggle.find('.controls__toggle-label').text('Weniger');
+            } else {
+                // Collapse: set explicit height first (needed when max-height is 'none'),
+                // then animate down after two animation frames
+                $pills.css('max-height', pillsEl.scrollHeight + 'px');
+                requestAnimationFrame(() => requestAnimationFrame(() => {
+                    $nav.addClass('is-collapsed');
+                    $pills.css('max-height', collapsedPx + 'px');
+                }));
+                $toggle.attr('aria-expanded', 'false');
+                $toggle.find('.controls__toggle-label').text('Mehr');
+            }
+        });
+    });
 }
 
 init();

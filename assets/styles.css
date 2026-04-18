@@ -292,6 +292,54 @@ button.pill.active {
     font-size: var(--fontsize-s);
 }
 
+/* ── Collapsible controls ── */
+.controls__pills {
+    flex-basis: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.45rem;
+    overflow: hidden;
+    transition: max-height 0.25s ease;
+}
+
+.controls--collapsible:not(.is-collapsed) .controls__pills {
+    overflow: visible;
+}
+
+.controls__toggle {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    margin-left: auto;
+    padding: 0.3rem 0.62rem 0.28rem;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--text-secondary);
+    font-size: var(--fontsize-s);
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.controls__toggle:hover {
+    border-color: var(--accent);
+    color: var(--accent);
+}
+
+.controls__toggle:focus-visible {
+    outline: 3px solid var(--focus-ring);
+    outline-offset: 2px;
+}
+
+.controls__toggle .material-symbols-outlined {
+    font-size: 1em;
+    transition: transform 0.25s ease;
+}
+
+.controls--collapsible:not(.is-collapsed) .controls__toggle .material-symbols-outlined {
+    transform: rotate(180deg);
+}
+
 /* ── Stats ── */
 #stats {
     padding: 0.65rem 1.5rem;
