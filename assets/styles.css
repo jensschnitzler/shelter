@@ -419,7 +419,7 @@ li.item .html {
 .card-meta {
     display: flex;
     flex-direction: column;
-    gap: 0.4rem;
+    gap: 0;
     font-size: var(--fontsize-s);
     color: var(--text-secondary);
 }
@@ -428,6 +428,14 @@ li.item .html {
     display: flex;
     align-items: flex-start;
     gap: 0.5rem;
+    padding: 0.2rem 0.7rem;
+    margin-inline: -0.7rem;
+    border-radius: var(--radius);
+    transition: background 0.15s;
+}
+
+a.meta-row:hover {
+    background: var(--color-blueWash);
 }
 
 .meta-icon {
@@ -445,13 +453,8 @@ li.item .html {
 }
 
 .meta-address {
-    color: inherit;
-    text-decoration: none;
-}
-
-.meta-address:hover {
-    text-decoration: underline;
     color: var(--accent);
+    text-decoration: none;
 }
 
 /* ── Details / Description ── */

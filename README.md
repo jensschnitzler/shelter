@@ -173,6 +173,8 @@ vendored libraries, and `facilities.json`.
 - [x] Refactor, reorganize tags
 - [x] Add analytics (from Cloudflare)
 - [x] Remove sorting
+- [x] Add filter for organizations
+- [x] Separate filter tags into "Angebot" and "Merkmal"
 - [ ] ~Change wording "Obdachlos" to "Wohnungslos"~
 - [ ] Add map
 - [ ] Add feature to report wrong and outdated information
@@ -183,6 +185,5 @@ vendored libraries, and `facilities.json`.
 - [ ] Add form for feature requests, bug reports
 - [ ] Add filter "open now"
 - [ ] Add german phone prefix
-- [ ] Add filter for organizations
-- [x] Separate filter tags into "Angebot" and "Merkmal"
 - [ ] Add note regarding cookies, data privacy to fineprint.
+- [ ] Make some controls collapsible.
