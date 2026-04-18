@@ -11,17 +11,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "bed_space",
-      "pet_friendly",
-      "medical_care"
-    ],
     "contact": {
       "phone": "030 69033529",
       "website": "https://www.berliner-stadtmission.de"
@@ -50,7 +39,22 @@
       }
     ],
     "openingNote": "letzter Einlass 04:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "bed_space",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 2,
@@ -64,17 +68,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "medical_care",
-      "food",
-      "bed_space",
-      "clothing",
-      "pet_friendly",
-      "accessible",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 66628770",
       "website": "https://www.berliner-stadtmission.de",
@@ -103,8 +96,23 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all",
-    "openingNote": "letzter Einlass 23:00 Uhr"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "letzter Einlass 23:00 Uhr",
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "medical_care",
+      "food",
+      "bed_space",
+      "clothing",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 3,
@@ -118,15 +126,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "hygiene",
-      "counseling",
-      "bed_space",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 3912722",
       "website": "https://www.berliner-stadtmission.de/not-franklinstr",
@@ -156,7 +155,19 @@
       }
     ],
     "openingNote": "letzter Einlass 21:30 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "hygiene",
+      "counseling",
+      "bed_space",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 4,
@@ -170,14 +181,6 @@
       "city": "Berlin",
       "subdistrict": "Reinickendorf"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "hygiene",
-      "bed_space",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 32514132",
       "website": "https://www.berliner-stadtmission.de",
@@ -207,7 +210,19 @@
       }
     ],
     "openingNote": "Einlass bis 04:00 Uhr",
-    "targetGroup": "men"
+    "targetGroup": [
+      "men"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "hygiene",
+      "bed_space"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 5,
@@ -221,15 +236,6 @@
       "city": "Berlin",
       "subdistrict": "Prenzlauer Berg"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "counseling",
-      "bed_space",
-      "clothing",
-      "hygiene"
-    ],
     "contact": {
       "phone": "030 47 90 58 10",
       "email": "notuebernachtung@strassenfeger.org",
@@ -259,7 +265,19 @@
       }
     ],
     "openingNote": "letzter Einlass 21:30 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "counseling",
+      "bed_space",
+      "clothing",
+      "hygiene"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 6,
@@ -273,12 +291,6 @@
       "city": "Berlin",
       "subdistrict": "Marzahn"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "hygiene",
-      "bed_space"
-    ],
     "contact": {
       "phone": "030 99 27 33 76 / 030 93 66 10 87",
       "website": "https://kaeltehilfe-berlin.de",
@@ -308,7 +320,16 @@
       }
     ],
     "openingNote": "letzter Einlass 22:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "hygiene",
+      "bed_space"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 7,
@@ -322,17 +343,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "hygiene",
-      "bed_space",
-      "clothing",
-      "pet_friendly",
-      "medical_care",
-      "multilingual"
-    ],
     "contact": {
       "phone": "030 50562540",
       "website": "https://www.johanniter.de/spenden/projekte-deutschland/soziale-projekte/wohnungslosenhilfe-in-berlin",
@@ -362,7 +372,22 @@
       }
     ],
     "openingNote": "letzter Einlass 23:00 Uhr",
-    "targetGroup": "men"
+    "targetGroup": [
+      "men"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "hygiene",
+      "bed_space",
+      "clothing",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "multilingual"
+    ]
   },
   {
     "id": 8,
@@ -376,14 +401,6 @@
       "city": "Berlin",
       "subdistrict": "Schöneberg"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "clothing",
-      "bed_space",
-      "accessible"
-    ],
     "contact": {
       "phone": "0171 5200730",
       "website": "https://www.ib-berlin.de/kaeltehilfe",
@@ -413,7 +430,19 @@
       }
     ],
     "openingNote": "letzter Einlass 22:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "clothing",
+      "bed_space"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 9,
@@ -427,14 +456,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "counseling",
-      "bed_space",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 29 35 05 57",
       "email": "notuebernachtung@awo-spree-wuhle.de",
@@ -464,7 +485,18 @@
       }
     ],
     "openingNote": "Mo bis 10:00 Uhr, Mi bis 12:00 Uhr; letzter Einlass 22:00 Uhr",
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "counseling",
+      "bed_space",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 10,
@@ -478,16 +510,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "counseling",
-      "bed_space",
-      "clothing",
-      "hygiene",
-      "laundry"
-    ],
     "contact": {
       "phone": "030 2832939",
       "website": "https://www.gebewo-pro.berlin",
@@ -524,7 +546,20 @@
       }
     ],
     "openingNote": "letzter Einlass 22:00 Uhr",
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "counseling",
+      "bed_space",
+      "clothing",
+      "hygiene",
+      "laundry"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 11,
@@ -538,14 +573,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "counseling",
-      "bed_space",
-      "food",
-      "hygiene"
-    ],
     "contact": {
       "phone": "0151 14 64 87 58 / 030 47 75 32 670",
       "email": "evasobdach@skf-berlin.de",
@@ -574,8 +601,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women",
-    "openingNote": "letzter Einlass 21:00 Uhr"
+    "targetGroup": [
+      "women"
+    ],
+    "openingNote": "letzter Einlass 21:00 Uhr",
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "counseling",
+      "bed_space",
+      "food",
+      "hygiene"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 12,
@@ -589,15 +627,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "hygiene",
-      "open_24h",
-      "bed_space",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 202 15 98 70",
       "email": "notuebernachtung@fsd-stiftung.de",
@@ -626,7 +655,20 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "hygiene",
+      "bed_space",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "open_24h"
+    ]
   },
   {
     "id": 13,
@@ -640,14 +682,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "shelter",
-      "counseling",
-      "overnight_shelter",
-      "bed_space",
-      "food",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 61073256",
       "email": "notunterkunft.familien@diakonie-stadtmitte.de",
@@ -677,7 +711,18 @@
       }
     ],
     "openingNote": "Aufnahme",
-    "targetGroup": "families"
+    "targetGroup": [
+      "families"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "counseling",
+      "overnight_shelter",
+      "bed_space",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 14,
@@ -691,16 +736,6 @@
       "city": "Berlin",
       "subdistrict": "Berlinweit / Mobile"
     },
-    "tags": [
-      "outreach",
-      "transport",
-      "food",
-      "clothing",
-      "emergency",
-      "outreach_bus",
-      "mobile_support",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 690333690",
       "website": "https://www.berliner-stadtmission.de/kaeltehilfe"
@@ -728,7 +763,21 @@
         "end": "2001-03-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "transport",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "outreach",
+      "emergency",
+      "outreach_bus",
+      "mobile_support",
+      "accessible"
+    ]
   },
   {
     "id": 15,
@@ -742,15 +791,6 @@
       "city": "Berlin",
       "subdistrict": "Berlinweit / Mobile"
     },
-    "tags": [
-      "outreach",
-      "transport",
-      "food",
-      "clothing",
-      "emergency",
-      "outreach_bus",
-      "mobile_support"
-    ],
     "contact": {
       "phone": "030 6003001010",
       "website": "https://www.drk-berlin.de"
@@ -778,7 +818,20 @@
         "end": "2001-03-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "transport",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "outreach",
+      "emergency",
+      "outreach_bus",
+      "mobile_support"
+    ]
   },
   {
     "id": 16,
@@ -792,17 +845,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "community",
-      "day_services",
-      "pet_friendly",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 8913000",
       "website": "https://www.berliner-stadtmission.de",
@@ -829,7 +871,22 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "community",
+      "day_services"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 17,
@@ -843,16 +900,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "benefits_support",
-      "day_services",
-      "medical_care"
-    ],
     "contact": {
       "phone": "030 30839440",
       "email": "mail@gebewo.berlin",
@@ -886,7 +933,20 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "benefits_support",
+      "day_services",
+      "medical_care"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 18,
@@ -900,18 +960,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "medical_care",
-      "laundry",
-      "day_services",
-      "accessible",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 6111464",
       "email": "waermestube@buergerhilfe-ggmbh.de",
@@ -958,7 +1006,23 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "medical_care",
+      "laundry",
+      "day_services"
+    ],
+    "tagsFeature": [
+      "accessible",
+      "pet_friendly"
+    ]
   },
   {
     "id": 19,
@@ -972,16 +1036,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "medical_care",
-      "day_services",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 6156324",
       "email": "tagesstaette@diakonie-stadtmitte.de",
@@ -1022,7 +1076,21 @@
       }
     ],
     "openingNote": "nur Beratung; letztes Wochenende im Monat Sa & So 08:30–14:00 Uhr, Do geschlossen",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "medical_care",
+      "day_services"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 20,
@@ -1036,15 +1104,6 @@
       "city": "Berlin",
       "subdistrict": "Prenzlauer Berg"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "hygiene",
-      "counseling",
-      "laundry",
-      "day_services",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 447 262 210",
       "website": "https://beratung.immanuel.de",
@@ -1078,7 +1137,20 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "laundry",
+      "day_services"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 21,
@@ -1092,16 +1164,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg / Zoo"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "social_support",
-      "day_services",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 3138088",
       "website": "https://www.berliner-stadtmission.de/bahnhofsmission",
@@ -1131,7 +1193,21 @@
       }
     ],
     "openingNote": "Täglich 08:00–21:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "social_support",
+      "day_services"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 22,
@@ -1145,15 +1221,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte / Hauptbahnhof"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "counseling",
-      "social_support",
-      "day_services",
-      "accessible",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 22605805",
       "email": "berlin-hauptbahnhof@bahnhofsmission.de",
@@ -1196,7 +1263,20 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "counseling",
+      "social_support",
+      "day_services"
+    ],
+    "tagsFeature": [
+      "accessible",
+      "pet_friendly"
+    ]
   },
   {
     "id": 23,
@@ -1210,12 +1290,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg / Zoo"
     },
-    "tags": [
-      "hygiene",
-      "showers",
-      "laundry",
-      "toilets"
-    ],
     "contact": {
       "phone": "030 3138088",
       "website": "https://www.berliner-stadtmission.de"
@@ -1244,7 +1318,16 @@
       }
     ],
     "openingNote": "letzter Duscheinlass 15:30 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "hygiene",
+      "showers",
+      "laundry",
+      "toilets"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 24,
@@ -1258,11 +1341,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "clothing",
-      "hygiene",
-      "clothing_donations"
-    ],
     "contact": {
       "phone": "030 69033518",
       "website": "https://www.berliner-stadtmission.de"
@@ -1288,7 +1366,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "clothing",
+      "hygiene",
+      "clothing_donations"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 25,
@@ -1302,10 +1388,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "hygiene",
-      "laundry"
-    ],
     "contact": {
       "phone": "0157 53683825",
       "website": "https://www.berliner-stadtmission.de"
@@ -1329,7 +1411,14 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "hygiene",
+      "laundry"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 26,
@@ -1343,9 +1432,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "clothing"
-    ],
     "contact": {
       "phone": "030 6003005132",
       "website": "https://www.drk-berlin.de",
@@ -1376,7 +1462,13 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 27,
@@ -1390,12 +1482,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg / Zoo"
     },
-    "tags": [
-      "medical_care",
-      "uninsured",
-      "people_who_use_drugs",
-      "mental_health"
-    ],
     "contact": {
       "phone": "01523 464 40 36",
       "email": "ambulanz@caritas-berlin.de",
@@ -1428,7 +1514,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "uninsured",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "mental_health"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 28,
@@ -1442,13 +1537,6 @@
       "city": "Berlin",
       "subdistrict": "Berlinweit / Mobile"
     },
-    "tags": [
-      "medical_care",
-      "outreach",
-      "uninsured",
-      "mobile_support",
-      "people_who_use_drugs"
-    ],
     "contact": {
       "phone": "0172 30 73 985",
       "email": "arztmobil@caritas-berlin.de",
@@ -1474,7 +1562,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "uninsured",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "outreach",
+      "mobile_support"
+    ]
   },
   {
     "id": 29,
@@ -1488,12 +1587,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "medical_care",
-      "dental_care",
-      "uninsured",
-      "mobile_support"
-    ],
     "contact": {
       "phone": "0152 041 86633",
       "email": "zahnmobil@caritas-berlin.de",
@@ -1508,7 +1601,17 @@
       }
     ],
     "openingNote": "Mobile Termine: Di vor der Franziskanerkirche (Pankow), Do vor der Caritas-Krankenwohnung (Turmstr.)",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "uninsured"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "dental_care"
+    ],
+    "tagsFeature": [
+      "mobile_support"
+    ]
   },
   {
     "id": 30,
@@ -1522,11 +1625,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "medical_care",
-      "recovery_housing",
-      "nursing_care"
-    ],
     "contact": {
       "phone": "0152 53000671",
       "email": "krankenwohnung-pflege@caritas-berlin.de",
@@ -1555,7 +1653,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "recovery_housing",
+      "nursing_care"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 31,
@@ -1569,11 +1675,6 @@
       "city": "Berlin",
       "subdistrict": "Wilmersdorf"
     },
-    "tags": [
-      "medical_care",
-      "uninsured",
-      "anonymous"
-    ],
     "contact": {
       "phone": "030 82 72 2600",
       "email": "mmm.berlin@malteser.org",
@@ -1599,7 +1700,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "uninsured"
+    ],
+    "tagsOffer": [
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "anonymous"
+    ]
   },
   {
     "id": 32,
@@ -1613,18 +1723,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "medical_care",
-      "dental_care",
-      "legal_aid",
-      "counseling",
-      "food",
-      "clothing",
-      "uninsured",
-      "mental_health",
-      "psychological_counseling",
-      "substance_use_support"
-    ],
     "contact": {
       "phone": "030 28884598",
       "email": "info@delatorre-stiftung.de",
@@ -1658,7 +1756,22 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "uninsured"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "dental_care",
+      "legal_aid",
+      "counseling",
+      "food",
+      "clothing",
+      "mental_health",
+      "psychological_counseling",
+      "substance_use_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 145,
@@ -1672,12 +1785,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "counseling",
-      "mental_health",
-      "psychological_counseling",
-      "substance_use_support"
-    ],
     "contact": {
       "phone": "030 28884598",
       "email": "info@delatorre-stiftung.de",
@@ -1701,7 +1808,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "mental_health",
+      "psychological_counseling",
+      "substance_use_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 33,
@@ -1715,13 +1831,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "medical_care",
-      "outreach",
-      "accessible",
-      "pet_friendly",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 69033572",
       "website": "https://www.berliner-stadtmission.de"
@@ -1760,7 +1869,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "outreach",
+      "accessible",
+      "pet_friendly"
+    ]
   },
   {
     "id": 34,
@@ -1774,12 +1894,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "counseling",
-      "benefits_support",
-      "medical_care",
-      "uninsured"
-    ],
     "contact": {
       "phone": "030 690 33 5972",
       "website": "https://www.berliner-stadtmission.de/clearingstelle",
@@ -1811,7 +1925,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "uninsured"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "benefits_support",
+      "medical_care"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 35,
@@ -1825,11 +1948,6 @@
       "city": "Berlin",
       "subdistrict": "Tiergarten"
     },
-    "tags": [
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 3904740",
       "email": "info@wohnungslos-berlin.de",
@@ -1855,7 +1973,15 @@
       }
     ],
     "openingNote": "Anmeldung bis 11:30 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 36,
@@ -1869,11 +1995,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 66633390",
       "email": "awh-am-mehringdamm@caritas-berlin.de",
@@ -1905,7 +2026,15 @@
       }
     ],
     "openingNote": "weitere Termine nach Vereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 37,
@@ -1919,13 +2048,6 @@
       "city": "Berlin",
       "subdistrict": "Reinickendorf"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "hygiene",
-      "bed_space"
-    ],
     "contact": {
       "phone": "0172 39 27 384",
       "website": "https://www.caritas-berlin.de",
@@ -1955,7 +2077,17 @@
       }
     ],
     "openingNote": "letzter Einlass 22:30 Uhr",
-    "targetGroup": "men"
+    "targetGroup": [
+      "men"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "hygiene",
+      "bed_space"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 38,
@@ -1969,17 +2101,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "substance_use_counseling",
-      "harm_reduction",
-      "medical_care",
-      "counseling",
-      "substance_use_support",
-      "people_who_use_drugs",
-      "food",
-      "pet_friendly",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 6146099",
       "email": "ska@fixpunktggmbh.org",
@@ -2018,7 +2139,22 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_counseling",
+      "harm_reduction",
+      "medical_care",
+      "counseling",
+      "substance_use_support",
+      "food"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 39,
@@ -2032,12 +2168,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "substance_use_counseling",
-      "harm_reduction",
-      "medical_care",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 6167558 87",
       "email": "verein@fixpunkt.org",
@@ -2064,7 +2194,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "substance_use_counseling",
+      "harm_reduction",
+      "medical_care",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 40,
@@ -2078,12 +2217,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "housing",
-      "counseling",
-      "long_term_support",
-      "outreach"
-    ],
     "contact": {
       "phone": "030 29360695",
       "website": "https://housingfirst.berlin",
@@ -2098,7 +2231,17 @@
       }
     ],
     "openingNote": "Mo–Fr (Bürozeiten)",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "counseling",
+      "long_term_support"
+    ],
+    "tagsFeature": [
+      "outreach"
+    ]
   },
   {
     "id": 41,
@@ -2112,11 +2255,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "transitional_housing",
-      "counseling",
-      "long_term_support"
-    ],
     "contact": {
       "phone": "030 690333131",
       "website": "https://www.berliner-stadtmission.de"
@@ -2142,8 +2280,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all",
-    "openingNote": "24/7 Wohnheim; Sozialberatung Mo–Fr 09–19 Uhr"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Wohnheim; Sozialberatung Mo–Fr 09–19 Uhr",
+    "tagsOffer": [
+      "transitional_housing",
+      "counseling",
+      "long_term_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 42,
@@ -2157,10 +2303,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "legal_aid",
-      "counseling"
-    ],
     "contact": {
       "website": "https://www.rechtsambulanz.de",
       "phone": "030 46067534"
@@ -2184,7 +2326,14 @@
       }
     ],
     "openingNote": "Nur nach Terminvereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "legal_aid",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 43,
@@ -2198,10 +2347,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "legal_aid",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 28884598",
       "email": "info@delatorre-stiftung.de",
@@ -2216,7 +2361,14 @@
       }
     ],
     "openingNote": "Nach Terminvereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "legal_aid",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 44,
@@ -2230,12 +2382,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "housing",
-      "counseling",
-      "benefits_support",
-      "housing_support_office"
-    ],
     "contact": {
       "phone": "030 902911771",
       "email": "soz-wohnen@charlottenburg-wilmersdorf.de",
@@ -2259,7 +2405,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "counseling",
+      "benefits_support",
+      "housing_support_office"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 45,
@@ -2273,12 +2428,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "housing",
-      "counseling",
-      "benefits_support",
-      "housing_support_office"
-    ],
     "contact": {
       "phone": "030 902981771",
       "email": "soz-wohnen@ba-fk.berlin.de",
@@ -2303,7 +2452,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "counseling",
+      "benefits_support",
+      "housing_support_office"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 46,
@@ -2317,13 +2475,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "youth_shelter",
-      "counseling",
-      "outreach",
-      "overnight_shelter",
-      "bed_space"
-    ],
     "contact": {
       "phone": "030 61006800",
       "website": "https://www.kub-berlin.de"
@@ -2352,7 +2503,18 @@
       }
     ],
     "openingNote": "Beratung: Mo–Fr (Zeiten auf Website)",
-    "targetGroup": "youth"
+    "targetGroup": [
+      "youth"
+    ],
+    "tagsOffer": [
+      "youth_shelter",
+      "counseling",
+      "overnight_shelter",
+      "bed_space"
+    ],
+    "tagsFeature": [
+      "outreach"
+    ]
   },
   {
     "id": 47,
@@ -2366,12 +2528,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "youth_shelter",
-      "counseling",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 610062",
       "email": "info@jugendnotdienst-berlin.de",
@@ -2401,7 +2557,17 @@
       }
     ],
     "openingNote": "24/7 persönlich und telefonisch (030 610062)",
-    "targetGroup": "youth"
+    "targetGroup": [
+      "youth"
+    ],
+    "tagsOffer": [
+      "youth_shelter",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 48,
@@ -2415,17 +2581,6 @@
       "city": "Berlin",
       "subdistrict": "Prenzlauer Berg"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "laundry",
-      "day_services",
-      "accessible",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 53842392",
       "email": "berlin-prenzlauerberg@heilsarmee.de",
@@ -2459,7 +2614,22 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing",
+      "laundry",
+      "day_services"
+    ],
+    "tagsFeature": [
+      "accessible",
+      "pet_friendly"
+    ]
   },
   {
     "id": 49,
@@ -2473,12 +2643,6 @@
       "city": "Berlin",
       "subdistrict": "Friedenau"
     },
-    "tags": [
-      "transitional_housing",
-      "counseling",
-      "long_term_support",
-      "mental_health"
-    ],
     "contact": {
       "website": "https://www.heilsarmee.de/williamboothhaus",
       "phone": "030 82008-40"
@@ -2506,7 +2670,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "men"
+    "targetGroup": [
+      "men"
+    ],
+    "tagsOffer": [
+      "transitional_housing",
+      "counseling",
+      "long_term_support",
+      "mental_health"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 50,
@@ -2520,14 +2693,6 @@
       "city": "Berlin",
       "subdistrict": "Pankow"
     },
-    "tags": [
-      "food",
-      "soup_kitchen",
-      "clothing",
-      "hygiene",
-      "counseling",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 48839660",
       "email": "suppenkueche@franziskaner.de",
@@ -2587,7 +2752,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food",
+      "soup_kitchen",
+      "clothing",
+      "hygiene",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 51,
@@ -2601,10 +2778,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "food",
-      "soup_kitchen"
-    ],
     "contact": {
       "phone": "030 6126408"
     },
@@ -2627,7 +2800,14 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food",
+      "soup_kitchen"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 52,
@@ -2641,15 +2821,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "clothing",
-      "medical_care",
-      "community",
-      "day_services",
-      "accessible"
-    ],
     "contact": {
       "website": "https://www.heiligkreuzpassion.de",
       "phone": "030 6912007"
@@ -2671,7 +2842,20 @@
         "end": "2001-04-30"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "clothing",
+      "medical_care",
+      "community",
+      "day_services"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 53,
@@ -2685,14 +2869,6 @@
       "city": "Berlin",
       "subdistrict": "Prenzlauer Berg"
     },
-    "tags": [
-      "shelter",
-      "overnight_shelter",
-      "food",
-      "community",
-      "night_cafe",
-      "bed_space"
-    ],
     "contact": {
       "email": "nachtcafeherzjesu@gmail.com",
       "website": "https://www.bernhard-lichtenberg.berlin"
@@ -2715,7 +2891,18 @@
       }
     ],
     "openingNote": "letzter Einlass 19:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "overnight_shelter",
+      "food",
+      "community",
+      "night_cafe",
+      "bed_space"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 54,
@@ -2729,13 +2916,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "outreach",
-      "food",
-      "clothing",
-      "hygiene",
-      "mobile_support"
-    ],
     "contact": {
       "phone": "030 23544217",
       "email": "kontakt@berliner-obdachlosenhilfe.de",
@@ -2750,7 +2930,18 @@
       }
     ],
     "openingNote": "Mi, Sa, So an wechselnden Standorten und Uhrzeiten",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food",
+      "clothing",
+      "hygiene"
+    ],
+    "tagsFeature": [
+      "outreach",
+      "mobile_support"
+    ]
   },
   {
     "id": 55,
@@ -2764,11 +2955,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "counseling",
-      "eu_citizens",
-      "multilingual"
-    ],
     "contact": {
       "phone": "030 690335042",
       "website": "https://www.berliner-stadtmission.de"
@@ -2782,7 +2968,16 @@
       }
     ],
     "openingNote": "Mo–Fr (Zeiten nach Vereinbarung)",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "eu_citizens"
+    ],
+    "tagsOffer": [
+      "counseling"
+    ],
+    "tagsFeature": [
+      "multilingual"
+    ]
   },
   {
     "id": 56,
@@ -2796,13 +2991,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "counseling",
-      "housing",
-      "long_term_support",
-      "accessible",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 65867861",
       "website": "https://www.schwulenberatungberlin.de",
@@ -2834,7 +3022,18 @@
       }
     ],
     "openingNote": "Mo–Fr Termine nach Vereinbarung",
-    "targetGroup": "lgbtiq"
+    "targetGroup": [
+      "lgbtiq"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing",
+      "long_term_support"
+    ],
+    "tagsFeature": [
+      "accessible",
+      "pet_friendly"
+    ]
   },
   {
     "id": 57,
@@ -2848,12 +3047,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "shelter",
-      "counseling",
-      "crisis_housing",
-      "bed_space"
-    ],
     "contact": {
       "phone": "0176 16048496",
       "email": "lsbti-krisenwohnung@awo-spree-wuhle.de",
@@ -2868,7 +3061,16 @@
       }
     ],
     "openingNote": "Telefonisch erreichbar (WhatsApp und Telegram)",
-    "targetGroup": "lgbtiq"
+    "targetGroup": [
+      "lgbtiq"
+    ],
+    "tagsOffer": [
+      "shelter",
+      "counseling",
+      "crisis_housing",
+      "bed_space"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 58,
@@ -2882,16 +3084,6 @@
       "city": "Berlin",
       "subdistrict": "Treptow-Köpenick / Niederschöneweide"
     },
-    "tags": [
-      "counseling",
-      "day_center",
-      "housing",
-      "social_support",
-      "day_services",
-      "food",
-      "clothing",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 53014387",
       "email": "treff-strohhalm@gwb.stiftung-spi.de",
@@ -2932,7 +3124,21 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "day_center",
+      "housing",
+      "social_support",
+      "day_services",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 59,
@@ -2946,13 +3152,6 @@
       "city": "Berlin",
       "subdistrict": "Berlinweit / Mobile"
     },
-    "tags": [
-      "hygiene",
-      "showers",
-      "outreach",
-      "mobile_support",
-      "clothing"
-    ],
     "contact": {
       "phone": "0151 14648756",
       "website": "https://skf-berlin.de"
@@ -2966,7 +3165,18 @@
       }
     ],
     "openingNote": "6 Tage wöchentlich an 10 Standorten",
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "hygiene",
+      "showers",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "outreach",
+      "mobile_support"
+    ]
   },
   {
     "id": 60,
@@ -2980,15 +3190,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "day_center",
-      "food",
-      "hygiene",
-      "counseling",
-      "day_services",
-      "clothing",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 4623279",
       "website": "https://skf-berlin.de",
@@ -3015,7 +3216,20 @@
         "label": ""
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "day_center",
+      "food",
+      "hygiene",
+      "counseling",
+      "day_services",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 61,
@@ -3029,12 +3243,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg / Zoo"
     },
-    "tags": [
-      "counseling",
-      "outreach",
-      "community",
-      "social_support"
-    ],
     "contact": {
       "phone": "030 315173380",
       "website": "https://www.berliner-stadtmission.de/zentrum-am-zoo",
@@ -3061,7 +3269,17 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "community",
+      "social_support"
+    ],
+    "tagsFeature": [
+      "outreach"
+    ]
   },
   {
     "id": 62,
@@ -3075,11 +3293,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "medical_care",
-      "alternative_medicine",
-      "uninsured"
-    ],
     "contact": {
       "phone": "030 23112527"
     },
@@ -3100,7 +3313,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "uninsured"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "alternative_medicine"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 63,
@@ -3114,11 +3335,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "food"
-    ],
     "contact": {
       "phone": "0162 279 55 39",
       "email": "nachtlicht@drk-berlin-zentrum.de",
@@ -3148,7 +3364,15 @@
       }
     ],
     "openingNote": "letzter Einlass 22:00 Uhr",
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "food"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 64,
@@ -3162,13 +3386,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 46 23 279",
       "email": "evashaltestelle@skf-berlin.de",
@@ -3198,7 +3415,17 @@
       }
     ],
     "openingNote": "letzter Einlass 20:00 Uhr",
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 65,
@@ -3212,15 +3439,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 40 00 62 09",
       "email": "notuebernachtung@koepjohann.de",
@@ -3249,7 +3467,20 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 66,
@@ -3263,15 +3494,6 @@
       "city": "Berlin",
       "subdistrict": "Spandau"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 37 49 90 50",
       "email": "jeffrey.loehrke@hzh-ev.de",
@@ -3301,7 +3523,20 @@
       }
     ],
     "openingNote": "letzter Einlass 24:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 67,
@@ -3315,14 +3550,6 @@
       "city": "Berlin",
       "subdistrict": "Steglitz"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "clothing",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "0178 88 77 729",
       "email": "kaeltehilfe@neuechance.berlin",
@@ -3352,7 +3579,19 @@
       }
     ],
     "openingNote": "letzter Einlass 22:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 68,
@@ -3366,13 +3605,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 53 21 93 33",
       "email": "notuebernachtung@brotdeslebens.net",
@@ -3402,7 +3634,17 @@
       }
     ],
     "openingNote": "letzter Einlass 22:00 Uhr",
-    "targetGroup": "men"
+    "targetGroup": [
+      "men"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 69,
@@ -3416,13 +3658,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 61 12 93 24",
       "email": "pfarrbuero@bernhard-lichtenberg.berlin",
@@ -3452,7 +3687,17 @@
       }
     ],
     "openingNote": "letzter Einlass 21:30 Uhr",
-    "targetGroup": "men"
+    "targetGroup": [
+      "men"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 70,
@@ -3466,13 +3711,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 81 03 35 161",
       "email": "kaeltehilfe@kubus-berlin.de",
@@ -3502,7 +3740,17 @@
       }
     ],
     "openingNote": "letzter Einlass 22:00 Uhr",
-    "targetGroup": "men"
+    "targetGroup": [
+      "men"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 71,
@@ -3516,14 +3764,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 98 69 47 01",
       "email": "info@merkurberlin.de",
@@ -3552,8 +3792,19 @@
         "end": "2001-04-30"
       }
     ],
-    "targetGroup": "men",
-    "openingNote": "letzter Einlass 22:00 Uhr"
+    "targetGroup": [
+      "men"
+    ],
+    "openingNote": "letzter Einlass 22:00 Uhr",
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 72,
@@ -3567,14 +3818,6 @@
       "city": "Berlin",
       "subdistrict": "Reinickendorf"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing"
-    ],
     "contact": {
       "phone": "0175 188 51 03",
       "email": "notuebernachtung@ejf.de",
@@ -3604,7 +3847,18 @@
       }
     ],
     "openingNote": "letzter Einlass nach Absprache die ganze Nacht",
-    "targetGroup": "families"
+    "targetGroup": [
+      "families"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 73,
@@ -3618,12 +3872,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "food",
-      "clothing"
-    ],
     "contact": {
       "phone": "0177 27 03 869",
       "email": "m.rosinski@t-online.de"
@@ -3646,7 +3894,16 @@
       }
     ],
     "openingNote": "letzter Einlass 24:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 74,
@@ -3660,15 +3917,6 @@
       "city": "Berlin",
       "subdistrict": "Treptow"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 53 37 104",
       "email": "arche.waermestube@gmail.com"
@@ -3696,7 +3944,20 @@
       }
     ],
     "openingNote": "letzter Einlass 21:30 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 75,
@@ -3710,14 +3971,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "food",
-      "clothing",
-      "pet_friendly",
-      "medical_care"
-    ],
     "contact": {
       "phone": "030 61 28 58 33",
       "email": "kuesterei@evtaborgemeinde.de",
@@ -3741,7 +3994,19 @@
       }
     ],
     "openingNote": "letzter Einlass 23:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "food",
+      "clothing",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 76,
@@ -3755,12 +4020,6 @@
       "city": "Berlin",
       "subdistrict": "Friedenau"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "food",
-      "clothing"
-    ],
     "contact": {
       "phone": "0152 571 87 272",
       "email": "nachtcafe@zgh-friedenau.de"
@@ -3786,7 +4045,16 @@
       }
     ],
     "openingNote": "letzter Einlass 22:30 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 77,
@@ -3800,13 +4068,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "food",
-      "clothing",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 12 05 35 822",
       "email": "kaelteschutz@riseup.net",
@@ -3829,7 +4090,18 @@
         "end": "2001-04-30"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 78,
@@ -3843,14 +4115,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "hygiene",
-      "food",
-      "clothing",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 24 72 90 40",
       "email": "unterdruck@t-online.de",
@@ -3874,7 +4138,19 @@
       }
     ],
     "openingNote": "Einlass bis 07:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "hygiene",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 79,
@@ -3888,12 +4164,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "food",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 60 97 74 928",
       "email": "info@mlg-neukoelln.de",
@@ -3917,7 +4187,16 @@
       }
     ],
     "openingNote": "letzter Einlass 23:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 80,
@@ -3931,15 +4210,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 625 3002",
       "email": "kurt.niedtner@evangelisch-neukoelln.de"
@@ -3962,7 +4232,20 @@
       }
     ],
     "openingNote": "letzter Einlass 22:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 81,
@@ -3976,13 +4259,6 @@
       "city": "Berlin",
       "subdistrict": "Westend"
     },
-    "tags": [
-      "night_cafe",
-      "bed_space",
-      "hygiene",
-      "food",
-      "medical_care"
-    ],
     "contact": {
       "phone": "030 30 42 007",
       "email": "kaeltehilfe@cw-evangelisch.de",
@@ -4006,7 +4282,17 @@
       }
     ],
     "openingNote": "Einlass die ganze Nacht",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "bed_space",
+      "hygiene",
+      "food",
+      "medical_care"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 82,
@@ -4020,14 +4306,6 @@
       "city": "Berlin",
       "subdistrict": "Wilmersdorf"
     },
-    "tags": [
-      "day_services",
-      "food",
-      "counseling",
-      "clothing",
-      "pet_friendly",
-      "accessible"
-    ],
     "contact": {
       "phone": "0173 259 44 14",
       "email": "waermestube@caritas-berlin.de",
@@ -4054,7 +4332,19 @@
         "end": "2001-03-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 83,
@@ -4068,14 +4358,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "day_services",
-      "hygiene",
-      "food",
-      "clothing",
-      "counseling",
-      "laundry"
-    ],
     "contact": {
       "phone": "0151 23 30 61 37",
       "email": "frauen-projekt.unterschlupf@web.de"
@@ -4101,7 +4383,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "hygiene",
+      "food",
+      "clothing",
+      "counseling",
+      "laundry"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 84,
@@ -4115,14 +4408,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "day_services",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "0157 77 37 45 15 / 0157 77 37 45 45 / 030 64 49 82 31",
       "email": "streetwork@strassenkinder-ev.de",
@@ -4147,7 +4432,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "youth"
+    "targetGroup": [
+      "youth"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 85,
@@ -4161,14 +4458,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "day_services",
-      "hygiene",
-      "food",
-      "counseling",
-      "people_who_use_drugs",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 29 35 05 56",
       "email": "kiez-cafe@awo-spree-wuhle.de",
@@ -4195,7 +4484,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "youth"
+    "targetGroup": [
+      "youth",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "hygiene",
+      "food",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 86,
@@ -4209,12 +4510,6 @@
       "city": "Berlin",
       "subdistrict": "Ostbahnhof"
     },
-    "tags": [
-      "day_services",
-      "hygiene",
-      "food",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 29 72 01 75",
       "email": "berlin-ostbahnhof@bahnhofsmission.de",
@@ -4257,7 +4552,17 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "hygiene",
+      "food"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 87,
@@ -4271,14 +4576,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "day_services",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 695 36614",
       "email": "gitschiner15@kght.de",
@@ -4319,7 +4616,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 88,
@@ -4333,14 +4642,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "day_services",
-      "food",
-      "counseling",
-      "clothing",
-      "medical_care",
-      "dental_care"
-    ],
     "contact": {
       "email": "info.tt@hvd-bb.de",
       "website": "https://www.humanistisch.de/tagestreff",
@@ -4376,7 +4677,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "food",
+      "counseling",
+      "clothing",
+      "medical_care",
+      "dental_care"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 89,
@@ -4390,13 +4702,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte / Friedrichstraße"
     },
-    "tags": [
-      "day_services",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 23 59 39 758",
       "email": "sophie@koepjohann.de",
@@ -4431,7 +4736,17 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 90,
@@ -4445,14 +4760,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "day_services",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 62 22 880",
       "email": "tuw-nk@diakoniewerk-simeon.de",
@@ -4485,7 +4792,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 91,
@@ -4499,13 +4818,6 @@
       "city": "Berlin",
       "subdistrict": "Schöneberg"
     },
-    "tags": [
-      "day_services",
-      "hygiene",
-      "food",
-      "counseling",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 21 17 956",
       "email": "wota@unionhilfswerk.de",
@@ -4533,7 +4845,17 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "day_services",
+      "hygiene",
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 92,
@@ -4547,11 +4869,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "food",
-      "counseling",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 863 90 99 20",
       "email": "kaeltehilfe@cw-evangelisch.de",
@@ -4576,7 +4893,15 @@
         "end": "2001-04-30"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 93,
@@ -4590,10 +4915,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg / Zoo"
     },
-    "tags": [
-      "food",
-      "clothing"
-    ],
     "contact": {
       "email": "tino.anjum@an-nusrat.de"
     },
@@ -4614,7 +4935,14 @@
         "end": "2001-03-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 94,
@@ -4628,10 +4956,6 @@
       "city": "Berlin",
       "subdistrict": "Wilmersdorf"
     },
-    "tags": [
-      "food",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 82 79 19 16"
     },
@@ -4655,7 +4979,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 95,
@@ -4669,10 +5001,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "food",
-      "pet_friendly"
-    ],
     "contact": {
       "email": "joerge.bellin@johanniter.de"
     },
@@ -4707,7 +5035,15 @@
         "end": "2001-03-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 96,
@@ -4721,10 +5057,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "food",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 61 69 310",
       "email": "s.wette@evkgk.de",
@@ -4748,7 +5080,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 97,
@@ -4762,12 +5102,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "food",
-      "clothing",
-      "accessible",
-      "pet_friendly"
-    ],
     "contact": {
       "email": "info@bisous.ngo"
     },
@@ -4788,7 +5122,17 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible",
+      "pet_friendly"
+    ]
   },
   {
     "id": 98,
@@ -4802,10 +5146,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "food",
-      "pet_friendly"
-    ],
     "contact": {
       "email": "i.stramm@ev-gemeinde-tiergarten.de"
     },
@@ -4828,7 +5168,15 @@
         "end": "2001-03-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 99,
@@ -4842,9 +5190,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "food"
-    ],
     "contact": {
       "email": "waermecafe-paulus@sankt-elisabeth-berlin.de"
     },
@@ -4865,7 +5210,13 @@
         "end": "2001-03-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 100,
@@ -4879,10 +5230,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "food",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 28 50 29 05",
       "email": "info@pallotti.mobil.de",
@@ -4913,7 +5260,15 @@
         "end": "2001-06-30"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 101,
@@ -4927,10 +5282,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "food",
-      "accessible"
-    ],
     "contact": {
       "email": "Agnes-Maria.Streich@erzbistumberlin.de",
       "website": "https://www.pallotti-mobil.de/soziales-catering"
@@ -4952,7 +5303,15 @@
         "end": "2001-03-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 102,
@@ -4966,11 +5325,6 @@
       "city": "Berlin",
       "subdistrict": "Prenzlauer Berg"
     },
-    "tags": [
-      "food",
-      "counseling",
-      "clothing"
-    ],
     "contact": {
       "email": "i.remde@strassenfeger.org",
       "website": "https://www.strassenfeger.org"
@@ -4992,7 +5346,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 103,
@@ -5006,9 +5368,6 @@
       "city": "Berlin",
       "subdistrict": "Prenzlauer Berg"
     },
-    "tags": [
-      "food"
-    ],
     "contact": {},
     "openingHours": [
       {
@@ -5027,7 +5386,13 @@
         "end": "2001-04-30"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 104,
@@ -5041,10 +5406,6 @@
       "city": "Berlin",
       "subdistrict": "Zehlendorf"
     },
-    "tags": [
-      "food",
-      "accessible"
-    ],
     "contact": {
       "phone": "0176 41 80 24 03",
       "email": "erpel@milaa-berlin.de",
@@ -5069,7 +5430,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 105,
@@ -5083,10 +5452,6 @@
       "city": "Berlin",
       "subdistrict": "Berlinweit / Mobile"
     },
-    "tags": [
-      "food",
-      "mobile_support"
-    ],
     "contact": {
       "email": "foodtruck@caritas-berlin.de",
       "website": "https://www.caritas-berlin.de/foodtruck"
@@ -5109,7 +5474,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "food"
+    ],
+    "tagsFeature": [
+      "mobile_support"
+    ]
   },
   {
     "id": 106,
@@ -5123,11 +5496,6 @@
       "city": "Berlin",
       "subdistrict": "Ostbahnhof"
     },
-    "tags": [
-      "medical_care",
-      "counseling",
-      "hygiene"
-    ],
     "contact": {
       "phone": "030 29 66 85 36",
       "email": "praxiskoordination@gebewo-pro.berlin",
@@ -5154,7 +5522,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "counseling",
+      "hygiene"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 107,
@@ -5168,10 +5544,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "medical_care",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 20 60 69 600",
       "email": "open.med-berlin@aerztederwelt.org",
@@ -5202,7 +5574,14 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 108,
@@ -5216,14 +5595,6 @@
       "city": "Berlin",
       "subdistrict": "Zehlendorf"
     },
-    "tags": [
-      "medical_care",
-      "counseling",
-      "people_who_use_drugs",
-      "pet_friendly",
-      "accessible",
-      "uninsured"
-    ],
     "contact": {
       "phone": "0176 63 15 20 94",
       "email": "info@medizin-hilft.org",
@@ -5256,7 +5627,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs",
+      "uninsured"
+    ],
+    "tagsOffer": [
+      "medical_care",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 109,
@@ -5270,13 +5653,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "counseling",
-      "mobile_support",
-      "accessible"
-    ],
     "contact": {
       "phone": "0170 79 48 745",
       "email": "dkr@fixpunkt.org",
@@ -5303,7 +5679,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "mobile_support",
+      "accessible"
+    ]
   },
   {
     "id": 110,
@@ -5317,13 +5704,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "counseling",
-      "mobile_support",
-      "accessible"
-    ],
     "contact": {
       "phone": "0170 79 48 743",
       "email": "dkr@fixpunkt.org",
@@ -5350,7 +5730,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "mobile_support",
+      "accessible"
+    ]
   },
   {
     "id": 111,
@@ -5364,13 +5755,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "medical_care",
-      "counseling",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 81 00 35 65",
       "email": "kotti@fixpunktggmbh.org",
@@ -5407,7 +5791,18 @@
       }
     ],
     "openingNote": "täglich geöffnet",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "medical_care",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 112,
@@ -5421,15 +5816,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "food",
-      "hygiene",
-      "counseling",
-      "pet_friendly",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 51 58 98 500",
       "email": "hilfe@karuna-ev.de",
@@ -5463,7 +5849,20 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "youth"
+    "targetGroup": [
+      "youth",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "food",
+      "hygiene",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 113,
@@ -5477,17 +5876,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "medical_care",
-      "food",
-      "hygiene",
-      "clothing",
-      "counseling",
-      "pet_friendly",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 29 77 35 600",
       "email": "muehlenstube@vistaberlin.de",
@@ -5537,7 +5925,22 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "medical_care",
+      "food",
+      "hygiene",
+      "clothing",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 114,
@@ -5551,16 +5954,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "medical_care",
-      "food",
-      "hygiene",
-      "clothing",
-      "counseling",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 447 213 53",
       "email": "birkenstube@vistaberlin.de",
@@ -5601,7 +5994,21 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "medical_care",
+      "food",
+      "hygiene",
+      "clothing",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 115,
@@ -5615,13 +6022,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding / Leopoldplatz"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "counseling",
-      "mobile_support",
-      "accessible"
-    ],
     "contact": {
       "phone": "0170 79 48 741",
       "email": "dkr@fixpunkt.org",
@@ -5656,7 +6056,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "mobile_support",
+      "accessible"
+    ]
   },
   {
     "id": 116,
@@ -5670,17 +6081,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "medical_care",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "pet_friendly",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 69 29 198",
       "email": "druckausgleich@fixpunktggmbh.org"
@@ -5714,7 +6114,22 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "medical_care",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 117,
@@ -5728,14 +6143,6 @@
       "city": "Berlin",
       "subdistrict": "Spandau"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "hygiene",
-      "counseling",
-      "food",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 749 279 51",
       "email": "spax@fixpunkt.org"
@@ -5759,7 +6166,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "hygiene",
+      "counseling",
+      "food"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 118,
@@ -5773,15 +6192,6 @@
       "city": "Berlin",
       "subdistrict": "Schöneberg"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "medical_care",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 26 28 959",
       "email": "olga@notdienstberlin.de",
@@ -5809,7 +6219,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "medical_care",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 119,
@@ -5823,17 +6245,6 @@
       "city": "Berlin",
       "subdistrict": "Schöneberg"
     },
-    "tags": [
-      "substance_use_support",
-      "people_who_use_drugs",
-      "medical_care",
-      "food",
-      "hygiene",
-      "counseling",
-      "clothing",
-      "pet_friendly",
-      "accessible"
-    ],
     "contact": {
       "phone": "0176 151 678 57 / 030 23 32 40 900",
       "email": "streetwork@notdienstberlin.de",
@@ -5867,7 +6278,22 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "people_who_use_drugs"
+    ],
+    "tagsOffer": [
+      "substance_use_support",
+      "medical_care",
+      "food",
+      "hygiene",
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "pet_friendly",
+      "accessible"
+    ]
   },
   {
     "id": 120,
@@ -5881,9 +6307,6 @@
       "city": "Berlin",
       "subdistrict": "Berlinweit / Mobile"
     },
-    "tags": [
-      "counseling"
-    ],
     "contact": {
       "phone": "030 28 30 230 10",
       "email": "dropout@gangway.de",
@@ -5910,7 +6333,13 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 121,
@@ -5924,9 +6353,6 @@
       "city": "Berlin",
       "subdistrict": "Ostbahnhof"
     },
-    "tags": [
-      "counseling"
-    ],
     "contact": {
       "phone": "030 34 65 55 00",
       "email": "beratung@frostschutzengel.de",
@@ -5950,7 +6376,13 @@
       }
     ],
     "openingNote": "Offene Sprechstunde Mo 09–12 Uhr; Di–Fr aufsuchend an verschiedenen Standorten",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 122,
@@ -5964,9 +6396,6 @@
       "city": "Berlin",
       "subdistrict": "Ostbahnhof"
     },
-    "tags": [
-      "counseling"
-    ],
     "contact": {
       "phone": "030 34 65 55 00",
       "email": "moct@gebewo.berlin"
@@ -5989,7 +6418,13 @@
       }
     ],
     "openingNote": "Mo–Fr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 123,
@@ -6003,11 +6438,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "counseling",
-      "mobile_support",
-      "medical_care"
-    ],
     "contact": {
       "phone": "0172 96 07 834",
       "email": "tria@caritas-berlin.de",
@@ -6022,7 +6452,16 @@
       }
     ],
     "openingNote": "Mo–Fr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "mobile_support"
+    ]
   },
   {
     "id": 124,
@@ -6036,10 +6475,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "counseling",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 61 08 11 020",
       "email": "anlaufstelle@amaroforo.de",
@@ -6065,7 +6500,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 125,
@@ -6079,9 +6522,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "counseling"
-    ],
     "contact": {
       "phone": "030 53 15 68 50",
       "email": "beratungsstelle@gebewo-pro.berlin",
@@ -6112,7 +6552,13 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 126,
@@ -6126,9 +6572,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "counseling"
-    ],
     "contact": {
       "phone": "0151 705 74 433",
       "email": "beff@awo-mitte.de",
@@ -6169,7 +6612,13 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 127,
@@ -6183,10 +6632,6 @@
       "city": "Berlin",
       "subdistrict": "Tempelhof"
     },
-    "tags": [
-      "counseling",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "030 513 019 269",
       "email": "migration@berlin.arbeitundleben.de",
@@ -6201,7 +6646,15 @@
       }
     ],
     "openingNote": "Mo–Fr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling"
+    ],
+    "tagsFeature": [
+      "pet_friendly"
+    ]
   },
   {
     "id": 128,
@@ -6215,10 +6668,6 @@
       "city": "Berlin",
       "subdistrict": "Pankow"
     },
-    "tags": [
-      "hygiene",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 48 83 96 60",
       "email": "suppenkueche@franziskaner.de",
@@ -6242,7 +6691,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "hygiene"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 129,
@@ -6256,14 +6713,6 @@
       "city": "Berlin",
       "subdistrict": "Alexanderplatz / Mobile"
     },
-    "tags": [
-      "hygiene",
-      "clothing",
-      "counseling",
-      "food",
-      "mobile_support",
-      "pet_friendly"
-    ],
     "contact": {
       "phone": "0151 150 436 79 / 0151 150 436 49",
       "email": "seifenbuechse@skf-berlin.de",
@@ -6287,7 +6736,19 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "youth"
+    "targetGroup": [
+      "youth"
+    ],
+    "tagsOffer": [
+      "hygiene",
+      "clothing",
+      "counseling",
+      "food"
+    ],
+    "tagsFeature": [
+      "mobile_support",
+      "pet_friendly"
+    ]
   },
   {
     "id": 130,
@@ -6301,11 +6762,6 @@
       "city": "Berlin",
       "subdistrict": "Pankow"
     },
-    "tags": [
-      "clothing_donations",
-      "clothing",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 48 83 96 60",
       "email": "suppenkueche@franziskaner.de",
@@ -6330,7 +6786,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "clothing_donations",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 131,
@@ -6344,10 +6809,6 @@
       "city": "Berlin",
       "subdistrict": "Spandau"
     },
-    "tags": [
-      "clothing_donations",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 353 93 70",
       "email": "info@drk-spandau.de",
@@ -6370,7 +6831,14 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "clothing_donations",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 132,
@@ -6384,11 +6852,6 @@
       "city": "Berlin",
       "subdistrict": "Reinickendorf"
     },
-    "tags": [
-      "clothing_donations",
-      "clothing",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 666 331 222",
       "email": "kleiderkammer@caritas-berlin.de",
@@ -6415,7 +6878,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "clothing_donations",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 133,
@@ -6429,12 +6901,6 @@
       "city": "Berlin",
       "subdistrict": "Steglitz-Zehlendorf / Mobile"
     },
-    "tags": [
-      "outreach_bus",
-      "mobile_support",
-      "counseling",
-      "clothing"
-    ],
     "contact": {
       "phone": "0157 809 49 52",
       "email": "obdachbus@drk-berlin.net",
@@ -6463,7 +6929,17 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "clothing"
+    ],
+    "tagsFeature": [
+      "outreach_bus",
+      "mobile_support"
+    ]
   },
   {
     "id": 134,
@@ -6477,12 +6953,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90296-1771",
       "email": "soz-wohnen@lichtenberg.berlin"
@@ -6505,7 +6975,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 135,
@@ -6519,12 +6998,6 @@
       "city": "Berlin",
       "subdistrict": "Marzahn-Hellersdorf"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "email": "soz-wohnen@ba-mh.berlin.de"
     },
@@ -6547,7 +7020,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 136,
@@ -6561,12 +7043,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90184-1771",
       "email": "soz-wohnen@ba-mitte.berlin.de"
@@ -6598,7 +7074,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 137,
@@ -6612,12 +7097,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90239-1771",
       "email": "soz-wohnen@bezirksamt-neukoelln.de"
@@ -6640,7 +7119,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 138,
@@ -6654,12 +7142,6 @@
       "city": "Berlin",
       "subdistrict": "Pankow"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90295-1771",
       "email": "soz-wohnen@ba-pankow.berlin.de"
@@ -6682,7 +7164,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 139,
@@ -6696,12 +7187,6 @@
       "city": "Berlin",
       "subdistrict": "Reinickendorf"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90294-1771",
       "email": "soz-wohnen@reinickendorf.berlin.de"
@@ -6724,7 +7209,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 140,
@@ -6738,12 +7232,6 @@
       "city": "Berlin",
       "subdistrict": "Spandau"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90279-1771",
       "email": "soz-wohnen@ba-spandau.berlin.de"
@@ -6765,7 +7253,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 141,
@@ -6779,12 +7276,6 @@
       "city": "Berlin",
       "subdistrict": "Steglitz-Zehlendorf"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90299-1771",
       "email": "soz-wohnen@ba-sz.berlin.de"
@@ -6807,7 +7298,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 142,
@@ -6821,12 +7321,6 @@
       "city": "Berlin",
       "subdistrict": "Tempelhof-Schöneberg"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90277-1771",
       "email": "soz-wohnen@ba-ts.berlin.de"
@@ -6849,7 +7343,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 143,
@@ -6863,12 +7366,6 @@
       "city": "Berlin",
       "subdistrict": "Treptow-Köpenick"
     },
-    "tags": [
-      "housing_support_office",
-      "counseling",
-      "housing",
-      "benefits_support"
-    ],
     "contact": {
       "phone": "030 90297-1771",
       "email": "soz-wohnen@ba-tk.berlin.de"
@@ -6891,7 +7388,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing_support_office",
+      "counseling",
+      "housing",
+      "benefits_support"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 144,
@@ -6905,12 +7411,6 @@
       "city": "Berlin",
       "subdistrict": "Berlinweit"
     },
-    "tags": [
-      "berlin_crisis_service",
-      "counseling",
-      "emergency",
-      "mental_health"
-    ],
     "contact": {
       "phone": "030 39063",
       "website": "https://www.berliner-krisendienst.de"
@@ -6952,7 +7452,17 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "berlin_crisis_service",
+      "counseling",
+      "mental_health"
+    ],
+    "tagsFeature": [
+      "emergency"
+    ]
   },
   {
     "id": 146,
@@ -6966,11 +7476,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg-Wilmersdorf"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 9029-16044",
       "email": "sopsy@charlottenburg-wilmersdorf.de",
@@ -7005,7 +7510,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 147,
@@ -7019,11 +7532,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 90298-2770",
       "email": "gesundheitshilfe@ba-fk.berlin.de",
@@ -7047,7 +7555,15 @@
       }
     ],
     "openingNote": "telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 148,
@@ -7061,11 +7577,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 90298-8400",
       "email": "gesundheitshilfe@ba-fk.berlin.de",
@@ -7089,7 +7600,15 @@
       }
     ],
     "openingNote": "telefonisch 08:00–16:00 Uhr; sonst nach Vereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 149,
@@ -7103,11 +7622,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 90296-7562",
       "email": "spdi@lichtenberg.berlin.de",
@@ -7151,7 +7665,15 @@
       }
     ],
     "openingNote": "Do bis 18:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 150,
@@ -7165,12 +7687,6 @@
       "city": "Berlin",
       "subdistrict": "Marzahn-Hellersdorf"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 90293-3751",
       "email": "soz.psych.dienst@ba-mh.berlin.de",
@@ -7196,7 +7712,17 @@
       }
     ],
     "openingNote": "bitte nach Möglichkeit zunächst telefonisch Kontakt aufnehmen",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 151,
@@ -7210,11 +7736,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte / Tiergarten"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 9018-33347",
       "email": "sozialpsychdienst@ba-mitte.berlin.de",
@@ -7265,7 +7786,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 152,
@@ -7279,11 +7808,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 9018-45212",
       "email": "sozialpsychdienst@ba-mitte.berlin.de",
@@ -7319,7 +7843,15 @@
       }
     ],
     "openingNote": "und Do 14:00–16:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 153,
@@ -7333,11 +7865,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 90239-2786",
       "email": "gesspd@bezirksamt-neukoelln.de",
@@ -7372,7 +7899,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 154,
@@ -7386,11 +7921,6 @@
       "city": "Berlin",
       "subdistrict": "Pankow"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 90295-2863",
       "email": "spd.pankow@ba-pankow.berlin.de",
@@ -7426,7 +7956,15 @@
       }
     ],
     "openingNote": "und Do 14:00–18:00 Uhr; sonst nach Vereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 155,
@@ -7440,11 +7978,6 @@
       "city": "Berlin",
       "subdistrict": "Reinickendorf"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 90294-5010",
       "email": "sozialpsychiatrischer-dienst@reinickendorf.berlin.de",
@@ -7468,7 +8001,15 @@
       }
     ],
     "openingNote": "Nach Terminvereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 156,
@@ -7482,11 +8023,6 @@
       "city": "Berlin",
       "subdistrict": "Spandau"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 90279-2355",
       "website": "https://www.berlin.de/ba-spandau/politik-und-verwaltung/aemter/gesundheitsamt/artikel.268617.php"
@@ -7500,7 +8036,15 @@
       }
     ],
     "openingNote": "Termin nach Vereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 157,
@@ -7514,12 +8058,6 @@
       "city": "Berlin",
       "subdistrict": "Steglitz-Zehlendorf"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 90299-4758",
       "email": "sozialpsychdienst@ba-sz.berlin.de",
@@ -7547,7 +8085,17 @@
       }
     ],
     "openingNote": "Sprechzeiten aktuell nur nach Vereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 158,
@@ -7561,11 +8109,6 @@
       "city": "Berlin",
       "subdistrict": "Tempelhof-Schöneberg"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling"
-    ],
     "contact": {
       "website": "https://www.berlin.de/ba-tempelhof-schoeneberg/politik-und-verwaltung/aemter/gesundheitsamt/sozialpsychiatrischer-dienst/",
       "phone": "030 90277-7575",
@@ -7615,7 +8158,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 159,
@@ -7629,12 +8180,6 @@
       "city": "Berlin",
       "subdistrict": "Treptow-Köpenick"
     },
-    "tags": [
-      "social_psychiatric_service",
-      "mental_health",
-      "counseling",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 90297-6000",
       "email": "Soz.Psych.Dienst@ba-tk.berlin.de",
@@ -7649,7 +8194,17 @@
       }
     ],
     "openingNote": "Termin nach Vereinbarung",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "social_psychiatric_service",
+      "mental_health",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "accessible"
+    ]
   },
   {
     "id": 160,
@@ -7663,13 +8218,6 @@
       "city": "Berlin",
       "subdistrict": "Charlottenburg"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 3264-1221"
     },
@@ -7681,8 +8229,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 161,
@@ -7696,13 +8255,6 @@
       "city": "Berlin",
       "subdistrict": "Wilmersdorf"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 5472-7777"
     },
@@ -7714,8 +8266,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 162,
@@ -7729,13 +8292,6 @@
       "city": "Berlin",
       "subdistrict": "Kreuzberg"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 13022-9530"
     },
@@ -7747,8 +8303,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 163,
@@ -7762,13 +8329,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 5472-3002"
     },
@@ -7780,8 +8340,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 164,
@@ -7795,13 +8366,6 @@
       "city": "Berlin",
       "subdistrict": "Marzahn-Hellersdorf"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 130172-112"
     },
@@ -7813,8 +8377,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 165,
@@ -7828,13 +8403,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 450617056"
     },
@@ -7846,8 +8414,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 166,
@@ -7861,13 +8440,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 2311-2267"
     },
@@ -7879,8 +8451,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 167,
@@ -7894,13 +8477,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 4994-2217"
     },
@@ -7912,8 +8488,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 168,
@@ -7927,13 +8514,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 13014-0"
     },
@@ -7945,8 +8525,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 169,
@@ -7960,13 +8551,6 @@
       "city": "Berlin",
       "subdistrict": "Weißensee"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 92790320"
     },
@@ -7978,8 +8562,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 170,
@@ -7993,13 +8588,6 @@
       "city": "Berlin",
       "subdistrict": "Reinickendorf"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 13012-1703"
     },
@@ -8011,8 +8599,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 171,
@@ -8026,13 +8625,6 @@
       "city": "Berlin",
       "subdistrict": "Spandau"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 13013-2070"
     },
@@ -8044,8 +8636,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 172,
@@ -8059,13 +8662,6 @@
       "city": "Berlin",
       "subdistrict": "Steglitz-Zehlendorf"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 8109-0"
     },
@@ -8077,8 +8673,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 173,
@@ -8092,13 +8699,6 @@
       "city": "Berlin",
       "subdistrict": "Schöneberg"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 13020-2113"
     },
@@ -8110,8 +8710,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 174,
@@ -8125,13 +8736,6 @@
       "city": "Berlin",
       "subdistrict": "Tempelhof"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 13019-3646",
       "email": "psychiatrie.wbk@vivantes.de",
@@ -8146,7 +8750,18 @@
       }
     ],
     "openingNote": "Zentrale Psychiatrische Aufnahme; pflegerisch besetzt 08:00–22:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 175,
@@ -8160,13 +8775,6 @@
       "city": "Berlin",
       "subdistrict": "Treptow-Köpenick"
     },
-    "tags": [
-      "psychiatric_emergency_service",
-      "mental_health",
-      "medical_care",
-      "emergency",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 6741-2640"
     },
@@ -8178,8 +8786,19 @@
       }
     ],
     "openingHours": [],
-    "targetGroup": "all",
-    "openingNote": "24/7 Notaufnahme"
+    "targetGroup": [
+      "all"
+    ],
+    "openingNote": "24/7 Notaufnahme",
+    "tagsOffer": [
+      "psychiatric_emergency_service",
+      "mental_health",
+      "medical_care"
+    ],
+    "tagsFeature": [
+      "emergency",
+      "open_24h"
+    ]
   },
   {
     "id": 176,
@@ -8193,13 +8812,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "counseling",
-      "housing",
-      "long_term_support",
-      "substance_use_support",
-      "transitional_housing"
-    ],
     "contact": {
       "phone": "030 217 56225",
       "email": "team@neue-wege-e-v.de",
@@ -8214,7 +8826,17 @@
       }
     ],
     "openingNote": "Bitte direkt erfragen",
-    "targetGroup": "men"
+    "targetGroup": [
+      "men"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing",
+      "long_term_support",
+      "substance_use_support",
+      "transitional_housing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 177,
@@ -8228,10 +8850,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "counseling",
-      "housing"
-    ],
     "contact": {
       "phone": "030 66634-0511",
       "email": "awh-fennpfuhl@caritas-berlin.de"
@@ -8261,7 +8879,14 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 178,
@@ -8275,10 +8900,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "counseling",
-      "housing"
-    ],
     "contact": {
       "phone": "030 6239903",
       "email": "wohnhilfe@lukas-gemeinde.de",
@@ -8305,7 +8926,14 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 179,
@@ -8319,10 +8947,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "counseling",
-      "housing"
-    ],
     "contact": {
       "phone": "030 453 04 331",
       "email": "info@wili67.de",
@@ -8353,7 +8977,14 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 180,
@@ -8367,10 +8998,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "counseling",
-      "housing"
-    ],
     "contact": {
       "phone": "030 577 911 61",
       "email": "fa76@mywayberlin.de",
@@ -8397,7 +9024,14 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 181,
@@ -8411,11 +9045,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "counseling",
-      "mental_health",
-      "psychological_counseling"
-    ],
     "contact": {
       "phone": "030 46062990",
       "email": "psychberatung@gebewo-pro.berlin",
@@ -8430,7 +9059,15 @@
       }
     ],
     "openingNote": "Termine nach Bedarf telefonisch vereinbaren",
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "mental_health",
+      "psychological_counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 182,
@@ -8444,13 +9081,6 @@
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
-    "tags": [
-      "counseling",
-      "housing",
-      "eu_citizens",
-      "multilingual",
-      "accessible"
-    ],
     "contact": {
       "phone": "030 23597970",
       "email": "empfang@klik-berlin.de",
@@ -8485,7 +9115,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all",
+      "eu_citizens"
+    ],
+    "tagsOffer": [
+      "counseling",
+      "housing"
+    ],
+    "tagsFeature": [
+      "multilingual",
+      "accessible"
+    ]
   },
   {
     "id": 183,
@@ -8499,11 +9140,6 @@
       "city": "Berlin",
       "subdistrict": "Niederschönhausen"
     },
-    "tags": [
-      "housing",
-      "bed_space",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 4144021",
       "email": "blankenburger@hks-wohnheime.de",
@@ -8517,7 +9153,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "bed_space",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 184,
@@ -8531,11 +9175,6 @@
       "city": "Berlin",
       "subdistrict": "Britz"
     },
-    "tags": [
-      "housing",
-      "bed_space",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 6063514",
       "website": "http://hks-wohnheime.de/"
@@ -8548,7 +9187,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "bed_space",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 185,
@@ -8562,11 +9209,6 @@
       "city": "Berlin",
       "subdistrict": "Weißensee"
     },
-    "tags": [
-      "housing",
-      "bed_space",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 929 00 790",
       "website": "https://zeitraum-ggmbh.de/unternehmen/pankow/"
@@ -8579,7 +9221,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "bed_space",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 186,
@@ -8593,12 +9243,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "housing",
-      "bed_space",
-      "counseling",
-      "mental_health"
-    ],
     "contact": {
       "phone": "030 6664 8420",
       "website": "https://zeitraum-ggmbh.de/unternehmen/neukoelln/"
@@ -8611,7 +9255,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "bed_space",
+      "counseling",
+      "mental_health"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 187,
@@ -8625,11 +9278,6 @@
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
-    "tags": [
-      "housing",
-      "transitional_housing",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 6280 4930",
       "website": "https://carpe-diem-berlin.de/standorte/neukoelln/"
@@ -8642,7 +9290,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "transitional_housing",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 188,
@@ -8656,11 +9312,6 @@
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
-    "tags": [
-      "housing",
-      "transitional_housing",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 34666585",
       "website": "https://carpe-diem-berlin.de/"
@@ -8673,7 +9324,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "transitional_housing",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 189,
@@ -8687,12 +9346,6 @@
       "city": "Berlin",
       "subdistrict": "Pankow"
     },
-    "tags": [
-      "housing",
-      "bed_space",
-      "counseling",
-      "mental_health"
-    ],
     "contact": {
       "phone": "030 4998 8 2910",
       "email": "frauenwohnenplus@gebewo.de",
@@ -8706,7 +9359,16 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "housing",
+      "bed_space",
+      "counseling",
+      "mental_health"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 190,
@@ -8720,11 +9382,6 @@
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
-    "tags": [
-      "housing",
-      "bed_space",
-      "counseling"
-    ],
     "contact": {
       "phone": "030 274 962 97",
       "email": "mail@gebewo.berlin",
@@ -8751,7 +9408,15 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "women"
+    "targetGroup": [
+      "women"
+    ],
+    "tagsOffer": [
+      "housing",
+      "bed_space",
+      "counseling"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 191,
@@ -8765,12 +9430,6 @@
       "city": "Berlin",
       "subdistrict": "Bohnsdorf"
     },
-    "tags": [
-      "housing",
-      "bed_space",
-      "counseling",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 720216430",
       "email": "ralf.schoenberner@unionhilfswerk.de",
@@ -8800,7 +9459,17 @@
       }
     ],
     "openingNote": "besetzt",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "bed_space",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "open_24h"
+    ]
   },
   {
     "id": 192,
@@ -8814,13 +9483,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "housing",
-      "overnight_shelter",
-      "bed_space",
-      "counseling",
-      "open_24h"
-    ],
     "contact": {
       "phone": "030 213070",
       "website": "https://www.asb-berlin.de/unsere-angebote/wohnungslosenhilfe"
@@ -8848,7 +9510,18 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "housing",
+      "overnight_shelter",
+      "bed_space",
+      "counseling"
+    ],
+    "tagsFeature": [
+      "open_24h"
+    ]
   },
   {
     "id": 193,
@@ -8862,12 +9535,6 @@
       "city": "Berlin",
       "subdistrict": "Prenzlauer Berg"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "food",
-      "hygiene"
-    ],
     "contact": {},
     "openingHours": [
       {
@@ -8893,7 +9560,16 @@
       }
     ],
     "openingNote": "Letzter Einlass 00:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "food",
+      "hygiene"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 194,
@@ -8907,14 +9583,6 @@
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
-    "tags": [
-      "night_cafe",
-      "overnight_shelter",
-      "bed_space",
-      "food",
-      "hygiene",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 81477317",
       "email": "kontakt@obdach-ev.de",
@@ -8938,7 +9606,18 @@
       }
     ],
     "openingNote": "Letzter Einlass 22:00 Uhr",
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "night_cafe",
+      "overnight_shelter",
+      "bed_space",
+      "food",
+      "hygiene",
+      "clothing"
+    ],
+    "tagsFeature": []
   },
   {
     "id": 195,
@@ -8952,14 +9631,6 @@
       "city": "Berlin",
       "subdistrict": "Moabit"
     },
-    "tags": [
-      "overnight_shelter",
-      "bed_space",
-      "substance_use_support",
-      "food",
-      "hygiene",
-      "clothing"
-    ],
     "contact": {
       "phone": "030 233 240 200",
       "email": "kw@notdienstberlin.de",
@@ -8995,6 +9666,17 @@
         "end": "2000-12-31"
       }
     ],
-    "targetGroup": "all"
+    "targetGroup": [
+      "all"
+    ],
+    "tagsOffer": [
+      "overnight_shelter",
+      "bed_space",
+      "substance_use_support",
+      "food",
+      "hygiene",
+      "clothing"
+    ],
+    "tagsFeature": []
   }
 ]

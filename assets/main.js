@@ -1,9 +1,12 @@
 const TARGET_GROUP_LABELS = {
-    women:    'Frauen',
-    men:      'Männer',
-    families: 'Familien',
-    youth:    'Jugendliche',
-    lgbtiq:   'LGBTIQ+',
+    women:                'Frauen',
+    men:                  'Männer',
+    families:             'Familien',
+    youth:                'Jugendliche',
+    lgbtiq:               'LGBTIQ+',
+    eu_citizens:          'EU-Bürger:innen',
+    uninsured:            'Ohne Krankenversicherung',
+    people_who_use_drugs: 'Drogengebrauchend',
 };
 
 const TAG_LABELS = {
@@ -23,7 +26,6 @@ const TAG_LABELS = {
     day_services:    'Tagesangebote',
     dental_care:     'Zahnmedizin',
     emergency:       'Notfallhilfe',
-    eu_citizens:     'EU-Bürger',
     food:            'Essen/Verpflegung',
     harm_reduction:  'Safer Use',
     housing:         'Wohnen',
@@ -43,7 +45,6 @@ const TAG_LABELS = {
     outreach_bus:    'Busse unterwegs',
     outreach:        'Aufsuchend',
     overnight_shelter: 'Notübernachtung',
-    people_who_use_drugs: 'Drogengebrauchend',
     pet_friendly:    'Haustierfreundlich',
     psychiatric_emergency_service: 'Psychiatrische Rettungsstelle',
     psychological_counseling: 'Psychologische Beratung',
@@ -56,7 +57,6 @@ const TAG_LABELS = {
     substance_use_support: 'Suchtspezifische Angebote',
     transitional_housing: 'Übergangswohnen',
     transport:       'Transport',
-    uninsured:       'Ohne Krankenversicherung',
     youth_shelter:   'Jugendnotunterkunft',
 };
 
@@ -246,8 +246,9 @@ function normalizeFacility(raw) {
             city:       String(address.city       || 'Berlin'),
             subdistrict: String(address.subdistrict || ''),
         },
-        tags:        Array.isArray(raw?.tags) ? raw.tags.filter(Boolean).map(String) : [],
-        targetGroup: typeof raw?.targetGroup === 'string' ? raw.targetGroup : 'all',
+        tagsOffer:   Array.isArray(raw?.tagsOffer)   ? raw.tagsOffer.filter(Boolean).map(String)   : [],
+        tagsFeature: Array.isArray(raw?.tagsFeature) ? raw.tagsFeature.filter(Boolean).map(String) : [],
+        targetGroup: Array.isArray(raw?.targetGroup) ? raw.targetGroup.filter(Boolean).map(String) : ['all'],
         contact: {
             phone:   contact.phone   ? String(contact.phone)          : '',
             email:   contact.email   ? String(contact.email)          : '',
@@ -291,10 +292,12 @@ function renderCard(f) {
     const addr      = addrParts.join(', ');
     const mapsUrl   = `https://www.google.com/maps/search/?api=1&query=${encodeURIComponent(addr)}`;
 
-    const targetGroupTag = f.targetGroup !== 'all' && TARGET_GROUP_LABELS[f.targetGroup]
-        ? `<span class="tag pill tag--target-group">${escapeHtml(TARGET_GROUP_LABELS[f.targetGroup])}</span>`
-        : '';
-    const tags = f.tags.map(t => `<span class="${tagCls(t)}">${escapeHtml(tagLabel(t))}</span>`).join('');
+    const targetGroupTags = f.targetGroup
+        .filter(g => g !== 'all' && TARGET_GROUP_LABELS[g])
+        .map(g => `<span class="tag pill tag--target-group">${escapeHtml(TARGET_GROUP_LABELS[g])}</span>`)
+        .join('');
+    const offerTags   = f.tagsOffer.map(t => `<span class="${tagCls(t)}">${escapeHtml(tagLabel(t))}</span>`).join('');
+    const featureTags = f.tagsFeature.map(t => `<span class="${tagCls(t)}">${escapeHtml(tagLabel(t))}</span>`).join('');
 
     const seasonalLabel     = formatSeasonalNote(f.seasonalNote, f.seasonalNoteText);
     const openingHoursLabel = formatOpeningHours(f.openingHours);
@@ -311,7 +314,7 @@ function renderCard(f) {
         <h2 class="card-name">${escapeHtml(f.name)}</h2>
         <p class="card-org">${escapeHtml(f.organization)}</p>
     </div>
-    <div class="card-tags">${targetGroupTag}${tags}</div>
+    <div class="card-tags">${targetGroupTags}${offerTags}${featureTags}</div>
     <div class="card-meta">
         <div class="meta-row meta-row--location">
             ${renderIcon('place')}
@@ -341,11 +344,11 @@ function flattenFacility(f) {
         district:     f.address.district,
         description:  f.description,
         // Include both tag keys and German labels so both are searchable
-        tags_str:     [...f.tags, ...f.tags.map(tagLabel)].join(' '),
+        tags_str:          [...f.tagsOffer, ...f.tagsFeature, ...f.tagsOffer.map(tagLabel), ...f.tagsFeature.map(tagLabel)].join(' '),
         // Not in valueNames — accessed only in filter callbacks
-        tags_json:    JSON.stringify(f.tags),
-        target_group: f.targetGroup,
-        facility_id:  f.id,
+        tags_json:         JSON.stringify([...f.tagsOffer, ...f.tagsFeature]),
+        target_group_json: JSON.stringify(f.targetGroup),
+        facility_id:       f.id,
         html:         renderCard(f),
     };
 }
@@ -472,8 +475,11 @@ async function init() {
         const now = new Date();
         listInstance.filter(item => {
             const values = item.values();
-            if (activeTag          && !JSON.parse(values.tags_json || '[]').includes(activeTag)) return false;
-            if (activeTargetGroup  && values.target_group !== activeTargetGroup)                 return false;
+            if (activeTag && !JSON.parse(values.tags_json || '[]').includes(activeTag)) return false;
+            if (activeTargetGroup) {
+                const groups = JSON.parse(values.target_group_json || '["all"]');
+                if (!groups.includes(activeTargetGroup) && !groups.includes('all')) return false;
+            }
             if (activeOrganization && values.organization !== activeOrganization)                return false;
             if (filterOpenNow) {
                 const facility = facilityMap.get(values.facility_id);
@@ -540,8 +546,8 @@ async function init() {
     listInstance.sort(sortState.field, { order: sortState.order });
 
     // ── Target group filters ──────────────────────────────────────────────────
-    const groupOrder = ['women', 'men', 'families', 'youth', 'lgbtiq'];
-    const usedGroups = new Set(facilities.map(f => f.targetGroup));
+    const groupOrder = ['women', 'men', 'families', 'youth', 'lgbtiq', 'eu_citizens', 'uninsured', 'people_who_use_drugs'];
+    const usedGroups = new Set(facilities.flatMap(f => f.targetGroup));
     buildFilterGroup(
         $tgFilters, 'Alle Gruppen',
         groupOrder.filter(g => usedGroups.has(g)).map(g => ({ id: g, label: TARGET_GROUP_LABELS[g] })),
@@ -549,7 +555,7 @@ async function init() {
     );
 
     // ── Tag filters ───────────────────────────────────────────────────────────
-    const usedTags = [...new Set(facilities.flatMap(f => f.tags))]
+    const usedTags = [...new Set(facilities.flatMap(f => [...f.tagsOffer, ...f.tagsFeature]))]
         .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'));
     buildFilterGroup(
         $filters, 'Alle',
