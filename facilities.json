@@ -8224,7 +8224,7 @@
     "address": {
       "street": "Anton-Saefkow-Platz 3",
       "district": "Lichtenberg",
-      "postalCode": "",
+      "postalCode": "10369",
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
@@ -8232,8 +8232,28 @@
       "counseling",
       "housing"
     ],
-    "contact": {},
-    "openingHours": [],
+    "contact": {
+      "phone": "030 66634-0511",
+      "email": "awh-fennpfuhl@caritas-berlin.de"
+    },
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "14:00",
+        "end": "17:00",
+        "label": ""
+      }
+    ],
     "description": "Ambulante Wohnungslosenhilfe in Lichtenberg",
     "seasonalNote": [
       {
@@ -8241,7 +8261,6 @@
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
@@ -8294,9 +8313,9 @@
     "organization": "Wili 67",
     "color": "#c6bded",
     "address": {
-      "street": "Prinzenallee 40",
+      "street": "Prinzenallee 39/40",
       "district": "Mitte",
-      "postalCode": "",
+      "postalCode": "13359",
       "city": "Berlin",
       "subdistrict": "Wedding"
     },
@@ -8304,16 +8323,36 @@
       "counseling",
       "housing"
     ],
-    "contact": {},
-    "openingHours": [],
-    "description": "Kontaktstelle für Menschen in Wohnungsnot",
+    "contact": {
+      "phone": "030 453 04 331",
+      "email": "info@wili67.de",
+      "website": "http://www.wili67.de/"
+    },
+    "openingHours": [
+      {
+        "days": [
+          "tu"
+        ],
+        "start": "09:00",
+        "end": "12:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "th"
+        ],
+        "start": "15:00",
+        "end": "18:00",
+        "label": ""
+      }
+    ],
+    "description": "Kontaktstelle für Menschen in Wohnungsnot; Beratung bei drohender oder eingetretener Wohnungslosigkeit.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
@@ -8324,7 +8363,7 @@
     "address": {
       "street": "Frankfurter Allee 76",
       "district": "Friedrichshain-Kreuzberg",
-      "postalCode": "",
+      "postalCode": "10247",
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
@@ -8332,16 +8371,32 @@
       "counseling",
       "housing"
     ],
-    "contact": {},
-    "openingHours": [],
-    "description": "Kontaktstelle",
+    "contact": {
+      "phone": "030 577 911 61",
+      "email": "fa76@mywayberlin.de",
+      "website": "https://www.mywayberlin.de/friedrichshain/"
+    },
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
+    "description": "Beratungsstelle für Menschen in Wohnungsnot nach § 67 SGB XII; Hilfe bei Wohnungserhalt und Wohnungssuche.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
@@ -8351,10 +8406,10 @@
     "color": "#eab8ef",
     "address": {
       "street": "Gottschedstraße 21",
-      "district": "Pankow",
+      "district": "Mitte",
       "postalCode": "13357",
       "city": "Berlin",
-      "subdistrict": "Prenzlauer Berg"
+      "subdistrict": "Wedding"
     },
     "tags": [
       "counseling",
@@ -8385,7 +8440,7 @@
     "address": {
       "street": "Torstraße 210",
       "district": "Mitte",
-      "postalCode": "",
+      "postalCode": "10115",
       "city": "Berlin",
       "subdistrict": "Mitte"
     },
@@ -8440,23 +8495,28 @@
     "address": {
       "street": "Blankenburger Str. 141",
       "district": "Pankow",
-      "postalCode": "",
+      "postalCode": "13127",
       "city": "Berlin",
-      "subdistrict": "Pankow"
+      "subdistrict": "Niederschönhausen"
     },
     "tags": [
-      "housing"
+      "housing",
+      "bed_space",
+      "counseling"
     ],
-    "contact": {},
+    "contact": {
+      "phone": "030 4144021",
+      "email": "blankenburger@hks-wohnheime.de",
+      "website": "http://hks-wohnheime.de/"
+    },
     "openingHours": [],
-    "description": "",
+    "description": "Wohnheim für wohnungslose Menschen der HKS Wohnheime GmbH in Niederschönhausen.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
@@ -8467,187 +8527,230 @@
     "address": {
       "street": "Tempelhofer Weg 86",
       "district": "Neukölln",
-      "postalCode": "",
+      "postalCode": "12347",
       "city": "Berlin",
-      "subdistrict": "Neukölln"
+      "subdistrict": "Britz"
     },
     "tags": [
-      "housing"
+      "housing",
+      "bed_space",
+      "counseling"
     ],
-    "contact": {},
+    "contact": {
+      "phone": "030 6063514",
+      "website": "http://hks-wohnheime.de/"
+    },
     "openingHours": [],
-    "description": "",
+    "description": "Wohnheim für wohnungslose Menschen der HKS Wohnheime GmbH in Britz.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
     "id": 185,
     "name": "ZeitRaum Pankow",
-    "organization": "ZeitRaum",
+    "organization": "ZeitRaum gGmbH",
     "color": "#f4e9d8",
     "address": {
       "street": "Schönstr. 42",
       "district": "Pankow",
-      "postalCode": "",
+      "postalCode": "13086",
       "city": "Berlin",
-      "subdistrict": "Pankow"
+      "subdistrict": "Weißensee"
     },
     "tags": [
-      "housing"
+      "housing",
+      "bed_space",
+      "counseling"
     ],
-    "contact": {},
+    "contact": {
+      "phone": "030 929 00 790",
+      "website": "https://zeitraum-ggmbh.de/unternehmen/pankow/"
+    },
     "openingHours": [],
-    "description": "",
+    "description": "Betreutes Einzelwohnen und stationäres Übergangswohnen für Menschen in Wohnungsnot in 26 Einzelappartements nahe dem Weißen See.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
     "id": 186,
     "name": "ZeitRaum Neukölln",
-    "organization": "ZeitRaum",
+    "organization": "ZeitRaum gGmbH",
     "color": "#e2e8f2",
     "address": {
       "street": "Karl-Marx-Str. 58",
       "district": "Neukölln",
-      "postalCode": "",
+      "postalCode": "12043",
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
     "tags": [
-      "housing"
+      "housing",
+      "bed_space",
+      "counseling",
+      "mental_health"
     ],
-    "contact": {},
+    "contact": {
+      "phone": "030 6664 8420",
+      "website": "https://zeitraum-ggmbh.de/unternehmen/neukoelln/"
+    },
     "openingHours": [],
-    "description": "",
+    "description": "Betreutes Wohnen und Tageszentrum für psychisch erkrankte Erwachsene in Wohnungsnot.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
     "id": 187,
     "name": "Carpe Diem Übergangshaus Neukölln",
-    "organization": "Carpe Diem",
+    "organization": "Carpe Diem e.V.",
     "color": "#e2cceb",
     "address": {
       "street": "Delbrückstr. 29",
       "district": "Neukölln",
-      "postalCode": "",
+      "postalCode": "12051",
       "city": "Berlin",
       "subdistrict": "Neukölln"
     },
     "tags": [
       "housing",
-      "transitional_housing"
+      "transitional_housing",
+      "counseling"
     ],
-    "contact": {},
+    "contact": {
+      "phone": "030 6280 4930",
+      "website": "https://carpe-diem-berlin.de/standorte/neukoelln/"
+    },
     "openingHours": [],
-    "description": "",
+    "description": "Betreutes Übergangswohnen für Menschen in besonderen sozialen Schwierigkeiten nach § 67 SGB XII; Aufnahme mit Kostenübernahmebescheid des Sozialamts.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
     "id": 188,
     "name": "Carpe Diem Übergangshaus Lichtenberg",
-    "organization": "Carpe Diem",
+    "organization": "Carpe Diem e.V.",
     "color": "#c7eccf",
     "address": {
       "street": "Alt-Friedrichsfelde 93",
       "district": "Lichtenberg",
-      "postalCode": "",
+      "postalCode": "10315",
       "city": "Berlin",
       "subdistrict": "Lichtenberg"
     },
     "tags": [
       "housing",
-      "transitional_housing"
+      "transitional_housing",
+      "counseling"
     ],
-    "contact": {},
+    "contact": {
+      "phone": "030 34666585",
+      "website": "https://carpe-diem-berlin.de/"
+    },
     "openingHours": [],
-    "description": "",
+    "description": "Betreutes Übergangswohnen für Menschen in besonderen sozialen Schwierigkeiten nach § 67 SGB XII.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
     "id": 189,
     "name": "Frauenwohnen plus",
-    "organization": "Frauenwohnen plus",
+    "organization": "GEBEWO - Soziale Dienste - Berlin gGmbH",
     "color": "#edbae8",
     "address": {
       "street": "Grabbeallee 63",
       "district": "Pankow",
-      "postalCode": "",
+      "postalCode": "13156",
       "city": "Berlin",
       "subdistrict": "Pankow"
     },
     "tags": [
-      "housing"
+      "housing",
+      "bed_space",
+      "counseling",
+      "mental_health"
     ],
-    "contact": {},
+    "contact": {
+      "phone": "030 4998 8 2910",
+      "email": "frauenwohnenplus@gebewo.de",
+      "website": "https://gebewo.berlin/frauenwohnen-plus"
+    },
     "openingHours": [],
-    "description": "",
+    "description": "Übergangswohnheim für wohnungslose Frauen mit psychischen Erkrankungen nach § 67 SGB XII; 24 Einzelzimmer mit sozialpädagogischer Betreuung; Aufnahme durch das Sozialamt.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "women"
   },
   {
     "id": 190,
     "name": "Frauenbedacht",
-    "organization": "Frauenbedacht",
+    "organization": "GEBEWO - Soziale Dienste - Berlin gGmbH",
     "color": "#f3d8df",
     "address": {
       "street": "Bornemannstraße 12",
-      "district": "Tempelhof-Schöneberg",
-      "postalCode": "",
+      "district": "Mitte",
+      "postalCode": "13357",
       "city": "Berlin",
-      "subdistrict": "Schöneberg"
+      "subdistrict": "Wedding"
     },
     "tags": [
-      "housing"
+      "housing",
+      "bed_space",
+      "counseling"
     ],
-    "contact": {},
-    "openingHours": [],
-    "description": "",
+    "contact": {
+      "phone": "030 274 962 97",
+      "email": "mail@gebewo.berlin",
+      "website": "https://gebewo.berlin/en/frauenbedacht"
+    },
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "09:00",
+        "end": "16:00",
+        "label": ""
+      }
+    ],
+    "description": "Übergangshaus für wohnungslose Frauen nach § 67 SGB XII mit sozialpädagogischer Begleitung; Aufnahme mit Kostenübernahmebescheid des Sozialamts.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "women"
   },
   {
@@ -8663,7 +8766,10 @@
       "subdistrict": "Bohnsdorf"
     },
     "tags": [
-      "housing"
+      "housing",
+      "bed_space",
+      "counseling",
+      "open_24h"
     ],
     "contact": {
       "phone": "030 720216430",
@@ -8698,29 +8804,50 @@
   },
   {
     "id": 192,
-    "name": "ASB Nothilfe Berlin",
-    "organization": "Arbeiter-Samariter-Bund",
+    "name": "INKLUSIO – Unterkunft für Wohnungslose (ASB)",
+    "organization": "ASB Nothilfe Berlin gGmbH",
     "color": "#f0dadf",
     "address": {
       "street": "Rudolfstraße 9",
       "district": "Friedrichshain-Kreuzberg",
-      "postalCode": "",
+      "postalCode": "10245",
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
     "tags": [
-      "housing"
+      "housing",
+      "overnight_shelter",
+      "bed_space",
+      "counseling",
+      "open_24h"
     ],
-    "contact": {},
-    "openingHours": [],
-    "description": "Unterkunft beziehungsweise Nothilfe-Angebot aus dem Register-Unterkuenfte.xlsx.",
+    "contact": {
+      "phone": "030 213070",
+      "website": "https://www.asb-berlin.de/unsere-angebote/wohnungslosenhilfe"
+    },
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "00:00",
+        "end": "24:00",
+        "label": ""
+      }
+    ],
+    "description": "Ganzjährige Unterkunft für wohnungslose Menschen mit 58 Plätzen in Einzel- und Doppelzimmern; sozialpädagogische Begleitung.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
     "targetGroup": "all"
   },
   {
@@ -8731,75 +8858,143 @@
     "address": {
       "street": "Storkower Str. 133A",
       "district": "Pankow",
-      "postalCode": "",
+      "postalCode": "10407",
       "city": "Berlin",
-      "subdistrict": "Pankow"
+      "subdistrict": "Prenzlauer Berg"
     },
     "tags": [
       "overnight_shelter",
       "bed_space",
-      "housing"
+      "food",
+      "hygiene"
     ],
     "contact": {},
-    "openingHours": [],
-    "description": "Notübernachtung aus dem Register-Unterkuenfte.xlsx.",
-    "seasonalNote": [],
-    "seasonalNoteText": "Saisonal / bitte direkt erfragen",
-    "openingNote": "Bitte direkt erfragen",
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr",
+          "sa",
+          "su"
+        ],
+        "start": "19:00",
+        "end": "08:00",
+        "label": ""
+      }
+    ],
+    "description": "Kältehilfe-Notübernachtung mit 80 Plätzen; Abendessen und Frühstück sowie Hygieneangebote; multilingualer Sozialberatungstag wöchentlich. Letzter Einlass: 00:00 Uhr.",
+    "seasonalNote": [
+      {
+        "start": "2000-11-01",
+        "end": "2001-04-30"
+      }
+    ],
+    "openingNote": "Letzter Einlass 00:00 Uhr",
     "targetGroup": "all"
   },
   {
     "id": 194,
-    "name": "Nachtcafé Obdach",
-    "organization": "Nachtcafé Obdach",
+    "name": "Nachtcafé obDACH e.V.",
+    "organization": "obDach? e.V.",
     "color": "#e4dcf1",
     "address": {
       "street": "Samariterstraße 27",
       "district": "Friedrichshain-Kreuzberg",
-      "postalCode": "",
+      "postalCode": "10247",
       "city": "Berlin",
       "subdistrict": "Friedrichshain"
     },
     "tags": [
       "night_cafe",
-      "day_services",
-      "housing"
-    ],
-    "contact": {},
-    "openingHours": [],
-    "description": "Nachtcafé",
-    "seasonalNote": [],
-    "seasonalNoteText": "Saisonal / bitte direkt erfragen",
-    "openingNote": "Bitte direkt erfragen",
-    "targetGroup": "all"
-  },
-  {
-    "id": 195,
-    "name": "Krisenwohnung / Notunterkunft für Suchterkrankte",
-    "organization": "Krisenwohnung / Notunterkunft für Suchterkrankte",
-    "color": "#f0def0",
-    "address": {
-      "street": "Rathenower Straße 16",
-      "district": "Mitte",
-      "postalCode": "",
-      "city": "Berlin",
-      "subdistrict": "Moabit"
-    },
-    "tags": [
       "overnight_shelter",
-      "substance_use_support",
-      "housing"
+      "bed_space",
+      "food",
+      "hygiene",
+      "clothing"
     ],
-    "contact": {},
-    "openingHours": [],
-    "description": "Krisenwohnung beziehungsweise Notunterkunft für Suchterkrankte.",
+    "contact": {
+      "phone": "030 81477317",
+      "email": "kontakt@obdach-ev.de",
+      "website": "https://obdach-ev.de/"
+    },
+    "openingHours": [
+      {
+        "days": [
+          "th"
+        ],
+        "start": "18:00",
+        "end": "07:30",
+        "label": ""
+      }
+    ],
+    "description": "Ganzjährig geöffnetes Nachtcafé mit ca. 30 Schlafplätzen, warmer Mahlzeit, Dusche und Wäsche; striktes Alkohol- und Drogenverbot. Letzter Einlass: 22:00 Uhr.",
     "seasonalNote": [
       {
         "start": "2000-01-01",
         "end": "2000-12-31"
       }
     ],
-    "openingNote": "Bitte direkt erfragen",
+    "openingNote": "Letzter Einlass 22:00 Uhr",
+    "targetGroup": "all"
+  },
+  {
+    "id": 195,
+    "name": "Berliner Krisenwohnung – Notunterkunft für Suchterkrankte",
+    "organization": "Drogennotdienst Berlin",
+    "color": "#f0def0",
+    "address": {
+      "street": "Rathenower Straße 16",
+      "district": "Mitte",
+      "postalCode": "10559",
+      "city": "Berlin",
+      "subdistrict": "Moabit"
+    },
+    "tags": [
+      "overnight_shelter",
+      "bed_space",
+      "substance_use_support",
+      "food",
+      "hygiene",
+      "clothing"
+    ],
+    "contact": {
+      "phone": "030 233 240 200",
+      "email": "kw@notdienstberlin.de",
+      "website": "https://drogennotdienst.de/wohnen-notuebernachtung/krisenwohnung/"
+    },
+    "openingHours": [
+      {
+        "days": [
+          "mo",
+          "tu",
+          "we",
+          "th",
+          "fr"
+        ],
+        "start": "20:30",
+        "end": "08:00",
+        "label": ""
+      },
+      {
+        "days": [
+          "sa",
+          "su"
+        ],
+        "start": "20:30",
+        "end": "13:00",
+        "label": ""
+      }
+    ],
+    "description": "Einzige berlinweite Krisenwohnung für wohnungslose suchterkrankte Frauen und Männer; täglich geöffnet; warme Mahlzeit, Duschen, Wäsche und Kleiderkammer.",
+    "seasonalNote": [
+      {
+        "start": "2000-01-01",
+        "end": "2000-12-31"
+      }
+    ],
     "targetGroup": "all"
   }
 ]
