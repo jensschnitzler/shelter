@@ -184,3 +184,5 @@ vendored libraries, and `facilities.json`.
 - [ ] Add filter "open now"
 - [ ] Add german phone prefix
 - [ ] Add filter for organizations
+- [x] Separate filter tags into "Angebot" and "Merkmal"
+- [ ] Add note regarding cookies, data privacy to fineprint.

@@ -1,32 +1,34 @@
-*, *::before, *::after {
+*,
+*::before,
+*::after {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
 :root {
-    --color-black:     #121418;
-    --color-white:     #eff4ff;
+    --color-black: #121418;
+    --color-white: #eff4ff;
     --color-greyLight: #e2e5ea;
-    --color-greyDark:  #5a6070;
-    --color-greyFaint: #f8fafc;   /* near-white for tag backgrounds */
+    --color-greyDark: #5a6070;
+    --color-greyFaint: #f8fafc; /* near-white for tag backgrounds */
     --color-blueLight: #2563eb;
-    --color-blueDark:  #0f52ba;
-    --color-blueWash:  #dbeafe;   /* light accent wash for hover states */
-    --color-blueHover: #1d4ed8;   /* slightly darker accent for button hover */
-    --color-orange:    #b9691c;
+    --color-blueDark: #0f52ba;
+    --color-blueWash: #dbeafe; /* light accent wash for hover states */
+    --color-blueHover: #1d4ed8; /* slightly darker accent for button hover */
+    --color-orange: #b9691c;
 
-    --bg:           var(--color-greyLight);
-    --surface:      var(--color-white);
-    --border:       var(--color-greyLight);
+    --bg: var(--color-greyLight);
+    --surface: var(--color-white);
+    --border: var(--color-greyLight);
     --text-primary: var(--color-black);
     --text-secondary: var(--color-greyDark);
-    --accent:       var(--color-blueLight);
+    --accent: var(--color-blueLight);
     --accent-light: var(--color-white);
-    --focus-ring:   var(--color-blueDark);
+    --focus-ring: var(--color-blueDark);
 
     --radius: 8px;
-    --shadow: 0 1px 3px rgba(0,0,0,.06), 0 2px 12px rgba(0,0,0,.05);
+    --shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 2px 12px rgba(0, 0, 0, 0.05);
 
     --fontsize-l: 5vw;
     --fontsize-m: 1.3rem;
@@ -34,7 +36,13 @@
 }
 
 #app {
-    font-family: 'Remus Variable', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family:
+        "Remus Variable",
+        -apple-system,
+        BlinkMacSystemFont,
+        "Segoe UI",
+        Roboto,
+        sans-serif;
     background: var(--color-greyLight);
     color: var(--text-primary);
     line-height: 1.2;
@@ -45,24 +53,25 @@
 }
 
 @font-face {
-    font-family: 'Remus Variable';
+    font-family: "Remus Variable";
     font-style: normal;
     font-weight: 100 900;
     font-stretch: 50% 200%;
-    src: url('fonts/RemusVariableVF.woff2') format('woff2'),
-         url('fonts/RemusVariableVF.woff') format('woff'),
-         url('fonts/RemusVariableVF.ttf') format('truetype');
+    src:
+        url("fonts/RemusVariableVF.woff2") format("woff2"),
+        url("fonts/RemusVariableVF.woff") format("woff"),
+        url("fonts/RemusVariableVF.ttf") format("truetype");
 }
 
 @font-face {
-    font-family: 'Material Symbols Outlined';
+    font-family: "Material Symbols Outlined";
     font-style: normal;
     font-weight: 100 700;
-    src: url('fonts/Google-Material-Symbols-Outlined.woff2') format('woff2');
+    src: url("fonts/Google-Material-Symbols-Outlined.woff2") format("woff2");
 }
 
 .material-symbols-outlined {
-    font-family: 'Material Symbols Outlined';
+    font-family: "Material Symbols Outlined";
     font-style: normal;
     font-weight: normal;
     font-size: 1em;
@@ -94,16 +103,16 @@
 
 .skip-link {
     position: absolute;
-    top: .75rem;
-    left: .75rem;
+    top: 0.75rem;
+    left: 0.75rem;
     z-index: 1000;
-    padding: .6rem .85rem;
+    padding: 0.6rem 0.85rem;
     border-radius: var(--radius);
     background: var(--text-primary);
     color: #fff;
     text-decoration: none;
     transform: translateY(-140%);
-    transition: transform .15s ease;
+    transition: transform 0.15s ease;
 }
 
 .skip-link:focus {
@@ -121,13 +130,13 @@
     font-size: var(--fontsize-l);
     font-weight: 650;
     line-height: 0.9;
-    letter-spacing: -.03em;
+    letter-spacing: -0.03em;
 }
 
 #header p {
-    margin-top: .4rem;
+    margin-top: 0.4rem;
     color: var(--text-secondary);
-    font-size: var(--fontsize-s)
+    font-size: var(--fontsize-s);
 }
 
 /* ── Controls (search + sort) ── */
@@ -145,7 +154,7 @@
     display: flex;
     flex-wrap: wrap;
     align-items: center;
-    gap: .45rem;
+    gap: 0.45rem;
     padding: 1rem 1.5rem;
     font-size: var(--fontsize-s);
 }
@@ -155,7 +164,7 @@
 }
 
 .controls--main {
-    gap: .75rem;
+    gap: 0.75rem;
 }
 
 .control-help {
@@ -166,19 +175,21 @@
 #search-input {
     flex: 1;
     min-width: 200px;
-    padding: .55rem .9rem;
+    padding: 0.55rem 0.9rem;
     border: 1px solid var(--border);
     border-radius: var(--radius);
     font-size: var(--fontsize-s);
     color: var(--text-primary);
     background: var(--bg);
     outline: none;
-    transition: border-color .15s, box-shadow .15s;
+    transition:
+        border-color 0.15s,
+        box-shadow 0.15s;
 }
 
 #search-input:focus-visible {
     border-color: var(--accent);
-    box-shadow: 0 0 0 3px rgba(15,82,186,.22);
+    box-shadow: 0 0 0 3px rgba(15, 82, 186, 0.22);
     background: #fff;
 }
 
@@ -186,7 +197,7 @@
 #sort-controls {
     display: none !important;
     align-items: center;
-    gap: .4rem;
+    gap: 0.4rem;
     flex-shrink: 0;
 }
 
@@ -197,14 +208,14 @@
 }
 
 .sort-btn {
-    padding: .4rem .85rem;
+    padding: 0.4rem 0.85rem;
     border-radius: var(--radius);
     border: 1px solid var(--border);
     background: var(--bg);
     color: var(--text-secondary);
     font-size: var(--fontsize-s);
     cursor: pointer;
-    transition: all .15s;
+    transition: all 0.15s;
     position: relative;
 }
 
@@ -229,8 +240,12 @@
 }
 
 /* Arrow indicator for active sort direction */
-.sort-btn.active.asc::after  { content: ' ↑'; }
-.sort-btn.active.desc::after { content: ' ↓'; }
+.sort-btn.active.asc::after {
+    content: " ↑";
+}
+.sort-btn.active.desc::after {
+    content: " ↓";
+}
 
 /* ── Pill Small ── */
 .pill {
@@ -242,19 +257,22 @@
     display: inline-flex;
     align-items: center;
     line-height: 1;
-    padding: .3rem .62rem .28rem;
+    padding: 0.3rem 0.62rem 0.28rem;
 }
 
-a.pill, button.pill {
+a.pill,
+button.pill {
     cursor: pointer;
-    transition: all .15s;
+    transition: all 0.15s;
     &:hover {
         border-color: var(--accent);
         color: var(--accent);
     }
 }
 
-.pill.active, a.pill.active, button.pill.active {
+.pill.active,
+a.pill.active,
+button.pill.active {
     background: var(--accent);
     border-color: var(--accent);
     color: var(--color-white);
@@ -266,7 +284,7 @@ a.pill, button.pill {
 
 /* ── Filters ── */
 .filter-btn {
-    padding: .3rem .75rem;
+    padding: 0.3rem 0.75rem;
     border-radius: 999px;
     border: 1px solid var(--border);
     background: var(--bg);
@@ -276,7 +294,7 @@ a.pill, button.pill {
 
 /* ── Stats ── */
 #stats {
-    padding: .65rem 1.5rem;
+    padding: 0.65rem 1.5rem;
     font-size: var(--fontsize-s);
     color: var(--color-greyDark);
     text-align: center;
@@ -307,7 +325,7 @@ a.pill, button.pill {
 }
 
 .site-footer p + p {
-    margin-top: .45rem;
+    margin-top: 0.45rem;
 }
 
 .site-footer a {
@@ -324,7 +342,7 @@ ul.list {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1rem;
     list-style: none;
-    padding: .5rem 0 0;
+    padding: 0.5rem 0 0;
 }
 
 /* List.js hides non-matching items inline — ensure hidden items take no space */
@@ -345,9 +363,12 @@ li.item .html {
     padding: 0.9rem 1rem 0.75rem 1rem;
     display: flex;
     flex-direction: column;
-    gap: .75rem;
-    transition: box-shadow .15s, transform .15s;
+    gap: 0.75rem;
+    transition:
+        box-shadow 0.15s,
+        transform 0.15s;
     color: var(--color-greyDark);
+    box-shadow: var(--shadow);
 }
 
 .card > * {
@@ -355,14 +376,14 @@ li.item .html {
 }
 
 .card:hover {
-    box-shadow: 0 4px 16px rgba(0,0,0,.1);
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
     transform: translateY(-1px);
 }
 
 .card-header {
     display: flex;
     flex-direction: column;
-    gap: .3rem;
+    gap: 0.3rem;
 }
 
 .card-name {
@@ -381,7 +402,7 @@ li.item .html {
 .card-tags {
     display: flex;
     flex-wrap: wrap;
-    gap: .35rem;
+    gap: 0.35rem;
 }
 
 .tag {
@@ -398,7 +419,7 @@ li.item .html {
 .card-meta {
     display: flex;
     flex-direction: column;
-    gap: .4rem;
+    gap: 0.4rem;
     font-size: var(--fontsize-s);
     color: var(--text-secondary);
 }
@@ -406,7 +427,7 @@ li.item .html {
 .meta-row {
     display: flex;
     align-items: flex-start;
-    gap: .5rem;
+    gap: 0.5rem;
 }
 
 .meta-icon {
@@ -417,7 +438,7 @@ li.item .html {
     width: 1.1rem;
     height: 1.1rem;
     text-align: center;
-    margin-top: .05em;
+    margin-top: 0.05em;
     color: var(--text-secondary);
     font-size: 1em;
     line-height: 1;
@@ -434,10 +455,13 @@ li.item .html {
 }
 
 /* ── Details / Description ── */
-.card-info, .card-meta, .card-tags, .card-contact {
-    margin-top: .1rem;
+.card-info,
+.card-meta,
+.card-tags,
+.card-contact {
+    margin-top: 0.1rem;
     border-top: 1px solid var(--border);
-    padding-top: .75rem;
+    padding-top: 0.75rem;
 }
 
 /* ── ReadMore component ── */
@@ -460,7 +484,7 @@ li.item .html {
 /* Toggle button: hidden until overflow is detected */
 .readmore__toggle {
     display: none;
-    margin-top: .5rem;
+    margin-top: 0.5rem;
     padding: 0;
     border: none;
     background: none;
@@ -472,7 +496,7 @@ li.item .html {
 .rm--active .readmore__toggle {
     display: inline-flex;
     align-items: center;
-    gap: .2rem;
+    gap: 0.2rem;
 }
 
 .readmore__toggle:hover {
@@ -495,14 +519,16 @@ li.item .html {
 .contact-link {
     display: inline-flex;
     align-items: center;
-    gap: .3rem;
+    gap: 0.3rem;
     font-size: var(--fontsize-s);
     color: var(--accent);
     text-decoration: none;
-    padding: .45rem .7rem;
+    padding: 0.45rem 0.7rem;
     margin-inline: -0.7rem;
     border-radius: var(--radius);
-    transition: background .15s, color .15s;
+    transition:
+        background 0.15s,
+        color 0.15s;
     position: relative;
 }
 
@@ -522,20 +548,27 @@ li.item .html {
     z-index: 100;
     display: inline-flex;
     align-items: center;
-    gap: .4rem;
-    padding: .55rem 1.1rem;
+    gap: 0.4rem;
+    padding: 0.55rem 1.1rem;
     border-radius: 999px;
     background: var(--accent);
     color: #fff;
     font-size: var(--fontsize-s);
     text-decoration: none;
-    box-shadow: 0 2px 8px rgba(37,99,235,.3), 0 1px 3px rgba(0,0,0,.1);
-    transition: background .15s, box-shadow .15s, transform .15s;
+    box-shadow:
+        0 2px 8px rgba(37, 99, 235, 0.3),
+        0 1px 3px rgba(0, 0, 0, 0.1);
+    transition:
+        background 0.15s,
+        box-shadow 0.15s,
+        transform 0.15s;
 }
 
 .feedback-btn:hover {
     background: var(--color-blueHover);
-    box-shadow: 0 4px 16px rgba(37,99,235,.4), 0 2px 6px rgba(0,0,0,.1);
+    box-shadow:
+        0 4px 16px rgba(37, 99, 235, 0.4),
+        0 2px 6px rgba(0, 0, 0, 0.1);
     transform: translateY(-1px);
 }
 
@@ -551,16 +584,34 @@ li.item .html {
 
 /* ── Responsive ── */
 @media (max-width: 600px) {
-    header h1 { font-size: var(--fontsize-l); }
-    #controls { flex-direction: column; align-items: stretch; }
-    #sort-controls { justify-content: flex-end; }
-    ul.list { grid-template-columns: 1fr; }
-    #facilities-list { padding: 0 .75rem 2rem; }
-    .feedback-btn { bottom: 1rem; right: 1rem; font-size: var(--fontsize-s); padding: .45rem .85rem; }
+    header h1 {
+        font-size: var(--fontsize-l);
+    }
+    #controls {
+        flex-direction: column;
+        align-items: stretch;
+    }
+    #sort-controls {
+        justify-content: flex-end;
+    }
+    ul.list {
+        grid-template-columns: 1fr;
+    }
+    #facilities-list {
+        padding: 0 0.75rem 2rem;
+    }
+    .feedback-btn {
+        bottom: 1rem;
+        right: 1rem;
+        font-size: var(--fontsize-s);
+        padding: 0.45rem 0.85rem;
+    }
 }
 
 @media (prefers-reduced-motion: reduce) {
-    *, *::before, *::after {
+    *,
+    *::before,
+    *::after {
         scroll-behavior: auto !important;
         transition-duration: 0.01ms !important;
         animation-duration: 0.01ms !important;

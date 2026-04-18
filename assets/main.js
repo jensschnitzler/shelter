@@ -554,7 +554,7 @@ async function init() {
     const groupOrder = ['women', 'men', 'families', 'youth', 'lgbtiq', 'eu_citizens', 'uninsured', 'people_who_use_drugs'];
     const usedGroups = new Set(facilities.flatMap(f => f.targetGroup));
     buildFilterGroup(
-        $tgFilters, 'Alle Gruppen',
+        $tgFilters, 'Alle',
         groupOrder.filter(g => usedGroups.has(g)).map(g => ({ id: g, label: TARGET_GROUP_LABELS[g] })),
         value => { activeTargetGroup = value; applyFilters(); }
     );
