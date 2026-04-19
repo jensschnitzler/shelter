@@ -576,11 +576,15 @@ async function init() {
     // ── Map wiring ────────────────────────────────────────────────────────────
     const { map, markers, activateMarker, deactivateMarker } = initMap(facilities);
 
-    // Card ↔ marker hover sync
-    $('#facilities-list').on('mouseenter', '.card', function () {
+    // Card ↔ marker hover sync.
+    // mouseleave doesn't bubble so delegation won't catch it — use mouseover/mouseout
+    // and filter by relatedTarget to replicate mouseenter/mouseleave semantics.
+    $('#facilities-list').on('mouseover', '.card', function (e) {
+        if (e.relatedTarget && $(e.relatedTarget).closest('.card')[0] === this) return;
         const marker = markers.get(this.id.slice('facility-'.length));
         if (marker) activateMarker(marker);
-    }).on('mouseleave', '.card', function () {
+    }).on('mouseout', '.card', function (e) {
+        if (e.relatedTarget && $(e.relatedTarget).closest('.card')[0] === this) return;
         const marker = markers.get(this.id.slice('facility-'.length));
         if (marker) deactivateMarker(marker);
     });
