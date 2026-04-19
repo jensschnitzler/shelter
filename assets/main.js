@@ -758,6 +758,14 @@ async function init() {
         value => { activeOrganization = value; applyFilters(); }
     );
 
+    // ── View switcher (cards / rows) ──────────────────────────────────────────
+    $('.view-btn').on('click', function () {
+        const view = $(this).data('view');
+        $('.view-btn').removeClass('active').attr('aria-pressed', 'false');
+        $(this).addClass('active').attr('aria-pressed', 'true');
+        $('#facilities-list').toggleClass('view-rows', view === 'rows');
+    });
+
     initCollapsibleControls();
     updateStats();
 }

@@ -330,7 +330,7 @@ button.pill.active {
     transform: rotate(180deg);
 }
 
-/* ── Stats ── */
+/* ── Stats bar ── */
 #stats-bar {
     display: flex;
     align-items: center;
@@ -348,6 +348,17 @@ button.pill.active {
 #stats.is-error {
     color: var(--color-orange);
     margin-top: 4.5rem;
+}
+
+.stats-actions {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.view-switcher {
+    display: flex;
+    gap: 0.25rem;
 }
 
 #map-toggle {
@@ -681,6 +692,53 @@ a.meta-row:hover {
 .feedback-btn .material-symbols-outlined {
     font-size: 1em;
     line-height: 1;
+}
+
+/* ── Rows view ── */
+#facilities-list.view-rows ul.list {
+    grid-template-columns: 1fr;
+    gap: 0.3rem;
+}
+
+#facilities-list.view-rows li.item .html {
+    height: auto;
+}
+
+#facilities-list.view-rows .card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 0 1rem;
+    padding: 0.5rem 1rem;
+}
+
+#facilities-list.view-rows .card-header {
+    flex: 1 1 180px;
+    min-width: 0;
+}
+
+#facilities-list.view-rows .card-tags {
+    flex: 3 1 200px;
+    min-width: 0;
+    margin-top: 0;
+    border-top: none;
+    padding-top: 0;
+}
+
+#facilities-list.view-rows .card-meta {
+    flex: 1 1 160px;
+    min-width: 0;
+    margin-top: 0;
+    border-top: none;
+    padding-top: 0;
+}
+
+#facilities-list.view-rows .card-info,
+#facilities-list.view-rows .card-contact,
+#facilities-list.view-rows .meta-row--hours,
+#facilities-list.view-rows .meta-row--seasonal,
+#facilities-list.view-rows .meta-row--opening-note {
+    display: none;
 }
 
 /* ── Desktop map toggle ── */

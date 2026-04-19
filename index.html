@@ -9,8 +9,12 @@
         />
         <title>Hilfe für Obdachlose in Berlin</title>
         <link rel="icon" href="assets/favicon.svg" type="image/svg+xml" />
-        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css" />
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.css"
+        />
         <link rel="stylesheet" href="assets/styles.css" />
+        <link rel="preconnect" href="assets/fonts/RemusVariableVF.woff2" />
     </head>
     <body id="app">
         <a class="skip-link" href="#facilities-list"
@@ -117,69 +121,87 @@
 
         <div id="stats-bar">
             <p id="stats" role="status" aria-atomic="true"></p>
-            <button
-                type="button"
-                id="map-toggle"
-                class="pill"
-                aria-pressed="false"
-            >
-                <span class="material-symbols-outlined" aria-hidden="true">map</span>
-                <span class="map-toggle__label">Karte</span>
-            </button>
+            <div class="stats-actions">
+                <div
+                    class="view-switcher"
+                    role="group"
+                    aria-label="Darstellung"
+                >
+                    <button
+                        type="button"
+                        class="pill view-btn active"
+                        data-view="cards"
+                        aria-pressed="true"
+                        aria-label="Kartenansicht"
+                    >
+                        <span
+                            class="material-symbols-outlined"
+                            aria-hidden="true"
+                            >grid_view</span
+                        >
+                    </button>
+                    <button
+                        type="button"
+                        class="pill view-btn"
+                        data-view="rows"
+                        aria-pressed="false"
+                        aria-label="Reihenansicht"
+                    >
+                        <span
+                            class="material-symbols-outlined"
+                            aria-hidden="true"
+                            >table_rows</span
+                        >
+                    </button>
+                </div>
+                <button
+                    type="button"
+                    id="map-toggle"
+                    class="pill"
+                    aria-pressed="false"
+                >
+                    <span class="material-symbols-outlined" aria-hidden="true"
+                        >map</span
+                    >
+                    <span class="map-toggle__label">Karte</span>
+                </button>
+            </div>
         </div>
 
         <div id="view">
             <div id="facilities-list" tabindex="-1">
                 <ul class="list"></ul>
             </div>
-            <div id="map" role="region" aria-label="Karte der Einrichtungen"></div>
+            <div
+                id="map"
+                role="region"
+                aria-label="Karte der Einrichtungen"
+            ></div>
         </div>
 
         <footer class="site-footer">
             <p>
-                Diese Website wird entwickelt von
+                Entwickelt von
                 <a
                     href="https://github.com/jensschnitzler"
                     target="_blank"
                     rel="noopener"
                     >Jens Schnitzler</a
                 >
-                mit fachlicher Unterstützung von Dr. med. Derin Marbin. Die
-                Website verwendet HTML, CSS, JavaScript,
-                <a href="https://listjs.com" target="_blank" rel="noopener"
-                    >List.js</a
-                >
-                und
-                <a
-                    href="https://github.com/kenwheeler/cash"
-                    target="_blank"
-                    rel="noopener"
-                    >Cash.js</a
-                >. Sie wird gehostet bei
-                <a
-                    href="https://www.cloudflare.com/"
-                    target="_blank"
-                    rel="noopener"
-                    >Cloudflare</a
-                >. Ihre Dateien sind einsehbar bei
+                , mit fachlicher Unterstützung von Dr. med. Derin Marbin. Der
+                Quellcode ist auf
                 <a
                     href="https://github.com/jensschnitzler/shelter"
                     target="_blank"
                     rel="noopener"
                     >GitHub</a
-                >. Die verwendeten Schriftarten sind
-                <a
-                    href="https://github.com/jensschnitzler/Remus-Variable"
-                    target="_blank"
-                    rel="noopener"
-                    >Remus Variable</a
                 >
-                und
+                verfügbar. Hosting über
                 <a
-                    href="https://github.com/google/material-design-icons"
+                    href="https://www.cloudflare.com/"
                     target="_blank"
                     rel="noopener"
-                    >Google Material Design Icons</a
+                    >Cloudflare</a
                 >.
             </p>
         </footer>
