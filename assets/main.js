@@ -71,16 +71,10 @@ function tagCls(tag) {
     return Object.hasOwn(TAG_LABELS, tag) ? `tag pill tag-${tag}` : 'tag pill tag-default';
 }
 
+const HTML_ESCAPE_MAP = { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' };
+
 function escapeHtml(value) {
-    return String(value ?? '').replace(/[&<>"']/g, char => {
-        return {
-            '&': '&amp;',
-            '<': '&lt;',
-            '>': '&gt;',
-            '"': '&quot;',
-            "'": '&#39;',
-        }[char];
-    });
+    return String(value ?? '').replace(/[&<>"']/g, char => HTML_ESCAPE_MAP[char]);
 }
 
 function sanitizeExternalUrl(value) {
