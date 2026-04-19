@@ -336,6 +336,7 @@ button.pill.active {
     align-items: center;
     justify-content: space-between;
     padding: 0 1.5rem;
+    gap: 1.5rem;
 }
 
 #stats {
@@ -371,7 +372,7 @@ button.pill.active {
     grid-template-columns: 1fr 1fr;
     align-items: start;
     gap: 1.5rem;
-    padding: 0 1.5rem;
+    padding: 0.5rem 1.5rem;
 }
 
 /* ── List.js container & grid ── */
@@ -398,7 +399,9 @@ button.pill.active {
     background: var(--pin-color, #2563eb);
     border: 2px solid white;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
-    transition: transform 0.15s ease, box-shadow 0.15s ease;
+    transition:
+        transform 0.15s ease,
+        box-shadow 0.15s ease;
 }
 
 /* Marker active state (card hovered or marker hovered) */
@@ -410,14 +413,22 @@ button.pill.active {
 
 /* Card hover state (triggered by marker hover) */
 .card.is-hovered {
-    box-shadow: var(--shadow), 0 0 0 2px var(--accent);
+    box-shadow:
+        var(--shadow),
+        0 0 0 2px var(--accent);
     transform: translateY(-1px);
 }
 
 /* Card highlight on marker click */
 @keyframes card-highlight {
-    0%   { box-shadow: var(--shadow), 0 0 0 3px var(--accent); }
-    100% { box-shadow: var(--shadow); }
+    0% {
+        box-shadow:
+            var(--shadow),
+            0 0 0 3px var(--accent);
+    }
+    100% {
+        box-shadow: var(--shadow);
+    }
 }
 
 .card.is-highlighted {
@@ -451,7 +462,7 @@ ul.list {
     grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
     gap: 1rem;
     list-style: none;
-    padding: 0.5rem 0 0;
+    padding: 0;
 }
 
 /* List.js hides non-matching items inline — ensure hidden items take no space */

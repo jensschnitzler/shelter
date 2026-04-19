@@ -187,3 +187,4 @@ vendored libraries, and `facilities.json`.
 - [ ] Add german phone prefix
 - [ ] Add note regarding cookies, data privacy to fineprint.
 - [ ] Make some controls collapsible.
+- [ ] Add support button with paypal.me?
