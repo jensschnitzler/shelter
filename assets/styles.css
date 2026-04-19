@@ -23,9 +23,9 @@
     --border: var(--color-greyLight);
     --text-primary: var(--color-black);
     --text-secondary: var(--color-greyDark);
-    --accent: var(--color-blueLight);
+    --accent: var(--color-black);
     --accent-light: var(--color-white);
-    --focus-ring: var(--color-blueDark);
+    --focus-ring: var(--color-black);
 
     --radius: 8px;
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 2px 12px rgba(0, 0, 0, 0.05);
