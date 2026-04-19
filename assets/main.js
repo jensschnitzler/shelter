@@ -634,12 +634,12 @@ function initCollapsibleControls() {
         }
 
         // Inject toggle button into the label row (between label and pills)
-        const $toggle = $(
-            '<button class="controls__toggle pill" aria-expanded="false">' +
-            '<span class="controls__toggle-label">Mehr</span>' +
-            '<span class="material-symbols-outlined" aria-hidden="true">expand_more</span>' +
-            '</button>'
-        );
+        const $toggle = $(`
+            <button class="controls__toggle pill" aria-expanded="false">
+                <span class="controls__toggle-label">Mehr</span>
+                <span class="material-symbols-outlined" aria-hidden="true">expand_more</span>
+            </button>
+        `);
         $nav.children('span').first().after($toggle);
 
         // Start collapsed
