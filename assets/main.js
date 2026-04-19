@@ -192,21 +192,21 @@ function formatDaySequence(days) {
     const labels  = [];
 
     for (let i = 0; i < regular.length; i += 1) {
-        const start = regular[i];
-        let end = i;
+        const rangeStart = regular[i];
+        let rangeEndIdx  = i;
 
         while (
-            end + 1 < regular.length
-            && WEEKDAY_ORDER.indexOf(regular[end + 1]) === WEEKDAY_ORDER.indexOf(regular[end]) + 1
+            rangeEndIdx + 1 < regular.length
+            && WEEKDAY_ORDER.indexOf(regular[rangeEndIdx + 1]) === WEEKDAY_ORDER.indexOf(regular[rangeEndIdx]) + 1
         ) {
-            end += 1;
+            rangeEndIdx += 1;
         }
 
-        if (end > i + 1) {
-            labels.push(`${WEEKDAY_LABELS[start]}-${WEEKDAY_LABELS[regular[end]]}`);
-            i = end;
+        if (rangeEndIdx > i + 1) {
+            labels.push(`${WEEKDAY_LABELS[rangeStart]}-${WEEKDAY_LABELS[regular[rangeEndIdx]]}`);
+            i = rangeEndIdx;
         } else {
-            labels.push(WEEKDAY_LABELS[start]);
+            labels.push(WEEKDAY_LABELS[rangeStart]);
         }
     }
 
