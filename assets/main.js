@@ -460,9 +460,18 @@ function initMap(facilities) {
 
     const markers = new Map(); // facility id (string) → L.Marker
     let pendingHideId = null;
+    let activeMarker = null;
 
     function activateMarker(marker) {
         clearTimeout(pendingHideId);
+        // Immediately deactivate any different previously-active marker so the
+        // shared pendingHideId timer can't leave a stale marker highlighted.
+        if (activeMarker && activeMarker !== marker) {
+            activeMarker.closeTooltip();
+            activeMarker.getElement()?.classList.remove('is-active');
+            activeMarker.setZIndexOffset(0);
+        }
+        activeMarker = marker;
         if (!map.hasLayer(marker)) return;
         marker.openTooltip();
         marker.getElement()?.classList.add('is-active');
@@ -474,6 +483,7 @@ function initMap(facilities) {
             marker.closeTooltip();
             marker.getElement()?.classList.remove('is-active');
             marker.setZIndexOffset(0);
+            if (activeMarker === marker) activeMarker = null;
         }, 150);
     }
 
@@ -576,16 +586,19 @@ async function init() {
     // ── Map wiring ────────────────────────────────────────────────────────────
     const { map, markers, activateMarker, deactivateMarker } = initMap(facilities);
 
-    // Card ↔ marker hover sync.
-    // mouseleave doesn't bubble so delegation won't catch it — use mouseover/mouseout
-    // and filter by relatedTarget to replicate mouseenter/mouseleave semantics.
-    $('#facilities-list').on('mouseover', '.card', function (e) {
-        if (e.relatedTarget && $(e.relatedTarget).closest('.card')[0] === this) return;
-        const marker = markers.get(this.id.slice('facility-'.length));
+    // Card ↔ marker hover sync — native listeners + closest() bypass Cash.js
+    // delegation quirks that cause mouseout to silently drop on some paths.
+    const listEl = document.getElementById('facilities-list');
+    listEl.addEventListener('mouseover', e => {
+        const card = e.target.closest('.card');
+        if (!card || e.relatedTarget?.closest('.card') === card) return;
+        const marker = markers.get(card.id.slice('facility-'.length));
         if (marker) activateMarker(marker);
-    }).on('mouseout', '.card', function (e) {
-        if (e.relatedTarget && $(e.relatedTarget).closest('.card')[0] === this) return;
-        const marker = markers.get(this.id.slice('facility-'.length));
+    });
+    listEl.addEventListener('mouseout', e => {
+        const card = e.target.closest('.card');
+        if (!card || e.relatedTarget?.closest('.card') === card) return;
+        const marker = markers.get(card.id.slice('facility-'.length));
         if (marker) deactivateMarker(marker);
     });
 
