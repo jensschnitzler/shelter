@@ -89,10 +89,14 @@ function sanitizeExternalUrl(value) {
     }
 }
 
+// ── Seasonal helpers ─────────────────────────────────────────────────────────
+
 const SEASONAL_MONTHS = [
     '', 'Januar', 'Februar', 'März', 'April', 'Mai', 'Juni',
     'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember',
 ];
+
+// ── Opening hours helpers ─────────────────────────────────────────────────────
 
 const WEEKDAY_ORDER  = ['mo', 'tu', 'we', 'th', 'fr', 'sa', 'su', 'holiday'];
 const WEEKDAY_LABELS = {
@@ -219,6 +223,8 @@ function formatOpeningEntry(entry) {
 function formatOpeningHours(entries) {
     return entries.map(formatOpeningEntry).join('; ');
 }
+
+// ── Normalization ─────────────────────────────────────────────────────────────
 
 function normalizeStringArray(raw, fallback = []) {
     return Array.isArray(raw) ? raw.filter(Boolean).map(String) : fallback;
@@ -418,7 +424,7 @@ function isOpenNow(f, now = new Date()) {
         const overnight = startMin > endMin; // e.g. 20:00–08:00
 
         if (slot.days.includes(todayCode)) {
-            if (overnight ? currentMin >= startMin : currentMin >= startMin && currentMin <= endMin) {
+            if (overnight ? currentMin >= startMin : (currentMin >= startMin && currentMin <= endMin)) {
                 return true;
             }
         }
@@ -486,6 +492,8 @@ function initMap(facilities) {
     return { map, markers };
 }
 
+// ── Data loading ──────────────────────────────────────────────────────────────
+
 async function loadFacilities() {
     const res = await fetch('facilities.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -530,7 +538,7 @@ async function init() {
     // Initialize readmore on all cards (must run after List.js renders the items)
     $('.readmore').readMore({ linesMax: 3 });
 
-    // ── Map ───────────────────────────────────────────────────────────────────
+    // ── Map wiring ────────────────────────────────────────────────────────────
     const { map, markers } = initMap(facilities);
 
     function updateMap() {
