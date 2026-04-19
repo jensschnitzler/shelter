@@ -224,6 +224,10 @@ function formatOpeningHours(entries) {
     return entries.map(formatOpeningEntry).join('; ');
 }
 
+function normalizeStringArray(raw, fallback = []) {
+    return Array.isArray(raw) ? raw.filter(Boolean).map(String) : fallback;
+}
+
 function normalizeFacility(raw) {
     const address  = raw?.address || {};
     const contact  = raw?.contact || {};
@@ -240,9 +244,9 @@ function normalizeFacility(raw) {
             city:       String(address.city       || 'Berlin'),
             subdistrict: String(address.subdistrict || ''),
         },
-        tagsOffer:   Array.isArray(raw?.tagsOffer)   ? raw.tagsOffer.filter(Boolean).map(String)   : [],
-        tagsFeature: Array.isArray(raw?.tagsFeature) ? raw.tagsFeature.filter(Boolean).map(String) : [],
-        targetGroup: Array.isArray(raw?.targetGroup) ? raw.targetGroup.filter(Boolean).map(String) : ['all'],
+        tagsOffer:   normalizeStringArray(raw?.tagsOffer),
+        tagsFeature: normalizeStringArray(raw?.tagsFeature),
+        targetGroup: normalizeStringArray(raw?.targetGroup, ['all']),
         contact: {
             phone:   contact.phone   ? String(contact.phone)          : '',
             email:   contact.email   ? String(contact.email)          : '',
