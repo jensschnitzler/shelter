@@ -63,6 +63,8 @@ const TAG_LABELS = {
 // Fields used for text search (excludes the raw html field)
 const SEARCH_FIELDS = ['name', 'organization', 'subdistrict', 'district', 'description', 'tags_str'];
 
+// ── Utilities ─────────────────────────────────────────────────────────────────
+
 function tagLabel(tag) {
     return TAG_LABELS[tag] || tag.replace(/_/g, ' ');
 }
@@ -92,16 +94,10 @@ const SEASONAL_MONTHS = [
     'Juli', 'August', 'September', 'Oktober', 'November', 'Dezember',
 ];
 
-const WEEKDAY_ORDER = ['mo', 'tu', 'we', 'th', 'fr', 'sa', 'su', 'holiday'];
+const WEEKDAY_ORDER  = ['mo', 'tu', 'we', 'th', 'fr', 'sa', 'su', 'holiday'];
 const WEEKDAY_LABELS = {
-    mo: 'Mo',
-    tu: 'Di',
-    we: 'Mi',
-    th: 'Do',
-    fr: 'Fr',
-    sa: 'Sa',
-    su: 'So',
-    holiday: 'Feiertag',
+    mo: 'Mo', tu: 'Di', we: 'Mi', th: 'Do',
+    fr: 'Fr', sa: 'Sa', su: 'So', holiday: 'Feiertag',
 };
 
 function normalizeSeasonalPeriods(raw) {
@@ -118,7 +114,7 @@ function normalizeSeasonalPeriods(raw) {
 
 function normalizeSeasonalNote(rawPeriods, rawText) {
     return {
-        periods: normalizeSeasonalPeriods(rawPeriods), // handles non-arrays internally
+        periods: normalizeSeasonalPeriods(rawPeriods),
         text: rawText ? String(rawText) : '',
     };
 }
@@ -380,6 +376,7 @@ function flattenFacility(f) {
 
 // ── Open-now helpers ──────────────────────────────────────────────────────────
 
+// Indexed by JS Date.getDay() (0 = Sunday) — differs from WEEKDAY_ORDER which is display order
 const WEEKDAY_CODES = ['su', 'mo', 'tu', 'we', 'th', 'fr', 'sa'];
 
 function timeToMinutes(timeStr) {
