@@ -602,12 +602,23 @@ async function init() {
         });
     }
 
+    const mobileQuery = window.matchMedia('(max-width: 900px)');
+
+    // On desktop the map starts visible, so initialise the button as pressed
+    if (!mobileQuery.matches) $('#map-toggle').attr('aria-pressed', 'true');
+
     $('#map-toggle').on('click', function () {
-        const $view    = $('#view');
-        const showMap  = $view.toggleClass('show-map').hasClass('show-map');
-        $(this).attr('aria-pressed', String(showMap));
-        $(this).find('.map-toggle__label').text(showMap ? 'Liste' : 'Karte');
-        if (showMap) map.invalidateSize();
+        const $view = $('#view');
+        if (mobileQuery.matches) {
+            const showMap = $view.toggleClass('show-map').hasClass('show-map');
+            $(this).attr('aria-pressed', String(showMap));
+            $(this).find('.map-toggle__label').text(showMap ? 'Liste' : 'Karte');
+            if (showMap) map.invalidateSize();
+        } else {
+            const mapHidden = $view.toggleClass('map-hidden').hasClass('map-hidden');
+            $(this).attr('aria-pressed', String(!mapHidden));
+            if (!mapHidden) map.invalidateSize();
+        }
     });
 
     // ── Mutable filter/sort state ─────────────────────────────────────────────

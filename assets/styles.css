@@ -350,7 +350,7 @@ button.pill.active {
 }
 
 #map-toggle {
-    display: none; /* shown only below the desktop breakpoint */
+    display: inline-flex;
 }
 
 /* ── View: list + map ── */
@@ -682,12 +682,19 @@ a.meta-row:hover {
     line-height: 1;
 }
 
-/* ── Responsive ── */
-@media (max-width: 900px) {
-    #map-toggle {
-        display: inline-flex;
+/* ── Desktop map toggle ── */
+@media (min-width: 901px) {
+    #view.map-hidden {
+        grid-template-columns: 1fr;
     }
 
+    #view.map-hidden #map {
+        display: none;
+    }
+}
+
+/* ── Responsive ── */
+@media (max-width: 900px) {
     #view {
         grid-template-columns: 1fr;
         padding: 0;
