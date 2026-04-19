@@ -430,6 +430,60 @@ function isOpenNow(f, now = new Date()) {
     return false;
 }
 
+// ── Map ───────────────────────────────────────────────────────────────────────
+
+function makeMarkerIcon(color) {
+    const fill = /^#[0-9a-fA-F]{6}$/.test(color) ? color : '#2563eb';
+    return L.divIcon({
+        className: '',
+        html: `<div class="map-pin" style="--pin-color:${fill}"></div>`,
+        iconSize:   [12, 12],
+        iconAnchor: [6, 6],
+    });
+}
+
+function initMap(facilities) {
+    const map = L.map('map').setView([52.52, 13.405], 11);
+
+    L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+        maxZoom: 19,
+        attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
+    }).addTo(map);
+
+    const markers = new Map(); // facility id (string) → L.Marker
+
+    for (const f of facilities) {
+        if (f.lat == null || f.lng == null) continue;
+
+        const marker = L.marker([f.lat, f.lng], { icon: makeMarkerIcon(f.color) });
+        marker.bindTooltip(f.name, { direction: 'top', offset: [0, -4] });
+
+        marker.on('click', () => {
+            // On mobile: switch to list view so the card is visible
+            const $view = $('#view');
+            if ($view.hasClass('show-map')) {
+                $view.removeClass('show-map');
+                const $btn = $('#map-toggle');
+                $btn.attr('aria-pressed', 'false');
+                $btn.find('.map-toggle__label').text('Karte');
+                map.invalidateSize();
+            }
+            const card = document.getElementById(`facility-${f.id}`);
+            if (!card) return;
+            card.scrollIntoView({ behavior: 'smooth', block: 'center' });
+            card.classList.remove('is-highlighted');
+            // Force reflow so re-adding the class restarts the animation
+            void card.offsetWidth;
+            card.classList.add('is-highlighted');
+        });
+
+        marker.addTo(map);
+        markers.set(String(f.id), marker);
+    }
+
+    return { map, markers };
+}
+
 async function loadFacilities() {
     const res = await fetch('facilities.json');
     if (!res.ok) throw new Error(`HTTP ${res.status}`);
@@ -474,6 +528,30 @@ async function init() {
     // Initialize readmore on all cards (must run after List.js renders the items)
     $('.readmore').readMore({ linesMax: 3 });
 
+    // ── Map ───────────────────────────────────────────────────────────────────
+    const { map, markers } = initMap(facilities);
+
+    function updateMap() {
+        const visibleIds = new Set(
+            listInstance.visibleItems.map(item => String(item.values().facility_id))
+        );
+        markers.forEach((marker, id) => {
+            if (visibleIds.has(id)) {
+                if (!map.hasLayer(marker)) marker.addTo(map);
+            } else {
+                if (map.hasLayer(marker)) marker.remove();
+            }
+        });
+    }
+
+    $('#map-toggle').on('click', function () {
+        const $view    = $('#view');
+        const showMap  = $view.toggleClass('show-map').hasClass('show-map');
+        $(this).attr('aria-pressed', String(showMap));
+        $(this).find('.map-toggle__label').text(showMap ? 'Liste' : 'Karte');
+        if (showMap) map.invalidateSize();
+    });
+
     // ── Mutable filter/sort state ─────────────────────────────────────────────
     let activeOfferTag     = null;
     let activeFeatureTag   = null;
@@ -488,6 +566,7 @@ async function init() {
         const total   = listInstance.items.length;
         const suffix  = visible === 0 ? ' Keine Treffer für die aktuelle Suche oder den Filter.' : '';
         $stats.text(`${visible} von ${total} Einrichtungen${suffix}`);
+        updateMap();
     }
 
     // ── Filtering ─────────────────────────────────────────────────────────────

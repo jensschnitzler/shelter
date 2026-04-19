@@ -330,11 +330,17 @@ button.pill.active {
 }
 
 /* ── Stats ── */
+#stats-bar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 1.5rem;
+}
+
 #stats {
-    padding: 0.65rem 1.5rem;
+    padding: 0.65rem 0;
     font-size: var(--fontsize-s);
     color: var(--color-greyDark);
-    text-align: center;
     line-height: 1;
 }
 
@@ -343,10 +349,53 @@ button.pill.active {
     margin-top: 4.5rem;
 }
 
+#map-toggle {
+    display: none; /* shown only below the desktop breakpoint */
+}
+
+/* ── View: list + map ── */
+#view {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 1.5rem;
+    padding: 0 1.5rem;
+}
+
 /* ── List.js container & grid ── */
 #facilities-list {
-    margin: 0 auto;
-    padding: 0 1.5rem 3rem;
+    min-width: 0; /* prevent grid blowout */
+    padding-bottom: 3rem;
+}
+
+/* ── Map ── */
+#map {
+    border-radius: var(--radius);
+    height: calc(100vh - 5rem);
+    position: sticky;
+    top: 1rem;
+    overflow: hidden;
+    background: var(--color-greyLight);
+}
+
+/* Marker circles */
+.map-pin {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    background: var(--pin-color, #2563eb);
+    border: 2px solid white;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+}
+
+/* Card highlight on marker click */
+@keyframes card-highlight {
+    0%   { box-shadow: var(--shadow), 0 0 0 3px var(--accent); }
+    100% { box-shadow: var(--shadow); }
+}
+
+.card.is-highlighted {
+    animation: card-highlight 1.5s ease forwards;
 }
 
 .site-footer {
@@ -620,6 +669,34 @@ a.meta-row:hover {
 }
 
 /* ── Responsive ── */
+@media (max-width: 900px) {
+    #map-toggle {
+        display: inline-flex;
+    }
+
+    #view {
+        grid-template-columns: 1fr;
+        padding: 0;
+        gap: 0;
+    }
+
+    #map {
+        display: none;
+        height: 65vh;
+        position: static;
+        border-radius: 0;
+        margin: 0;
+    }
+
+    #view.show-map #map {
+        display: block;
+    }
+
+    #view.show-map #facilities-list {
+        display: none;
+    }
+}
+
 @media (max-width: 600px) {
     header h1 {
         font-size: var(--fontsize-l);

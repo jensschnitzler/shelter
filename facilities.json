@@ -54,7 +54,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5263666,
+    "lng": 13.3634646
   },
   {
     "id": 2,
@@ -112,7 +114,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.5146846,
+    "lng": 13.4773965
   },
   {
     "id": 3,
@@ -167,7 +171,9 @@
       "bed_space",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5189638,
+    "lng": 13.3254612
   },
   {
     "id": 4,
@@ -222,7 +228,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5762637,
+    "lng": 13.3601361
   },
   {
     "id": 5,
@@ -277,7 +285,9 @@
       "clothing",
       "hygiene"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5374231,
+    "lng": 13.4525881
   },
   {
     "id": 6,
@@ -387,7 +397,9 @@
     "tagsFeature": [
       "pet_friendly",
       "multilingual"
-    ]
+    ],
+    "lat": 52.4967316,
+    "lng": 13.4301964
   },
   {
     "id": 8,
@@ -442,7 +454,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4994758,
+    "lng": 13.3592174
   },
   {
     "id": 9,
@@ -496,7 +510,9 @@
       "bed_space",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5172728,
+    "lng": 13.4530351
   },
   {
     "id": 10,
@@ -559,7 +575,9 @@
       "hygiene",
       "laundry"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5295751,
+    "lng": 13.3907546
   },
   {
     "id": 11,
@@ -613,7 +631,9 @@
       "food",
       "hygiene"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.483364,
+    "lng": 13.4354968
   },
   {
     "id": 12,
@@ -668,7 +688,9 @@
     ],
     "tagsFeature": [
       "open_24h"
-    ]
+    ],
+    "lat": 52.4989602,
+    "lng": 13.3868832
   },
   {
     "id": 13,
@@ -722,7 +744,9 @@
       "food",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5035695,
+    "lng": 13.4281651
   },
   {
     "id": 14,
@@ -777,7 +801,9 @@
       "outreach_bus",
       "mobile_support",
       "accessible"
-    ]
+    ],
+    "lat": 52.5263666,
+    "lng": 13.3634646
   },
   {
     "id": 15,
@@ -886,7 +912,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.4972364,
+    "lng": 13.295868
   },
   {
     "id": 17,
@@ -946,7 +974,9 @@
       "day_services",
       "medical_care"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5154514,
+    "lng": 13.2948707
   },
   {
     "id": 18,
@@ -1022,7 +1052,9 @@
     "tagsFeature": [
       "accessible",
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4987524,
+    "lng": 13.4446473
   },
   {
     "id": 19,
@@ -1090,7 +1122,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4980024,
+    "lng": 13.4119949
   },
   {
     "id": 20,
@@ -1150,7 +1184,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5478566,
+    "lng": 13.4257671
   },
   {
     "id": 21,
@@ -1207,7 +1243,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5084538,
+    "lng": 13.3325739
   },
   {
     "id": 22,
@@ -1276,7 +1314,9 @@
     "tagsFeature": [
       "accessible",
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5242626,
+    "lng": 13.370523
   },
   {
     "id": 23,
@@ -1327,7 +1367,9 @@
       "laundry",
       "toilets"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5084538,
+    "lng": 13.3325739
   },
   {
     "id": 24,
@@ -1374,7 +1416,9 @@
       "hygiene",
       "clothing_donations"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5263666,
+    "lng": 13.3634646
   },
   {
     "id": 25,
@@ -1418,7 +1462,9 @@
       "hygiene",
       "laundry"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5263666,
+    "lng": 13.3634646
   },
   {
     "id": 26,
@@ -1468,7 +1514,9 @@
     "tagsOffer": [
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5259386,
+    "lng": 13.3299478
   },
   {
     "id": 27,
@@ -1523,7 +1571,9 @@
       "medical_care",
       "mental_health"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5078357,
+    "lng": 13.3316641
   },
   {
     "id": 28,
@@ -1573,7 +1623,9 @@
     "tagsFeature": [
       "outreach",
       "mobile_support"
-    ]
+    ],
+    "lat": 52.4894488,
+    "lng": 13.3225643
   },
   {
     "id": 29,
@@ -1611,7 +1663,9 @@
     ],
     "tagsFeature": [
       "mobile_support"
-    ]
+    ],
+    "lat": 52.5286483,
+    "lng": 13.3464519
   },
   {
     "id": 30,
@@ -1661,7 +1715,9 @@
       "recovery_housing",
       "nursing_care"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5286483,
+    "lng": 13.3464519
   },
   {
     "id": 31,
@@ -1709,7 +1765,9 @@
     ],
     "tagsFeature": [
       "anonymous"
-    ]
+    ],
+    "lat": 52.4797946,
+    "lng": 13.3186108
   },
   {
     "id": 32,
@@ -1771,7 +1829,9 @@
       "psychological_counseling",
       "substance_use_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5361207,
+    "lng": 13.3794633
   },
   {
     "id": 145,
@@ -1817,7 +1877,9 @@
       "psychological_counseling",
       "substance_use_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5361207,
+    "lng": 13.3794633
   },
   {
     "id": 33,
@@ -1880,7 +1942,9 @@
       "outreach",
       "accessible",
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5263666,
+    "lng": 13.3634646
   },
   {
     "id": 34,
@@ -1934,7 +1998,9 @@
       "benefits_support",
       "medical_care"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5226535,
+    "lng": 13.3314304
   },
   {
     "id": 35,
@@ -1981,7 +2047,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5200969,
+    "lng": 13.33625
   },
   {
     "id": 36,
@@ -2034,7 +2102,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4855483,
+    "lng": 13.3855288
   },
   {
     "id": 37,
@@ -2087,7 +2157,9 @@
       "hygiene",
       "bed_space"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5595323,
+    "lng": 13.3712442
   },
   {
     "id": 38,
@@ -2154,7 +2226,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.4960763,
+    "lng": 13.4294656
   },
   {
     "id": 39,
@@ -2241,7 +2315,9 @@
     ],
     "tagsFeature": [
       "outreach"
-    ]
+    ],
+    "lat": 52.5121922,
+    "lng": 13.4696267
   },
   {
     "id": 41,
@@ -2289,7 +2365,9 @@
       "counseling",
       "long_term_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5262712,
+    "lng": 13.3643837
   },
   {
     "id": 42,
@@ -2333,7 +2411,9 @@
       "legal_aid",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5372159,
+    "lng": 13.3964436
   },
   {
     "id": 43,
@@ -2368,7 +2448,9 @@
       "legal_aid",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5361207,
+    "lng": 13.3794633
   },
   {
     "id": 44,
@@ -2414,7 +2496,9 @@
       "benefits_support",
       "housing_support_office"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5175816,
+    "lng": 13.3088014
   },
   {
     "id": 45,
@@ -2461,7 +2545,9 @@
       "benefits_support",
       "housing_support_office"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4938255,
+    "lng": 13.3852725
   },
   {
     "id": 46,
@@ -2514,7 +2600,9 @@
     ],
     "tagsFeature": [
       "outreach"
-    ]
+    ],
+    "lat": 52.4923821,
+    "lng": 13.4148223
   },
   {
     "id": 47,
@@ -2567,7 +2655,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5246223,
+    "lng": 13.3024618
   },
   {
     "id": 48,
@@ -2629,7 +2719,9 @@
     "tagsFeature": [
       "accessible",
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5525873,
+    "lng": 13.4166643
   },
   {
     "id": 49,
@@ -2679,7 +2771,9 @@
       "long_term_support",
       "mental_health"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4782067,
+    "lng": 13.3137223
   },
   {
     "id": 50,
@@ -2764,7 +2858,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5657328,
+    "lng": 13.3949043
   },
   {
     "id": 51,
@@ -2807,7 +2903,9 @@
       "food",
       "soup_kitchen"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4984013,
+    "lng": 13.4409182
   },
   {
     "id": 52,
@@ -2855,7 +2953,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4963881,
+    "lng": 13.3960189
   },
   {
     "id": 53,
@@ -2902,7 +3002,9 @@
       "night_cafe",
       "bed_space"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5303689,
+    "lng": 13.4098617
   },
   {
     "id": 54,
@@ -2941,7 +3043,9 @@
     "tagsFeature": [
       "outreach",
       "mobile_support"
-    ]
+    ],
+    "lat": 52.5407531,
+    "lng": 13.3616567
   },
   {
     "id": 55,
@@ -2977,7 +3081,9 @@
     ],
     "tagsFeature": [
       "multilingual"
-    ]
+    ],
+    "lat": 52.5263666,
+    "lng": 13.3634646
   },
   {
     "id": 56,
@@ -3033,7 +3139,9 @@
     "tagsFeature": [
       "accessible",
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5039663,
+    "lng": 13.4798148
   },
   {
     "id": 57,
@@ -3070,7 +3178,9 @@
       "crisis_housing",
       "bed_space"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5151977,
+    "lng": 13.4741362
   },
   {
     "id": 58,
@@ -3138,7 +3248,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4578506,
+    "lng": 13.5128861
   },
   {
     "id": 59,
@@ -3229,7 +3341,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5528656,
+    "lng": 13.3472256
   },
   {
     "id": 61,
@@ -3279,7 +3393,9 @@
     ],
     "tagsFeature": [
       "outreach"
-    ]
+    ],
+    "lat": 52.5081515,
+    "lng": 13.3333901
   },
   {
     "id": 62,
@@ -3321,7 +3437,9 @@
       "medical_care",
       "alternative_medicine"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5264051,
+    "lng": 13.3972227
   },
   {
     "id": 63,
@@ -3372,7 +3490,9 @@
       "bed_space",
       "food"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5017726,
+    "lng": 13.4337755
   },
   {
     "id": 64,
@@ -3425,7 +3545,9 @@
       "food",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5528656,
+    "lng": 13.3472256
   },
   {
     "id": 65,
@@ -3480,7 +3602,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5295751,
+    "lng": 13.3907546
   },
   {
     "id": 66,
@@ -3536,7 +3660,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5536355,
+    "lng": 13.1502344
   },
   {
     "id": 67,
@@ -3591,7 +3717,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4550789,
+    "lng": 13.3199728
   },
   {
     "id": 68,
@@ -3644,7 +3772,9 @@
       "food",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5199,
+    "lng": 13.436189
   },
   {
     "id": 69,
@@ -3697,7 +3827,9 @@
       "food",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4988208,
+    "lng": 13.441115
   },
   {
     "id": 70,
@@ -3750,7 +3882,9 @@
       "food",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4803018,
+    "lng": 13.4561465
   },
   {
     "id": 71,
@@ -3804,7 +3938,9 @@
       "counseling",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5503844,
+    "lng": 13.5122974
   },
   {
     "id": 72,
@@ -3858,7 +3994,9 @@
       "counseling",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.6102822,
+    "lng": 13.2449493
   },
   {
     "id": 73,
@@ -3903,7 +4041,9 @@
       "food",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5168682,
+    "lng": 13.303219
   },
   {
     "id": 74,
@@ -3957,7 +4097,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4893938,
+    "lng": 13.4520096
   },
   {
     "id": 75,
@@ -4006,7 +4148,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4967572,
+    "lng": 13.4462346
   },
   {
     "id": 76,
@@ -4054,7 +4198,9 @@
       "food",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4709959,
+    "lng": 13.3278572
   },
   {
     "id": 77,
@@ -4101,7 +4247,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4919487,
+    "lng": 13.3889569
   },
   {
     "id": 78,
@@ -4150,7 +4298,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5531466,
+    "lng": 13.3636952
   },
   {
     "id": 79,
@@ -4196,7 +4346,9 @@
       "food",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4843168,
+    "lng": 13.4361164
   },
   {
     "id": 80,
@@ -4245,7 +4397,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4658142,
+    "lng": 13.4336799
   },
   {
     "id": 81,
@@ -4292,7 +4446,9 @@
       "food",
       "medical_care"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5155673,
+    "lng": 13.2741955
   },
   {
     "id": 82,
@@ -4344,7 +4500,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.4801528,
+    "lng": 13.3296888
   },
   {
     "id": 83,
@@ -4394,7 +4552,9 @@
       "counseling",
       "laundry"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5017726,
+    "lng": 13.4337755
   },
   {
     "id": 84,
@@ -4444,7 +4604,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5121185,
+    "lng": 13.4520149
   },
   {
     "id": 85,
@@ -4496,7 +4658,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5172728,
+    "lng": 13.4530351
   },
   {
     "id": 86,
@@ -4628,7 +4792,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4981939,
+    "lng": 13.4006473
   },
   {
     "id": 88,
@@ -4688,7 +4854,9 @@
       "medical_care",
       "dental_care"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5099822,
+    "lng": 13.4986637
   },
   {
     "id": 89,
@@ -4746,7 +4914,9 @@
       "counseling",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5217227,
+    "lng": 13.3849394
   },
   {
     "id": 90,
@@ -4804,7 +4974,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4737213,
+    "lng": 13.4252585
   },
   {
     "id": 91,
@@ -4855,7 +5027,9 @@
       "counseling",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.480685,
+    "lng": 13.3494685
   },
   {
     "id": 92,
@@ -4901,7 +5075,9 @@
       "counseling",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5042821,
+    "lng": 13.2873554
   },
   {
     "id": 93,
@@ -4987,7 +5163,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4704226,
+    "lng": 13.3189169
   },
   {
     "id": 95,
@@ -5043,7 +5221,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5050177,
+    "lng": 13.4287575
   },
   {
     "id": 96,
@@ -5088,7 +5268,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4999041,
+    "lng": 13.4308053
   },
   {
     "id": 97,
@@ -5132,7 +5314,9 @@
     "tagsFeature": [
       "accessible",
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4988208,
+    "lng": 13.441115
   },
   {
     "id": 98,
@@ -5216,7 +5400,9 @@
     "tagsOffer": [
       "food"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.52781,
+    "lng": 13.3354463
   },
   {
     "id": 100,
@@ -5268,7 +5454,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4900879,
+    "lng": 13.4312789
   },
   {
     "id": 101,
@@ -5311,7 +5499,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4729199,
+    "lng": 13.4519193
   },
   {
     "id": 102,
@@ -5354,7 +5544,9 @@
       "counseling",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5390425,
+    "lng": 13.4089185
   },
   {
     "id": 103,
@@ -5392,7 +5584,9 @@
     "tagsOffer": [
       "food"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5354367,
+    "lng": 13.4050757
   },
   {
     "id": 104,
@@ -5438,7 +5632,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4339082,
+    "lng": 13.2578061
   },
   {
     "id": 105,
@@ -5530,7 +5726,9 @@
       "counseling",
       "hygiene"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5093055,
+    "lng": 13.4316712
   },
   {
     "id": 107,
@@ -5581,7 +5779,9 @@
       "medical_care",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5093121,
+    "lng": 13.5007242
   },
   {
     "id": 108,
@@ -5639,7 +5839,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.4349439,
+    "lng": 13.260279
   },
   {
     "id": 109,
@@ -5802,7 +6004,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.4996608,
+    "lng": 13.4176841
   },
   {
     "id": 112,
@@ -5862,7 +6066,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.5052934,
+    "lng": 13.4888178
   },
   {
     "id": 113,
@@ -5940,7 +6146,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.5543318,
+    "lng": 13.3446325
   },
   {
     "id": 114,
@@ -6008,7 +6216,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5314851,
+    "lng": 13.3436492
   },
   {
     "id": 115,
@@ -6129,7 +6339,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.471982,
+    "lng": 13.4409423
   },
   {
     "id": 117,
@@ -6178,7 +6390,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5475723,
+    "lng": 13.201779
   },
   {
     "id": 118,
@@ -6231,7 +6445,9 @@
       "counseling",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5005924,
+    "lng": 13.3601923
   },
   {
     "id": 119,
@@ -6293,7 +6509,9 @@
     "tagsFeature": [
       "pet_friendly",
       "accessible"
-    ]
+    ],
+    "lat": 52.4994589,
+    "lng": 13.3555145
   },
   {
     "id": 120,
@@ -6382,7 +6600,9 @@
     "tagsOffer": [
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5093055,
+    "lng": 13.4316712
   },
   {
     "id": 122,
@@ -6424,7 +6644,9 @@
     "tagsOffer": [
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5093055,
+    "lng": 13.4316712
   },
   {
     "id": 123,
@@ -6461,7 +6683,9 @@
     ],
     "tagsFeature": [
       "mobile_support"
-    ]
+    ],
+    "lat": 52.5200969,
+    "lng": 13.33625
   },
   {
     "id": 124,
@@ -6508,7 +6732,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5139589,
+    "lng": 13.3007977
   },
   {
     "id": 125,
@@ -6558,7 +6784,9 @@
     "tagsOffer": [
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4967572,
+    "lng": 13.4462346
   },
   {
     "id": 126,
@@ -6618,7 +6846,9 @@
     "tagsOffer": [
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5567265,
+    "lng": 13.3851562
   },
   {
     "id": 127,
@@ -6654,7 +6884,9 @@
     ],
     "tagsFeature": [
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.455915,
+    "lng": 13.3890599
   },
   {
     "id": 128,
@@ -6699,7 +6931,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5658156,
+    "lng": 13.3949921
   },
   {
     "id": 129,
@@ -6748,7 +6982,9 @@
     "tagsFeature": [
       "mobile_support",
       "pet_friendly"
-    ]
+    ],
+    "lat": 52.5202114,
+    "lng": 13.4120877
   },
   {
     "id": 130,
@@ -6795,7 +7031,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5658156,
+    "lng": 13.3949921
   },
   {
     "id": 131,
@@ -6838,7 +7076,9 @@
       "clothing_donations",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5381428,
+    "lng": 13.1964644
   },
   {
     "id": 132,
@@ -6887,7 +7127,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5595323,
+    "lng": 13.3712442
   },
   {
     "id": 133,
@@ -6984,7 +7226,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5092143,
+    "lng": 13.5268568
   },
   {
     "id": 135,
@@ -7029,7 +7273,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5315005,
+    "lng": 13.615678
   },
   {
     "id": 136,
@@ -7083,7 +7329,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5478278,
+    "lng": 13.3560995
   },
   {
     "id": 137,
@@ -7128,7 +7376,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4801058,
+    "lng": 13.4396956
   },
   {
     "id": 138,
@@ -7173,7 +7423,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5413085,
+    "lng": 13.4274014
   },
   {
     "id": 139,
@@ -7218,7 +7470,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5890164,
+    "lng": 13.3240356
   },
   {
     "id": 140,
@@ -7262,7 +7516,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5367338,
+    "lng": 13.1968867
   },
   {
     "id": 141,
@@ -7307,7 +7563,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4384288,
+    "lng": 13.343423
   },
   {
     "id": 142,
@@ -7352,7 +7610,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4626225,
+    "lng": 13.3862605
   },
   {
     "id": 143,
@@ -7397,7 +7657,9 @@
       "housing",
       "benefits_support"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4341636,
+    "lng": 13.5327934
   },
   {
     "id": 144,
@@ -7518,7 +7780,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.488425,
+    "lng": 13.3016127
   },
   {
     "id": 147,
@@ -7563,7 +7827,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5172166,
+    "lng": 13.4364018
   },
   {
     "id": 148,
@@ -7608,7 +7874,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4924173,
+    "lng": 13.410038
   },
   {
     "id": 149,
@@ -7673,7 +7941,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5076434,
+    "lng": 13.5241855
   },
   {
     "id": 150,
@@ -7722,7 +7992,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.5387225,
+    "lng": 13.606506
   },
   {
     "id": 151,
@@ -7794,7 +8066,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5269915,
+    "lng": 13.3388377
   },
   {
     "id": 152,
@@ -7851,7 +8125,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5369734,
+    "lng": 13.3417491
   },
   {
     "id": 153,
@@ -7907,7 +8183,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4365859,
+    "lng": 13.4465584
   },
   {
     "id": 154,
@@ -7964,7 +8242,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5672954,
+    "lng": 13.4096169
   },
   {
     "id": 155,
@@ -8009,7 +8289,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5711655,
+    "lng": 13.3477916
   },
   {
     "id": 156,
@@ -8044,7 +8326,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5304574,
+    "lng": 13.1963355
   },
   {
     "id": 157,
@@ -8095,7 +8379,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4585614,
+    "lng": 13.3285507
   },
   {
     "id": 158,
@@ -8166,7 +8452,9 @@
       "mental_health",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4459157,
+    "lng": 13.3791035
   },
   {
     "id": 159,
@@ -8204,7 +8492,9 @@
     ],
     "tagsFeature": [
       "accessible"
-    ]
+    ],
+    "lat": 52.4345302,
+    "lng": 13.533313
   },
   {
     "id": 160,
@@ -8241,7 +8531,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5223227,
+    "lng": 13.2896786
   },
   {
     "id": 161,
@@ -8278,7 +8570,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.4896022,
+    "lng": 13.3297193
   },
   {
     "id": 162,
@@ -8315,7 +8609,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.4939186,
+    "lng": 13.4086236
   },
   {
     "id": 163,
@@ -8352,7 +8648,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5279222,
+    "lng": 13.508992
   },
   {
     "id": 164,
@@ -8389,7 +8687,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5067558,
+    "lng": 13.5938102
   },
   {
     "id": 165,
@@ -8426,7 +8726,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5258523,
+    "lng": 13.3777575
   },
   {
     "id": 166,
@@ -8463,7 +8765,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5259335,
+    "lng": 13.3974885
   },
   {
     "id": 167,
@@ -8500,7 +8804,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5553772,
+    "lng": 13.3702144
   },
   {
     "id": 168,
@@ -8537,7 +8843,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.4372244,
+    "lng": 13.4592239
   },
   {
     "id": 169,
@@ -8574,7 +8882,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5507361,
+    "lng": 13.4680073
   },
   {
     "id": 170,
@@ -8611,7 +8921,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5901776,
+    "lng": 13.3047554
   },
   {
     "id": 171,
@@ -8648,7 +8960,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.5497001,
+    "lng": 13.206909
   },
   {
     "id": 172,
@@ -8685,7 +8999,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.422633,
+    "lng": 13.2052615
   },
   {
     "id": 173,
@@ -8722,7 +9038,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.4643053,
+    "lng": 13.3461441
   },
   {
     "id": 174,
@@ -8761,7 +9079,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.4589878,
+    "lng": 13.390235
   },
   {
     "id": 175,
@@ -8798,7 +9118,9 @@
     "tagsFeature": [
       "emergency",
       "open_24h"
-    ]
+    ],
+    "lat": 52.4061529,
+    "lng": 13.5699803
   },
   {
     "id": 176,
@@ -8836,7 +9158,9 @@
       "substance_use_support",
       "transitional_housing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4858353,
+    "lng": 13.4435335
   },
   {
     "id": 177,
@@ -8886,7 +9210,9 @@
       "counseling",
       "housing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5298979,
+    "lng": 13.4723394
   },
   {
     "id": 178,
@@ -8933,7 +9259,9 @@
       "counseling",
       "housing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4900408,
+    "lng": 13.4330772
   },
   {
     "id": 179,
@@ -8984,7 +9312,9 @@
       "counseling",
       "housing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5574708,
+    "lng": 13.3854711
   },
   {
     "id": 180,
@@ -9031,7 +9361,9 @@
       "counseling",
       "housing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5141367,
+    "lng": 13.4681598
   },
   {
     "id": 181,
@@ -9067,7 +9399,9 @@
       "mental_health",
       "psychological_counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5535138,
+    "lng": 13.3741774
   },
   {
     "id": 182,
@@ -9126,7 +9460,9 @@
     "tagsFeature": [
       "multilingual",
       "accessible"
-    ]
+    ],
+    "lat": 52.5275991,
+    "lng": 13.3906597
   },
   {
     "id": 183,
@@ -9161,7 +9497,9 @@
       "bed_space",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.587319,
+    "lng": 13.4266425
   },
   {
     "id": 184,
@@ -9195,7 +9533,9 @@
       "bed_space",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4519267,
+    "lng": 13.4332512
   },
   {
     "id": 185,
@@ -9229,7 +9569,9 @@
       "bed_space",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5578925,
+    "lng": 13.4590361
   },
   {
     "id": 186,
@@ -9264,7 +9606,9 @@
       "counseling",
       "mental_health"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4827882,
+    "lng": 13.4317852
   },
   {
     "id": 187,
@@ -9298,7 +9642,9 @@
       "transitional_housing",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.4649755,
+    "lng": 13.4342027
   },
   {
     "id": 188,
@@ -9332,7 +9678,9 @@
       "transitional_housing",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5102815,
+    "lng": 13.5167444
   },
   {
     "id": 189,
@@ -9368,7 +9716,9 @@
       "counseling",
       "mental_health"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5777815,
+    "lng": 13.3979515
   },
   {
     "id": 190,
@@ -9416,7 +9766,9 @@
       "bed_space",
       "counseling"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5502176,
+    "lng": 13.3711405
   },
   {
     "id": 191,
@@ -9469,7 +9821,9 @@
     ],
     "tagsFeature": [
       "open_24h"
-    ]
+    ],
+    "lat": 52.4017124,
+    "lng": 13.5712964
   },
   {
     "id": 192,
@@ -9521,7 +9875,9 @@
     ],
     "tagsFeature": [
       "open_24h"
-    ]
+    ],
+    "lat": 52.5042683,
+    "lng": 13.4527402
   },
   {
     "id": 193,
@@ -9569,7 +9925,9 @@
       "food",
       "hygiene"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5352983,
+    "lng": 13.4548916
   },
   {
     "id": 194,
@@ -9617,7 +9975,9 @@
       "hygiene",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.5186664,
+    "lng": 13.4660175
   },
   {
     "id": 195,
@@ -9677,6 +10037,8 @@
       "hygiene",
       "clothing"
     ],
-    "tagsFeature": []
+    "tagsFeature": [],
+    "lat": 52.529801,
+    "lng": 13.3538075
   }
 ]
