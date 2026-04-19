@@ -327,8 +327,8 @@ function renderCard(f) {
     <div class="card-info readmore">
         <div id="readmore-content-${f.id}" class="readmore__content">${escapeHtml(f.description)}</div>
         <button class="readmore__toggle" aria-expanded="false" aria-controls="readmore-content-${f.id}">
-            <span class="readmore__label--more">Mehr anzeigen</span>
-            <span class="readmore__label--less" hidden>Weniger anzeigen</span>
+            <span class="readmore__label--more">${renderIcon('plus')} Mehr anzeigen</span>
+            <span class="readmore__label--less" hidden>${renderIcon('minus')} Weniger anzeigen</span>
         </button>
     </div>
     ${contactLinks.length ? `<div class="card-contact">${contactLinks.join('')}</div>` : ''}
