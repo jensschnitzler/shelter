@@ -254,6 +254,8 @@ function normalizeFacility(raw) {
         seasonalNote: seasonal.periods,
         seasonalNoteText: seasonal.text,
         color:        raw?.color ? String(raw.color) : '',
+        lat:          typeof raw?.lat === 'number' ? raw.lat : null,
+        lng:          typeof raw?.lng === 'number' ? raw.lng : null,
     };
 }
 
