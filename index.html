@@ -34,7 +34,12 @@
                     autocomplete="off"
                     aria-describedby="search-help stats"
                 />
-                <p id="search-help" class="control-help">
+                <p
+                    id="search-help"
+                    class="control-help"
+                    hidden
+                    aria-hidden="true"
+                >
                     Suche nach Einrichtung, Bezirk, Angebot oder Schlagwort.
                 </p>
 
@@ -64,7 +69,7 @@
                 class="controls"
                 aria-label="Filter nach Öffnungszeiten"
             >
-                <span>Öffnungszeiten</span>
+                <span class="filter-title pill">Öffnungszeiten</span>
                 <button
                     type="button"
                     id="open-now-btn"
@@ -80,7 +85,7 @@
                 class="controls controls--collapsible"
                 aria-label="Filter nach Zielgruppe"
             >
-                <span>Zielgruppe</span>
+                <span class="filter-title pill">Zielgruppe</span>
             </nav>
 
             <nav
@@ -88,7 +93,7 @@
                 class="controls controls--collapsible"
                 aria-label="Filter nach Angebot"
             >
-                <span>Angebot</span>
+                <span class="filter-title pill">Angebot</span>
             </nav>
 
             <nav
@@ -96,7 +101,7 @@
                 class="controls controls--collapsible"
                 aria-label="Filter nach Merkmal"
             >
-                <span>Merkmal</span>
+                <span class="filter-title pill">Merkmal</span>
             </nav>
 
             <nav
@@ -104,7 +109,7 @@
                 class="controls controls--collapsible"
                 aria-label="Filter nach Organisation"
             >
-                <span>Organisation</span>
+                <span class="filter-title pill">Organisation</span>
             </nav>
         </div>
 

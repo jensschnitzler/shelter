@@ -316,11 +316,13 @@ function renderCard(f) {
     </div>
     <div class="card-tags">${targetGroupTags}${offerTags}${featureTags}</div>
     <div class="card-meta">
-        <div class="meta-row meta-row--location">
+        <a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener"  class="meta-row meta-row--location" aria-label="${escapeHtml(`Adresse von ${f.name} in Google Maps öffnen`)}">
             ${renderIcon('place')}
-            <a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener" class="meta-address" aria-label="${escapeHtml(`Adresse von ${f.name} in Google Maps öffnen`)}">${escapeHtml(addr)}</a>
-        </div>
-        ${seasonal}${hours}${openingNote}
+            <span class="meta-address">${escapeHtml(addr)}</span>
+        </a>
+        ${seasonal}
+        ${hours}
+        ${openingNote}
     </div>
     <div class="card-info readmore">
         <div id="readmore-content-${f.id}" class="readmore__content">${escapeHtml(f.description)}</div>
@@ -617,7 +619,7 @@ function initCollapsibleControls() {
 
         // Inject toggle button into the label row (between label and pills)
         const $toggle = $(
-            '<button class="controls__toggle" aria-expanded="false">' +
+            '<button class="controls__toggle pill" aria-expanded="false">' +
             '<span class="controls__toggle-label">Mehr</span>' +
             '<span class="material-symbols-outlined" aria-hidden="true">expand_more</span>' +
             '</button>'
