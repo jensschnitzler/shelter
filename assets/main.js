@@ -340,8 +340,8 @@ function buildTagSearchStr(tagsOffer, tagsFeature) {
 }
 
 // Flatten nested facility object into List.js-compatible flat values.
-// tags_offer_json / tags_feature_json / target_group_json are intentionally NOT
-// in valueNames so List.js won't touch them, but they remain accessible via
+// tags_offer / tags_feature / target_group are intentionally omitted from valueNames
+// so List.js won't serialize them to DOM, but they remain accessible via
 // item.values() for filter callbacks.
 function flattenFacility(f) {
     return {
@@ -350,12 +350,12 @@ function flattenFacility(f) {
         subdistrict:  f.address.subdistrict,
         district:     f.address.district,
         description:  f.description,
-        tags_str:          buildTagSearchStr(f.tagsOffer, f.tagsFeature),
+        tags_str:     buildTagSearchStr(f.tagsOffer, f.tagsFeature),
         // Not in valueNames — accessed only in filter callbacks
-        tags_offer_json:   JSON.stringify(f.tagsOffer),
-        tags_feature_json: JSON.stringify(f.tagsFeature),
-        target_group_json: JSON.stringify(f.targetGroup),
-        facility_id:       f.id,
+        tags_offer:   f.tagsOffer,
+        tags_feature: f.tagsFeature,
+        target_group: f.targetGroup,
+        facility_id:  f.id,
         html:         renderCard(f),
     };
 }
@@ -484,13 +484,13 @@ async function init() {
         const now = new Date();
         listInstance.filter(item => {
             const values = item.values();
-            if (activeOfferTag   && !JSON.parse(values.tags_offer_json   || '[]').includes(activeOfferTag))   return false;
-            if (activeFeatureTag && !JSON.parse(values.tags_feature_json || '[]').includes(activeFeatureTag)) return false;
+            if (activeOfferTag   && !values.tags_offer.includes(activeOfferTag))   return false;
+            if (activeFeatureTag && !values.tags_feature.includes(activeFeatureTag)) return false;
             if (activeTargetGroup) {
-                const groups = JSON.parse(values.target_group_json || '["all"]');
+                const groups = values.target_group;
                 if (!groups.includes(activeTargetGroup) && !groups.includes('all')) return false;
             }
-            if (activeOrganization && values.organization !== activeOrganization)                return false;
+            if (activeOrganization && values.organization !== activeOrganization) return false;
             if (filterOpenNow) {
                 const facility = facilityMap.get(values.facility_id);
                 if (!facility || !isOpenNow(facility, now)) return false;
