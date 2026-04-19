@@ -622,6 +622,14 @@ async function init() {
         );
     }
 
+    // Deduplicates, sorts by translated label, and builds a filter group for a tag array.
+    function buildTagFilterGroup($container, tags, onSelect) {
+        const items = [...new Set(tags)]
+            .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'))
+            .map(tag => ({ id: tag, label: tagLabel(tag) }));
+        buildFilterGroup($container, 'Alle', items, onSelect);
+    }
+
     // ── Search ────────────────────────────────────────────────────────────────
     $('#search-input').on('input', function () {
         listInstance.search(this.value, SEARCH_FIELDS);
@@ -661,20 +669,16 @@ async function init() {
     );
 
     // ── Offer tag filters ─────────────────────────────────────────────────────
-    const usedOfferTags = [...new Set(facilities.flatMap(f => f.tagsOffer))]
-        .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'));
-    buildFilterGroup(
-        $offerFilters, 'Alle',
-        usedOfferTags.map(tag => ({ id: tag, label: tagLabel(tag) })),
+    buildTagFilterGroup(
+        $offerFilters,
+        facilities.flatMap(f => f.tagsOffer),
         value => { activeOfferTag = value; applyFilters(); }
     );
 
     // ── Feature tag filters ───────────────────────────────────────────────────
-    const usedFeatureTags = [...new Set(facilities.flatMap(f => f.tagsFeature))]
-        .sort((a, b) => tagLabel(a).localeCompare(tagLabel(b), 'de'));
-    buildFilterGroup(
-        $featureFilters, 'Alle',
-        usedFeatureTags.map(tag => ({ id: tag, label: tagLabel(tag) })),
+    buildTagFilterGroup(
+        $featureFilters,
+        facilities.flatMap(f => f.tagsFeature),
         value => { activeFeatureTag = value; applyFilters(); }
     );
 
