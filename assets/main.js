@@ -332,7 +332,7 @@ function renderCard(f) {
     </div>
     <div class="card-tags">${targetGroupTags}${offerTags}${featureTags}</div>
     <div class="card-meta">
-        <a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener"  class="meta-row meta-row--location" aria-label="${escapeHtml(`Adresse von ${f.name} in Google Maps öffnen`)}">
+        <a href="${escapeHtml(mapsUrl)}" target="_blank" rel="noopener" class="meta-row meta-row--location" aria-label="${escapeHtml(`Adresse von ${f.name} in Google Maps öffnen`)}">
             ${renderIcon('place')}
             <span class="meta-address">${escapeHtml(addr)}</span>
         </a>
