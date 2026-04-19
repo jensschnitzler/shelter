@@ -386,6 +386,20 @@ button.pill.active {
     background: var(--pin-color, #2563eb);
     border: 2px solid white;
     box-shadow: 0 1px 4px rgba(0, 0, 0, 0.35);
+    transition: transform 0.15s ease, box-shadow 0.15s ease;
+}
+
+/* Marker active state (card hovered or marker hovered) */
+.leaflet-marker-icon.is-active .map-pin {
+    transform: scale(1.8);
+    border-width: 3px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.45);
+}
+
+/* Card hover state (triggered by marker hover) */
+.card.is-hovered {
+    box-shadow: var(--shadow), 0 0 0 2px var(--accent);
+    transform: translateY(-1px);
 }
 
 /* Card highlight on marker click */

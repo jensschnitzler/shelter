@@ -459,6 +459,23 @@ function initMap(facilities) {
     }).addTo(map);
 
     const markers = new Map(); // facility id (string) → L.Marker
+    let pendingHideId = null;
+
+    function activateMarker(marker) {
+        clearTimeout(pendingHideId);
+        if (!map.hasLayer(marker)) return;
+        marker.openTooltip();
+        marker.getElement()?.classList.add('is-active');
+        marker.setZIndexOffset(1000);
+    }
+
+    function deactivateMarker(marker) {
+        pendingHideId = setTimeout(() => {
+            marker.closeTooltip();
+            marker.getElement()?.classList.remove('is-active');
+            marker.setZIndexOffset(0);
+        }, 150);
+    }
 
     for (const f of facilities) {
         if (f.lat == null || f.lng == null) continue;
@@ -485,11 +502,29 @@ function initMap(facilities) {
             card.classList.add('is-highlighted');
         });
 
+        marker.on('mouseover', () => {
+            activateMarker(marker);
+            const card = document.getElementById(`facility-${f.id}`);
+            if (!card) return;
+            card.classList.add('is-hovered');
+            if (!document.getElementById('view')?.classList.contains('show-map')) {
+                const rect = card.getBoundingClientRect();
+                if (rect.top < 0 || rect.bottom > window.innerHeight) {
+                    card.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+                }
+            }
+        });
+
+        marker.on('mouseout', () => {
+            deactivateMarker(marker);
+            document.getElementById(`facility-${f.id}`)?.classList.remove('is-hovered');
+        });
+
         marker.addTo(map);
         markers.set(String(f.id), marker);
     }
 
-    return { map, markers };
+    return { map, markers, activateMarker, deactivateMarker };
 }
 
 // ── Data loading ──────────────────────────────────────────────────────────────
@@ -539,7 +574,16 @@ async function init() {
     $('.readmore').readMore({ linesMax: 3 });
 
     // ── Map wiring ────────────────────────────────────────────────────────────
-    const { map, markers } = initMap(facilities);
+    const { map, markers, activateMarker, deactivateMarker } = initMap(facilities);
+
+    // Card ↔ marker hover sync
+    $('#facilities-list').on('mouseenter', '.card', function () {
+        const marker = markers.get(this.id.slice('facility-'.length));
+        if (marker) activateMarker(marker);
+    }).on('mouseleave', '.card', function () {
+        const marker = markers.get(this.id.slice('facility-'.length));
+        if (marker) deactivateMarker(marker);
+    });
 
     function updateMap() {
         const visibleIds = new Set(
