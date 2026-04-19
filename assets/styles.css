@@ -271,6 +271,7 @@ button.pill {
     }
 }
 
+#map-toggle[aria-pressed="true"],
 .pill.active,
 a.pill.active,
 button.pill.active {
