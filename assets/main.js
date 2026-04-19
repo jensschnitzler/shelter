@@ -272,15 +272,33 @@ function renderMetaRow(modifier, icon, text) {
     return `<div class="meta-row meta-row--${modifier}">${renderIcon(icon)}<span>${escapeHtml(text)}</span></div>`;
 }
 
+// safeText must already be HTML-escaped by the caller.
+function contactLink(href, icon, safeText, ariaLabel, extraAttrs = '') {
+    return `<a class="contact-link" href="${escapeHtml(href)}"${extraAttrs} aria-label="${escapeHtml(ariaLabel)}">${renderIcon(icon)}${safeText}</a>`;
+}
+
 // Renders contact links (phone, email, website) as an array of anchor strings.
 function renderContactLinks(f) {
+    const { phone, email, website } = f.contact;
     const links = [];
-    if (f.contact.phone)
-        links.push(`<a class="contact-link" href="tel:${escapeHtml(f.contact.phone.replace(/\s/g, ''))}" aria-label="${escapeHtml(`Telefonnummer von ${f.name}: ${f.contact.phone}`)}">${renderIcon('call')}${escapeHtml(f.contact.phone)}</a>`);
-    if (f.contact.email)
-        links.push(`<a class="contact-link" href="mailto:${escapeHtml(f.contact.email)}" aria-label="${escapeHtml(`E-Mail an ${f.name}: ${f.contact.email}`)}">${renderIcon('mail')}${escapeHtml(f.contact.email)}</a>`);
-    if (f.contact.website)
-        links.push(`<a class="contact-link" href="${escapeHtml(f.contact.website)}" target="_blank" rel="noopener" aria-label="${escapeHtml(`Website von ${f.name} öffnen`)}">${renderIcon('language')}Website</a>`);
+
+    if (phone)
+        links.push(contactLink(
+            `tel:${phone.replace(/\s/g, '')}`, 'call', escapeHtml(phone),
+            `Telefonnummer von ${f.name}: ${phone}`
+        ));
+    if (email)
+        links.push(contactLink(
+            `mailto:${email}`, 'mail', escapeHtml(email),
+            `E-Mail an ${f.name}: ${email}`
+        ));
+    if (website)
+        links.push(contactLink(
+            website, 'language', 'Website',
+            `Website von ${f.name} öffnen`,
+            ' target="_blank" rel="noopener"'
+        ));
+
     return links;
 }
 
