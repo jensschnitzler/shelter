@@ -33,7 +33,7 @@
     --shadow: 0 1px 3px rgba(0, 0, 0, 0.06), 0 2px 12px rgba(0, 0, 0, 0.05);
     --page-padding: 1rem;
 
-    --fontsize-l: max( 2rem, calc( ( 100vw - 2 * var(--page-padding) ) / 17.85 ) );
+    --fontsize-l: max(2rem, calc((100vw - 2 * var(--page-padding)) / 17.85));
     --fontsize-m: 1.3rem;
     --fontsize-s: 1rem;
 }
@@ -59,7 +59,7 @@
 
 .fs--case {
     text-transform: uppercase;
-    font-feature-settings: 'case';
+    font-feature-settings: "case";
 }
 
 .material-symbols-outlined {
@@ -82,7 +82,8 @@
 }
 
 /* ── Reset ── */
-button, input {
+button,
+input {
     font-weight: inherit;
 }
 
@@ -163,7 +164,6 @@ button, input {
     }
 
     @media (min-width: 700px) {
-
         h1 {
             line-height: 0.8;
             letter-spacing: -0.045em;
@@ -184,8 +184,6 @@ button, input {
         }
     }
 }
-
-
 
 /* ── Controls (search + sort) ── */
 #controls-wrapper {
@@ -432,8 +430,8 @@ button.pill.active {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: start;
-    gap: 1.5rem;
-    padding: 0.5rem 1.5rem;
+    gap: var(--page-padding);
+    padding: 0.5rem var(--page-padding);
 }
 
 /* ── List.js container & grid ── */
@@ -544,12 +542,13 @@ li.item .html {
     padding: 0.9rem 1rem 0.75rem 1rem;
     display: flex;
     flex-direction: column;
-    gap: 0.75rem;
+    gap: 1rem;
     transition:
         box-shadow 0.15s,
         transform 0.15s;
     color: var(--color-greyDark);
     box-shadow: var(--shadow);
+    border: 1px solid var(--color-greyMedium);
 }
 
 /* Multiply blend lets text and icons render correctly on colored card backgrounds */
@@ -589,12 +588,17 @@ li.item .html {
 
 .tag {
     background: transparent;
+    margin: -1px;
+    margin-top: 0;
+    margin-left: 0;
 }
 
 .tag--target-group {
+    /*
     background: var(--accent-light);
     border-color: var(--accent);
     color: var(--accent);
+    */
 }
 
 /* ── Meta rows ── */
@@ -644,9 +648,22 @@ a.meta-row:hover {
 .card-meta,
 .card-tags,
 .card-contact {
+    /*
     margin-top: 0.1rem;
     border-top: 1px solid var(--border);
     padding-top: 0.75rem;
+    */
+    position: relative;
+    &:before {
+        content: "";
+        display: block;
+        border-top: 1px solid var(--border);
+        min-width: 100%;
+        position: absolute;
+        top: -0.5rem;
+        left: 0;
+        right: 0;
+    }
 }
 
 /* ── ReadMore component ── */
