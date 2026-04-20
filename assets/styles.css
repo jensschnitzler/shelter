@@ -103,6 +103,13 @@ button, input {
     min-height: 100vh;
     font-stretch: 92%;
     font-variation-settings: "wdth" 92;
+    -webkit-text-size-adjust: 100%;
+    font-variant-ligatures: none;
+    -webkit-font-variant-ligatures: none;
+    text-rendering: optimizeLegibility;
+    -moz-osx-font-smoothing: grayscale;
+    font-smoothing: antialiased;
+    -webkit-font-smoothing: antialiased;
 }
 
 .sr-only {

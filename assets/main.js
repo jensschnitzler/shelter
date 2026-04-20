@@ -646,8 +646,9 @@ async function init() {
     function updateStats() {
         const visible = listInstance.visibleItems.length;
         const total   = listInstance.items.length;
+        const prefix = visible !== total ? visible + ' von '  : '';
         const suffix  = visible === 0 ? ' Keine Treffer für die aktuelle Suche oder den Filter.' : '';
-        $stats.text(`${visible} von ${total} Einrichtungen${suffix}`);
+        $stats.text(`${prefix}${total} Einrichtungen, Dienste und Anlaufstellen${suffix}`);
         updateMap();
     }
 
@@ -797,7 +798,7 @@ function initCollapsibleControls() {
         // Measure overflow before collapsing — offsetHeight reflects full content at this point
         const pillsEl   = $pills[0];
         const firstPill = $pills.children('.filter-btn')[0];
-        const rowPx     = firstPill ? firstPill.offsetHeight : 0;
+        const rowPx     = firstPill ? firstPill.offsetHeight + 1 : 0;
 
         if (rowPx === 0 || pillsEl.offsetHeight <= rowPx + 4) {
             return; // Single row — nothing to collapse, skip toggle entirely

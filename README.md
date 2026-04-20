@@ -188,3 +188,4 @@ vendored libraries, and `facilities.json`.
 - [ ] Add note regarding cookies, data privacy to fineprint.
 - [ ] Make some controls collapsible.
 - [ ] Add support button with paypal.me?
+- [ ] Add links to forms (feedback and dataset additions/corrections)
